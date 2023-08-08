@@ -40,7 +40,8 @@ jobs:
         run: |
           Install-Module -Name Microsoft.Graph.Authentication
           Install-Module -Name Microsoft.Graph.Applications
-          Connect-MgGraph -Scope Application.Read.All -AccessToken $env:ACCESS_TOKEN
+          $token = $env:ACCESS_TOKEN | ConvertTo-SecureString -AsPlainText
+          Connect-MgGraph -Scope Application.Read.All -AccessToken $token
           ./src/Export-MicrosoftApps.ps1
         shell: pwsh
         
