@@ -55,7 +55,7 @@ function GetAppsFromMicrosoftLearnDoc() {
                 $itemInfo = [ordered]@{
                     AppId                  = $appId + ""
                     AppDisplayName         = $appName + ""
-                    AppOwnerOrganizationId = $tenantId
+                    AppOwnerOrganizationId = $tenantId + ""
                     Source                 = "Learn"
                 } 
                 $appList += $itemInfo
@@ -95,7 +95,7 @@ $appList = @()
 # Sources at the top take priority, duplicates from sources that are lower are skipped.
 $appList += GetAppsFromMicrosoftGraph
 $appList += GetAppsFromMicrosoftLearnDoc
-$appList += Import-Csv $CustomAppDataPath
+$appList += Import-Csv $CustomAppDataPath | ForEach-Object { $_.AppDisplayName = $_.AppDisplayName.trim() + " [Community Contributed]"; $_ }
 
 Write-Host "Creating unique list of apps"
 $idList = @()
