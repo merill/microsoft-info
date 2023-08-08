@@ -9,7 +9,7 @@ There are a few problems with this.
 * It is in markdown and is not easily consumable by scripts and KQL queries that need to perform lookups.
 * It does not list all of the Microsoft apps that can be found through Microsoft Graph API.
 
-## 🎉 The Solution
+## 🎉 The solution
 
 This repository provides an up-to-date list of Microsoft first party apps that can be easily consumed by scripts.
 
@@ -19,7 +19,7 @@ Use the following urls to consume this data in your scripts.
 * :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv)
 
 
-## Data sources
+## 💼 Data source
 
 This repository runs a daily automation to generate the latest list of Microsoft first party application. The source of the data includes
 
@@ -32,7 +32,7 @@ This repository runs a daily automation to generate the latest list of Microsoft
 
 If an app id exists in more than one list the order of precedence for the app name is → Graph, Learn and then GitHub
 
-## Forking this repo
+## ⋔ Forking this repo
 
 Follow the steps below if you need to set up this automation in your own repo.
 * Fork this repo
