@@ -20,7 +20,7 @@ on:
 
 permissions:
   id-token: write
-  contents: read
+  contents: write
   
 jobs:
   build:
@@ -45,4 +45,9 @@ jobs:
           ./src/Export-MicrosoftApps.ps1
         shell: pwsh
         
-
+      - name: Update repo
+        run: |
+          git config --global user.name 'Merill Fernando'
+          git config --global user.email 'merill@users.noreply.github.com'
+          git commit -am "Daily automation"
+          git push
