@@ -1,0 +1,47 @@
+# Run daily and when custom data is updated to generate a new csv/json
+
+name: update-microsoft-info
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - 'README.md'
+      - '_info/**'
+  pull_request:
+    branches: [ "main" ]
+  # Run twice a day (5.30am and 5.30pm)
+  schedule:
+    - cron:  '30 5,17 * * *'
+    
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Azure AD Workload Identity Federation
+        uses: nicolonsky/WIF@v0.0.1
+        with:
+          tenant_id: '536279f6-15cc-45f2-be2d-61e352b51eef'
+          client_id: 'ec362660-6ffa-47f6-b2b0-cbb43064e3f7'
+          
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Generate docs
+        run: |
+          Install-Module -Name Microsoft.Graph.Authentication
+          Install-Module -Name Microsoft.Graph.Applications
+          Connect-MgGraph -Scope Application.Read.All -AccessToken $env:ACCESS_TOKEN
+          ./src/Export-MicrosoftApps.ps1
+        shell: pwsh
+        
+
