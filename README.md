@@ -9,6 +9,7 @@ There are a few problems with this.
 * It is in markdown and is not easily consumable by scripts and KQL queries that need to perform lookups.
 * It does not list all of the Microsoft apps that can be found through Microsoft Graph API.
 
+
 ## 🖥️ The solution
 
 This repository provides an up-to-date list of Microsoft first party apps that can be easily consumed by scripts.
@@ -31,6 +32,7 @@ This repository runs a daily automation to generate the latest list of Microsoft
   *  App names contributed by the community to this repository. Submit a PR to add entries to this file.
 
 If an app id exists in more than one list the order of precedence for the app name is → Graph, Learn and then GitHub
+
 
 ## ⋔ Forking this repo
 
