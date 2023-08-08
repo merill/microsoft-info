@@ -19,7 +19,7 @@ Use the following urls to consume this data in your scripts.
 * :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv)
 
 
-## 💼 Data source
+## 📘 Data source
 
 This repository runs a daily automation to generate the latest list of Microsoft first party application. The source of the data includes
 
