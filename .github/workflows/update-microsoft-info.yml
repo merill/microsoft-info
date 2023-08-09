@@ -47,7 +47,12 @@ jobs:
         
       - name: Update repo
         run: |
-          git config --global user.name 'Merill Fernando'
-          git config --global user.email 'merill@users.noreply.github.com'
-          git commit -am "Daily automation"
-          git push
+          if [[ `git status --porcelain` ]]; then
+            # Changes
+            git config --global user.name 'Merill Fernando'
+            git config --global user.email 'merill@users.noreply.github.com'
+            git commit -am "Daily automation"
+            git push
+          else
+            # No changes
+          fi
