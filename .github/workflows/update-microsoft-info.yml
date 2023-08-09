@@ -49,10 +49,12 @@ jobs:
         run: |
           if [[ `git status --porcelain` ]]; then
             # Changes
+            echo "Updating repo"
             git config --global user.name 'Merill Fernando'
             git config --global user.email 'merill@users.noreply.github.com'
             git commit -am "Daily automation"
             git push
           else
             # No changes
+            echo "No changes"
           fi
