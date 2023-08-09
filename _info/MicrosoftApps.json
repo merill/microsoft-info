@@ -5200,5 +5200,161 @@
     "AppDisplayName": "Exchange Online [Unconfirmed] [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "7eadcef8-456d-4611-9480-4fff72b8b9e2",
+    "AppDisplayName": "Microsoft Account Controls V2 [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "d7d7af51-cdcd-4a4c-9467-86e7dc5d2b90",
+    "AppDisplayName": "Office Online OWLNest [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "5a4eed13-c4c4-4b4c-9506-334ab200bf31",
+    "AppDisplayName": "Office Online Search SSO [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "d7b530a4-7680-4c23-a8bf-c52c121d2e87",
+    "AppDisplayName": "Microsoft Edge Enterprise New Tab Page [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "a81d90ac-aa75-4cf8-b14c-58bf348528fe",
+    "AppDisplayName": "Microsoft Community v2 [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "19db86c3-b2b9-44cc-b339-36da233a3be2",
+    "AppDisplayName": "My Signins [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "38aa3b87-a06d-4817-b275-7a316988d93b",
+    "AppDisplayName": "Windows Sign In [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "ecd6b820-32c2-49b6-98a6-444530e5a77a",
+    "AppDisplayName": "Microsoft Edge [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "3ce44149-e365-40e4-9bb4-8c0ecb710fe6",
+    "AppDisplayName": "Office Online Print SSO [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "0e90d0b8-039a-4936-a6f4-d25dd510be5d",
+    "AppDisplayName": "Message Recall [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "4813382a-8fa7-425e-ab75-3b753aab3abb",
+    "AppDisplayName": "Microsoft Authenticator App [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "2ddfbe71-ed12-4123-b99b-d5fc8a062a79",
+    "AppDisplayName": "Microsoft Teams Admin Portal Service [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "e8e8fc40-94d5-4ed6-89f2-9e5ec6c1e11e",
+    "AppDisplayName": "MM_Reactions_PME_PROD [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "6f7e0f60-9401-4f5b-98e2-cf15bd5fd5e3",
+    "AppDisplayName": "Microsoft Application Command Service [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+    "AppDisplayName": "Office UWP PWA [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "9ba1a5c7-f17a-4de9-a1f1-6178c8d51223",
+    "AppDisplayName": "Microsoft Intune Company Portal [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "cb1056e2-e479-49de-ae31-7812af012ed8",
+    "AppDisplayName": "Microsoft Azure Active Directory Connect [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "a40d7d7d-59aa-447e-a655-679a4107e548",
+    "AppDisplayName": "Accounts Control UI [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "b26aadf8-566f-4478-926f-589f601d9c74",
+    "AppDisplayName": "OneDrive [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "de50c81f-5f80-4771-b66b-cebd28ccdfc1",
+    "AppDisplayName": "Device Management Client [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "3e62f81e-590b-425b-9531-cad6683656cf",
+    "AppDisplayName": "PowerApps - apps.powerapps.com [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "a8f7a65c-f5ba-4859-b2d6-df772c264e9d",
+    "AppDisplayName": "make.powerapps.com [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "a672d62c-fc7b-4e81-a576-e60dc46e951d",
+    "AppDisplayName": "Microsoft Power Query for Excel [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "7f67af8a-fedc-4b08-8b4e-37c4d127b6cf",
+    "AppDisplayName": "Power BI Desktop [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "72782ba9-4490-4f03-8d82-562370ea3566",
+    "AppDisplayName": "Office 365 [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "065d9450-1e87-434e-ac2f-69af271549ed",
+    "AppDisplayName": "Power Platform Admin Center [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
