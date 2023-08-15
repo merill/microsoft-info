@@ -33,6 +33,7 @@ This repository runs a daily automation to generate the latest list of Microsoft
 
 If an app id exists in more than one list the order of precedence for the app name is → Graph, Learn and then GitHub
 
+![Image with a funnel illustrating the three data sources and the two output files.](/assets/overview.png)
 
 ## ⋔ Forking this repo
 
