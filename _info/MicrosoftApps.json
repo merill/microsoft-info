@@ -714,6 +714,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7cf4b8a3-78fd-4d1d-8019-d5041c61ce64",
+    "AppDisplayName": "Azure MFA Management",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c7ddd9b4-5172-4e28-bd29-1e0792947d18",
     "AppDisplayName": "Microsoft Mixed Reality",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -5167,7 +5173,7 @@
   },
   {
     "AppId": "fe93bfe1-7947-460a-a5e0-7a5906b51360",
-    "AppDisplayName": "Exchange Onlines [Community Contributed]",
+    "AppDisplayName": "Exchange Online [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
   },
