@@ -3990,6 +3990,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "91ad134d-5284-4adc-a896-d7fd24e9fa15",
+    "AppDisplayName": "Microsoft Alchemy Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ce79fdc4-cd1d-4ea5-8139-e74d7dbe0bb7",
     "AppDisplayName": "Lifecycle Workflows",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
