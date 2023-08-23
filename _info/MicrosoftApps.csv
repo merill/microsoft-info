@@ -642,6 +642,7 @@
 "7e3bc4fd-85a3-4192-b177-5b8bfc87f42c","Microsoft Azure Container Apps - Control Plane","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3b2fa68d-a091-48c9-95be-88d572e08fb7","AzureBackupReporting","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b861dbcc-a7ef-4219-a005-0e4de4ea7dcf","Data Export Service for Microsoft Dynamics 365","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"a70c8393-7c0c-4c1e-916a-811bd476ee11","Microsoft Defender for Cloud CIEM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d62121f3-e023-4972-b6b0-794190c0fd98","Office 365 Mover","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "03db181c-e9d3-4868-9097-f0b728327182","ClusterConfigToAKS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ca0a114d-6fbc-46b3-90fa-2ec954794ddb","Microsoft Device Management Checkin","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

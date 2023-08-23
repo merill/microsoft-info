@@ -3858,6 +3858,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a70c8393-7c0c-4c1e-916a-811bd476ee11",
+    "AppDisplayName": "Microsoft Defender for Cloud CIEM",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "d62121f3-e023-4972-b6b0-794190c0fd98",
     "AppDisplayName": "Office 365 Mover",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
