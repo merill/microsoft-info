@@ -5380,5 +5380,23 @@
     "AppDisplayName": "Power Platform Admin Center [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "62916641-fc48-44ae-a2a3-163811f1c945",
+    "AppDisplayName": "Message Header Analyzer [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "9758a0e2-7861-440f-b467-1823144e5b65",
+    "AppDisplayName": "FindTime [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "6046742c-3aee-485e-a4ac-92ab7199db2e",
+    "AppDisplayName": "Report Message [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
