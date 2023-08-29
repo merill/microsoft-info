@@ -2208,6 +2208,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "789997c7-d888-4475-a0a0-35014494de85",
+    "AppDisplayName": "Modern Workplace Management",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ab27a73e-a3ba-4e43-8360-8bcc717114d8",
     "AppDisplayName": "Microsoft.OfficeModernCalendar",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
