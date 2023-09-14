@@ -1056,6 +1056,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a1bfe852-bf44-4da0-a9c1-37af2d5e6df9",
+    "AppDisplayName": "Microsoft Graph Bicep Extension",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1762e607-063e-431a-a25a-f0f782acb73b",
     "AppDisplayName": "Virtual Connector Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
