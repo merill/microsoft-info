@@ -2232,6 +2232,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "270efc09-cd0d-444b-a71f-39af4910ec45",
+    "AppDisplayName": "Windows Cloud Login",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a99783bc-5466-4cef-82eb-ebf285d77131",
     "AppDisplayName": "Common Job Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
