@@ -2436,6 +2436,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b4fa09d8-5da5-4352-83d9-05c2a44cf431",
+    "AppDisplayName": "Azure CosmosDB for PostgreSQL AAD Authentication",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "61a63147-3824-45f5-a186-ace3f4c9daeb",
     "AppDisplayName": "MsgDataMgmt",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
