@@ -4692,6 +4692,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "986b68e5-7d5c-44e4-8f79-0f9994555c79",
+    "AppDisplayName": "Intune Test Skill with OBO Authentication",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
     "AppId": "fe6aa35b-7da8-44fd-a44e-e2d4bafbdab5",
     "AppDisplayName": "Modern Workplace Tools",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
@@ -4802,6 +4808,12 @@
   {
     "AppId": "6c7a5208-a7b3-4813-8e99-3b9e627971c4",
     "AppDisplayName": "AdithyaHSMultitenantApp",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "2cdc32be-2d13-4482-9ea9-458d425c56fa",
+    "AppDisplayName": "API Skill with OBO Authentication",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
