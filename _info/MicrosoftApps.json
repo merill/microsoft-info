@@ -4782,6 +4782,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7798c861-b87f-47e7-8bbc-8f1d0dac9f69",
+    "AppDisplayName": "passivetotal-web-dev",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
     "AppId": "62f85080-9912-4a16-b0be-aff63ee2eeea",
     "AppDisplayName": "Zero Trust Assessment TBD",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
