@@ -429,6 +429,7 @@
 "87749df4-7ccf-48f8-aa87-704bad0e0e16","Microsoft Teams - Device Admin Agent","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "eacba838-453c-4d3e-8c6a-eb815d3469a3","Microsoft Flow CDS Integration Service TIP1","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d00b5d58-cae5-42ad-ae0a-5a2e6f7ee6c9","Arc Token Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"189cf920-d3d8-4133-9145-23adcc6824fa","IpLicensingService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6f0478d5-61a3-4897-a2f2-de09a5a90c7f","WindowsUpdate-Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "09a984f4-014c-43de-ae0c-7ec73dc053d3","BenefitsFD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c5b17a4f-cc6f-4649-9480-684280a2af3a","aciapi","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

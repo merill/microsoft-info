@@ -2580,6 +2580,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "189cf920-d3d8-4133-9145-23adcc6824fa",
+    "AppDisplayName": "IpLicensingService",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "6f0478d5-61a3-4897-a2f2-de09a5a90c7f",
     "AppDisplayName": "WindowsUpdate-Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
