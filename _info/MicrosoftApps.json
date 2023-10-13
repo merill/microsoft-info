@@ -3342,6 +3342,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "d6d855d0-705d-4f41-8a67-215ffa52110a",
+    "AppDisplayName": "Microsoft.IoTFirmwareDefense.Prod",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ab3be6b7-f5df-413d-ac2d-abf1e3fd9c0b",
     "AppDisplayName": "Microsoft Teams Graph Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
