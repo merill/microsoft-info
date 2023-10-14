@@ -2358,6 +2358,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "60b2e7d5-a27f-426d-a6b1-acced0846fdf",
+    "AppDisplayName": "IpAddressManager",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2f6713e6-1e21-4a83-91b4-5bf9a2378f81",
     "AppDisplayName": "Dynamics 365 Resource Scheduling Optimization",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
