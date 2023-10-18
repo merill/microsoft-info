@@ -4110,6 +4110,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "0e282aa8-2770-4b6c-8cf8-fac26e9ebe1f",
+    "AppDisplayName": "Sherlock",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1fd5118e-2576-4263-8130-9503064c837a",
     "AppDisplayName": "Azure Communication Services",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
