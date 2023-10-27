@@ -4674,6 +4674,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7aa75825-1ea2-4cd1-a38c-90c595a91411",
+    "AppDisplayName": "Windows Defender ATP for Flow",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
     "AppId": "61350e1d-1b87-4cb6-a6f8-480cd74278ea",
     "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
