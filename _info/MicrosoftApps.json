@@ -5089,19 +5089,19 @@
   },
   {
     "AppId": "2abdc806-e091-4495-9b10-b04d93c3f040",
-    "AppDisplayName": "Office Online Client AAD- Augmentation Loop",
+    "AppDisplayName": "Office Online Client Microsoft Entra ID- Augmentation Loop",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Learn"
   },
   {
     "AppId": "b23dd4db-9142-4734-867f-3577f640ad0c",
-    "AppDisplayName": "Office Online Client AAD- Loki",
+    "AppDisplayName": "Office Online Client Microsoft Entra ID- Loki",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Learn"
   },
   {
     "AppId": "17d5e35f-655b-4fb0-8ae6-86356e9a49f5",
-    "AppDisplayName": "Office Online Client AAD- Maker",
+    "AppDisplayName": "Office Online Client Microsoft Entra ID- Maker",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Learn"
   },
