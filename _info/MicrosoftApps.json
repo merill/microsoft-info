@@ -402,6 +402,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c476eb34-4c94-43bc-97fc-94ede0534615",
+    "AppDisplayName": "AzUpdateCenterBilling",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ea62c1c6-550b-4238-8ea7-c55a85d86be8",
     "AppDisplayName": "Teams Work Report",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2558,6 +2564,12 @@
   {
     "AppId": "959678cf-d004-4c22-82a6-d2ce549a58b8",
     "AppDisplayName": "Microsoft_Azure_Support",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "e29b5c86-b9ab-4a86-9a20-d10842007599",
+    "AppDisplayName": "SharePoint Framework Azure AD Helper",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
