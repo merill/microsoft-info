@@ -1002,6 +1002,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3603eff4-9141-41d5-ba8f-02fb3a439cd6",
+    "AppDisplayName": "Diagnostic Services Data Access",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "bb2a64ee-5d29-4b07-a491-25806dc854d3",
     "AppDisplayName": "Verifiable Credentials Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
