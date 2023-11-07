@@ -535,6 +535,7 @@
 "bb3d68c2-d09e-4455-94a0-e323996dbaa3","Medeina Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "486c78bf-a0f7-45f1-92fd-37215929e116","GatewayRP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "29f411f1-b2cf-4043-8ac8-2185d7316811","Azure Iot Hub Publisher App","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"bb5ffd56-39eb-458c-a53a-775ba21277da","Medeina Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a15bc1de-f777-408f-9d2b-a27ed19c72ba","ASA Curation Web Tool","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ae04d195-7aae-4ed7-800c-cfed140e3b1b","Business Scenario Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cfa8b339-82a2-471a-a3c9-0fc0be7a4093","Azure Key Vault","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

@@ -3216,6 +3216,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "bb5ffd56-39eb-458c-a53a-775ba21277da",
+    "AppDisplayName": "Medeina Portal",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a15bc1de-f777-408f-9d2b-a27ed19c72ba",
     "AppDisplayName": "ASA Curation Web Tool",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
