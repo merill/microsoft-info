@@ -389,6 +389,7 @@
 "794ded15-70c6-4bcd-a0bb-9b7ad530a01a","Microsoft Intune Advanced Threat Protection Integration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e81c7467-0fc3-4866-b814-c973488361cd","AzureBackup_Fabric_Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e6f9f783-1fdb-4755-acaf-abed6c642885","Meru19 MySQL First Party App","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"5a8800f2-f31d-4654-9bed-f5b368c703f8","Gatekeeper PPE App","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6abc93dc-978e-48a3-8e54-458e593ed8cf","Customer Service Trial PVA - readonly","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f5aeb603-2a64-4f37-b9a8-b544f3542865","Microsoft Teams RetentionHook Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e158eb19-34ac-4d1b-a930-ec92172f7a97","Audit Search Api Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

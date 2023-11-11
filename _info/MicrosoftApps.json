@@ -2340,6 +2340,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "5a8800f2-f31d-4654-9bed-f5b368c703f8",
+    "AppDisplayName": "Gatekeeper PPE App",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "6abc93dc-978e-48a3-8e54-458e593ed8cf",
     "AppDisplayName": "Customer Service Trial PVA - readonly",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
