@@ -508,6 +508,7 @@
 "4c8f074c-e32b-4ba7-b072-0f39d71daf51","IPSubstrate","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0c7668b5-3260-4ad0-9f53-34ed54fa19b2","Microsoft Defender for Cloud Servers Scanner Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "331cc017-5973-4173-b270-f0042fddfd75","Power Apps API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"3016d0ce-47cc-4005-b11d-5fcabb1b643d","Microsoft Mesh Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5e5e43d4-54da-4211-86a4-c6e7f3715801","Azure Regional Service Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "aa580612-c342-4ace-9055-8edee43ccb89","Microsoft Teams Shifts","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0eb4bf93-cb63-4fe1-9d7d-70632ccf3082","Microsoft Teams Intelligent Workspaces Interactions Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
