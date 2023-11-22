@@ -2490,6 +2490,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "abbab087-6193-40ef-a96c-6be85a5f43a0",
+    "AppDisplayName": "TEST-avsfpapp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "bf4fa6bf-d24c-4d1c-8cfd-12063dd646b2",
     "AppDisplayName": "AADPremiumService",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
