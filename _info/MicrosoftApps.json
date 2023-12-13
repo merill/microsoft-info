@@ -4710,6 +4710,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2a732408-a7d8-48eb-ac66-9f1d501de540",
+    "AppDisplayName": "Intune Skills POC with OBO Token",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
     "AppId": "fa9ac275-bd92-4ce2-996b-2cce07da7849",
     "AppDisplayName": "Graph .NET quick start",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
