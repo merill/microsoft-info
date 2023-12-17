@@ -463,6 +463,7 @@
 "d828acde-4b48-47f5-a6e8-52460104a052","Automanage API Access","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4f6778d8-5aef-43dc-a1ff-b073724b9495","Azure Healthcare APIs","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e8de9221-a19c-4c81-b814-fd37c6caf9d2","Azure Spring Cloud Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"ecafc2d9-cf1a-49a7-b60f-e44e34a988d2","Azure CosmosDB for PostgreSQL Microsoft EntraId","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "40775b29-2688-46b6-a3b5-b256bd04df9f","Microsoft Information Protection API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "2e49aa60-1bd3-43b6-8ab6-03ada3d9f08b","Dynamics Data Integration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "23c898c1-f7e8-41da-9501-f16571f8d097","OCPS Checkin Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

@@ -2784,6 +2784,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ecafc2d9-cf1a-49a7-b60f-e44e34a988d2",
+    "AppDisplayName": "Azure CosmosDB for PostgreSQL Microsoft EntraId",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "40775b29-2688-46b6-a3b5-b256bd04df9f",
     "AppDisplayName": "Microsoft Information Protection API",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
