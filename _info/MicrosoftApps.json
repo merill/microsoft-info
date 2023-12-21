@@ -3630,6 +3630,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "51b5e278-ed7e-42c6-8787-7ff93e92f577",
+    "AppDisplayName": "Narada Notification Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "fc75330b-179d-49af-87dd-3b1acf6827fa",
     "AppDisplayName": "AzureAutomation",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
