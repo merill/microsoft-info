@@ -3204,6 +3204,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "fe053c5f-3692-4f14-aef2-ee34fc081cae",
+    "AppDisplayName": "Azure API Connections",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
     "AppDisplayName": "Outlook Online Add-in App",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3302,6 +3308,12 @@
   {
     "AppId": "5b534afd-fdc0-4b38-a77f-af25442e3149",
     "AppDisplayName": "Microsoft Support Diagnostics",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "4e1f8dc5-5a42-45ce-a096-700fa485ba20",
+    "AppDisplayName": "Wrap Key Vault Access App",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
