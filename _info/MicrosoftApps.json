@@ -2658,6 +2658,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "380e9762-7111-490b-800b-0dd9857ca41a",
+    "AppDisplayName": "DfMGraphApp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b97b6bd4-a49f-4a0c-af18-af507d1da76c",
     "AppDisplayName": "Office Shredding Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
