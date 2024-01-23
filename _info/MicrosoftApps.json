@@ -2850,6 +2850,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ebe0c285-db95-403f-a1a3-a793bd6d7767",
+    "AppDisplayName": "Office MRO Device Manager Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ba9ff945-a723-4ab5-a977-bd8c9044fe61",
     "AppDisplayName": "My Staff",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
