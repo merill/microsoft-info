@@ -4818,6 +4818,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "261fae26-ad1d-4187-b4b5-65bd763752c5",
+    "AppDisplayName": "AutoPromptTest",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
     "AppId": "68bc31c0-f891-4f4c-9309-c6104f7be41b",
     "AppDisplayName": "Azure AD Assessment",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
