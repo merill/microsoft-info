@@ -495,6 +495,7 @@
 "f416c5fc-9ac4-4f66-a8e5-cb203139cbe4","OCPS Admin Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1a14be2a-e903-4cec-99cf-b2e209259a0f","Azure Lab Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e935b4a5-8968-416d-8414-caed51c782a9","MicrosoftGuestConfiguration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"5bab4c7f-51c3-479b-a199-06b31afecc8f","Gatekeeper Prod App","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "478d8d1a-326f-49da-a58e-8f576faa4b5e","Threat Intelligence Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "354b5b6d-abd6-4736-9f51-1be80049b91f","Microsoft Mobile Application Management Backend","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c505e273-0ba0-47e7-a0bd-f48042b4524d","AzureBackup_WBCM_Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

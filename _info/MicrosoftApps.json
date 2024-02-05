@@ -2976,6 +2976,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "5bab4c7f-51c3-479b-a199-06b31afecc8f",
+    "AppDisplayName": "Gatekeeper Prod App",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "478d8d1a-326f-49da-a58e-8f576faa4b5e",
     "AppDisplayName": "Threat Intelligence Portal",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
