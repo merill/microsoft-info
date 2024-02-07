@@ -449,6 +449,7 @@
 "e933bd07-d2ee-4f1d-933c-3752b819567b","Azure Monitor Control Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6204c1d1-4712-4c46-a7d9-3ed63d992682","Microsoft Flow Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3aa5c166-136f-40eb-9066-33ac63099211","O365 Customer Monitoring","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"ec4ab00e-252a-4d10-9331-f07604cc13a6","Intune RemoteAssistService PROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c94ede5f-b856-405a-bcd9-406285330a76","PrivacyEngine","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7c0a6aea-533c-458c-9f81-15568f10f6e4","Windows 365 IW Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3edcf11f-df80-41b2-a5e4-7e213cca30d1","Azure Application Change Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

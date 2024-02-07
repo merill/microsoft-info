@@ -2700,6 +2700,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ec4ab00e-252a-4d10-9331-f07604cc13a6",
+    "AppDisplayName": "Intune RemoteAssistService PROD",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c94ede5f-b856-405a-bcd9-406285330a76",
     "AppDisplayName": "PrivacyEngine",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
