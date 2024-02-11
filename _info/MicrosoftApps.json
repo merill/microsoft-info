@@ -2766,6 +2766,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "d05a94d3-4ebf-4d16-a4b5-c5157fe79490",
+    "AppDisplayName": "Prod-AzureSustainability",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "443155a6-77f3-45e3-882b-22b3a8d431fb",
     "AppDisplayName": "Domain Controller Services",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

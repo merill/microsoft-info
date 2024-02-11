@@ -460,6 +460,7 @@
 "0ef94e72-e4fc-4aa0-a8f4-ff27deb3e6eb","Teams NRT DLP Ingestion Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "2233b157-f44d-4812-b777-036cdaf9a96e","Azure Cloud Shell","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "18af356b-c4fd-4f52-9899-d09d21397ab7","Office365DirectorySynchronizationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"d05a94d3-4ebf-4d16-a4b5-c5157fe79490","Prod-AzureSustainability","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "443155a6-77f3-45e3-882b-22b3a8d431fb","Domain Controller Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6682cfa5-2710-44c9-adb8-5ac9d76e394a","MTS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b46c3ac5-9da6-418f-a849-0a07a10b3c6c","Cloud Infrastructure Entitlement Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
