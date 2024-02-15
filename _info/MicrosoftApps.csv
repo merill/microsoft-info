@@ -66,7 +66,7 @@
 "f53895d3-095d-408f-8e93-8f94b391404e","Portfolios","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "167e2ded-f32d-49f5-8a10-308b921bc7ee","OCaaS Worker Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0000001b-0000-0000-c000-000000000000","Microsoft Power BI Information Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"c476eb34-4c94-43bc-97fc-94ede0534615","AzUpdateCenterBilling","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"c476eb34-4c94-43bc-97fc-94ede0534615","Azure Update Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ea62c1c6-550b-4238-8ea7-c55a85d86be8","Teams Work Report","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5ebe1e69-13dd-4953-84fa-a74ed591db2e","Microsoft Arcadia Spark Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d9327919-6775-4843-9037-3fb0fb0473cb","Databricks Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
