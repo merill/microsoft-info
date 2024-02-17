@@ -510,6 +510,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "fcd92efb-cd45-4652-9844-a3973dba245d",
+    "AppDisplayName": "MSFT Security Experts CA Config",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
     "AppDisplayName": "Microsoft Teams",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1214,6 +1220,12 @@
   {
     "AppId": "71234da4-b92f-429d-b8ec-6e62652e50d7",
     "AppDisplayName": "Microsoft Customer Engagement Portal",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "9ee7b58d-f9db-45bc-ad7b-c2b97bbc3337",
+    "AppDisplayName": "Defender Experts for XDR",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2544,6 +2556,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a6b414ec-de90-418a-b650-021d0d22fcc1",
+    "AppDisplayName": "Defender Experts for Hunting",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "4580fd1d-e5a3-4f56-9ad1-aab0e3bf8f76",
     "AppDisplayName": "Call Recorder",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2684,6 +2702,12 @@
   {
     "AppId": "e933bd07-d2ee-4f1d-933c-3752b819567b",
     "AppDisplayName": "Azure Monitor Control Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "ff51735f-9a5f-44dd-8411-6f2e2d3dc903",
+    "AppDisplayName": "MSFT Security Experts AOBO Egress",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
