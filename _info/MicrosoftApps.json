@@ -4758,6 +4758,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "",
+    "AppDisplayName": "",
+    "AppOwnerOrganizationId": "",
+    "Source": "Graph"
+  },
+  {
     "AppId": "de0853a1-ab20-47bd-990b-71ad5077ac7b",
     "AppDisplayName": "Windows Configuration Designer (WCD)",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
