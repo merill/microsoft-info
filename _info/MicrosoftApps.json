@@ -252,6 +252,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3e53edf8-185f-4fb1-b849-97faed43d817",
+    "AppDisplayName": "Partner Accounts Graph",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "00000003-0000-0000-c000-000000000000",
     "AppDisplayName": "Microsoft Graph",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -380,6 +386,12 @@
   {
     "AppId": "2220bbc4-4518-4fef-aac6-c6f32e9f9fd1",
     "AppDisplayName": "Customer Experience Platform PROD",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "fabfbdc4-5751-471c-ac43-3826fa1afc31",
+    "AppDisplayName": "Microsoft Partner Center",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3746,6 +3758,12 @@
   {
     "AppId": "7c99d979-3b9c-4342-97dd-3239678fb300",
     "AppDisplayName": "Data Classification Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "f63bbd81-6d0a-4376-a473-34c1f139eeb6",
+    "AppDisplayName": "sitops.tm.api",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
