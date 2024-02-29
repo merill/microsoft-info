@@ -3414,6 +3414,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "4d0ad6c7-f6c3-46d8-ab0d-1406d5e6c86b",
+    "AppDisplayName": "Azure Reserved Instance Application",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "844cca35-0656-46ce-b636-13f48b0eecbd",
     "AppDisplayName": "Microsoft Stream Mobile Native",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3566,6 +3572,12 @@
   {
     "AppId": "55441455-2f54-42b5-bc99-93e21cd4ae28",
     "AppDisplayName": "Office Enterprise Protection Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "fbc197b7-9e9c-4f98-823f-93cb1cb554e6",
+    "AppDisplayName": "Capacity ",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
