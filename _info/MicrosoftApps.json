@@ -5220,6 +5220,12 @@
     "Source": "Learn"
   },
   {
+    "AppId": "47629505-c2b6-4a80-adb1-9b3a3d233b7b",
+    "AppDisplayName": "Microsoft Exchange Web Services",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Learn"
+  },
+  {
     "AppId": "fc0f3af4-6835-4174-b806-f7db311fd2f3",
     "AppDisplayName": "Microsoft Intune Windows Agent",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
