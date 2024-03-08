@@ -2730,6 +2730,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "0fc12b9a-5463-4b87-8f10-765fecb39990",
+    "AppDisplayName": "SQL Copilot PPE",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "3aa5c166-136f-40eb-9066-33ac63099211",
     "AppDisplayName": "O365 Customer Monitoring",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

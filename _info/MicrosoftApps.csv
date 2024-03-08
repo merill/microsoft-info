@@ -454,6 +454,7 @@
 "e933bd07-d2ee-4f1d-933c-3752b819567b","Azure Monitor Control Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ff51735f-9a5f-44dd-8411-6f2e2d3dc903","MSFT Security Experts AOBO Egress","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6204c1d1-4712-4c46-a7d9-3ed63d992682","Microsoft Flow Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"0fc12b9a-5463-4b87-8f10-765fecb39990","SQL Copilot PPE","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3aa5c166-136f-40eb-9066-33ac63099211","O365 Customer Monitoring","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ec4ab00e-252a-4d10-9331-f07604cc13a6","Intune RemoteAssistService PROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c94ede5f-b856-405a-bcd9-406285330a76","PrivacyEngine","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
