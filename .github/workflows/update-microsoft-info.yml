@@ -43,6 +43,7 @@ jobs:
           $token = $env:ACCESS_TOKEN | ConvertTo-SecureString -AsPlainText
           Connect-MgGraph -AccessToken $token
           ./src/Export-MicrosoftApps.ps1
+          ./src/Export-GraphPermissions.ps1
         shell: pwsh
         
       - name: Update repo
