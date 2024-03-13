@@ -1,24 +1,33 @@
-# Microsoft First Party App Names
+# Microsoft First Party App Names & Graph Permissions
 
 ## 💡 Overview
 
-Looking up the names of Microsoft first party applications can be quite tricky. Microsoft publishes a static list of the common app names in the [Verify first-party Microsoft applications in sign-in reports](https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in) doc.
+Looking up the names of Microsoft first party applications and Graph Permissions can be quite tricky.
+
+Microsoft publishes a static list of the common app names in the [Verify first-party Microsoft applications in sign-in reports](https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in) doc.
 
 There are a few problems with this.
 
 * It is in markdown and is not easily consumable by scripts and KQL queries that need to perform lookups.
 * It does not list all of the Microsoft apps that can be found through Microsoft Graph API.
 
+With Graph Permissions you need to authentication with Microsoft Graph to get the list of application and delegate permissions. This is not always possible in a script or a KQL query.
 
 ## 🖥️ The solution
 
-This repository provides an up-to-date list of Microsoft first party apps that can be easily consumed by scripts.
+This repository provides an up-to-date list of Microsoft first party apps and Graph Permissions that can be easily consumed by scripts.
 
 Use the following urls to consume this data in your scripts.
 
-* :diamond_shape_with_a_dot_inside: JSON → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.json](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.json)
-* :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv)
-
+* **First Party Apps**
+  * :diamond_shape_with_a_dot_inside: JSON → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.json](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.json)
+  * :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.csv)
+* **Graph Permissions - App permissions**
+  * :diamond_shape_with_a_dot_inside: JSON → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphAppRoles.json](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphAppRoles.json)
+  * :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphAppRoles.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphAppRoles.csv)
+* **Graph Permissions - Delegate permissions**
+  * :diamond_shape_with_a_dot_inside: JSON → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphDelegateRoles.json](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphDelegateRoles.json)
+  * :clipboard:  CSV → [https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphDelegateRoles.csv](https://raw.githubusercontent.com/merill/microsoft-info/main/_info/GraphDelegateRoles.csv)
 
 ## 📘 Data source
 
