@@ -32,6 +32,7 @@
 "5741a1ff-751d-4ad7-bcd1-dfe3c998fd11","StoragePool Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e97edbaf-39b2-4546-ba61-0a24e1bef890","Teams EHR Connector","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3957683c-3a48-4a6c-8706-a6e2d6883b02","Omnichannel for CS Provisioning App Primary","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"56a02f66-b2ce-4568-954b-907d5476c479","Production-DPS-1P-SQLIaaS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b8066b99-6e67-41be-abfa-75db1a2c8809","Microsoft Intune IW Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "aeb86249-8ea3-49e2-900b-54cc8e308f85","M365 License Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3f6aecb4-6dbf-4e45-9141-440abdced562","PROD Microsoft Defender For Cloud XDR","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

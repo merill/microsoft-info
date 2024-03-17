@@ -198,6 +198,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "56a02f66-b2ce-4568-954b-907d5476c479",
+    "AppDisplayName": "Production-DPS-1P-SQLIaaS",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b8066b99-6e67-41be-abfa-75db1a2c8809",
     "AppDisplayName": "Microsoft Intune IW Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
