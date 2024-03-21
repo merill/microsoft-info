@@ -1266,6 +1266,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b4ec8d8b-0275-4833-8568-690db4af4b45",
+    "AppDisplayName": "ecvl-assets-aad",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a0be0c72-870e-46f0-9c49-c98333a996f7",
     "AppDisplayName": "AzureDnsFrontendApp",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

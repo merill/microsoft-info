@@ -210,6 +210,7 @@
 "66c23536-2118-49d3-bc66-54730b057680","Skype Core Calling Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c9224372-5534-42cb-a48b-8db4f4a3892e","MS Teams Griffin Assistant","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "75e725bf-66ce-4cea-9b9a-5c4caae57f33","Azure API for DICOM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"b4ec8d8b-0275-4833-8568-690db4af4b45","ecvl-assets-aad","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a0be0c72-870e-46f0-9c49-c98333a996f7","AzureDnsFrontendApp","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3cf6df92-2745-4f6f-bbcf-19b59bcdb62a","Office 365 Client Admin","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6a0a243c-0886-468a-a4c2-eff52c7445da","Application Insights Configuration Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
