@@ -2979,6 +2979,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all workplace devices, without a signed-in user.",
+    "DisplayName": "Read all workplace devices",
+    "Id": "8b724a84-ceac-4fd9-897e-e31ba8f2d7a3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PlaceDevice.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all workplace devices, without a signed-in user.",
+    "DisplayName": "Read and write all workplace devices",
+    "Id": "2d510721-5c4e-43cd-bfdb-ac0f8819fb92",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PlaceDevice.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write telemetry for all workplace devices, without a signed-in user.",
+    "DisplayName": "Read and write telemetry for all workplace devices.",
+    "Id": "27fc435f-44e2-4b30-bf3c-e0ce74aed618",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PlaceDeviceTelemetry.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all your organization's policies without a signed in user.",
     "DisplayName": "Read your organization's policies",
     "Id": "246dd0d5-5bd0-4def-940b-0421030a5b68",
@@ -4173,6 +4209,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Sites.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your organization's SPIFFE trust domains and child resources without a signed in user.",
+    "DisplayName": "Read SPIFFE trust domains and child resources",
+    "Id": "dcdfc277-41fd-4d68-ad0c-c3057235bd8e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SpiffeTrustDomain.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write your organization's SPIFFE trust domains and child resources without a signed in user.",
+    "DisplayName": "Read and write SPIFFE trust domains and child resources",
+    "Id": "17b78cfd-eeff-447d-8bab-2795af00055a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SpiffeTrustDomain.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

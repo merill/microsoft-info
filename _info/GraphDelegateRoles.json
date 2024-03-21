@@ -3360,6 +3360,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all workplace devices, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all workplace devices",
+    "Id": "4c7f93d2-6b0b-4e05-91aa-87842f0a2142",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all workplace devices, on your behalf.",
+    "UserConsentDisplayName": "Read all workplace devices",
+    "Value": "PlaceDevice.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all workplace devices, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all workplace devices",
+    "Id": "eafd6a71-e95a-4f8a-bb6e-fb84ab7fbd9e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all workplace devices, on your behalf.",
+    "UserConsentDisplayName": "Read and write all workplace devices",
+    "Value": "PlaceDevice.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization's policies on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization's policies",
     "Id": "572fea84-0151-49b2-9301-11cb16974376",
@@ -4773,6 +4797,30 @@
     "UserConsentDescription": "Allows the app to send emails on your behalf from your mailbox.",
     "UserConsentDisplayName": "Access to sending emails from your mailbox.",
     "Value": "SMTP.Send",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your organization's SPIFFE trust domains and child resources on behalf of the user.",
+    "AdminConsentDisplayName": "Read SPIFFE trust domains and child resources",
+    "Id": "9b4aa4b1-aaf3-41b7-b743-698b27e77ff6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's SPIFFE trust domains and child resources on your behalf.",
+    "UserConsentDisplayName": "Read SPIFFE trust domains and child resources",
+    "Value": "SpiffeTrustDomain.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your organization's SPIFFE trust domains and child resources on behalf of the user.",
+    "AdminConsentDisplayName": "Read and write SPIFFE trust domains and child resources",
+    "Id": "8ba47079-8c47-4bfe-b2ce-13f28ef37247",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your organization's SPIFFE trust domains and child resources on your behalf.",
+    "UserConsentDisplayName": "Read and write SPIFFE trust domains and child resources",
+    "Value": "SpiffeTrustDomain.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
