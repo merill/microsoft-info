@@ -1291,7 +1291,7 @@
   },
   {
     "AppId": "f1346770-5b25-470b-88bd-d5744ab7952c",
-    "AppDisplayName": "Intune Autopilot ConfidentialClient",
+    "AppDisplayName": "Intune Provisioning Client",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2858,6 +2858,12 @@
   {
     "AppId": "e8de9221-a19c-4c81-b814-fd37c6caf9d2",
     "AppDisplayName": "Azure Spring Cloud Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "ceecbdd6-288c-4be9-8445-74f139e5db19",
+    "AppDisplayName": "SQLDBControlPlaneFirstPartyApp",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
