@@ -1824,6 +1824,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "9fcb3732-5f52-4135-8c08-9d4bbaf203ea",
+    "AppDisplayName": "Microsoft Azure BatchAI",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "3bc2296e-aa22-4ed2-9e1e-946d05afa6a2",
     "AppDisplayName": "SharePoint Online Web Client Extensibility Isolated",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
