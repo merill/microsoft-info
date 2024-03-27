@@ -2064,6 +2064,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to utilize the file storage container platform to manage containers on behalf of the signed in user. The specific file storage containers and the permissions granted to them will be configured in Microsoft 365 by the developer of each container type.",
+    "AdminConsentDisplayName": "Access selected file storage containers",
+    "Id": "085ca537-6565-41c2-aca7-db852babc212",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to access a subset of Storage Containers on your behalf. The specific file storage containers and the permissions granted will be configured in Microsoft 365 by the developer of each container type.",
+    "UserConsentDisplayName": "Access selected file storage containers",
+    "Value": "FileStorageContainer.Selected",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write financials data on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write financials data",
     "Id": "f534bf13-55d4-45a9-8f3c-c92fe64d6131",
