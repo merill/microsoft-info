@@ -31,7 +31,7 @@ param (
 
 function GetAppsFromMicrosoftLearnDoc() {
     Write-Debug "Retrieving apps from Microsoft Learn doc"
-    $msLearnFirstPartyAppDocUri = "https://raw.githubusercontent.com/MicrosoftDocs/SupportArticles-docs/main/support/azure/active-directory/verify-first-party-apps-sign-in.md"
+    $msLearnFirstPartyAppDocUri = "https://raw.githubusercontent.com/MicrosoftDocs/SupportArticles-docs/main/support/azure/entra/entra-id/governance/verify-first-party-apps-sign-in.md"
     $mdContent = (Invoke-WebRequest -Uri $msLearnFirstPartyAppDocUri).Content
     $lines = $mdContent -split [Environment]::NewLine
     $tableIndex = 0
@@ -57,10 +57,10 @@ function GetAppsFromMicrosoftLearnDoc() {
                     AppDisplayName         = $appName + ""
                     AppOwnerOrganizationId = $tenantId + ""
                     Source                 = "Learn"
-                } 
+                }
                 $appList += $itemInfo
             }
-        }    
+        }
     }
     return $appList
 }
@@ -78,13 +78,13 @@ function GetAppsFromMicrosoftGraph() {
 
     $appList = @()
 
-    foreach ($item in $servicePrincipals) {     
+    foreach ($item in $servicePrincipals) {
         $itemInfo = [ordered]@{
             AppId                  = $item.appId + ""
             AppDisplayName         = $item.appDisplayName + ""
             AppOwnerOrganizationId = $item.appOwnerOrganizationId + ""
             Source                 = "Graph"
-        } 
+        }
         $appList += $itemInfo
     }
     return $appList
