@@ -1422,6 +1422,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a68e1e61-ad4f-45b6-897d-0a1ea8786345",
+    "AppDisplayName": "Office365 Shell WCSS-Server Default",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "9d06afd9-66c9-49a6-b385-ea7509332b0b",
     "AppDisplayName": "O365SBRM Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1573,7 +1579,7 @@
   },
   {
     "AppId": "93efed00-6552-4119-833a-422b297199f9",
-    "AppDisplayName": "Meru19 First Party App",
+    "AppDisplayName": "Azure Database for PostgreSQL Flexible Server Private Network Integration",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -1634,6 +1640,12 @@
   {
     "AppId": "ba23cd2a-306c-48f2-9d62-d3ecd372dfe4",
     "AppDisplayName": "DecomOfficeGraph",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "4787c7ff-7cea-43db-8d0d-919f15c6354b",
+    "AppDisplayName": "Dynamics 365 Viva Sales",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2425,7 +2437,7 @@
   },
   {
     "AppId": "60b2e7d5-a27f-426d-a6b1-acced0846fdf",
-    "AppDisplayName": "IpAddressManager",
+    "AppDisplayName": "Microsoft Azure IPAM",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2467,7 +2479,7 @@
   },
   {
     "AppId": "56823b05-67d8-413a-b6ab-ad19d7710cf2",
-    "AppDisplayName": "CAS API Security RP",
+    "AppDisplayName": "Microsoft Defender for APIs Resource Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3030,6 +3042,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "81172f0f-5d81-47c7-96f6-49c58b60d192",
+    "AppDisplayName": "Microsoft Defender for Cloud MultiCloud Onboarding",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a3747411-ce7c-4888-9ddc-3a230786ca19",
     "AppDisplayName": "Azure Container Registry - Dataplane",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3056,6 +3074,12 @@
   {
     "AppId": "5bab4c7f-51c3-479b-a199-06b31afecc8f",
     "AppDisplayName": "Gatekeeper Prod App",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "f36c30df-d241-4c14-a0ee-752c71e4d3da",
+    "AppDisplayName": "IDS-PROD",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3577,7 +3601,7 @@
   },
   {
     "AppId": "6e02f8e9-db9b-4eb5-aa5a-7c8968375f68",
-    "AppDisplayName": "NetworkVerifier",
+    "AppDisplayName": "Microsoft Azure Vnet Verifier",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -4344,6 +4368,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b15f3d14-f6d1-4c0d-93da-d4136c97f006",
+    "AppDisplayName": "Azure Storage Insights Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "58ea322b-940c-4d98-affb-345ec4cccb92",
     "AppDisplayName": "M365 Pillar Diagnostics Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -4849,7 +4879,7 @@
   },
   {
     "AppId": "8ef61e4d-38da-4ba8-8b1a-4f9c4989c74b",
-    "AppDisplayName": "Myworkspace-ProdSP",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },

@@ -4092,6 +4092,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to read certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read certificate based authentication configurations",
+    "Id": "04a4b2a2-3f26-4fc8-87ee-9c46e68db175",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, on your behalf.",
+    "UserConsentDisplayName": "Read certificate based authentication configurations",
+    "Value": "PublicKeyInfrastructure.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read  and write certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write certificate based authentication configurations",
+    "Id": "3591b7f3-dba8-4bad-b667-7a64bd4f2b83",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read  and write certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, on your behalf.",
+    "UserConsentDisplayName": "Read and write certificate based authentication configurations",
+    "Value": "PublicKeyInfrastructure.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows an app to read all question and answer sets that the signed-in user can access.",
     "AdminConsentDisplayName": "Read all Questions and Answers that the user can access.",
     "Id": "f73fa04f-b9a5-4df9-8843-993ce928925e",

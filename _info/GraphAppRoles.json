@@ -1863,6 +1863,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read, create, update and delete files in the application's folder without a signed in user.",
+    "DisplayName": "Have full access to the application's folder without a signed in user.",
+    "Id": "b47b160b-1054-4efd-9ca0-e2f614696086",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Files.ReadWrite.AppFolder",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to utilize the file storage container platform to manage containers, without a signed-in user. The specific file storage containers and the permissions granted to them will be configured in Microsoft 365 by the developer of each container type.",
     "DisplayName": "Access selected file storage containers",
     "Id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
@@ -3531,6 +3543,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read  certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, without a signed-in user.",
+    "DisplayName": "Read all certificate based authentication configurations",
+    "Id": "214fda0c-514a-4650-b037-b562b1a66124",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PublicKeyInfrastructure.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, without a signed-in user.",
+    "DisplayName": "Read and write all certificate based authentication configurations",
+    "Id": "a2b63618-5350-462d-b1b3-ba6eb3684e26",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PublicKeyInfrastructure.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows an app to read all question and answers, without a signed-in user.",
     "DisplayName": "Read all Question and Answers ",
     "Id": "ee49e170-1dd1-4030-b44c-61ad6e98f743",
@@ -3813,6 +3849,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "RoleManagementPolicy.ReadWrite.Directory",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to trigger the working time policies and read the working time status for other users in your organization, without a signed-in user.",
+    "DisplayName": "Trigger working time policies and read the working time status",
+    "Id": "0b21c159-dbf4-4dbb-a6f6-490e412c716e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Schedule-WorkingTime.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
