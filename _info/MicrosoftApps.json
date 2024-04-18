@@ -2232,6 +2232,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c4de86e3-e322-4889-a781-968c76b6b325",
+    "AppDisplayName": "Medeina Service PPE",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "08e18876-6177-487e-b8b5-cf950c1e598c",
     "AppDisplayName": "SharePoint Online Web Client Extensibility",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
