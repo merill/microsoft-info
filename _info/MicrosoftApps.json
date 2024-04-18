@@ -3486,6 +3486,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "1efb1569-5fd6-4938-8b8d-9f3aa07c658d",
+    "AppDisplayName": "Microsoft Defender for Cloud for AI",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "844cca35-0656-46ce-b636-13f48b0eecbd",
     "AppDisplayName": "Microsoft Stream Mobile Native",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
