@@ -469,7 +469,7 @@
 "5b81a823-5f67-4fb3-8d0f-4c92b5044fe4","Liftr Elastic Whale Worker","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "918d0db8-4a38-4938-93c1-9313bdfe0272","asmcontainerimagescanner","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "bbb94529-53a3-4be5-a069-7eaf2712b826","Verifiable Credential Request Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"6d057c82-a784-47ae-8d12-ca7b38cf06b4","Networking-MNC","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"6d057c82-a784-47ae-8d12-ca7b38cf06b4","AzureVirtualNetworkManager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0ef94e72-e4fc-4aa0-a8f4-ff27deb3e6eb","Teams NRT DLP Ingestion Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "2233b157-f44d-4812-b777-036cdaf9a96e","Azure Cloud Shell","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "18af356b-c4fd-4f52-9899-d09d21397ab7","Office365DirectorySynchronizationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
