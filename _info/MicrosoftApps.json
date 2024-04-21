@@ -2094,6 +2094,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "dc457883-bafe-4f8b-a333-29685e7eaa9e",
+    "AppDisplayName": "PPE-DataResidencyService",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "dee7ba80-6a55-4f3b-a86c-746a9231ae49",
     "AppDisplayName": "Microsoft AppPlat EMA",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
