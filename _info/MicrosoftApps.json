@@ -4086,6 +4086,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "65271352-2a38-4336-95f5-7c59fe19a5d5",
+    "AppDisplayName": "Azure Stack Edge 1P AAD App",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1fe0d6b3-81f0-4cf5-9dfd-fbb297d7848c",
     "AppDisplayName": "Microsoft Insider Risk Management",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -4417,7 +4423,7 @@
   },
   {
     "AppId": "ef4c7f67-65bd-4506-8179-5ddcc5509aeb",
-    "AppDisplayName": "Skype For Business Entitlement",
+    "AppDisplayName": "IC3 Teams Entitlement",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
