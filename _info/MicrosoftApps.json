@@ -4596,6 +4596,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "4eaa7769-3cf1-458c-a693-e9827e39cc95",
+    "AppDisplayName": "M365 Lighthouse API",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "0f54b75d-4d29-4a92-80ae-106a60cd8f5d",
     "AppDisplayName": "Teams User Engagement Profile Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
