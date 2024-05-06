@@ -4921,7 +4921,7 @@
   },
   {
     "AppId": "d1ddf0e4-d672-4dae-b554-9d5bdfd93547",
-    "AppDisplayName": "Microsoft Intune PowerShell",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
