@@ -4644,6 +4644,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ac9dc5fe-b644-4832-9d03-d9f1ab70c5f7",
+    "AppDisplayName": "Microsoft.ConnectedVMwarevSphere Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "57084ef3-d413-4087-a28f-f6f3b1ad7786",
     "AppDisplayName": "Branch Connect Web Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

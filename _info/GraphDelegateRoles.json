@@ -1092,6 +1092,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all cross tenant content migration job details",
+    "Id": "b85f44c8-673a-4b31-a0c1-3070d0ae487e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read all cross tenant content migration job details",
+    "Value": "CrossTenantContentMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all cross tenant content migration job details",
+    "Id": "0569b6eb-c9e3-4dc6-a998-6df963be6689",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read and write all cross tenant content migration job details",
+    "Value": "CrossTenantContentMigration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to obtain basic tenant information about another target tenant within the Azure AD ecosystem on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read cross-tenant basic information",
     "Id": "81594d25-e88e-49cf-ac8c-fecbff49f994",
@@ -3276,6 +3300,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read security alerts of customer with CSP relationship on behalf of the partner signed-in user.",
+    "AdminConsentDisplayName": "Read security alerts of customer with CSP relationship",
+    "Id": "5567b981-0bf1-4796-9038-0648b46e116d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read security alerts of customer with CSP relationship on behalf of you.",
+    "UserConsentDisplayName": "Read security alerts of customer with CSP relationship",
+    "Value": "PartnerSecurity.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read security alerts and update status of alerts of customer with CSP relationship on behalf of the partner signed-in user.",
+    "AdminConsentDisplayName": "Read security alerts and update status of security alerts of customer with CSP relationship",
+    "Id": "0cd2c1f6-94a1-4075-ab8c-0b1aff2e1ad5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read security alerts and update status of alerts of customer with CSP relationship on behalf of you.",
+    "UserConsentDisplayName": "Read security alerts and update status of security alerts of customer with CSP relationship",
+    "Value": "PartnerSecurity.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read available properties of pending external user profiles, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read pending external user profiles",
     "Id": "d88fd3fb-53d3-4c1c-8c39-787fcac2ed7a",
@@ -4065,6 +4113,30 @@
     "UserConsentDescription": "Allows the app to see your basic profile (e.g., name, picture, user name, email address)",
     "UserConsentDisplayName": "View your basic profile",
     "Value": "profile",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all profile photos of users and groups, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Read profile photo of a user or group",
+    "Id": "469cd065-729e-4dee-b1fa-d92e0fab6310",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all profile photos of users and groups, on your behalf",
+    "UserConsentDisplayName": "Read profile photo of a user or group",
+    "Value": "ProfilePhoto.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all profile photos of users and groups, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Read and write profile photo of a user or group",
+    "Id": "f5b24df7-511e-48bb-ae88-643f023b55e1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all profile photos of users and groups, on your behalf",
+    "UserConsentDisplayName": "Read and write profile photo of a user or group",
+    "Value": "ProfilePhoto.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -5373,6 +5445,18 @@
     "UserConsentDescription": "Allows a Teams app to read, install, upgrade, and uninstall its own tabs for you.",
     "UserConsentDisplayName": "Allow the Teams app to manage only its own tabs for you",
     "Value": "TeamsTab.ReadWriteSelfForUser",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your tenant's user configurations on behalf of the signed-in admin user. User configuration may include attributes related to user, such as telephone number, assigned policies, etc.",
+    "AdminConsentDisplayName": "Read Teams user configurations",
+    "Id": "5c469ce4-dab5-4afd-b9de-14f1ba4004a7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's user configurations on behalf of the signed-in admin user. User configuration may include attributes related to user, such as telephone number, assigned policies, etc.",
+    "UserConsentDisplayName": "Read Teams user configurations",
+    "Value": "TeamsUserConfiguration.Read.All",
     "AdditionalProperties": {}
   },
   {

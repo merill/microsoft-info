@@ -773,6 +773,7 @@
 "03b39d0f-4213-4864-a245-b1476ec03169","Azure Spring Cloud Domain-Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c161e42e-d4df-4a3d-9b42-e7a3c31f59d4","Microsoft Intune API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "035f9e1d-4f00-4419-bf50-bf2d87eb4878","Azure Monitor Restricted","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"ac9dc5fe-b644-4832-9d03-d9f1ab70c5f7","Microsoft.ConnectedVMwarevSphere Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "57084ef3-d413-4087-a28f-f6f3b1ad7786","Branch Connect Web Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d6fdaa33-e821-4211-83d0-cf74736489e1","Microsoft Service Trust","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "823dfde0-1b9a-415a-a35a-1ad34e16dd44","Microsoft Teams Wiki Images Migration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

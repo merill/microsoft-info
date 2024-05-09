@@ -2931,6 +2931,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read security alerts of customer with CSP relationship, without a signed-in user.",
+    "DisplayName": "Read security alerts of customer with CSP relationship",
+    "Id": "21ffa320-2e7f-47d3-a466-7ff04d2dd68d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PartnerSecurity.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read security alerts and update status of alerts of customer with CSP relationship, without a signed-in user.",
+    "DisplayName": "Read security alerts and update status of security alerts of customer with CSP relationship",
+    "Id": "04a2c935-5b4b-474a-be42-11f53111f271",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PartnerSecurity.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read available properties of pending external user profiles, without a signed-in user.",
     "DisplayName": "Read all pending external user profiles",
     "Id": "bdfb26d9-bb36-49be-9b4c-b8cbf4b05808",
@@ -3513,6 +3537,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all profile photos of users and groups, without a signed-in user",
+    "DisplayName": "Read profile photo of a user or group",
+    "Id": "e24d31aa-e1ab-4c80-85fe-23018690335d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProfilePhoto.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all profile photos of users and groups, without a signed-in user",
+    "DisplayName": "Read and write profile photo of a user or group",
+    "Id": "27baa7f6-5dfb-4ba8-b1d3-1e812c143013",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProfilePhoto.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -4773,6 +4821,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamsTab.ReadWriteSelfForUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's user configurations, without a signed-in user. User configuration may include attributes related to user, such as telephone number, assigned policies, etc.",
+    "DisplayName": "Read Teams user configurations",
+    "Id": "a91eadaf-2c3c-4362-908b-fb172d208fc6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsUserConfiguration.Read.All",
     "AdditionalProperties": {}
   },
   {
