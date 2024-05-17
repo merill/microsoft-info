@@ -408,6 +408,78 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed up, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read backup configuration policies",
+    "Id": "444ed4b6-0554-4dc6-8e9c-3f9a34ee3ff6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed up, on your behalf.",
+    "UserConsentDisplayName": "Read backup configuration policies",
+    "Value": "BackupRestore-Configuration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read and edit backup configuration policies",
+    "Id": "a0244d16-171c-4496-8ffb-7b9b6954d339",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, on your behalf.",
+    "UserConsentDisplayName": "Read and edit backup configuration policies",
+    "Value": "BackupRestore-Configuration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to monitor backup and restore jobs, view quota usage and billing details, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read monitoring, quota and billing information for the tenant",
+    "Id": "b4e98de1-4600-4e90-b5e1-7c1dfef04e5c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to monitor backup and restore jobs, view quota usage and billing details, on your behalf.",
+    "UserConsentDisplayName": "Read monitoring, quota and billing information for the tenant",
+    "Value": "BackupRestore-Monitor.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read restore sessions, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read restore sessions",
+    "Id": "94b36f78-434f-4904-8c08-421d9a9c1dc2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read restore sessions, on your behalf.",
+    "UserConsentDisplayName": "Read restore sessions",
+    "Value": "BackupRestore-Restore.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read restore sessions and start restore sessions from backups",
+    "Id": "9f89e109-94b9-4c9b-b4fc-98cdaa54f574",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, on your behalf.",
+    "UserConsentDisplayName": "Read restore sessions and start restore sessions from backups",
+    "Value": "BackupRestore-Restore.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Search for metadata properties in backup snapshots",
+    "Id": "2b24830f-f435-446f-ab5a-b1e70d9a2eb5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, on your behalf.",
+    "UserConsentDisplayName": "Search for metadata properties in backup snapshots",
+    "Value": "BackupRestore-Search.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write the billing configuration on all applications on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read and write application billing configuration",
     "Id": "2bf6d319-dfca-4c22-9879-f88dcfaee6be",

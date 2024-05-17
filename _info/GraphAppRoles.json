@@ -363,6 +363,78 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all backup configurations, and lists of Microsoft 365 service resources to be backed up, without a signed-in user.",
+    "DisplayName": "Read all backup configuration policies",
+    "Id": "5fbb5982-3230-4882-93c0-2167523ce0c2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Configuration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, without a signed-in user.",
+    "DisplayName": "Read and edit all backup configuration policies",
+    "Id": "18133149-5489-40ac-80f0-4b6fa85f6cdc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Configuration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to monitor all backup and restore jobs, view quota usage and billing details, without a signed-in user.",
+    "DisplayName": "Read all monitoring, quota and billing information for the tenant",
+    "Id": "ecae8511-f2d7-4be4-bdbf-91f244d45986",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Monitor.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all restore sessions, without a signed-in user.",
+    "DisplayName": "Read all restore sessions",
+    "Id": "87853aa5-0372-4710-b34b-cef27bb7156e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Restore.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to search all backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, without a signed-in user.",
+    "DisplayName": "Read restore all sessions and start restore sessions from backups",
+    "Id": "bebd0841-a3d8-4313-a51d-731112c8ee41",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Restore.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to search all backup snapshots for Microsoft 365 resources, without a signed-in user.",
+    "DisplayName": "Search for metadata properties in all backup snapshots",
+    "Id": "f6135c51-c766-4be1-9638-ed90c2ed2443",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Search.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read and write the billing configuration on all applications without a signed-in user. ",
     "DisplayName": "Read and write application billing configuration",
     "Id": "9e8be751-7eee-4c09-bcfd-d64f6b087fd8",
