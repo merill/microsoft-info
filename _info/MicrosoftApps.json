@@ -2082,6 +2082,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "99f53064-85db-4f9f-ab36-118a009b8857",
+    "AppDisplayName": "TEST Augmentation Loop",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "31ba6d5c-2e14-40fb-bbcb-27dc8a1bfaf5",
     "AppDisplayName": "TeamsLinkedInLiveApp",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2714,6 +2720,12 @@
   {
     "AppId": "09a984f4-014c-43de-ae0c-7ec73dc053d3",
     "AppDisplayName": "BenefitsFD",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "497effe9-df71-4043-a8bb-14cf78c4b63b",
+    "AppDisplayName": "Exchange Admin Center",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -5222,12 +5234,6 @@
   {
     "AppId": "60c8bde5-3167-4f92-8fdb-059f6176dc0f",
     "AppDisplayName": "Enterprise Roaming and Backup",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Learn"
-  },
-  {
-    "AppId": "497effe9-df71-4043-a8bb-14cf78c4b63b",
-    "AppDisplayName": "Exchange Admin Center",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Learn"
   },
