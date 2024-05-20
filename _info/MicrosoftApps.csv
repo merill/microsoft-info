@@ -415,6 +415,7 @@
 "c03594ff-1168-40fb-aef7-eb9f1edf7278","Enterprise File Sync Admin Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d2fa1650-4805-4a83-bcb9-cf41fe63539c","ACR-Tasks-Prod","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "30e31aeb-977f-4f4f-a483-b61e8377b302","Microsoft Teams ADL","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"3b80cd3f-61ca-49b0-8d0f-7b6760e08705","ZTNA Policy Service Graph Client ","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e95d8bee-4725-4f59-910d-94d415da51b9","Skype for Business Name Dictionary Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "56823b05-67d8-413a-b6ab-ad19d7710cf2","Microsoft Defender for APIs Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a232010e-820c-4083-83bb-3ace5fc29d0b","Azure Cosmos DB","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

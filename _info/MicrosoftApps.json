@@ -2496,6 +2496,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3b80cd3f-61ca-49b0-8d0f-7b6760e08705",
+    "AppDisplayName": "ZTNA Policy Service Graph Client ",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e95d8bee-4725-4f59-910d-94d415da51b9",
     "AppDisplayName": "Skype for Business Name Dictionary Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
