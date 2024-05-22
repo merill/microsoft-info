@@ -2568,6 +2568,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "10214c11-ebd3-44e8-af2f-ebcb8a79c569",
+    "AppDisplayName": "EOP Admin API Web Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "99335b6b-7d9d-4216-8dee-883b26e0ccf7",
     "AppDisplayName": "Power Platform Dataflows Common Data Service Client",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
