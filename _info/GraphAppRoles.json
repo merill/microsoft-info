@@ -2019,6 +2019,54 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all scenario health monitoring alerts, without a signed-in user.",
+    "DisplayName": "Read all scenario health monitoring alert",
+    "Id": "5183ed5d-b7f8-4e9a-915e-dafb46b9cb62",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "HealthMonitoringAlert.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all scenario monitoring alerts, without a signed-in user.",
+    "DisplayName": "Read and write all scenario monitoring alerts",
+    "Id": "ac29eb50-f2f9-4518-a117-4bef18e84c7d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "HealthMonitoringAlert.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all scenario health monitoring alert configurations, without a signed-in user.",
+    "DisplayName": "Read all scenario health monitoring alert configurations",
+    "Id": "bb424d73-e898-4c97-9d42-688c32810003",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "HealthMonitoringAlertConfig.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all scenario monitoring alerts, without a signed-in user.",
+    "DisplayName": "Read and write all scenario monitoring alerts",
+    "Id": "432e76f0-8af6-4315-a853-66ab9538f480",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "HealthMonitoringAlertConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your organization’s identity (authentication) providers’ properties without a signed in user.",
     "DisplayName": "Read identity providers",
     "Id": "e321f0bb-e7f7-481e-bb28-e3b0b32d4bd0",

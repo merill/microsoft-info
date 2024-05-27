@@ -2256,6 +2256,54 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all scenario health monitoring alerts",
+    "AdminConsentDisplayName": "Read all scenario health monitoring alerts",
+    "Id": "74b4ff32-4917-4536-a66d-38a4861e6220",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all scenario health monitoring alerts, on your behalf.",
+    "UserConsentDisplayName": "Read all alerts",
+    "Value": "HealthMonitoringAlert.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all scenario monitoring alerts, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all scenario monitoring alerts",
+    "Id": "b7c60f27-2195-4d5f-96a7-6b98bdfd9664",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all scenario monitoring alerts, on your behalf.",
+    "UserConsentDisplayName": "Read and write all scenario monitoring alerts",
+    "Value": "HealthMonitoringAlert.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all scenario health monitoring alert configurations",
+    "AdminConsentDisplayName": "Read all scenario health monitoring alert configurations",
+    "Id": "fb873030-8626-47e6-96ff-8a5bff3b725f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all scenario health monitoring alert configurations, on your behalf.",
+    "UserConsentDisplayName": "Read all alert configurations",
+    "Value": "HealthMonitoringAlertConfig.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all scenario monitoring alert configurations, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all scenario monitoring alert configurations.",
+    "Id": "b3e5ebc6-1c23-4337-8286-3f27165addb4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all scenario monitoring alert configurations, on your behalf.",
+    "UserConsentDisplayName": "Read and write all scenario monitoring alert configurations",
+    "Value": "HealthMonitoringAlertConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization’s identity (authentication) providers’ properties on behalf of the user.",
     "AdminConsentDisplayName": "Read identity providers",
     "Id": "43781733-b5a7-4d1b-98f4-e8edff23e1a9",
