@@ -1200,6 +1200,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2313b47f-a76d-4513-be58-500e42ce8d11",
+    "AppDisplayName": "Microsoft.Azure.SyncFabric.CrossCloud.Government2Commercial",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c066d759-24ae-40e7-a56f-027002b5d3e4",
     "AppDisplayName": "M365DataAtRestEncryption",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
