@@ -1947,6 +1947,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow the application to access a subset of files without a signed in user.  The specific files and the permissions granted will be configured in SharePoint Online or OneDrive.",
+    "DisplayName": "Access selected Files without a signed in user.",
+    "Id": "bd61925e-3bf4-4d62-bc0b-06b06c96d95c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Files.SelectedOperations.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to utilize the file storage container platform to manage containers, without a signed-in user. The specific file storage containers and the permissions granted to them will be configured in Microsoft 365 by the developer of each container type.",
     "DisplayName": "Access selected file storage containers",
     "Id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
@@ -2517,6 +2529,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "LifecycleWorkflows.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the application to access a subset of listitems without a signed in user.  The specific listitems and the permissions granted will be configured in SharePoint Online.",
+    "DisplayName": "Access selected ListItems without a signed in user.",
+    "Id": "de4e4161-a10a-4dfd-809c-e328d89aefeb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ListItems.SelectedOperations.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the application to access a subset of lists without a signed in user.  The specific lists and the permissions granted will be configured in SharePoint Online.",
+    "DisplayName": "Access selected Lists without a signed in user.",
+    "Id": "23c5a9bd-d900-4ecf-be26-a0689755d9e5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Lists.SelectedOperations.Selected",
     "AdditionalProperties": {}
   },
   {
@@ -4629,6 +4665,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamsActivity.Send",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the Teams apps that are installed in any scope, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Read installed Teams apps for all installation scopes",
+    "Id": "0fdf35a5-82f8-41ff-9ded-0b761cc73512",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.Read.All",
     "AdditionalProperties": {}
   },
   {

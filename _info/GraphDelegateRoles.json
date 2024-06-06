@@ -1164,30 +1164,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all cross tenant content migration job details",
-    "Id": "b85f44c8-673a-4b31-a0c1-3070d0ae487e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
-    "UserConsentDisplayName": "Read all cross tenant content migration job details",
-    "Value": "CrossTenantContentMigration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write all cross tenant content migration job details",
-    "Id": "0569b6eb-c9e3-4dc6-a998-6df963be6689",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
-    "UserConsentDisplayName": "Read and write all cross tenant content migration job details",
-    "Value": "CrossTenantContentMigration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the application to obtain basic tenant information about another target tenant within the Azure AD ecosystem on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read cross-tenant basic information",
     "Id": "81594d25-e88e-49cf-ac8c-fecbff49f994",
@@ -2160,6 +2136,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the application to access files explicitly permissioned to the application on behalf of the signed in user.  The specific files and the permissions granted will be configured in SharePoint Online or OneDrive.",
+    "AdminConsentDisplayName": "Access selected Files, on behalf of the signed-in user",
+    "Id": "ef2779dc-ef1b-4211-8310-8a0ac2450081",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to access files explicitly permissioned to the application on behalf of the signed in user.  The specific files and the permissions granted will be configured in SharePoint Online or OneDrive.",
+    "UserConsentDisplayName": "Access selected Files, on behalf of the signed-in user",
+    "Value": "Files.SelectedOperations.Selected",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to utilize the file storage container platform to manage containers on behalf of the signed in user. The specific file storage containers and the permissions granted to them will be configured in Microsoft 365 by the developer of each container type.",
     "AdminConsentDisplayName": "Access selected file storage containers",
     "Id": "085ca537-6565-41c2-aca7-db852babc212",
@@ -2745,6 +2733,30 @@
     "UserConsentDescription": "Allows the app to create, update, list, read and delete all workflows, tasks and related lifecycle workflows resources on your behalf.",
     "UserConsentDisplayName": "Read and write all lifecycle workflows resources",
     "Value": "LifecycleWorkflows.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to access a subset of listitems on behalf of the signed in user.  The specific listitems and the permissions granted will be configured in SharePoint Online.",
+    "AdminConsentDisplayName": "Access selected ListItems, on behalf of the signed-in user",
+    "Id": "d6d361b3-211a-4191-9fa7-15f72de4aac4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to access a subset of listitems on behalf of the signed in user.  The specific listitems and the permissions granted will be configured in SharePoint Online.",
+    "UserConsentDisplayName": "Access selected ListItems, on behalf of the signed-in user",
+    "Value": "ListItems.SelectedOperations.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to access a subset of lists on behalf of the signed in user.  The specific lists and the permissions granted will be configured in SharePoint Online.",
+    "AdminConsentDisplayName": "Access selected Lists, on behalf of the signed-in user",
+    "Id": "033b51ee-d6fa-4add-b627-ee680c7212b5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to access a subset of lists on behalf of the signed in user.  The specific lists and the permissions granted will be configured in SharePoint Online.",
+    "UserConsentDisplayName": "Access selected Lists, on behalf of the signed-in user",
+    "Value": "Lists.SelectedOperations.Selected",
     "AdditionalProperties": {}
   },
   {
