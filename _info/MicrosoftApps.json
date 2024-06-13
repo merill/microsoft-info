@@ -4963,13 +4963,13 @@
   },
   {
     "AppId": "febcadd2-4101-4bf8-8be8-f423f21f2ca8",
-    "AppDisplayName": "Graph .NET quick start",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "c2b3bb2d-34bb-46d7-bc1f-94480c1345a0",
-    "AppDisplayName": "MALogAnalyticsReader",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -4999,13 +4999,13 @@
   },
   {
     "AppId": "2a732408-a7d8-48eb-ac66-9f1d501de540",
-    "AppDisplayName": "Intune Skills POC with OBO Token",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "fa9ac275-bd92-4ce2-996b-2cce07da7849",
-    "AppDisplayName": "Graph .NET quick start",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -5071,7 +5071,7 @@
   },
   {
     "AppId": "2a0c3efa-ba54-4e55-bdc0-770f9e39e9ee",
-    "AppDisplayName": "Azure AD Power BI Content Pack App",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -5083,7 +5083,7 @@
   },
   {
     "AppId": "986b68e5-7d5c-44e4-8f79-0f9994555c79",
-    "AppDisplayName": "Intune Test Skill with OBO Authentication",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -5179,7 +5179,7 @@
   },
   {
     "AppId": "c6ef8824-f372-49fd-8055-0d672b2974a7",
-    "AppDisplayName": "Graph JavaScript quick start",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -5203,13 +5203,13 @@
   },
   {
     "AppId": "6c7a5208-a7b3-4813-8e99-3b9e627971c4",
-    "AppDisplayName": "AdithyaHSMultitenantApp",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "2cdc32be-2d13-4482-9ea9-458d425c56fa",
-    "AppDisplayName": "API Skill with OBO Authentication",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
