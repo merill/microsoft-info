@@ -2295,6 +2295,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read and write reference definitions without a signed-in user.",
+    "DisplayName": "Manage reference definitions",
+    "Id": "bda16293-63d3-45b7-b16b-833841d27d56",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IndustryData-ReferenceDefinition.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read current and previous IndustryData runs without a signed-in user.",
     "DisplayName": "View current and previous runs",
     "Id": "f6f5d10b-3024-4d1d-b674-aae4df4a1a73",
@@ -4251,6 +4263,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all the identity security sensors without a signed-in user.",
+    "DisplayName": "Read all identity security sensors",
+    "Id": "5f0ffea2-f474-4cf2-9834-61cda2bcea5c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesSensors.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write identity security sensors without a signed-in user.",
+    "DisplayName": "Read and write all identity security sensors",
+    "Id": "d4dcee6d-0774-412a-b06c-aeabbd99e816",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesSensors.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all security incidents, without a signed-in user.",
     "DisplayName": "Read all security incidents",
     "Id": "45cc0394-e837-488b-a098-1918f48d186c",
@@ -5373,6 +5409,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "User.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the app to revoke all sign in sessions for a user, without a signed-in user.",
+    "DisplayName": "Revoke all sign in sessions for a user",
+    "Id": "77f3a031-c388-4f99-b373-dc68676a979e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "User.RevokeSessions.All",
     "AdditionalProperties": {}
   },
   {

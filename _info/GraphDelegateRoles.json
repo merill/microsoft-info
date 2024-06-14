@@ -2520,6 +2520,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and write reference definitions on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Manage reference definitions",
+    "Id": "a757d430-be6d-430f-af57-28aabe79d247",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write reference definitions on your behalf.",
+    "UserConsentDisplayName": "Manage reference definition",
+    "Value": "IndustryData-ReferenceDefinition.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read current and previous IndustryData runs on behalf of the signed-in user.",
     "AdminConsentDisplayName": "View current and previous runs",
     "Id": "92685235-50c4-4702-b2c8-36043db6fa79",
@@ -4788,6 +4800,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all the identity security sensors of signed user",
+    "AdminConsentDisplayName": "Read identity security sensors",
+    "Id": "2c221239-7c5c-4b30-9355-d84663bfcd96",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all the identity security sensors on your behalf.",
+    "UserConsentDisplayName": "Read identity security sensors",
+    "Value": "SecurityIdentitiesSensors.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write identity security sensors on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write identity security sensors",
+    "Id": "087c3ad9-c2ca-4b82-9885-d5e25ce9e183",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write identity security sensors on your behalf.",
+    "UserConsentDisplayName": "Read and write identity security sensors",
+    "Value": "SecurityIdentitiesSensors.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read security incidents, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read incidents",
     "Id": "b9abcc4f-94fc-4457-9141-d20ce80ec952",
@@ -6033,6 +6069,18 @@
     "UserConsentDescription": "Allows the app to read and write the full set of profile properties, reports, and managers of other users in your organization, on your behalf.",
     "UserConsentDisplayName": "Read and write all users' full profiles",
     "Value": "User.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the app to revoke all sign in sessions for a user, on behalf of a signed-in user.",
+    "AdminConsentDisplayName": "Revoke all sign in sessions for a user",
+    "Id": "fc30e98b-8810-4501-81f5-c20a3196387b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the app to revoke all sign in sessions for a user on your behalf.",
+    "UserConsentDisplayName": "Revokes all sign in sessions for a user",
+    "Value": "User.RevokeSessions.All",
     "AdditionalProperties": {}
   },
   {
