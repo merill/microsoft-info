@@ -3852,6 +3852,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "12ff570a-8284-47ed-adb3-fcc72b594c36",
+    "AppDisplayName": "Consumption Billing",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "fc03f97a-9db0-4627-a216-ec98ce54e018",
     "AppDisplayName": "Azure AD Notification",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

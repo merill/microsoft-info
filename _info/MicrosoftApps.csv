@@ -641,6 +641,7 @@
 "19b21e10-1304-498b-92d4-4290e94999fa","Deprecated - CAS API Security RP Staging","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f5fe7750-c730-4d4f-8517-0b1ad5bd2bd5","CAP Package Deployer Service IM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7e468355-e4db-46a9-8289-8d414c89c43c","Federated Profile Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"12ff570a-8284-47ed-adb3-fcc72b594c36","Consumption Billing","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "fc03f97a-9db0-4627-a216-ec98ce54e018","Azure AD Notification","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "51b5e278-ed7e-42c6-8787-7ff93e92f577","Narada Notification Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "fc75330b-179d-49af-87dd-3b1acf6827fa","AzureAutomation","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
