@@ -2586,6 +2586,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3b990c8b-9607-4c2a-8b04-1d41985facca",
+    "AppDisplayName": "Azure Deployments",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "18a66f5f-dbdf-4c17-9dd7-1634712a9cbe",
     "AppDisplayName": "Azure Machine Learning Services",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -4478,6 +4484,12 @@
   {
     "AppId": "ef4c7f67-65bd-4506-8179-5ddcc5509aeb",
     "AppDisplayName": "IC3 Teams Entitlement",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "f77c2a8f-8a0a-4776-8e0a-bcb2549610ca",
+    "AppDisplayName": "RPSaaS Meta RP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
