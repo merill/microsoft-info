@@ -1200,6 +1200,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3157152d-b5ae-4606-a145-6c660069bc5e",
+    "AppDisplayName": "Defender for IoT - Management",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2313b47f-a76d-4513-be58-500e42ce8d11",
     "AppDisplayName": "Microsoft.Azure.SyncFabric.CrossCloud.Government2Commercial",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
