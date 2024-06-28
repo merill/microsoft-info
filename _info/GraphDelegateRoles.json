@@ -2196,6 +2196,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read group conversations that the signed-in user has access to.",
+    "AdminConsentDisplayName": "Read group conversations",
+    "Id": "c92fbbc2-50e0-4842-93ef-385c3293ea3d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read group conversations that the signed-in user has access to.",
+    "UserConsentDisplayName": "Read group conversations",
+    "Value": "Group-Conversation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write group conversations that the signed-in user has access to.",
+    "AdminConsentDisplayName": "Read and write group conversations",
+    "Id": "302bcbb5-855a-4e49-ae20-94a331b0281e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write group conversations that the signed-in user has access to.",
+    "UserConsentDisplayName": "Read and write group conversations",
+    "Value": "Group-Conversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.  Also allows the app to read calendar, conversations, files, and other group content for all groups the signed-in user can access. ",
     "AdminConsentDisplayName": "Read all groups",
     "Id": "5f8c59db-677d-491f-a6b8-5f174b11ec1d",

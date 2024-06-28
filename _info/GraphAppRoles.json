@@ -1971,6 +1971,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read conversations of the groups this app has access to without a signed-in user.",
+    "DisplayName": "Read all group conversations",
+    "Id": "4f0a8235-6f6f-4ec7-9500-34b452a4a0c3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Group-Conversation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write conversations of the groups this app has access to without a signed-in user.",
+    "DisplayName": "Read and write all group conversations",
+    "Id": "6679c91b-820a-4900-ab47-e97b197a89c4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Group-Conversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create groups without a signed-in user.",
     "DisplayName": "Create groups",
     "Id": "bf7b1a76-6e77-406b-b258-bf5c7720e98f",
