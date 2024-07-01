@@ -2070,6 +2070,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b54eec68-9e1d-444e-832d-46e3e43ed899",
+    "AppDisplayName": "Universal DevCenter",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "d5097d05-956f-4ae2-b6a2-eff25f5689b3",
     "AppDisplayName": "Windows Update for Business Cloud Extensions PowerShell",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
