@@ -4452,6 +4452,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "0e0fb671-b107-448b-a273-9d0ded7627a7",
+    "AppDisplayName": "Azure Active Directory Protection Services",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "86adf623-eea3-4453-9f4a-18134ac1410d",
     "AppDisplayName": "Azure Spring Cloud Marketplace Integration",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
