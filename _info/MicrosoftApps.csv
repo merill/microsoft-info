@@ -721,6 +721,7 @@
 "b51a99a9-ccaa-4687-aa2c-44d1558295f4","Microsoft Exact Data Match Upload Agent","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9c8b80bc-6887-42d0-b1af-d0c40f9bf1fa","Azure SQL Managed Instance to Azure AD Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "09abbdfd-ed23-44ee-a2d9-a627aa1c90f3","ProjectWorkManagement","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"65c8bd9e-caac-4816-be98-0692f41191bc","People Profile Event Proxy","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f738ef14-47dc-4564-b53b-45069484ccc7","Marketplace Api","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c606301c-f764-4e6b-aa45-7caaaea93c9a","Office Store","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "66a88757-258c-4c72-893c-3e8bed4d6899","Office 365 Search Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

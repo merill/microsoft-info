@@ -4332,6 +4332,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "65c8bd9e-caac-4816-be98-0692f41191bc",
+    "AppDisplayName": "People Profile Event Proxy",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f738ef14-47dc-4564-b53b-45069484ccc7",
     "AppDisplayName": "Marketplace Api",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
