@@ -1470,6 +1470,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "972bb84a-1d27-4bd3-8306-6b8e57679e8c",
+    "AppDisplayName": "API Connectors 1st Party",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "7f0d9978-eb2a-4974-88bd-f22a3006fe17",
     "AppDisplayName": "Intune DiagnosticService",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
