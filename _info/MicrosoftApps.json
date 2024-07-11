@@ -4278,6 +4278,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "dad3c6de-ed58-42ef-989f-9c0303aaeedc",
+    "AppDisplayName": "Process Insights Prod",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e8bdeda8-b4a3-4eed-b307-5e2456238a77",
     "AppDisplayName": "Office365 Shell SS-Server",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
