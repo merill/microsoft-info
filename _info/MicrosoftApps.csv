@@ -507,6 +507,7 @@
 "ba9ff945-a723-4ab5-a977-bd8c9044fe61","My Staff","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000005-0000-0000-c000-000000000000","Microsoft Azure Workflow","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a6943a7f-5ba0-4a34-bf91-ab439efdda3f","Azure HDInsight on AKS Client","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"69dda2a9-33ca-4ed0-83fb-a9b7b8973ff4","Azure Files","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a882f5bd-2492-44fe-bb55-a811aab59451","Intune Compliance Client Prod","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b5a60e17-278b-4c92-a4e2-b9262e66bb28","Azure MFA StrongAuthenticationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3184af01-7a88-49e0-8b55-8ecdce0aa950","Azure Cost Management XCloud","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

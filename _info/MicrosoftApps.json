@@ -3048,6 +3048,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "69dda2a9-33ca-4ed0-83fb-a9b7b8973ff4",
+    "AppDisplayName": "Azure Files",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a882f5bd-2492-44fe-bb55-a811aab59451",
     "AppDisplayName": "Intune Compliance Client Prod",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
