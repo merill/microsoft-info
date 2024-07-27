@@ -305,6 +305,7 @@
 "7865c1d2-f040-46cc-875f-831a1ef6a28a","Azure HDInsight Cluster API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "bf26f092-3426-4a99-abfb-97dad74e661a","Azure AD Identity Governance","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d82073ec-4d7c-4851-9c5d-5d97a911d71d","Kaizala Sync Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"d5b7f828-8c18-452f-9791-554b35e4879f","Windows 365 Intune partner sync","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5657e26c-cc92-45d9-bc47-9da6cfdb4ed9","Azure OSSRDBMS PostgreSQL Flexible Server AAD Authentication","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e1335bb1-2aec-4f92-8140-0e6e61ae77e5","CIWebService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "022907d3-0f1b-48f7-badc-1ba6abab6d66","Azure SQL Database","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

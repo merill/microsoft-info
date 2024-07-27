@@ -1836,6 +1836,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "d5b7f828-8c18-452f-9791-554b35e4879f",
+    "AppDisplayName": "Windows 365 Intune partner sync",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "5657e26c-cc92-45d9-bc47-9da6cfdb4ed9",
     "AppDisplayName": "Azure OSSRDBMS PostgreSQL Flexible Server AAD Authentication",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
