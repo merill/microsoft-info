@@ -768,6 +768,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "96636591-1bce-4eef-b8f9-939c0713889f",
+    "AppDisplayName": "MRMaps PPE",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "0736f41a-0425-4b46-bdb5-1563eff02385",
     "AppDisplayName": "Azure Machine Learning",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -782,6 +788,12 @@
   {
     "AppId": "d29a4c00-4966-492a-84dd-47e779578fb7",
     "AppDisplayName": "Discovery Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "af7c72b5-1a61-4bf3-958b-4e51e1ddfbe8",
+    "AppDisplayName": "MRMapsProd",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -4010,6 +4022,12 @@
   {
     "AppId": "fbb0ac1a-82dd-478b-a0e5-0b2b98ef38fe",
     "AppDisplayName": "Substrate-FileWatcher",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "40c49ff3-c6ae-436d-b28e-b8e268841980",
+    "AppDisplayName": "Microsoft Azure Network Copilot",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
