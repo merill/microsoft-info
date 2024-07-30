@@ -432,6 +432,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the status of M365 backup service (enable/disable), on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read the status of the M365 backup service",
+    "Id": "af598c63-4292-4437-b925-e996354d3854",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the status of M365 backup service (enable/disable), on your behalf.",
+    "UserConsentDisplayName": "Read the status of the M365 backup service",
+    "Value": "BackupRestore-Control.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to update or read the status of M365 backup service (enable/disable), on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Update or read the status of the M365 backup service",
+    "Id": "96d46335-d92d-41b8-bc9f-273a692381ea",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to update or read the status of M365 backup service (enable/disable), on your behalf.",
+    "UserConsentDisplayName": "Update or read the status of the M365 backup service",
+    "Value": "BackupRestore-Control.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to monitor backup and restore jobs, view quota usage and billing details, on behalf of the signed in user.",
     "AdminConsentDisplayName": "Read monitoring, quota and billing information for the tenant",
     "Id": "b4e98de1-4600-4e90-b5e1-7c1dfef04e5c",

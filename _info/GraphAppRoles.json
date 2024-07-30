@@ -387,6 +387,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the status of M365 backup service (enable/disable), without signed in user",
+    "DisplayName": "Read the status of the M365 backup service",
+    "Id": "6fe20a79-0e15-45a1-b019-834c125993a0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Control.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to update or read the status of M365 backup service (enable/disable), without signed in user",
+    "DisplayName": "Update or read the status of the M365 backup service",
+    "Id": "fb240865-88f8-4a1d-923f-98dbc7920860",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BackupRestore-Control.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to monitor all backup and restore jobs, view quota usage and billing details, without a signed-in user.",
     "DisplayName": "Read all monitoring, quota and billing information for the tenant",
     "Id": "ecae8511-f2d7-4be4-bdbf-91f244d45986",
