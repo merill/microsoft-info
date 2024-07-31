@@ -3108,6 +3108,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "e9d778bd-0cde-4e66-977e-3702cef954c0",
+    "AppDisplayName": "Teams Meeting Label Propagation Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "00000002-0000-0ff1-ce00-000000000000",
     "AppDisplayName": "Office 365 Exchange Online",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
