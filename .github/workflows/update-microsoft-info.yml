@@ -30,8 +30,8 @@ jobs:
       - name: Azure AD Workload Identity Federation
         uses: nicolonsky/WIF@v0.0.1
         with:
-          tenant_id: '536279f6-15cc-45f2-be2d-61e352b51eef'
-          client_id: 'ec362660-6ffa-47f6-b2b0-cbb43064e3f7'
+          tenant_id: '0817c655-a853-4d8f-9723-3a333b5b9235'
+          client_id: '38535360-9f3e-4b1e-a41e-b4af46afcb0c'
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
