@@ -2916,54 +2916,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the user's mailbox folders, on behalf of the the signed-in user.",
-    "AdminConsentDisplayName": "Read a user's mailbox folders",
-    "Id": "52dc2051-4958-4636-8f2a-281d39c6981c",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read your mailbox folders, on your behalf",
-    "UserConsentDisplayName": "Read your mailbox folders",
-    "Value": "MailboxFolder.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write the user's mailbox folders, on behalf of the the signed-in user.",
-    "AdminConsentDisplayName": "Read and write a user's mailbox folders",
-    "Id": "077fde41-7e0b-4c5b-bcd1-e9d743a30c80",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read and write your mailbox folders, on your behalf",
-    "UserConsentDisplayName": "Read and write your mailbox folders",
-    "Value": "MailboxFolder.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to backup, restore, and modify mailbox items on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Allows the app to perform backup and restore of mailbox items",
-    "Id": "df96e8a0-f4e1-4ecf-8d83-a429f822cbd6",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to backup, restore, and modify your mailbox items on your behalf.",
-    "UserConsentDisplayName": "Allows the app to perform backup and restore of mailbox items",
-    "Value": "MailboxItem.ImportExport",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read the user's mailbox items, on behalf of the the signed-in user.",
-    "AdminConsentDisplayName": "Read a user's mailbox items",
-    "Id": "82305458-296d-4edd-8b0b-74dd74c34526",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read your mailbox items, on your behalf",
-    "UserConsentDisplayName": "Read your mailbox items",
-    "Value": "MailboxItem.Read",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to the read user's mailbox settings. Does not include permission to send mail.",
     "AdminConsentDisplayName": "Read user mailbox settings",
     "Id": "87f447af-9fa4-4c32-9dfa-4a57a73d18ce",
@@ -4497,30 +4449,6 @@
     "UserConsentDescription": "Allows the app to read and update admin report settings, such as whether to display concealed information in reports, on your behalf.",
     "UserConsentDisplayName": "Read and write admin report settings",
     "Value": "ReportSettings.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read the resource specific permissions granted on the chat, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read resource specific permissions granted on a chat",
-    "Id": "cb530fca-534b-4e72-aa74-bca7e8bbd06f",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read the resource specific permission granted on the chat, on your behalf.",
-    "UserConsentDisplayName": "Read resource specific permissions granted on a chat",
-    "Value": "ResourceSpecificPermissionGrant.ReadForChat",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read the resource specific permissions granted on the team, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read resource specific permissions granted on a team",
-    "Id": "eafad40c-bf7a-415a-b7f8-acdf5706b58f",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read the resource specific permission granted on the team, on your behalf.",
-    "UserConsentDisplayName": "Read resource specific permissions granted on a team",
-    "Value": "ResourceSpecificPermissionGrant.ReadForTeam",
     "AdditionalProperties": {}
   },
   {
@@ -6081,54 +6009,6 @@
     "UserConsentDescription": "Allows the app to read and write the lifecycle information like employeeLeaveDateTime of users in your organization, on behalf of the signed-in user.",
     "UserConsentDisplayName": "Read and write all users' lifecycle information",
     "Value": "User-LifeCycleInfo.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write secondary mail addresses for all users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write secondary mail addresses for users",
-    "Id": "6166886a-9576-433b-8544-658177bdef1d",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write secondary mail addresses for all users, on your behalf.",
-    "UserConsentDisplayName": "Read and write secondary mail addresses for users",
-    "Value": "User-Mail.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write password profiles and reset passwords for all users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write password profiles and reset user passwords",
-    "Id": "56760768-b641-451f-8906-e1b8ab31bca7",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write password profiles and reset passwords for all users, on your behalf.",
-    "UserConsentDisplayName": "Read and write password profiles and reset user passwords",
-    "Value": "User-PasswordProfile.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write the mobile phone and business phones for all users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write user mobile phone and business phones",
-    "Id": "e29d5979-5b06-4a7f-ae24-6a9348d2e1ff",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write the mobile phone and business phones for all users, on your behalf.",
-    "UserConsentDisplayName": "Read and write user mobile phone and business phones",
-    "Value": "User-Phone.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to delete and restore all users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Delete and restore users",
-    "Id": "4bb440cd-2cf2-4f90-8004-aa2acd2537c5",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to delete and restore all users, on your behalf.",
-    "UserConsentDisplayName": "Delete and restore users",
-    "Value": "User.DeleteRestore.All",
     "AdditionalProperties": {}
   },
   {

@@ -471,30 +471,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows an app to read BitLocker keys for all devices, without a signed-in user. Allows read of the recovery key.",
-    "DisplayName": "Read all BitLocker keys",
-    "Id": "57f1cf28-c0c4-4ec3-9a30-19a2eaaf2f6e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "BitlockerKey.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an app to read basic BitLocker key properties for all devices, without a signed-in user. Does not allow read of the recovery key.",
-    "DisplayName": "Read all BitLocker keys basic information",
-    "Id": "f690d423-6b29-4d04-98c6-694c42282419",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "BitlockerKey.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows an app to read Bookings appointments, businesses, customers, services, and staff without a signed-in user.  ",
     "DisplayName": "Read all Bookings related resources.",
     "Id": "6e98f277-b046-4193-a4f2-6bf6a78cd491",
@@ -2703,54 +2679,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all the users' mailbox folders, without signed-in user.",
-    "DisplayName": "Read all the users' mailbox folders",
-    "Id": "99280d24-a782-4793-93cc-0888549957f6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxFolder.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write all the users' mailbox folders, without signed-in user.",
-    "DisplayName": "Read and write all the users' mailbox folders",
-    "Id": "fef87b92-8391-4589-9da7-eb93dab7dc8a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxFolder.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to backup, restore, and modify all mailbox items without a signed-in user.",
-    "DisplayName": "Allows the app to perform backup and restore for all mailbox items",
-    "Id": "76577085-e73d-4f1d-b26a-85fb33892327",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxItem.ImportExport.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read all the users' mailbox items, without signed-in user.",
-    "DisplayName": "Read all the users' mailbox items",
-    "Id": "7d9f353d-a7bd-4fbb-822a-26d5dd39a3ce",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxItem.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read user's mailbox settings without a signed-in user. Does not include permission to send mail.",
     "DisplayName": "Read all user mailbox settings",
     "Id": "40f97065-369a-49f4-947c-6a255697ae91",
@@ -3969,30 +3897,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "ReportSettings.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the resource specific permissions granted on the chat without a signed-in user.",
-    "DisplayName": "Read resource specific permissions granted on a chat",
-    "Id": "2ff643d8-43e4-4a9b-88c1-86cb4a4b4c2f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourceSpecificPermissionGrant.ReadForChat.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the resource specific permissions granted on the team without a signed-in user.",
-    "DisplayName": "Read resource specific permissions granted on a team",
-    "Id": "ad4600ae-d900-42cb-a9a2-2415d05593d0",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourceSpecificPermissionGrant.ReadForTeam.All",
     "AdditionalProperties": {}
   },
   {
@@ -5469,54 +5373,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "User-LifeCycleInfo.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write secondary mail addresses for all users, without a signed-in user.",
-    "DisplayName": "Read and write all secondary mail addresses for users",
-    "Id": "280d0935-0796-47d1-8d26-273470a3f17a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User-Mail.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write password profiles and reset passwords for all users, without a signed-in user.",
-    "DisplayName": "Read and write all password profiles and reset user passwords",
-    "Id": "cc117bb9-00cf-4eb8-b580-ea2a878fe8f7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User-PasswordProfile.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write the mobile phone and business phones for all users, without a signed-in user.",
-    "DisplayName": "Read and write all user mobile phone and business phones",
-    "Id": "86ceff06-c822-49ff-989a-d912845ffe69",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User-Phone.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to delete and restore all users, without a signed-in user.",
-    "DisplayName": "Delete and restore all users",
-    "Id": "eccc023d-eccf-4e7b-9683-8813ab36cecc",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.DeleteRestore.All",
     "AdditionalProperties": {}
   },
   {
