@@ -264,6 +264,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read approvals on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read approvals",
+    "Id": "b0df437d-d341-4df0-aa3e-89ca81a1207f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read approvals on your behalf.",
+    "UserConsentDisplayName": "Read approvals",
+    "Value": "ApprovalSolution.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to provision, read, create, and respond to approvals on behalf of the signed-in user. ",
+    "AdminConsentDisplayName": "Read, create, and respond to approvals",
+    "Id": "6768d3af-4562-48ff-82d2-c5e19eb21b9c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to provision, read, create, and respond to approvals on your behalf. ",
+    "UserConsentDisplayName": "Read, create, and respond to approvals",
+    "Value": "ApprovalSolution.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and respond to approvals on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and respond to approvals assigned to the current user",
+    "Id": "89d944f2-2011-44ad-830c-aa9bf5ef2319",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and respond to approvals on your behalf.",
+    "UserConsentDisplayName": "Read and respond to approvals assigned to the current user",
+    "Value": "ApprovalSolutionResponse.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read attack simulation and training data for an organization for the signed-in user.",
     "AdminConsentDisplayName": "Read attack simulation data of an organization",
     "Id": "104a7a4b-ca76-4677-b7e7-2f4bc482f381",

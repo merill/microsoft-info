@@ -111,6 +111,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all AI enterprise interactions.",
+    "DisplayName": "Read all AI enterprise interactions.",
+    "Id": "839c90ab-5771-41ee-aef8-a562e8487c1e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AiEnterpriseInteraction.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the API connectors used in user authentication flows, without a signed-in user.",
     "DisplayName": "Read API connectors for authentication flows",
     "Id": "b86848a7-d5b1-41eb-a9b4-54a4e6306e97",
@@ -213,6 +225,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "AppRoleAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all approvals and approval item subscriptions, without a signed-in user.",
+    "DisplayName": "Read all approvals",
+    "Id": "9f265de7-8d5e-4e9a-a805-5e8bbc49656f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ApprovalSolution.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all approvals and create, update, or remove approval item subscriptions, without a signed-in user.",
+    "DisplayName": "Read all approvals and manage approval subscriptions",
+    "Id": "45583558-1113-4d06-8969-e79a28edc9ad",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ApprovalSolution.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
