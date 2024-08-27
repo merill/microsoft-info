@@ -432,7 +432,7 @@
 "01fc33a7-78ba-4d2f-a4b7-768e336e890e","MS-PIM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "fc03f97a-9db0-4627-a216-ec98ce54e018","Azure AD Notification","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1f5530b3-261a-47a9-b357-ded261e17918","Azure Multi-Factor Auth Connector","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"60ca1954-583c-4d1f-86de-39d835f3e452","Radius Aad Syncer","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"60ca1954-583c-4d1f-86de-39d835f3e452","Microsoft Defender for Identity","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8e14e873-35ba-4720-b787-0bed94370b17","Microsoft Teams Targeting Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8edd93e1-2103-40b4-bd70-6e34e586362d","Windows Azure Security Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5e3ce6c0-2b1f-4285-8d4b-75ee78787346","Microsoft Teams Web Client","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
