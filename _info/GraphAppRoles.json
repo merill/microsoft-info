@@ -399,7 +399,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all backup configurations, and lists of Microsoft 365 service resources to be backed up, without a signed-in user.",
+    "Description": "Allows the app to read all backup configurations, and lists of Microsoft 365 service resources to be backed-up, without a signed-in user.",
     "DisplayName": "Read all backup configuration policies",
     "Id": "5fbb5982-3230-4882-93c0-2167523ce0c2",
     "IsEnabled": true,
@@ -411,7 +411,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, without a signed-in user.",
+    "Description": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed-up, without a signed-in user.",
     "DisplayName": "Read and edit all backup configuration policies",
     "Id": "18133149-5489-40ac-80f0-4b6fa85f6cdc",
     "IsEnabled": true,
@@ -471,7 +471,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to search all backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, without a signed-in user.",
+    "Description": "Allows the app to search all backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed-up snapshot, without a signed-in user.",
     "DisplayName": "Read restore all sessions and start restore sessions from backups",
     "Id": "bebd0841-a3d8-4313-a51d-731112c8ee41",
     "IsEnabled": true,
@@ -495,7 +495,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write the billing configuration on all applications without a signed-in user. ",
+    "Description": "Allows the app to read and write the billing configuration on all applications without a signed-in user.",
     "DisplayName": "Read and write application billing configuration",
     "Id": "9e8be751-7eee-4c09-bcfd-d64f6b087fd8",
     "IsEnabled": true,
@@ -531,6 +531,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows an app to read, write and manage bookings appointments, businesses, customers, services, and staff on behalf of the signed-in user.",
+    "DisplayName": "Manage bookings information",
+    "Id": "6b22000a-1228-42ec-88db-b8c00399aecb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Bookings.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows an app to read Bookings appointments, businesses, customers, services, and staff without a signed-in user.  ",
     "DisplayName": "Read all Bookings related resources.",
     "Id": "6e98f277-b046-4193-a4f2-6bf6a78cd491",
@@ -543,7 +555,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows an app to read and write Bookings appointments and customers, and additionally allows reading businesses, services, and staff without a signed-in user. ",
+    "Description": "Allows an app to read and write Bookings appointments and customers, and additionally allows reading businesses, services, and staff without a signed-in user.",
     "DisplayName": "Read and write all Bookings related resources.",
     "Id": "9769393e-5a9f-4302-9e3d-7e018ecb64a7",
     "IsEnabled": true,
@@ -675,7 +687,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read call event information for all users in your organizatio, without a signed-in user.",
+    "Description": "Allows the app to read call event information for all users in your organization, without a signed-in user.",
     "DisplayName": "Read all call events",
     "Id": "1abb026f-7572-49f6-9ddd-ad61cbba181e",
     "IsEnabled": true,
@@ -1599,7 +1611,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all Azure AD recommendations, without a signed-in user. ",
+    "Description": "Allows the app to read all Azure AD recommendations, without a signed-in user.",
     "DisplayName": "Read all Azure AD recommendations",
     "Id": "ae73097b-cb2a-4447-b064-5d80f6093921",
     "IsEnabled": true,
@@ -1611,7 +1623,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update all Azure AD recommendations, without a signed-in user. ",
+    "Description": "Allows the app to read and update all Azure AD recommendations, without a signed-in user.",
     "DisplayName": "Read and update all Azure AD recommendations",
     "Id": "0e9eea12-4f01-45f6-9b8d-3ea4c8144158",
     "IsEnabled": true,
@@ -1923,7 +1935,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write external connections without a signed-in user. The app can only read and write external connections that it is authorized to, or it can create new external connections. ",
+    "Description": "Allows the app to read and write external connections without a signed-in user. The app can only read and write external connections that it is authorized to, or it can create new external connections.",
     "DisplayName": "Read and write external connections",
     "Id": "f431331c-49a6-499f-be1c-62af19c34a9d",
     "IsEnabled": true,
@@ -2007,7 +2019,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read, create, update and delete all files in all site collections without a signed in user. ",
+    "Description": "Allows the app to read, create, update and delete all files in all site collections without a signed in user.",
     "DisplayName": "Read and write files in all site collections",
     "Id": "75359482-378d-4052-8f01-80520e7db3cd",
     "IsEnabled": true,
@@ -2511,7 +2523,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create protected content without a signed-in user. ",
+    "Description": "Allows the app to create protected content without a signed-in user.",
     "DisplayName": "Create protected content",
     "Id": "287bd98c-e865-4e8c-bade-1a85523195b9",
     "IsEnabled": true,
@@ -2895,7 +2907,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read your organization's network access braches, without a signed-in user.",
+    "Description": "Allows the app to read your organization's network access branches, without a signed-in user.",
     "DisplayName": "Read properties of all branches for network access",
     "Id": "39ae4a24-1ef0-49e8-9d63-2a66f5c39edd",
     "IsEnabled": true,
@@ -2907,7 +2919,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write your organization's network access braches, without a signed-in user.",
+    "Description": "Allows the app to read and write your organization's network access branches, without a signed-in user.",
     "DisplayName": "Read and write properties of all branches for network access",
     "Id": "8137102d-ec16-4191-aaf8-7aeda8026183",
     "IsEnabled": true,
@@ -3207,7 +3219,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write organization-wide Microsoft 365 apps installation settings, without a signed-in user. ",
+    "Description": "Allows the app to read and write organization-wide Microsoft 365 apps installation settings, without a signed-in user.",
     "DisplayName": "Read and write organization-wide Microsoft 365 apps installation settings",
     "Id": "83f7232f-763c-47b2-a097-e35d2cbe1da5",
     "IsEnabled": true,
@@ -3411,7 +3423,19 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read your organization’s identity protection policy without a signed-in user. ",
+    "Description": "Allows the application to read your organization's device configuration policies without a signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
+    "DisplayName": "Read your organization's device configuration policies",
+    "Id": "bdba4817-6ba1-4a7c-8a01-be9bc7c242dd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.DeviceConfiguration",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your organization’s identity protection policy without a signed-in user.",
     "DisplayName": "Read your organization’s identity protection policy",
     "Id": "b21b72f6-4e6a-4533-9112-47eea9f97b28",
     "IsEnabled": true,
@@ -3531,6 +3555,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read and write your organization's device configuration policies without a signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
+    "DisplayName": "Read and write your organization's device configuration policies",
+    "Id": "230fb2d5-aa21-49c1-bfa7-ae1be179d867",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.ReadWrite.DeviceConfiguration",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read and update the organization's external identities policy without a signed-in user.  For example, external identities policy controls if users invited to access resources in your organization via B2B collaboration or B2B direct connect are allowed to self-service leave.",
     "DisplayName": "Read and write your organization's external identities policy",
     "Id": "03cc4f92-788e-4ede-b93f-199424d144a5",
@@ -3615,7 +3651,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read presence information of all users in the directory without a signed-in user. Presence information includes activity, availability, status note, calendar out-of-office message, timezone and location. ",
+    "Description": "Allows the app to read presence information of all users in the directory without a signed-in user. Presence information includes activity, availability, status note, calendar out-of-office message, timezone and location.",
     "DisplayName": "Read presence information for all users",
     "Id": "a70e0c2d-e793-494c-94c4-118fa0a67f42",
     "IsEnabled": true,
@@ -4191,7 +4227,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and manage all role-based access control (RBAC) alerts for your company's directory, without a signed-in user. This includes managing alert settings, initiating alert scans, dimissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
+    "Description": "Allows the app to read and manage all role-based access control (RBAC) alerts for your company's directory, without a signed-in user. This includes managing alert settings, initiating alert scans, dismissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
     "DisplayName": "Read all alert data, configure alerts, and take actions on all alerts for your company's directory",
     "Id": "11059518-d6a6-4851-98ed-509268489c4a",
     "IsEnabled": true,
@@ -4744,7 +4780,7 @@
       "Application"
     ],
     "Description": "Allows the application to read Azure AD synchronization information, without a signed-in user.",
-    "DisplayName": "Read all Azure AD synchronization data. ",
+    "DisplayName": "Read all Azure AD synchronization data.",
     "Id": "5ba43d2f-fa88-4db2-bd1c-a67c5f0fb1ce",
     "IsEnabled": true,
     "Origin": "Application",
@@ -4756,7 +4792,7 @@
       "Application"
     ],
     "Description": "Allows the application to configure the Azure AD synchronization service, without a signed-in user.",
-    "DisplayName": "Read and write all Azure AD synchronization data. ",
+    "DisplayName": "Read and write all Azure AD synchronization data.",
     "Id": "9b50c33d-700f-43b1-b2eb-87e89b703581",
     "IsEnabled": true,
     "Origin": "Application",
@@ -5115,7 +5151,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read the names and settings of tabs inside any team in Microsoft Teams, without a signed-in user. This does not give access to the content inside the tabs. ",
+    "Description": "Read the names and settings of tabs inside any team in Microsoft Teams, without a signed-in user. This does not give access to the content inside the tabs.",
     "DisplayName": "Read tabs in Microsoft Teams.",
     "Id": "46890524-499a-4bb2-ad64-1476b4f3e1cf",
     "IsEnabled": true,
@@ -5403,7 +5439,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read threat intellgence information, such as indicators, observations, and and articles, without a signed in user.",
+    "Description": "Allows the app to read threat intelligence information, such as indicators, observations, and and articles, without a signed in user.",
     "DisplayName": "Read all Threat Intelligence Information",
     "Id": "e0b77adb-e790-44a3-b0a0-257d06303687",
     "IsEnabled": true,
@@ -5439,7 +5475,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read your organization's threat submission policies without a signed-in user. Also allows the app to create new threat submission polices without a signed-in user.",
+    "Description": "Allows the app to read your organization's threat submission policies without a signed-in user. Also allows the app to create new threat submission policies without a signed-in user.",
     "DisplayName": "Read and write all of the organization's threat submission policies",
     "Id": "926a6798-b100-4a20-a22f-a4918f13951d",
     "IsEnabled": true,

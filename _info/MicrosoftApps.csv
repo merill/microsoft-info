@@ -214,7 +214,7 @@
 "9cd0f7df-8b1a-4e54-8c0c-0ef3a51116f6","DirectoryLookupService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000012-0000-0000-c000-000000000000","Microsoft Rights Management Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000003-0000-0ff1-ce00-000000000000","Office 365 SharePoint Online","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"797f4846-ba00-4fd7-ba43-dac1f8f63013","Windows Azure Service Management API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"797f4846-ba00-4fd7-ba43-dac1f8f63013","Azure Resource Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b503eb83-1222-4dcc-b116-b98ed5216e05","Azure Notification Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "40c49ff3-c6ae-436d-b28e-b8e268841980","Microsoft Azure Network Copilot","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8d3a7d3c-c034-4f19-a2ef-8412952a9671","Microsoft Office Licensing Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

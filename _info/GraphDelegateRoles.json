@@ -276,13 +276,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to provision, read, create, and respond to approvals on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to provision, read, create, and respond to approvals on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read, create, and respond to approvals",
     "Id": "6768d3af-4562-48ff-82d2-c5e19eb21b9c",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to provision, read, create, and respond to approvals on your behalf. ",
+    "UserConsentDescription": "Allows the app to provision, read, create, and respond to approvals on your behalf.",
     "UserConsentDisplayName": "Read, create, and respond to approvals",
     "Value": "ApprovalSolution.ReadWrite",
     "AdditionalProperties": {}
@@ -348,7 +348,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and query audit logs from Endpoint Data Loss Precention workload, on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read and query audit logs from Endpoint Data Loss Prevention workload, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read audit logs data from Endpoint Data Loss Prevention workload",
     "Id": "ee3409fe-617f-43cf-bd1e-fc8b38049e69",
     "IsEnabled": true,
@@ -444,25 +444,25 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed up, on behalf of the signed in user.",
+    "AdminConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed-up, on behalf of the signed in user.",
     "AdminConsentDisplayName": "Read backup configuration policies",
     "Id": "444ed4b6-0554-4dc6-8e9c-3f9a34ee3ff6",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed up, on your behalf.",
+    "UserConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed-up, on your behalf.",
     "UserConsentDisplayName": "Read backup configuration policies",
     "Value": "BackupRestore-Configuration.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, on behalf of the signed in user.",
+    "AdminConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed-up, on behalf of the signed in user.",
     "AdminConsentDisplayName": "Read and edit backup configuration policies",
     "Id": "a0244d16-171c-4496-8ffb-7b9b6954d339",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed up, on your behalf.",
+    "UserConsentDescription": "Allows the app to read and update the backup configuration, and list of Microsoft 365 service resources to be backed-up, on your behalf.",
     "UserConsentDisplayName": "Read and edit backup configuration policies",
     "Value": "BackupRestore-Configuration.ReadWrite.All",
     "AdditionalProperties": {}
@@ -516,13 +516,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, on behalf of the signed in user.",
+    "AdminConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed-up snapshot, on behalf of the signed in user.",
     "AdminConsentDisplayName": "Read restore sessions and start restore sessions from backups",
     "Id": "9f89e109-94b9-4c9b-b4fc-98cdaa54f574",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed up snapshot, on your behalf.",
+    "UserConsentDescription": "Allows the app to search the backup snapshots for Microsoft 365 resources, and restore Microsoft 365 resources from a backed-up snapshot, on your behalf.",
     "UserConsentDisplayName": "Read restore sessions and start restore sessions from backups",
     "Value": "BackupRestore-Restore.ReadWrite.All",
     "AdditionalProperties": {}
@@ -540,7 +540,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the billing configuration on all applications on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read and write the billing configuration on all applications on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write application billing configuration",
     "Id": "2bf6d319-dfca-4c22-9879-f88dcfaee6be",
     "IsEnabled": true,
@@ -732,13 +732,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read events in user calendars . ",
+    "AdminConsentDescription": "Allows the app to read events in user calendars.",
     "AdminConsentDisplayName": "Read user calendars ",
     "Id": "465a38f9-76ea-45b9-9f34-9e8b0d4b0b42",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read events in your calendars. ",
+    "UserConsentDescription": "Allows the app to read events in your calendars.",
     "UserConsentDisplayName": "Read your calendars ",
     "Value": "Calendars.Read",
     "AdditionalProperties": {}
@@ -768,13 +768,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create, read, update, and delete events in user calendars. ",
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete events in user calendars.",
     "AdminConsentDisplayName": "Have full access to user calendars ",
     "Id": "1ec239c2-d7c9-4623-a91a-a9775856bb36",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read, update, create and delete events in your calendars. ",
+    "UserConsentDescription": "Allows the app to read, update, create and delete events in your calendars.",
     "UserConsentDisplayName": "Have full access to your calendars  ",
     "Value": "Calendars.ReadWrite",
     "AdditionalProperties": {}
@@ -1182,7 +1182,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read contacts in your contact folders. ",
+    "UserConsentDescription": "Allows the app to read contacts in your contact folders.",
     "UserConsentDisplayName": "Read your contacts ",
     "Value": "Contacts.Read",
     "AdditionalProperties": {}
@@ -1200,13 +1200,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create, read, update, and delete user contacts. ",
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete user contacts.",
     "AdminConsentDisplayName": "Have full access to user contacts ",
     "Id": "d56682ec-c09e-4743-aaf4-1a3aac4caa21",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read, update, create and delete contacts in your contact folders. ",
+    "UserConsentDescription": "Allows the app to read, update, create and delete contacts in your contact folders.",
     "UserConsentDisplayName": "Have full access of your contacts ",
     "Value": "Contacts.ReadWrite",
     "AdditionalProperties": {}
@@ -1285,7 +1285,7 @@
   },
   {
     "AdminConsentDescription": "Allows the app to read your organization's custom authentication extensions on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read your oganization's custom authentication extensions",
+    "AdminConsentDisplayName": "Read your organization's custom authentication extensions",
     "Id": "b2052569-c98c-4f36-a5fb-43e5c111e6d0",
     "IsEnabled": true,
     "Origin": null,
@@ -1458,7 +1458,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to manage permission grants for delegated permissions exposed by any API (including Microsoft Graph), on your behalf. ",
+    "UserConsentDescription": "Allows the app to manage permission grants for delegated permissions exposed by any API (including Microsoft Graph), on your behalf.",
     "UserConsentDisplayName": "Manage all delegated permission grants",
     "Value": "DelegatedPermissionGrant.ReadWrite.All",
     "AdditionalProperties": {}
@@ -1716,7 +1716,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and update Azure AD recommendations, on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read and update Azure AD recommendations, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and update Azure AD recommendations",
     "Id": "f37235e8-90a0-4189-93e2-e55b53867ccd",
     "IsEnabled": true,
@@ -2034,7 +2034,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write external connections on your behalf. The signed-in user must be an administrator. The app can only read and write external connections that it is authorized to, or it can create new external connections. ",
+    "UserConsentDescription": "Allows the app to read and write external connections on your behalf. The signed-in user must be an administrator. The app can only read and write external connections that it is authorized to, or it can create new external connections.",
     "UserConsentDisplayName": "Read and write external connections",
     "Value": "ExternalConnection.ReadWrite.OwnedBy",
     "AdditionalProperties": {}
@@ -2280,7 +2280,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.  Also allows the app to read calendar, conversations, files, and other group content for all groups the signed-in user can access. ",
+    "AdminConsentDescription": "Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.  Also allows the app to read calendar, conversations, files, and other group content for all groups the signed-in user can access.",
     "AdminConsentDisplayName": "Read all groups",
     "Id": "5f8c59db-677d-491f-a6b8-5f174b11ec1d",
     "IsEnabled": true,
@@ -2400,13 +2400,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read identity risk event information for all users in your organization on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read identity risk event information for all users in your organization on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read identity risk event information",
     "Id": "8f6a01e7-0391-4ee5-aa22-a3af122cef27",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read identity risk event information for all users in your organization on behalf of the signed-in user. ",
+    "UserConsentDescription": "Allows the app to read identity risk event information for all users in your organization on behalf of the signed-in user.",
     "UserConsentDisplayName": "Read identity risk event information",
     "Value": "IdentityRiskEvent.Read.All",
     "AdditionalProperties": {}
@@ -2862,7 +2862,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read email in your mailbox. ",
+    "UserConsentDescription": "Allows the app to read email in your mailbox.",
     "UserConsentDisplayName": "Read your mail ",
     "Value": "Mail.Read",
     "AdditionalProperties": {}
@@ -2898,19 +2898,19 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read mail you can access, including shared mail except body, previewBody, uniqueBody, attachments, extensions, and any extended properties. ",
+    "UserConsentDescription": "Allows the app to read mail you can access, including shared mail except body, previewBody, uniqueBody, attachments, extensions, and any extended properties.",
     "UserConsentDisplayName": "Read basic mail you can access",
     "Value": "Mail.ReadBasic.Shared",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create, read, update, and delete email in user mailboxes. Does not include permission to send mail. ",
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete email in user mailboxes. Does not include permission to send mail.",
     "AdminConsentDisplayName": "Read and write access to user mail ",
     "Id": "024d486e-b451-40bb-833d-3e66d98c5c73",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read, update, create and delete email in your mailbox. Does not include permission to send mail. ",
+    "UserConsentDescription": "Allows the app to read, update, create and delete email in your mailbox. Does not include permission to send mail.",
     "UserConsentDisplayName": "Read and write access to your mail ",
     "Value": "Mail.ReadWrite",
     "AdditionalProperties": {}
@@ -2928,13 +2928,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to send mail as users in the organization. ",
+    "AdminConsentDescription": "Allows the app to send mail as users in the organization.",
     "AdminConsentDisplayName": "Send mail as a user ",
     "Id": "e383f46e-2787-4529-855e-0e479a3ffac0",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to send mail as you. ",
+    "UserConsentDescription": "Allows the app to send mail as you.",
     "UserConsentDisplayName": "Send mail as you ",
     "Value": "Mail.Send",
     "AdditionalProperties": {}
@@ -2952,7 +2952,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the user's mailbox folders, on behalf of the the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read the user's mailbox folders, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read a user's mailbox folders",
     "Id": "52dc2051-4958-4636-8f2a-281d39c6981c",
     "IsEnabled": true,
@@ -2964,7 +2964,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the user's mailbox folders, on behalf of the the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read and write the user's mailbox folders, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write a user's mailbox folders",
     "Id": "077fde41-7e0b-4c5b-bcd1-e9d743a30c80",
     "IsEnabled": true,
@@ -2988,7 +2988,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the user's mailbox items, on behalf of the the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read the user's mailbox items, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read a user's mailbox items",
     "Id": "82305458-296d-4edd-8b0b-74dd74c34526",
     "IsEnabled": true,
@@ -3325,7 +3325,7 @@
   },
   {
     "AdminConsentDescription": "Allows the app to read all transcripts of online meetings, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all transcripts of online meetings. ",
+    "AdminConsentDisplayName": "Read all transcripts of online meetings.",
     "Id": "30b87d18-ebb1-45db-97f8-82ccb1f0190c",
     "IsEnabled": true,
     "Origin": null,
@@ -3744,7 +3744,19 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read your organization’s identity protection policy on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read your organization's device configuration policies on behalf of the signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
+    "AdminConsentDisplayName": "Read your organization's device configuration policies",
+    "Id": "3616a4b0-6746-49c4-a678-4c237599074d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's device configuration policies on your behalf.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
+    "UserConsentDisplayName": "Read your organization's device configuration policies",
+    "Value": "Policy.Read.DeviceConfiguration",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your organization’s identity protection policy on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization’s identity protection policy",
     "Id": "d146432f-b803-4ed4-8d42-ba74193a6ede",
     "IsEnabled": true,
@@ -3792,7 +3804,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the authentication flow policies, on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read and write the authentication flow policies, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write authentication flow policies",
     "Id": "edb72de9-4252-4d03-a925-451deef99db7",
     "IsEnabled": true,
@@ -4032,7 +4044,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read and write print connectors on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read and write print connectors on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write print connectors",
     "Id": "79ef9967-7d59-4213-9c64-4b10687637d8",
     "IsEnabled": true,
@@ -4392,7 +4404,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read all profile photos of users and groups, on behalf of the the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read all profile photos of users and groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read profile photo of a user or group",
     "Id": "469cd065-729e-4dee-b1fa-d92e0fab6310",
     "IsEnabled": true,
@@ -4404,7 +4416,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write all profile photos of users and groups, on behalf of the the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read and write all profile photos of users and groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write profile photo of a user or group",
     "Id": "f5b24df7-511e-48bb-ae88-643f023b55e1",
     "IsEnabled": true,
@@ -4716,13 +4728,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and manage the role-based access control (RBAC) alerts for your company's directory, on behalf of the signed-in user. This includes managing alert settings, initiating alert scans, dimissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
+    "AdminConsentDescription": "Allows the app to read and manage the role-based access control (RBAC) alerts for your company's directory, on behalf of the signed-in user. This includes managing alert settings, initiating alert scans, dismissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
     "AdminConsentDisplayName": "Read all alert data, configure alerts, and take actions on all alerts for your company's directory",
     "Id": "435644c6-a5b1-40bf-8f52-fe8e5b53e19c",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and manage the role-based access control (RBAC) alerts for your company's directory, on your behalf. This includes managing alert settings, initiating alert scans, dimissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
+    "UserConsentDescription": "Allows the app to read and manage the role-based access control (RBAC) alerts for your company's directory, on your behalf. This includes managing alert settings, initiating alert scans, dismissing alerts, remediating alert incidents, and reading alert statuses, alert definitions, alert configurations and incidents that lead to an alert.",
     "UserConsentDisplayName": "Read all alert data, configure alerts, and take actions on all alerts for your company's directory",
     "Value": "RoleManagementAlert.ReadWrite.Directory",
     "AdditionalProperties": {}
@@ -6420,13 +6432,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read virtual events created by the you",
+    "AdminConsentDescription": "Allows the app to read virtual events created by you",
     "AdminConsentDisplayName": "Read your virtual events",
     "Id": "6b616635-ae58-433a-a918-8c45e4f304dc",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read virtual events created by the you",
+    "UserConsentDescription": "Allows the app to read virtual events created by you",
     "UserConsentDisplayName": "Read your virtual events",
     "Value": "VirtualEvent.Read",
     "AdditionalProperties": {}
