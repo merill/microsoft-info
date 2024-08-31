@@ -555,6 +555,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows an app to read and write bookings appointments, businesses, customers, services, and staff on behalf of the signed-in user. Does not allow create, delete and publish of booking businesses.",
+    "DisplayName": "Read and write bookings information",
+    "Id": "0c4b2d20-7919-468d-8668-c54b09d4dee8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Bookings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows an app to read and write Bookings appointments and customers, and additionally allows reading businesses, services, and staff without a signed-in user.",
     "DisplayName": "Read and write all Bookings related resources.",
     "Id": "9769393e-5a9f-4302-9e3d-7e018ecb64a7",
