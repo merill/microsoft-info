@@ -294,6 +294,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "cfbd4387-1a16-4945-83c0-ec10e46cd4da",
+    "AppDisplayName": "Azure Security for IoT",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "354b5b6d-abd6-4736-9f51-1be80049b91f",
     "AppDisplayName": "Microsoft Mobile Application Management Backend",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2700,6 +2706,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "080765e3-9336-4461-b934-310acccb907d",
+    "AppDisplayName": "Defender for Storage Advanced Threat Protection Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "18a4ad1e-427c-4cad-8416-ef674e801d32",
     "AppDisplayName": "Intune DeviceActionService",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2708,6 +2720,12 @@
   {
     "AppId": "aa813f0e-407a-459d-93af-805f2bf10f33",
     "AppDisplayName": "Substrate Conversation Intelligence Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "d66e9e8e-53a4-420c-866d-5bb39aaea675",
+    "AppDisplayName": "networkcopilotRP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
