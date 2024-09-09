@@ -822,6 +822,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "5b3b270a-b9ad-46e7-9bbb-a866897c4dc7",
+    "AppDisplayName": "Azure Portal RP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e97edbaf-39b2-4546-ba61-0a24e1bef890",
     "AppDisplayName": "Teams EHR Connector",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
