@@ -1692,18 +1692,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to manage restricted resources based on the other permissions granted to the app, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Manage restricted resources in the directory",
-    "Id": "cba5390f-ed6a-4b7f-b657-0efc2210ed20",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to manage restricted resources based on the other permissions granted to the app, on your behalf.",
-    "UserConsentDisplayName": "Manage restricted resources in the directory",
-    "Value": "Directory.Write.Restricted",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read Azure AD recommendations, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read Azure AD recommendations",
     "Id": "34d3bd24-f6a6-468c-b67c-0c365c1d6410",
@@ -4368,6 +4356,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to delete time-based assignment schedules for access to Azure AD groups, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Delete assignment schedules for access to Azure AD groups",
+    "Id": "ca5fe595-68ff-4dfd-907d-4509501a0e49",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to delete time-based assignment schedules for access to Azure AD groups, on your behalf.",
+    "UserConsentDisplayName": "Delete assignment schedules for access to Azure AD groups",
+    "Value": "PrivilegedAssignmentSchedule.Remove.AzureADGroup",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read time-based eligibility schedules for access to Azure AD groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read eligibility schedules for access to Azure AD groups",
     "Id": "8f44f93d-ecef-46ae-a9bf-338508d44d6b",
@@ -4389,6 +4389,18 @@
     "UserConsentDescription": "Allows the app to read, create, and delete time-based eligibility schedules for access to Azure AD groups, on your behalf.",
     "UserConsentDisplayName": "Read, create, and delete eligibility schedules for access to Azure AD groups",
     "Value": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to delete time-based eligibility schedules for access to Azure AD groups, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Delete eligibility schedules for access to Azure AD groups",
+    "Id": "c5ea9ab4-9b41-4c09-a400-53e652fb5096",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to delete time-based eligibility schedules for access to Azure AD groups, on your behalf.",
+    "UserConsentDisplayName": "Delete eligibility schedules for access to Azure AD groups",
+    "Value": "PrivilegedEligibilitySchedule.Remove.AzureADGroup",
     "AdditionalProperties": {}
   },
   {
@@ -4608,6 +4620,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to delete the active role-based access control (RBAC) assignments for your company's directory, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Delete all active role assignments for your company's directory",
+    "Id": "f71cd05c-3fdb-4568-aef2-e1cf62ee20d4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to delete the active role-based access control (RBAC) assignments for your company's directory, on your behalf.",
+    "UserConsentDisplayName": "Delete all active role assignments for your company's directory",
+    "Value": "RoleAssignmentSchedule.Remove.Directory",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the eligible role-based access control (RBAC) assignments for your company's directory, on behalf of the signed-in user. This includes reading directory role templates, and directory roles.",
     "AdminConsentDisplayName": "Read all eligible role assignments for your company's directory",
     "Id": "eb0788c2-6d4e-4658-8c9e-c0fb8053f03d",
@@ -4629,6 +4653,18 @@
     "UserConsentDescription": "Allows the app to read and manage the eligible role-based access control (RBAC) assignments for your company's directory, on your behalf. This includes managing eligible directory role membership, and reading directory role templates, directory roles and eligible memberships.",
     "UserConsentDisplayName": "Read, update, and delete  all eligible role assignments for your company's directory",
     "Value": "RoleEligibilitySchedule.ReadWrite.Directory",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to delete the eligible role-based access control (RBAC) assignments for your company's directory, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Delete all eligible role assignments for your company's directory",
+    "Id": "58ac4fa2-b484-4d6e-ba97-beee2a574220",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to delete the eligible role-based access control (RBAC) assignments for your company's directory, on your behalf.",
+    "UserConsentDisplayName": "Delete all eligible role assignments for your company's directory",
+    "Value": "RoleEligibilitySchedule.Remove.Directory",
     "AdditionalProperties": {}
   },
   {

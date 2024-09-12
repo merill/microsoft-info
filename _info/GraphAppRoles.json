@@ -1611,18 +1611,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to manage restricted resources based on the other permissions granted to the app, without a signed-in user.",
-    "DisplayName": "Manage restricted resources in the directory",
-    "Id": "f20584af-9290-4153-9280-ff8bb2c0ea7f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Directory.Write.Restricted",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read all Azure AD recommendations, without a signed-in user.",
     "DisplayName": "Read all Azure AD recommendations",
     "Id": "ae73097b-cb2a-4447-b064-5d80f6093921",
@@ -3891,6 +3879,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Delete time-based assignment schedules for access to Azure AD groups, without a signed-in user.",
+    "DisplayName": "Delete assignment schedules for access to Azure AD groups",
+    "Id": "55d1104b-3821-413d-b3ca-e2393d333cd3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrivilegedAssignmentSchedule.Remove.AzureADGroup",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read time-based eligibility schedules for access to Azure AD groups, without a signed-in user.",
     "DisplayName": "Read eligibility schedules for access to Azure AD groups",
     "Id": "edb419d6-7edc-42a3-9345-509bfdf5d87c",
@@ -3909,6 +3909,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Delete time-based eligibility schedules for access to Azure AD groups, without a signed-in user.",
+    "DisplayName": "Delete eligibility schedules for access to Azure AD groups",
+    "Id": "55745561-7572-4314-a737-a2c2a1b0dd2e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrivilegedEligibilitySchedule.Remove.AzureADGroup",
     "AdditionalProperties": {}
   },
   {
@@ -4119,6 +4131,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Delete all active privileged role-based access control (RBAC) assignments of your company's directory, without a signed-in user.",
+    "DisplayName": "Delete all active role assignments of your company's directory",
+    "Id": "d3495511-98b7-4df3-b317-4e35c19f6129",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleAssignmentSchedule.Remove.Directory",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the eligible role-based access control (RBAC) assignments and schedules for your company's directory, without a signed-in user. This includes reading directory role templates, and directory roles.",
     "DisplayName": "Read all eligible role assignments and role schedules for your company's directory",
     "Id": "ff278e11-4a33-4d0c-83d2-d01dc58929a5",
@@ -4137,6 +4161,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "RoleEligibilitySchedule.ReadWrite.Directory",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Delete all eligible privileged role-based access control (RBAC) assignments of your company's directory, without a signed-in user.",
+    "DisplayName": "Delete all eligible role assignments of your company's directory",
+    "Id": "79c7e69c-0d9f-4eff-97a8-49170a5a08ba",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleEligibilitySchedule.Remove.Directory",
     "AdditionalProperties": {}
   },
   {
