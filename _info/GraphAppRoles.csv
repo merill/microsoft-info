@@ -378,6 +378,8 @@
 "ab03ddd5-7ae4-4f2e-8af8-86654f7e0a27","SecurityIdentitiesHealth.ReadWrite.All","Read and write all identity security health issues","Allows the app to read and write identity security health issues without a signed-in user."
 "5f0ffea2-f474-4cf2-9834-61cda2bcea5c","SecurityIdentitiesSensors.Read.All","Read all identity security sensors","Allows the app to read all the identity security sensors without a signed-in user."
 "d4dcee6d-0774-412a-b06c-aeabbd99e816","SecurityIdentitiesSensors.ReadWrite.All","Read and write all identity security sensors","Allows the app to read and write identity security sensors without a signed-in user."
+"3e5d0bee-973f-4736-a123-4e1ab146f3a8","SecurityIdentitiesUserActions.Read.All","Read all identity security available user actions","Allows the app to read all the identity security available user actions without a signed-in user."
+"b4146a3a-dd4f-4af4-8d91-7cc0eef3d041","SecurityIdentitiesUserActions.ReadWrite.All","Read and perform all identity security available user actions","Allows the app to read and write identity security available user actions without a signed-in user."
 "45cc0394-e837-488b-a098-1918f48d186c","SecurityIncident.Read.All","Read all security incidents","Allows the app to read all security incidents, without a signed-in user."
 "34bf0e97-1971-4929-b999-9e2442d941d7","SecurityIncident.ReadWrite.All","Read and write to all security incidents","Allows the app to read and write to all security incidents, without a signed-in user."
 "2b655018-450a-4845-81e7-d603b1ebffdb","ServiceActivity-Exchange.Read.All","Read all Exchange service activity","Allows the app to read all Exchange service activity, without a signed-in user."

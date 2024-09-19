@@ -418,6 +418,8 @@
 "53e51eec-2d9b-4990-97f3-c9aa5d5652c3","SecurityIdentitiesHealth.ReadWrite.All","Read and write identity security health issues","Allows the app to read and write identity security health issues on behalf of the signed-in user."
 "2c221239-7c5c-4b30-9355-d84663bfcd96","SecurityIdentitiesSensors.Read.All","Read identity security sensors","Allows the app to read all the identity security sensors of signed user"
 "087c3ad9-c2ca-4b82-9885-d5e25ce9e183","SecurityIdentitiesSensors.ReadWrite.All","Read and write identity security sensors","Allows the app to read and write identity security sensors on behalf of the signed-in user."
+"c7d0a939-da1c-4aca-80fa-d0a6cd924801","SecurityIdentitiesUserActions.Read.All","Read identity security available user actions","Allows the app to read all the identity security available user actions of signed user"
+"bf230e97-1957-4df6-b3f6-57f9029eacdf","SecurityIdentitiesUserActions.ReadWrite.All","Read and perform identity security available user actions","Allows the app to read and write identity security available user actions on behalf of the signed-in user."
 "b9abcc4f-94fc-4457-9141-d20ce80ec952","SecurityIncident.Read.All","Read incidents","Allows the app to read security incidents, on behalf of the signed-in user."
 "128ca929-1a19-45e6-a3b8-435ec44a36ba","SecurityIncident.ReadWrite.All","Read and write to incidents","Allows the app to read and write security incidents, on behalf of the signed-in user."
 "1fe7aa48-9373-4a47-8df3-168335e0f4c9","ServiceActivity-Exchange.Read.All","Read all Exchange service activity","Allows the app to read all Exchange service activity, on behalf of the signed-in user."

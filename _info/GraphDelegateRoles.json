@@ -5028,6 +5028,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all the identity security available user actions of signed user",
+    "AdminConsentDisplayName": "Read identity security available user actions",
+    "Id": "c7d0a939-da1c-4aca-80fa-d0a6cd924801",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all the identity security available user actions on your behalf.",
+    "UserConsentDisplayName": "Read identity security available user actions",
+    "Value": "SecurityIdentitiesUserActions.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write identity security available user actions on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and perform identity security available user actions",
+    "Id": "bf230e97-1957-4df6-b3f6-57f9029eacdf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write identity security available user actions on your behalf.",
+    "UserConsentDisplayName": "Read and perform identity security available user actions",
+    "Value": "SecurityIdentitiesUserActions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read security incidents, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read incidents",
     "Id": "b9abcc4f-94fc-4457-9141-d20ce80ec952",

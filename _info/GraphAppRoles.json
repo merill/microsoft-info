@@ -4551,6 +4551,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all the identity security available user actions without a signed-in user.",
+    "DisplayName": "Read all identity security available user actions",
+    "Id": "3e5d0bee-973f-4736-a123-4e1ab146f3a8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesUserActions.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write identity security available user actions without a signed-in user.",
+    "DisplayName": "Read and perform all identity security available user actions",
+    "Id": "b4146a3a-dd4f-4af4-8d91-7cc0eef3d041",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesUserActions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all security incidents, without a signed-in user.",
     "DisplayName": "Read all security incidents",
     "Id": "45cc0394-e837-488b-a098-1918f48d186c",
