@@ -699,6 +699,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read emergency call event information for all users in your organization without a signed-in user.",
+    "DisplayName": "Read all emergency call events",
+    "Id": "f0a35f91-2aa6-4a99-9d5a-5b6bcb66204e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallEvents-Emergency.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read call event information for all users in your organization, without a signed-in user.",
     "DisplayName": "Read all call events",
     "Id": "1abb026f-7572-49f6-9ddd-ad61cbba181e",
