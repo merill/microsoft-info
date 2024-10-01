@@ -1098,6 +1098,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2ddfbe71-ed12-4123-b99b-d5fc8a062a79",
+    "AppDisplayName": "Microsoft Teams Admin Portal Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e08ab642-962a-4175-913c-165f557d799a",
     "AppDisplayName": "teams contacts griffin processor",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3590,12 +3596,6 @@
   {
     "AppId": "4813382a-8fa7-425e-ab75-3b753aab3abb",
     "AppDisplayName": "Microsoft Authenticator App [Community Contributed]",
-    "AppOwnerOrganizationId": "",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "2ddfbe71-ed12-4123-b99b-d5fc8a062a79",
-    "AppDisplayName": "Microsoft Teams Admin Portal Service [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
   },
