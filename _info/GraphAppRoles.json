@@ -1491,6 +1491,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read certification authority information without a signed-in user.",
+    "DisplayName": "Read Microsoft Cloud PKI objects",
+    "Id": "315b6e8c-d92a-4691-919d-00ce76d1344a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementCloudCA.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write certification authority information without a signed-in user.",
+    "DisplayName": "Read and write Microsoft Cloud PKI objects",
+    "Id": "f15eb2ba-ef8a-4f70-991d-da5d045154e2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementCloudCA.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read properties of Microsoft Intune-managed device configuration and device compliance policies and their assignment to groups, without a signed-in user.",
     "DisplayName": "Read Microsoft Intune device configuration and policies",
     "Id": "dc377aa6-52d8-4e23-b271-2a7ae04cedf3",
@@ -2985,6 +3009,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Notes.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all AI Insights for all online meetings, without a signed-in user.",
+    "DisplayName": "Read all AI Insights for online meetings.",
+    "Id": "c0cf7895-985f-42d4-a693-b618f36674ad",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OnlineMeetingAiInsight.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the teams-app to read all aiInsights for online meetings where the Teams-app is installed, without a signed-in user.",
+    "DisplayName": "Read all AI Insights for online meetings where the Teams application is installed.",
+    "Id": "01892c31-3b66-4bcf-b5f5-bf0a03d5ed9f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OnlineMeetingAiInsight.Read.Chat",
     "AdditionalProperties": {}
   },
   {

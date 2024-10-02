@@ -1548,6 +1548,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read certification authority information on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read Microsoft Cloud PKI objects",
+    "Id": "ac5c8443-d999-471f-9247-ce92cf5c5560",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read certification authority information on your behalf.",
+    "UserConsentDisplayName": "Read Microsoft Cloud PKI objects",
+    "Value": "DeviceManagementCloudCA.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write certification authority information on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write Microsoft Cloud PKI objects",
+    "Id": "93028c58-65aa-48db-a706-1fe4ada325ec",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write certification authority information on your behalf.",
+    "UserConsentDisplayName": "Read and write Microsoft Cloud PKI objects",
+    "Value": "DeviceManagementCloudCA.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read properties of Microsoft Intune-managed device configuration and device compliance policies and their assignment to groups.",
     "AdminConsentDisplayName": "Read Microsoft Intune Device Configuration and Policies",
     "Id": "f1493658-876a-4c87-8fa7-edb559b3476a",
@@ -3261,6 +3285,18 @@
     "UserConsentDescription": "Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.",
     "UserConsentDisplayName": "Maintain access to data you have given it access to",
     "Value": "offline_access",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all AI Insights for online meetings, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all AI Insights for online meetings.",
+    "Id": "166741d6-eeb8-46fe-91f4-817d2af7bc88",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all AI Insights for online meetings, on your behalf.",
+    "UserConsentDisplayName": "Read all AI Insights for online meetings.",
+    "Value": "OnlineMeetingAiInsight.Read.All",
     "AdditionalProperties": {}
   },
   {
