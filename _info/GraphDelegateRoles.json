@@ -1392,6 +1392,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the provisioning configuration of all active custom security attributes on behalf of a signed in user.",
+    "AdminConsentDisplayName": "Read the provisioning configuration of all active custom security attributes",
+    "Id": "9ddd870d-077c-49e7-b3e3-6b3012a8a880",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the provisioning configuration of all active custom security attributes on behalf of a signed in user.",
+    "UserConsentDisplayName": "Read the provisioning configuration of all active custom security attributes",
+    "Value": "CustomSecAttributeProvisioning.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and edit the provisioning configuration of all active custom security attributes on behalf of a signed in user.",
+    "AdminConsentDisplayName": "Read and edit the provisioning configuration of all active custom security attributes",
+    "Id": "1140d9e4-6776-433e-a9e4-b9831adbb2e0",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and edit the provisioning configuration of all active custom security attributes on behalf of a signed in user.",
+    "UserConsentDisplayName": "Read and edit the provisioning configuration of all active custom security attributes",
+    "Value": "CustomSecAttributeProvisioning.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Read custom tags data on behalf of the signed-in user",
     "AdminConsentDisplayName": "Read all custom tags data",
     "Id": "de6ea87d-10bd-467c-8682-d525a0c61b89",

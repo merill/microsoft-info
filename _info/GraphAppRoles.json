@@ -1347,6 +1347,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the provisioning configuration of all active custom security attributes without a signed-in user.",
+    "DisplayName": "Read the provisioning configuration of all active custom security attributes",
+    "Id": "9fd1f8bf-a443-4df6-bc2a-5d00c5ec7828",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomSecAttributeProvisioning.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and edit the provisioning configuration of all active custom security attributes without a signed-in user.",
+    "DisplayName": "Read and edit the provisioning configuration of all active custom security attributes",
+    "Id": "1db69e9c-8d0a-498d-a5df-11fd0b68ceab",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomSecAttributeProvisioning.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Read custom tags data, without a signed-in user",
     "DisplayName": "Read all custom tags data",
     "Id": "ab8a5872-7c88-47a6-8141-7becce939190",
