@@ -1260,6 +1260,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "5dc48733-b5df-475c-a49b-fa307ef00853",
+    "AppDisplayName": "Internet resources with Global Secure Access",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f8f7a2aa-e116-4ba6-8aea-ca162cfa310d",
     "AppDisplayName": "Microsoft Graph Connectors Core",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2310,6 +2316,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "e92b9b37-1b47-4c01-9fbc-91d84450870e",
+    "AppDisplayName": "All private resources with Global Secure Access",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f3a218b7-5c8f-460b-93af-56b072788c15",
     "AppDisplayName": "Microsoft Workplace Search Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2912,6 +2924,12 @@
   {
     "AppId": "637fcc9f-4a9b-4aaa-8713-a2a3cfda1505",
     "AppDisplayName": "Dynamics CRM Online Administration",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "c08f52c9-8f03-4558-a0ea-9a4c878cf343",
+    "AppDisplayName": "Microsoft apps with Global Secure Access",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
