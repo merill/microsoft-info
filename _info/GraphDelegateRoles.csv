@@ -66,6 +66,7 @@
 "1ec239c2-d7c9-4623-a91a-a9775856bb36","Calendars.ReadWrite","Have full access to user calendars ","Allows the app to create, read, update, and delete events in user calendars."
 "12466101-c9b8-439a-8589-dd09ee67e8e9","Calendars.ReadWrite.Shared","Read and write user and shared calendars","Allows the app to create, read, update and delete events in all calendars in the organization user has permissions to access. This includes delegate and shared calendars."
 "43431c03-960e-400f-87c6-8f910321dca3","CallEvents.Read","Read call event data","Allows the app to read call event information for an organization for the signed-in user."
+"4628dff5-c33e-4fde-b17a-b64e7acb1bed","ChangeManagement.Read.All","Read Change Management items","Allows to read all Change Management items."
 "101147cf-4178-4455-9d58-02b5c164e759","Channel.Create","Create channels","Create channels in any team, on behalf of the signed-in user."
 "cc83893a-e232-4723-b5af-bd0b01bcfe65","Channel.Delete.All","Delete channels","Delete channels in any team, on behalf of the signed-in user."
 "9d8982ae-4365-4f57-95e9-d6032a4c0b87","Channel.ReadBasic.All","Read the names and descriptions of channels","Read channel names and channel descriptions, on behalf of the signed-in user."

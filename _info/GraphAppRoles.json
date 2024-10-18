@@ -807,6 +807,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows to read all Change Management items.",
+    "DisplayName": "Read Change Management items",
+    "Id": "418dae40-2b65-4819-900c-519a04e4d278",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ChangeManagement.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Create channels in any team, without a signed-in user.",
     "DisplayName": "Create channels",
     "Id": "f3a65bd4-b703-46df-8f7e-0174fea562aa",

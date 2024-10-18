@@ -66,6 +66,7 @@
 "4c277553-8a09-487b-8023-29ee378d8324","Calls.InitiateGroupCall.All","Initiate outgoing group calls from the app","Allows the app to place outbound calls to multiple users and add participants to meetings in your organization, without a signed-in user."
 "f6b49018-60ab-4f81-83bd-22caeabfed2d","Calls.JoinGroupCall.All","Join group calls and meetings as an app","Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your organization."
 "fd7ccf6b-3d28-418b-9701-cd10f5cd2fd4","Calls.JoinGroupCallAsGuest.All","Join group calls and meetings as a guest","Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your organization."
+"418dae40-2b65-4819-900c-519a04e4d278","ChangeManagement.Read.All","Read Change Management items","Allows to read all Change Management items."
 "f3a65bd4-b703-46df-8f7e-0174fea562aa","Channel.Create","Create channels","Create channels in any team, without a signed-in user."
 "6a118a39-1227-45d4-af0c-ea7b40d210bc","Channel.Delete.All","Delete channels","Delete channels in any team, without a signed-in user."
 "59a6b24b-4225-4393-8165-ebaec5f55d7a","Channel.ReadBasic.All","Read the names and descriptions  of all channels","Read all channel names and channel descriptions, without a signed-in user."

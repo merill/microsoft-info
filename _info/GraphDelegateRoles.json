@@ -804,6 +804,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows to read all Change Management items.",
+    "AdminConsentDisplayName": "Read Change Management items",
+    "Id": "4628dff5-c33e-4fde-b17a-b64e7acb1bed",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows to read all Change Management items.",
+    "UserConsentDisplayName": "Read Change Management items",
+    "Value": "ChangeManagement.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Create channels in any team, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Create channels",
     "Id": "101147cf-4178-4455-9d58-02b5c164e759",
