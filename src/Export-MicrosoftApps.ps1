@@ -31,7 +31,7 @@ param (
 
 function GetAppsFromMicrosoftLearnDoc() {
     Write-Debug "Retrieving apps from Microsoft Learn doc"
-    $msLearnFirstPartyAppDocUri = "https://github.com/MicrosoftDocs/SupportArticles-docs/blob/main/support/entra/entra-id/governance/verify-first-party-apps-sign-in.md"
+    $msLearnFirstPartyAppDocUri = "https://raw.githubusercontent.com/MicrosoftDocs/SupportArticles-docs/refs/heads/main/support/entra/entra-id/governance/verify-first-party-apps-sign-in.md"
     $mdContent = (Invoke-WebRequest -Uri $msLearnFirstPartyAppDocUri).Content
     $lines = $mdContent -split [Environment]::NewLine
     $tableIndex = 0
