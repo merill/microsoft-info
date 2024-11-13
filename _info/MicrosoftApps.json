@@ -3054,12 +3054,6 @@
     "Source": "Graph"
   },
   {
-    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
-    "AppDisplayName": "Microsoft Graph Command Line Tools",
-    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    "Source": "Graph"
-  },
-  {
     "AppId": "be58d912-b9d5-41a0-8b56-779409e017b8",
     "AppDisplayName": "Zero Trust Assessment - Dev",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
@@ -3501,6 +3495,12 @@
     "AppId": "e1ef36fd-b883-4dbf-97f0-9ece4b576fc6",
     "AppDisplayName": "Yammer Web Embed",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Learn"
+  },
+  {
+    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+    "AppDisplayName": "Microsoft Graph Command Line Tools",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Learn"
   },
   {
