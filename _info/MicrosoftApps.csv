@@ -232,6 +232,7 @@
 "8ae6a0b1-a07f-4ec9-927a-afb8d39da81c","Microsoft Device Management EMM API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "47ee738b-3f1a-4fc7-ab11-37e4822b007e","Azure AD Application Proxy","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1341df96-0b28-43da-ba24-7a6ce39be816","Azure Managed HSM RP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"ac6dbf5e-1087-4434-beb2-0ebf7bd1b883","Microsoft Defender for Cloud Apps - Customer Experience","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "509e4652-da8d-478d-a730-e9d4a1996ca4","Azure Resource Graph","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6f82282e-0070-4e78-bc23-e6320c5fa7de","Microsoft Discovery Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "870c4f2e-85b6-4d43-bdda-6ed9a579b725","Microsoft Information Protection Sync Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

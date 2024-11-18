@@ -1398,6 +1398,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ac6dbf5e-1087-4434-beb2-0ebf7bd1b883",
+    "AppDisplayName": "Microsoft Defender for Cloud Apps - Customer Experience",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "509e4652-da8d-478d-a730-e9d4a1996ca4",
     "AppDisplayName": "Azure Resource Graph",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
