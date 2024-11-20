@@ -120,6 +120,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read user AI enterprise interactions, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read user AI enterprise interactions.",
+    "Id": "859cceb9-2ec2-4e48-bcd7-b8490b5248a5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows an app to read your AI enterprise interactions, on your behalf.",
+    "UserConsentDisplayName": "Read your AI enterprise interactions.",
+    "Value": "AiEnterpriseInteraction.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the signed-in user's activity statistics, such as how much time the user has spent on emails, in meetings, or in chat sessions.",
     "AdminConsentDisplayName": "Read user activity statistics",
     "Id": "e03cf23f-8056-446a-8994-7d93dfc8b50e",
@@ -1128,6 +1140,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all Configuration Monitoring entities on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all Configuration Monitoring entities",
+    "Id": "c645bb69-adc4-4242-b620-02e635f03bf6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read all Configuration Monitoring entities on your behalf.",
+    "UserConsentDisplayName": "Read all Configuration Monitoring entities",
+    "Value": "ConfigurationMonitoring.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all Configuration Monitoring entities on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all Configuration Monitoring entities",
+    "Id": "54505ce9-e719-41f7-a7cc-dbe114e1d811",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and write all Configuration Monitoring entities on your behalf.",
+    "UserConsentDisplayName": "Read and write all Configuration Monitoring entities",
+    "Value": "ConfigurationMonitoring.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read create consent requests on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Create consent requests",
     "Id": "f2143d35-9b4b-480d-951c-d083e69eeb2c",
@@ -1233,6 +1269,30 @@
     "UserConsentDescription": "Allows the app to read, update, create, and delete contacts you have permissions to access, including your own and shared contacts.",
     "UserConsentDisplayName": "Read and write to your and shared contacts",
     "Value": "Contacts.ReadWrite.Shared",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read organization-wide copilot limited mode setting on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read organization-wide copilot limited mode setting",
+    "Id": "aeb2982d-632d-4155-b533-18756ab6fdd8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read organization-wide copilot limited mode setting on your behalf.",
+    "UserConsentDisplayName": "Read organization-wide copilot limited mode setting",
+    "Value": "CopilotSettings-LimitedMode.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write organization-wide copilot limited mode setting on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write organization-wide copilot limited mode setting",
+    "Id": "4704e5b2-0ada-4aa0-b18c-00ad7525bc06",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write organization-wide copilot limited mode setting on your behalf.",
+    "UserConsentDisplayName": "Read and write organization-wide copilot limited mode setting",
+    "Value": "CopilotSettings-LimitedMode.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -2253,6 +2313,18 @@
     "UserConsentDescription": "Allow the application to access files explicitly permissioned to the application on behalf of the signed in user.  The specific files and the permissions granted will be configured in SharePoint Online or OneDrive.",
     "UserConsentDisplayName": "Access selected Files, on behalf of the signed-in user",
     "Value": "Files.SelectedOperations.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to utilize the file storage container administration capabilities on behalf of an administrator user.",
+    "AdminConsentDisplayName": "Manage all file storage containers",
+    "Id": "527b6d64-cdf5-4b8b-b336-4aa0b8ca2ce5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to utilize the file storage container administration capabilities on behalf of an administrator user.",
+    "UserConsentDisplayName": "Manage all file storage containers",
+    "Value": "FileStorageContainer.Manage.All",
     "AdditionalProperties": {}
   },
   {
@@ -4764,6 +4836,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user. This includes reading M365 Defender role definitions and role assignments.",
+    "AdminConsentDisplayName": "Read M365 Defender RBAC configuration",
+    "Id": "dd689728-6eb8-4deb-bd38-2924a935f3de",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user. This includes reading M365 Defender role definitions and role assignments.",
+    "UserConsentDisplayName": "Read M365 Defender RBAC configuration",
+    "Value": "RoleManagement.Read.Defender",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user.  This includes reading directory role templates, directory roles and memberships.",
     "AdminConsentDisplayName": "Read directory RBAC settings",
     "Id": "741c54c3-0c1e-44a1-818b-3f97ab4e8c83",
@@ -4797,6 +4881,18 @@
     "UserConsentDescription": "Allows the app to read and manage the Cloud PC role-based access control (RBAC) settings, on your behalf. This includes reading and managing Cloud PC role definitions and memberships.",
     "UserConsentDisplayName": "Read and write Cloud PC RBAC settings",
     "Value": "RoleManagement.ReadWrite.CloudPC",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user. This includes reading M365 Defender role definitions and role assignments.",
+    "AdminConsentDisplayName": "Read M365 Defender RBAC configuration",
+    "Id": "d8914f8f-9f64-4bd1-b4d3-f5a701ed8457",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user. This includes reading M365 Defender role definitions and role assignments.",
+    "UserConsentDisplayName": "Read M365 Defender RBAC configuration",
+    "Value": "RoleManagement.ReadWrite.Defender",
     "AdditionalProperties": {}
   },
   {
@@ -6489,6 +6585,30 @@
     "UserConsentDescription": "Allows the app to read and write authentication methods of all users you have access to in your organization.                       Authentication methods include things like a user’s phone numbers and Authenticator app settings. This does not allow                      the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read and write all users' authentication methods",
     "Value": "UserAuthenticationMethod.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read passkey authentication methods of all users in your organization that the signed-in user has access to. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "AdminConsentDisplayName": "Read all users' passkey authentication methods",
+    "Id": "14195339-1fe4-48a7-a0d3-a39eb9fd8958",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read passkey authentication methods of all users you have access to in your organization.This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "UserConsentDisplayName": "Read all users' passkey authentication methods",
+    "Value": "UserAuthMethod-Passkey.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write passkey authentication methods of all users in your organization that the signed-in user has access to. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "AdminConsentDisplayName": "Read and write all users' passkey methods.",
+    "Id": "64930478-d0ea-4671-ad72-fe0d9821df09",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write passkey authentication methods of all users you have access to in your organization. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "UserConsentDisplayName": "Read and write all users' passkey authentication methods",
+    "Value": "UserAuthMethod-Passkey.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

@@ -2079,6 +2079,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to ingest SharePoint and OneDrive content to make it available in the search index, without a signed-in user.",
+    "DisplayName": "Ingest SharePoint and OneDrive content to make it available in the search index",
+    "Id": "65891b00-2fd9-4e33-be27-04a53132e3df",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FileIngestion.Ingest",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to manage onboarding for a Hybrid Cloud tenant, without a signed-in user.",
+    "DisplayName": "Manage onboarding for a Hybrid Cloud tenant",
+    "Id": "766c601b-c009-4438-8290-c8b05fa00c4b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FileIngestionHybridOnboarding.Manage",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all files in all site collections without a signed in user.",
     "DisplayName": "Read files in all site collections",
     "Id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6",
@@ -4299,6 +4323,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, without a signed-in user.",
+    "DisplayName": "Read M365 Defender RBAC configuration",
+    "Id": "4d6e30d1-e64e-4ae7-bf9d-c706cc928cef",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleManagement.Read.Defender",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, without a signed-in user.  This includes reading directory role templates, directory roles and memberships.",
     "DisplayName": "Read all directory RBAC settings",
     "Id": "483bed4a-2ad3-4361-a73b-c83ccdbdc53c",
@@ -4329,6 +4365,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "RoleManagement.ReadWrite.CloudPC",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the role-based access control (RBAC) settings for your company's directory, without a signed-in user.",
+    "DisplayName": "Read M365 Defender RBAC configuration",
+    "Id": "8b7e8c0a-7e9d-4049-97ec-04b5e1bcaf05",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleManagement.ReadWrite.Defender",
     "AdditionalProperties": {}
   },
   {
@@ -5877,6 +5925,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthenticationMethod.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read passkey authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' passkey authentication methods",
+    "Id": "72e00c1d-3e3d-43bb-a0b9-c435611bb1d2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Passkey.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write passkey authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods",
+    "DisplayName": "Read and write all users' passkey authentication methods",
+    "Id": "0400e371-7db1-4338-a269-96069eb65227",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Passkey.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
