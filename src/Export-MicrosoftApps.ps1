@@ -67,7 +67,7 @@ function GetAppsFromMicrosoftLearnDoc() {
 
 function GetAppsFromMicrosoftGraph() {
     Write-Host "Retrieving apps from Microsoft Graph"
-    $tenantIdList = @("f8cdef31-a31e-4b4a-93e4-5f571e91255a", "72f988bf-86f1-41af-91ab-2d7cd011db47")
+    $tenantIdList = @("f8cdef31-a31e-4b4a-93e4-5f571e91255a", "72f988bf-86f1-41af-91ab-2d7cd011db47", "cdc5aeea-15c5-4db6-b079-fcadd2505dc2")
     $select = "appId,appDisplayName,appOwnerOrganizationId"
 
 
