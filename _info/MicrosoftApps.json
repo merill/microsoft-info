@@ -3108,6 +3108,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+    "AppDisplayName": "Microsoft Graph Command Line Tools",
+    "AppOwnerOrganizationId": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2",
+    "Source": "Graph"
+  },
+  {
     "AppId": "23523755-3a2b-41ca-9315-f81f3f566a95",
     "AppDisplayName": "ACOM Azure Website",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3525,12 +3531,6 @@
     "AppId": "e1ef36fd-b883-4dbf-97f0-9ece4b576fc6",
     "AppDisplayName": "Yammer Web Embed",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Learn"
-  },
-  {
-    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
-    "AppDisplayName": "Microsoft Graph Command Line Tools",
-    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Learn"
   },
   {
