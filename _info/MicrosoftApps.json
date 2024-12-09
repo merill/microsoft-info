@@ -3748,5 +3748,11 @@
     "AppDisplayName": "Report Message [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "6bf85cfa-ac8a-4be5-b5de-425a0d0dc016",
+    "AppDisplayName": "Microsoft Entra AD Synchronization Service [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
