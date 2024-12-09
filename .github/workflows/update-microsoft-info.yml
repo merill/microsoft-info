@@ -26,25 +26,35 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Azure AD Workload Identity Federation
-        uses: nicolonsky/WIF@v0.0.1
-        with:
-          tenant_id: '0817c655-a853-4d8f-9723-3a333b5b9235'
-          client_id: '38535360-9f3e-4b1e-a41e-b4af46afcb0c'
-          
+    steps:          
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y-%m-%d-T%H%M%S')" >> $GITHUB_ENV
+
+      - name: 'Az CLI login'
+        uses: azure/login@v2
+        with:
+            tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+            client-id: ${{ secrets.AZURE_CLIENT_ID }}
+            allow-no-subscriptions: true
 
       - name: Generate docs
-        run: |
-          Install-Module -Name Microsoft.Graph.Authentication
-          Install-Module -Name Microsoft.Graph.Applications
-          $token = $env:ACCESS_TOKEN | ConvertTo-SecureString -AsPlainText
-          Connect-MgGraph -AccessToken $token
-          ./src/Export-MicrosoftApps.ps1
-          ./src/Export-GraphPermissions.ps1
-        shell: pwsh
+        uses: azure/powershell@v2
+        with:
+          azPSVersion: "latest"
+          inlineScript: |
+            # Get Token
+            $token = az account get-access-token --resource-type ms-graph
+
+            # Connect to Microsoft Graph
+            $accessToken = ($token | ConvertFrom-Json).accessToken | ConvertTo-SecureString -AsPlainText -Force
+            Connect-MgGraph -AccessToken $accessToken
+
+            # Run export
+            ./src/Export-MicrosoftApps.ps1
+            ./src/Export-GraphPermissions.ps1        
         
       - name: Update repo
         run: |
