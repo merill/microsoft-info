@@ -426,6 +426,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "9e5d84af-8971-422f-968a-354cd675ae5b",
+    "AppDisplayName": "ComplianceAuthServer",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e1829006-9cf1-4d05-8b48-2e665cb48e6a",
     "AppDisplayName": "Microsoft Teams Web Client",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1170,6 +1176,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "934d626a-1ead-4a36-a77d-12ec63b87a0d",
+    "AppDisplayName": "Microsoft Rights Management Services Default",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a6aa9161-5291-40bb-8c5c-923b567bee3b",
     "AppDisplayName": "Storage Resource Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1184,6 +1196,12 @@
   {
     "AppId": "3eb95cef-b10f-46fe-94e0-969a3d4c9292",
     "AppDisplayName": "Office 365 Import Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "d05a94d3-4ebf-4d16-a4b5-c5157fe79490",
+    "AppDisplayName": "Prod-AzureSustainability",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
