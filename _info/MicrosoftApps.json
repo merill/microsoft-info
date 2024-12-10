@@ -1506,6 +1506,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "61f9e166-f678-4342-bfd3-b49781ce7a0a",
+    "AppDisplayName": "Teams Policy Notification Processor Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f9d02341-e7aa-456d-926d-4a0ca599fbee",
     "AppDisplayName": "Office 365 Enterprise Insights",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
