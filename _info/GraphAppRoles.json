@@ -1659,6 +1659,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all device templates, without a signed-in user.",
+    "DisplayName": "Read all device templates",
+    "Id": "dd9febb5-0c6d-419f-b256-3afe12c6adeb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceTemplate.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update and delete any device template, without a signed-in user. It also allows the app to add or remove owners on any device template.",
+    "DisplayName": "Read and write all device templates",
+    "Id": "9fadb66e-6421-4744-aede-4ab6fb98a884",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceTemplate.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read data in your organization's directory, such as users, groups and apps, without a signed-in user.",
     "DisplayName": "Read directory data",
     "Id": "7ab1d382-f21e-4acd-a863-ba3e13f7da61",
@@ -2961,6 +2985,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "MultiTenantOrganization.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read configuration used for OAuth 2.0 mutual-TLS client authentication, without a signed-in user. This includes reading trusted certificate authorities.",
+    "DisplayName": "Read all configurations used for mutual-TLS client authentication.",
+    "Id": "6daaff82-2880-496d-9d80-57e8e31195e2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MutualTlsOauthConfiguration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update configuration used for OAuth 2.0 mutual-TLS client authentication, without a signed-in user. This includes reading and updating trusted certificate authorities.",
+    "DisplayName": "Read and write all configurations used for mutual-TLS client authentication.",
+    "Id": "78bbf8cf-07d8-45ba-b0eb-1a7b48efbcf1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MutualTlsOauthConfiguration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

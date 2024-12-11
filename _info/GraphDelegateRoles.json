@@ -1572,6 +1572,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create device objects based on device templates owned by the signed-in user, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Create devices based on owned device templates",
+    "Id": "edc92e89-a987-48a9-911a-a7b1967dd7b1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create device objects based on device templates you own, on your behalf.",
+    "UserConsentDisplayName": "Create devices based on device templates you own",
+    "Value": "Device.CreateFromOwnedTemplate",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read a user's list of devices on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read user devices",
     "Id": "11d4cd79-5ba5-460f-803f-e22c8ab85ccd",
@@ -1773,6 +1785,30 @@
     "UserConsentDescription": "Allows the app to read and write Microsoft Intune service properties including device enrollment and third party service connection configuration.",
     "UserConsentDisplayName": "Read and write Microsoft Intune configuration",
     "Value": "DeviceManagementServiceConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all device templates, on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read all device templates",
+    "Id": "2bcae0b0-aa93-48e4-a9e4-855482dffdcd",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all device templates, on your behalf.",
+    "UserConsentDisplayName": "Read all device templates",
+    "Value": "DeviceTemplate.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update and delete the device template, on behalf of the signed in user. It also allows the app to add or remove owners on any device template.",
+    "AdminConsentDisplayName": "Read and write all device templates",
+    "Id": "2d372e98-f1ae-406c-a157-2ea83f6f5e4a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update and delete any device template, on your behalf. It also allows the app to add or remove owners on any device template.",
+    "UserConsentDisplayName": "Read and write all device templates",
+    "Value": "DeviceTemplate.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -3213,6 +3249,30 @@
     "UserConsentDescription": "Allows the app to read and write multi-tenant organization details and tenants on your behalf.",
     "UserConsentDisplayName": "Read and write multi-tenant organization details and tenants",
     "Value": "MultiTenantOrganization.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read configuration used for OAuth 2.0 mutual-TLS client authentication, on behalf of the signed-in user. This includes reading trusted certificate authorities.",
+    "AdminConsentDisplayName": "Read all configurations used for mutual-TLS client authentication.",
+    "Id": "51ae584e-e736-4718-897b-10af70f8e3cc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read configuration used for OAuth 2.0 mutual-TLS client authentication, on your behalf. This includes reading trusted certificate authorities.",
+    "UserConsentDisplayName": "Read all configurations used for mutual-TLS client authentication.",
+    "Value": "MutualTlsOauthConfiguration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update configuration used for OAuth 2.0 mutual-TLS client authentication, on behalf of the signed-in user. This includes adding and updating trusted certificate authorities.",
+    "AdminConsentDisplayName": "Read and write all configurations used for mutual-TLS client authentication.",
+    "Id": "a51115bc-f64f-498f-bcee-00dcd28f4a03",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update configuration used for OAuth 2.0 mutual-TLS client authentication, on your behalf. This includes adding and updating trusted certificate authorities.",
+    "UserConsentDisplayName": "Read and write all configurations used for mutual-TLS client authentication.",
+    "Value": "MutualTlsOauthConfiguration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
