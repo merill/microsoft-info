@@ -50,5 +50,15 @@ Follow the steps below if you need to set up this automation in your own repo.
 * Fork this repo
 * Create an app in your tenant with the Application.Read.All app permission following the instructions on this page to configure [Workload ID federation](https://github.com/marketplace/actions/azure-ad-workload-identity-federation)
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
