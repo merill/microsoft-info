@@ -30,6 +30,7 @@
 "8f41dc7c-542c-4bdd-8eb3-e60543f607ca","Microsoft Device Directory Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c728155f-7b2a-4502-a08b-b8af9b269319","AAD Request Verification Service - PROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cf53fce8-def6-4aeb-8d30-b158e7b1cf83","Microsoft Stream Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"f2537abf-644e-4a0d-9f7b-c91c45c643db","Teams Admin Monitoring Alerting Platform","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1d78a85d-813d-46f0-b496-dd72f50a3ec0","Microsoft Azure Policy Insights","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4ac7d521-0382-477b-b0f8-7e1d95f85ca2","Azure Analysis Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4660504c-45b3-4674-a709-71951a6b0763","Microsoft Invitation Acceptance Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
@@ -626,3 +627,4 @@
 "9758a0e2-7861-440f-b467-1823144e5b65","FindTime [Community Contributed]","","GitHub"
 "6046742c-3aee-485e-a4ac-92ab7199db2e","Report Message [Community Contributed]","","GitHub"
 "6bf85cfa-ac8a-4be5-b5de-425a0d0dc016","Microsoft Entra AD Synchronization Service [Community Contributed]","","GitHub"
+"bb893c22-978d-4cd4-a6f7-bb6cc0d6e6ce","Olympus [Community Contributed]","","GitHub"

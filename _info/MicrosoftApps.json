@@ -186,6 +186,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "f2537abf-644e-4a0d-9f7b-c91c45c643db",
+    "AppDisplayName": "Teams Admin Monitoring Alerting Platform",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1d78a85d-813d-46f0-b496-dd72f50a3ec0",
     "AppDisplayName": "Microsoft Azure Policy Insights",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3758,6 +3764,12 @@
   {
     "AppId": "6bf85cfa-ac8a-4be5-b5de-425a0d0dc016",
     "AppDisplayName": "Microsoft Entra AD Synchronization Service [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "bb893c22-978d-4cd4-a6f7-bb6cc0d6e6ce",
+    "AppDisplayName": "Olympus [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
   }
