@@ -4275,6 +4275,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read your organization's risk prevention providers, without a signed-in user.",
+    "DisplayName": "Read all identity risk prevention providers",
+    "Id": "2a6baefd-edea-4ff6-b24e-bebcaa27a50d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RiskPreventionProviders.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write your organization's risk prevention providers, without a signed-in user.",
+    "DisplayName": "Read and write all identity risk prevention providers",
+    "Id": "7fc7225d-eb37-4c39-90f3-a33a57cf1081",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RiskPreventionProviders.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the active role-based access control (RBAC) assignments and schedules for your company's directory, without a signed-in user. This includes reading directory role templates, and directory roles.",
     "DisplayName": "Read all active role assignments and role schedules for your company's directory",
     "Id": "d5fe8ce8-684c-4c83-a52c-46e882ce4be1",
@@ -5187,6 +5211,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in any chat, without a signed-in user. Gives the ability to manage permission grants for accessing those specific chats' data.",
+    "DisplayName": "Manage installation and permission grants of selected Teams apps in all chats",
+    "Id": "22b74aab-d9e4-46f7-9424-f24b42307227",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ManageSelectedForChat.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in any team, without a signed-in user. Gives the ability to manage permission grants for accessing those specific teams' data.",
+    "DisplayName": "Manage installation and permission grants of selected Teams apps in all teams",
+    "Id": "b448d252-1f26-4227-b6ff-21ab510975a2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ManageSelectedForTeam.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in any user account, without a signed-in user. Gives the ability to manage permission grants for accessing those specific users' data.",
+    "DisplayName": "Manage installation and permission grants of selected Teams apps for all user accounts",
+    "Id": "e97a9235-5b3c-43c4-b37d-6786a173fae4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ManageSelectedForUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the Teams apps that are installed in any scope, without a signed-in user. Does not give the ability to read application-specific settings.",
     "DisplayName": "Read installed Teams apps for all installation scopes",
     "Id": "0fdf35a5-82f8-41ff-9ded-0b761cc73512",
@@ -5229,6 +5289,42 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamsAppInstallation.ReadForUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the selected Teams apps that are installed in any chat, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Read selected installed Teams apps in all chats",
+    "Id": "53d40ddb-9b27-4c97-b800-985be6041990",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadSelectedForChat.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the selected Teams apps that are installed in any team, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Read selected installed Teams apps in all teams",
+    "Id": "93c6a289-70fd-489e-a053-6cf8f7d772f6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadSelectedForTeam.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an app to read, install, upgrade, and uninstall selected apps to any user, without a signed-in user.",
+    "DisplayName": "Read selected installed Teams apps for all users",
+    "Id": "44fb0e7c-1f9a-47f1-bb9e-7f92d48ed288",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadSelectedForUser.All",
     "AdditionalProperties": {}
   },
   {
@@ -5337,6 +5433,42 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamsAppInstallation.ReadWriteForUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in any chat, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Manage selected installed Teams apps in all chats",
+    "Id": "25bbeaad-04be-4207-83ed-a263aae76ddf",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForChat.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in any team, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Manage selected installed Teams apps in all teams",
+    "Id": "7b5823ae-d0f2-424d-b90c-d843ffada7d9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForTeam.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, install, upgrade, and uninstall selected Teams apps for any user, without a signed-in user. Does not give the ability to read application-specific settings.",
+    "DisplayName": "Manage selected Teams apps installed for all users",
+    "Id": "650a76ec-4118-4b25-9d3a-1f98048a5ee0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForUser.All",
     "AdditionalProperties": {}
   },
   {

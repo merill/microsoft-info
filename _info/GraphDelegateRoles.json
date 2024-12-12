@@ -4800,6 +4800,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your organization's risk prevention providers, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all identity risk prevention providers",
+    "Id": "e197c06f-ae7b-4398-b0a2-89f76ebca159",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's risk prevention providers, on your behalf.",
+    "UserConsentDisplayName": "Read all identity risk prevention providers",
+    "Value": "RiskPreventionProviders.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your organization's risk prevention providers, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all identity risk prevention providers",
+    "Id": "2a7babba-9623-4109-bc9c-79728cf3bb4f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your organization's risk prevention providers, on your behalf.",
+    "UserConsentDisplayName": "Read and write all identity risk prevention providers",
+    "Value": "RiskPreventionProviders.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the active role-based access control (RBAC) assignments for your company's directory, on behalf of the signed-in user. This includes reading directory role templates, and directory roles.",
     "AdminConsentDisplayName": "Read all active role assignments for your company's directory",
     "Id": "344a729c-0285-42c6-9014-f12b9b8d6129",
@@ -5760,6 +5784,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in chats the signed-in user can access. Gives the ability to manage permission grants for accessing those specific chats' data.",
+    "AdminConsentDisplayName": "Manage installation and permission grants of selected Teams apps in chats",
+    "Id": "d1ba22c6-3f02-4c91-addb-bc3399bcca88",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in chats the signed-in user can access. Gives the ability to manage permission grants for accessing those specific chats' data.",
+    "UserConsentDisplayName": "Manage installation and permission grants of selected Teams apps in chats",
+    "Value": "TeamsAppInstallation.ManageSelectedForChat",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall Teams apps in teams the signed-in user can access. Gives the ability to manage permission grants for accessing those specific teams' data.",
+    "AdminConsentDisplayName": "Manage installation and permission grants of selected Teams apps in teams",
+    "Id": "c67b2d7e-6b80-4218-938a-05e73058e42d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall Teams apps in teams the signed-in user can access. Gives the ability to manage permission grants for accessing those specific teams' data.",
+    "UserConsentDisplayName": "Manage installation and permission grants of selected Teams apps in teams",
+    "Value": "TeamsAppInstallation.ManageSelectedForTeam",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall seleected Teams apps in user accounts, on behalf of the signed-in user. Gives the ability to manage permission grants for accessing those specific users' data.",
+    "AdminConsentDisplayName": "Manage installation and permission grants of selected Teams apps in users' personal scope",
+    "Id": "830c2bd9-c335-4caf-bf83-c07fa8a23ef1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall seleected Teams apps in user accounts, on behalf of the signed-in user. Gives the ability to manage permission grants for accessing those specific users' data.",
+    "UserConsentDisplayName": "Manage installation and permission grants of selected Teams apps in users' personal scope",
+    "Value": "TeamsAppInstallation.ManageSelectedForUser",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the Teams apps that are installed in chats the signed-in user can access. Does not give the ability to read application-specific settings.",
     "AdminConsentDisplayName": "Read installed Teams apps in chats",
     "Id": "bf3fbf03-f35f-4e93-963e-47e4d874c37a",
@@ -5793,6 +5853,42 @@
     "UserConsentDescription": "Allows the app to read the Teams apps that are installed for you. Does not give the ability to read application-specific settings.",
     "UserConsentDisplayName": "Read your installed Teams apps",
     "Value": "TeamsAppInstallation.ReadForUser",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the selected Teams apps that are installed in chats the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Read selected installed Teams apps in chats",
+    "Id": "0f3420c2-c6ec-46de-ab72-fd51267087d5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the selected Teams apps that are installed in chats the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Read selected installed Teams apps in chats",
+    "Value": "TeamsAppInstallation.ReadSelectedForChat",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the selected Teams apps that are installed in teams the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Read selected installed Teams apps in teams",
+    "Id": "b55df1c0-db20-435b-aef2-afe6ed487e16",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the selected Teams apps that are installed in teams the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Read selected installed Teams apps in teams",
+    "Value": "TeamsAppInstallation.ReadSelectedForTeam",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the selected Teams apps that are installed for the signed-in user. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Read user's selected installed Teams apps",
+    "Id": "fe2e4e1d-101f-4fb2-9cb1-9d6659db45d4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the selected Teams apps that are installed for the signed-in user. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Read user's selected installed Teams apps",
+    "Value": "TeamsAppInstallation.ReadSelectedForUser",
     "AdditionalProperties": {}
   },
   {
@@ -5901,6 +5997,42 @@
     "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall Teams apps installed for you. Does not give the ability to read application-specific settings.",
     "UserConsentDisplayName": "Manage your installed Teams apps",
     "Value": "TeamsAppInstallation.ReadWriteForUser",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in chats the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Manage selected Teams apps installed in chats",
+    "Id": "690aa3b6-4b71-41c2-a990-77a8c4768d2b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in chats the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Manage selected Teams apps installed in chats",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForChat",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in teams the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Manage selected Teams apps installed in teams",
+    "Id": "9131c833-9a49-4c54-b38f-615ecfc4fc69",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps in teams the signed-in user can access. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Manage selected Teams apps installed in teams",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForTeam",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps installed for the signed in user. Does not give the ability to read application-specific settings.",
+    "AdminConsentDisplayName": "Manage selected Teams apps installed for a user",
+    "Id": "ea819e27-c92a-4118-b83b-4540b125d744",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, install, upgrade, and uninstall selected Teams apps installed for the signed in user. Does not give the ability to read application-specific settings.",
+    "UserConsentDisplayName": "Manage selected Teams apps installed for a user",
+    "Value": "TeamsAppInstallation.ReadWriteSelectedForUser",
     "AdditionalProperties": {}
   },
   {
