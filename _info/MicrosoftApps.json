@@ -3778,5 +3778,11 @@
     "AppDisplayName": "Olympus [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "9bc3ab49-b65d-410a-85ad-de819febfddc",
+    "AppDisplayName": "Microsoft SharePoint Online Management Shell [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
