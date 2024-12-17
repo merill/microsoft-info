@@ -5535,6 +5535,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow the app to read or write/update the policy assignment and unassigment for Teams users for all policy type categories.",
+    "DisplayName": "Read and Write Teams policy user assignment and unassigment for all policy types.",
+    "Id": "1801e8f4-cf09-4c4e-a1b5-036dfcca6c90",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsPolicyUserAssign.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create tabs in any team in Microsoft Teams, without a signed-in user. This does not grant the ability to read, modify or delete tabs after they are created, or give access to the content inside the tabs.",
     "DisplayName": "Create tabs in Microsoft Teams.",
     "Id": "49981c42-fd7b-4530-be03-e77b21aed25e",

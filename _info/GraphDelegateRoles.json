@@ -6096,6 +6096,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the app to read or write/update the policy assignment and unassigment for Teams users for all policy type categories.",
+    "AdminConsentDisplayName": "Read and Write Teams policy user assignment and unassigment for all policy types.",
+    "Id": "6997c35c-a586-440c-8a0b-4ffe5d118dc0",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the app to read or write/update the policy assignment and unassigment for Teams users for all policy type categories.",
+    "UserConsentDisplayName": "Read and Write Teams policy user assignment and unassigment for all policy types.",
+    "Value": "TeamsPolicyUserAssign.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create tabs in any team in Microsoft Teams, on behalf of the signed-in user. This does not grant the ability to read, modify or delete tabs after they are created, or give access to the content inside the tabs.",
     "AdminConsentDisplayName": "Create tabs in Microsoft Teams.",
     "Id": "a9ff19c2-f369-4a95-9a25-ba9d460efc8e",

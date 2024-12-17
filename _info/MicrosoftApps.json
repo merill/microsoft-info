@@ -1009,7 +1009,7 @@
   },
   {
     "AppId": "6b5b3617-ba00-46f6-8770-1849282a189a",
-    "AppDisplayName": "Microsoft Defender For Cloud API",
+    "AppDisplayName": "Microsoft Defender For Cloud",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
