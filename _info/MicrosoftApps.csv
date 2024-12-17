@@ -167,6 +167,7 @@
 "c505e273-0ba0-47e7-a0bd-f48042b4524d","AzureBackup_WBCM_Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c161e42e-d4df-4a3d-9b42-e7a3c31f59d4","Microsoft Intune API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b46c3ac5-9da6-418f-a849-0a07a10b3c6c","Cloud Infrastructure Entitlement Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"6b5b3617-ba00-46f6-8770-1849282a189a","Microsoft Defender For Cloud API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1fe0d6b3-81f0-4cf5-9dfd-fbb297d7848c","Microsoft Insider Risk Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c9224372-5534-42cb-a48b-8db4f4a3892e","MS Teams Griffin Assistant","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "12743ff8-d3de-49d0-a4ce-6c91a4245ea0","Metrics Monitor API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
