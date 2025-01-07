@@ -32,6 +32,11 @@ jobs:
 
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%d-T%H%M%S')" >> $GITHUB_ENV
+      
+      - name: Display Info
+        run: |
+          echo "tenant-id=${{ env.AZURE_TENANT_ID }}"
+          echo "client-id=${{ env.AZURE_CLIENT_ID }}"
 
       - name: 'Az CLI login'
         uses: azure/login@v2
