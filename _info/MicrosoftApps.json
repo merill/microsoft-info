@@ -3784,5 +3784,11 @@
     "AppDisplayName": "Microsoft SharePoint Online Management Shell [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+    "AppDisplayName": "Microsoft Teams Copilot Bot [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]

@@ -32,12 +32,12 @@ jobs:
 
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%d-T%H%M%S')" >> $GITHUB_ENV
-
+      
       - name: 'Az CLI login'
         uses: azure/login@v2
         with:
-            tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-            client-id: ${{ secrets.AZURE_CLIENT_ID }}
+            tenant-id: ${{ vars.AZURE_TENANT_ID }}
+            client-id: ${{ vars.AZURE_CLIENT_ID }}
             allow-no-subscriptions: true
 
       - name: Generate docs
