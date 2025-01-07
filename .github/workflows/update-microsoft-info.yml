@@ -39,6 +39,7 @@ jobs:
             tenant-id: ${{ env.AZURE_TENANT_ID }}
             client-id: ${{ env.AZURE_CLIENT_ID }}
             allow-no-subscriptions: true
+            enable-AzPSSession: true
 
       - name: Generate docs
         uses: azure/powershell@v2
