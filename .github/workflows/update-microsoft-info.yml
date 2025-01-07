@@ -35,14 +35,14 @@ jobs:
       
       - name: Display Info
         run: |
-          echo "tenant-id=${{ env.AZURE_TENANT_ID }}"
-          echo "client-id=${{ env.AZURE_CLIENT_ID }}"
+          echo "tenant-id=${{ vars.AZURE_TENANT_ID }}"
+          echo "client-id=${{ vars.AZURE_CLIENT_ID }}"
 
       - name: 'Az CLI login'
         uses: azure/login@v2
         with:
-            tenant-id: ${{ env.AZURE_TENANT_ID }}
-            client-id: ${{ env.AZURE_CLIENT_ID }}
+            tenant-id: ${{ vars.AZURE_TENANT_ID }}
+            client-id: ${{ vars.AZURE_CLIENT_ID }}
             allow-no-subscriptions: true
             enable-AzPSSession: true
 
