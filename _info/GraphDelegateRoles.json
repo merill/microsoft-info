@@ -1145,7 +1145,7 @@
     "Id": "c645bb69-adc4-4242-b620-02e635f03bf6",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "User",
+    "Type": "Admin",
     "UserConsentDescription": "Allows the app to read all Configuration Monitoring entities on your behalf.",
     "UserConsentDisplayName": "Read all Configuration Monitoring entities",
     "Value": "ConfigurationMonitoring.Read.All",
@@ -1157,7 +1157,7 @@
     "Id": "54505ce9-e719-41f7-a7cc-dbe114e1d811",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "User",
+    "Type": "Admin",
     "UserConsentDescription": "Allows the app to read and write all Configuration Monitoring entities on your behalf.",
     "UserConsentDisplayName": "Read and write all Configuration Monitoring entities",
     "Value": "ConfigurationMonitoring.ReadWrite.All",
@@ -6105,6 +6105,18 @@
     "UserConsentDescription": "Allow the app to read or write/update the policy assignment and unassigment for Teams users for all policy type categories.",
     "UserConsentDisplayName": "Read and Write Teams policy user assignment and unassigment for all policy types.",
     "Value": "TeamsPolicyUserAssign.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your tenant's resource accounts on behalf of the signed-in admin user.",
+    "AdminConsentDisplayName": "Read Teams resource accounts",
+    "Id": "ea2cbd09-253c-4f69-a0e6-07383c5f07cc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's resource accounts on behalf of the signed-in admin user.",
+    "UserConsentDisplayName": "Read Teams resource accounts",
+    "Value": "TeamsResourceAccount.Read.All",
     "AdditionalProperties": {}
   },
   {

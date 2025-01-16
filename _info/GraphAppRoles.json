@@ -5547,6 +5547,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read your tenant's resource accounts without a signed-in user.",
+    "DisplayName": "Read Teams resource accounts",
+    "Id": "b55aa226-33a1-4396-bcf4-edce5e7a31c1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsResourceAccount.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create tabs in any team in Microsoft Teams, without a signed-in user. This does not grant the ability to read, modify or delete tabs after they are created, or give access to the content inside the tabs.",
     "DisplayName": "Create tabs in Microsoft Teams.",
     "Id": "49981c42-fd7b-4530-be03-e77b21aed25e",
