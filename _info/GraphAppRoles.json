@@ -1635,6 +1635,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attribute shell scripts and device health scripts, without a signed-in user.",
+    "DisplayName": "Read Microsoft Intune Scripts",
+    "Id": "c7a5be92-2b3d-4540-8a67-c96dcaae8b43",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementScripts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attribute shell scripts and device health scripts, without a signed-in user.",
+    "DisplayName": "Read and write Microsoft Intune Scripts",
+    "Id": "9255e99d-faf5-445e-bbf7-cb71482737c4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementScripts.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read Microsoft Intune service properties including device enrollment and third party service connection configuration, without a signed-in user.",
     "DisplayName": "Read Microsoft Intune configuration",
     "Id": "06a5fe6d-c49d-46a7-b082-56b1b14103c7",
@@ -1653,6 +1677,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "DeviceManagementServiceConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create device templates. The app is marked as owner of the created device template. As a member of owners, the app will be allowed to manage devices created from the template.",
+    "DisplayName": "Create device template",
+    "Id": "abf6441f-0772-4932-96e7-0191478dd73a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceTemplate.Create",
     "AdditionalProperties": {}
   },
   {

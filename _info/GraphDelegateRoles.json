@@ -1764,6 +1764,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attribute shell scripts and device health scripts on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read Microsoft Intune Scripts",
+    "Id": "d32381d8-ee89-4220-9c83-b672aa68d404",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attripute shell scripts and device health scripts.",
+    "UserConsentDisplayName": "Read Microsoft Intune Scripts",
+    "Value": "DeviceManagementScripts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attribute shell scripts and device health scripts on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Read and write Microsoft Intune Scripts",
+    "Id": "8b9d79d0-ad75-4566-8619-f7500ecfcebe",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write Microsoft Intune device compliance scripts, device management scripts, device shell scripts, device custom attripute shell scripts and device health scripts.",
+    "UserConsentDisplayName": "Read and write Microsoft Intune Scripts",
+    "Value": "DeviceManagementScripts.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read Microsoft Intune service properties including device enrollment and third party service connection configuration.",
     "AdminConsentDisplayName": "Read Microsoft Intune configuration",
     "Id": "8696daa5-bce5-4b2e-83f9-51b6defc4e1e",
@@ -1785,6 +1809,18 @@
     "UserConsentDescription": "Allows the app to read and write Microsoft Intune service properties including device enrollment and third party service connection configuration.",
     "UserConsentDisplayName": "Read and write Microsoft Intune configuration",
     "Value": "DeviceManagementServiceConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create device templates on behalf of the signed in user. The user is marked as owners of the created device template. As a member of owners, the user will be allowed to manage devices created from the template.",
+    "AdminConsentDisplayName": "Create device templates",
+    "Id": "0b1717ff-3e42-4a73-8c29-e6b2e1093960",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create device templates on your behalf. You will be marked as owners of the created device template. As a member of owners, you will be allowed to manage devices created from the template.",
+    "UserConsentDisplayName": "Create device templates",
+    "Value": "DeviceTemplate.Create",
     "AdditionalProperties": {}
   },
   {
