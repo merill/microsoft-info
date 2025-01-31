@@ -2820,6 +2820,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to view and start IndustryData runs on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "View and start runs",
+    "Id": "f03a6d0e-0989-460f-80b2-e57c8561763e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to view and start IndustryData runs on your behalf.",
+    "UserConsentDisplayName": "View and start runs",
+    "Value": "IndustryData-Run.Start",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read source system definitions on behalf of the signed-in user.",
     "AdminConsentDisplayName": "View source system definitions",
     "Id": "49b7016c-89ae-41e7-bd6f-b7170c5490bf",

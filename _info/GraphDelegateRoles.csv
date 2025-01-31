@@ -234,6 +234,7 @@
 "a3f96ffe-cb84-40a8-ac85-582d7ef97c2a","IndustryData-ReferenceDefinition.Read.All","View reference definitions","Allows the app to read reference definitions on behalf of the signed-in user."
 "a757d430-be6d-430f-af57-28aabe79d247","IndustryData-ReferenceDefinition.ReadWrite.All","Manage reference definitions","Allows the app to read and write reference definitions on behalf of the signed-in user."
 "92685235-50c4-4702-b2c8-36043db6fa79","IndustryData-Run.Read.All","View current and previous runs","Allows the app to read current and previous IndustryData runs on behalf of the signed-in user."
+"f03a6d0e-0989-460f-80b2-e57c8561763e","IndustryData-Run.Start","View and start runs","Allows the app to view and start IndustryData runs on behalf of the signed-in user."
 "49b7016c-89ae-41e7-bd6f-b7170c5490bf","IndustryData-SourceSystem.Read.All","View source system definitions","Allows the app to read source system definitions on behalf of the signed-in user."
 "9599f005-05d6-4ea7-b1b1-4929768af5d0","IndustryData-SourceSystem.ReadWrite.All","Manage source system definitions","Allows the app to read and write source system definitions on behalf of the signed-in user."
 "c9d51f28-8ccd-42b2-a836-fd8fe9ebf2ae","IndustryData-TimePeriod.Read.All","Read time period definitions","Allows the app to read time period definitions on behalf of the signed-in user."

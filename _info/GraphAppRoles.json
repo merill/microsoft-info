@@ -2595,6 +2595,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to view and start IndustryData runs without a signed-in user.",
+    "DisplayName": "View and start runs",
+    "Id": "7e429772-5b5e-47c0-8fd6-7279294c8033",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IndustryData-Run.Start",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read source system definitions without a signed-in user.",
     "DisplayName": "View source system definitions",
     "Id": "bc167a60-39fe-4865-8b44-78400fc6ed03",
@@ -5133,6 +5145,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SynchronizationData-User.Upload",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to upload bulk user data to the identity synchronization service for apps that this application creates or owns, without a signed-in user.",
+    "DisplayName": "Upload user data to the identity sync service for apps that this application creates or owns",
+    "Id": "25c32ff3-849a-494b-b94f-20a8ac4e6774",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SynchronizationData-User.Upload.OwnedBy",
     "AdditionalProperties": {}
   },
   {
