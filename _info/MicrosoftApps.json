@@ -3306,6 +3306,12 @@
     "Source": "Learn"
   },
   {
+    "AppId": "6326e366-9d6d-4c70-b22a-34c7ea72d73d",
+    "AppDisplayName": "Microsoft Exchange Message Tracking Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Learn"
+  },
+  {
     "AppId": "fc0f3af4-6835-4174-b806-f7db311fd2f3",
     "AppDisplayName": "Microsoft Intune Windows Agent",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3516,6 +3522,12 @@
     "Source": "Learn"
   },
   {
+    "AppId": "fe93bfe1-7947-460a-a5e0-7a5906b51360",
+    "AppDisplayName": "Viva Insights",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Learn"
+  },
+  {
     "AppId": "3c896ded-22c5-450f-91f6-3d1ef0848f6e",
     "AppDisplayName": "WeveEngine",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3562,12 +3574,6 @@
     "AppDisplayName": "Vortex [wsfed enabled]",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Learn"
-  },
-  {
-    "AppId": "fe93bfe1-7947-460a-a5e0-7a5906b51360",
-    "AppDisplayName": "Exchange Online [Community Contributed]",
-    "AppOwnerOrganizationId": "",
-    "Source": "GitHub"
   },
   {
     "AppId": "a3883eba-fbe9-48bd-9ed3-dca3e0e84250",
