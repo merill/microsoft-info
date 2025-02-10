@@ -180,6 +180,7 @@
 "0517ffae-825d-4aff-999e-3f2336b8a20a","M365 App Management Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6da466b6-1d13-4a2c-97bd-51a99e8d4d74","Exchange Office Graph Client for AAD - Interactive","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5e5e43d4-54da-4211-86a4-c6e7f3715801","Azure Regional Service Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"32b6d34b-c894-4971-8223-e17b86e9ad26","Signal B2 Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1fec8e78-bce4-4aaf-ab1b-5451cc387264","Microsoft Teams","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0c708d37-30b2-4f22-8168-5d0cba6f37be","Microsoft Teams Partner Tenant Administration ","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "562db366-1b96-45d2-aa4a-f2148cef2240","Diagnostic Services Trusted Storage Access","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
