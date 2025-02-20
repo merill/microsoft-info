@@ -363,6 +363,7 @@
 "6872b314-67ab-4a16-98e7-a663b0f772c3","Office365 Shell SS-Server Default","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e8bdeda8-b4a3-4eed-b307-5e2456238a77","Office365 Shell SS-Server","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b861dbcc-a7ef-4219-a005-0e4de4ea7dcf","Data Export Service for Microsoft Dynamics 365","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"a882f5bd-2492-44fe-bb55-a811aab59451","Intune Compliance Client Prod","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "19b21e10-1304-498b-92d4-4290e94999fa","Deprecated - CAS API Security RP Staging","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f25a7567-8ec5-4582-8a65-bfd66b0530cc","ReportReplica","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "789e8929-0390-42a2-8934-0f9dafb8ec89","Exchange Rbac","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
