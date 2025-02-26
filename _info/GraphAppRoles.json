@@ -5859,6 +5859,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read your tenant's acquired telephone number details, without a signed-in user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "DisplayName": "Read Tenant-Acquired Telephone Number Details",
+    "Id": "39b17d18-680c-41f4-b9c2-5f30629e7cb6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsTelephoneNumber.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's acquired telephone number details, without a signed-in user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "DisplayName": "Read and Modify Tenant-Acquired Telephone Number Details",
+    "Id": "0a42382f-155c-4eb1-9bdc-21548ccaa387",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsTelephoneNumber.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your tenant's user configurations, without a signed-in user. User configuration may include attributes related to user, such as telephone number, assigned policies, etc.",
     "DisplayName": "Read Teams user configurations",
     "Id": "a91eadaf-2c3c-4362-908b-fb172d208fc6",

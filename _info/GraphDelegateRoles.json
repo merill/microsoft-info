@@ -6396,6 +6396,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your tenant's acquired telephone number details on behalf of the signed-in admin user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "AdminConsentDisplayName": "Read Tenant-Acquired Telephone Number Details",
+    "Id": "1bc6eab1-058d-4557-b011-d4c41cec88b7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's acquired telephone number details on behalf of the signed-in admin user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "UserConsentDisplayName": "Read Tenant-Acquired Telephone Number Details",
+    "Value": "TeamsTelephoneNumber.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and modify your tenant's acquired telephone number details on behalf of the signed-in admin user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "AdminConsentDisplayName": "Read and Modify Tenant-Acquired Telephone Number Details",
+    "Id": "424b07a8-1209-4d17-9fe4-9018a93a1024",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and modify your tenant's acquired telephone number details on behalf of the signed-in admin user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "UserConsentDisplayName": "Read and Modify Tenant-Acquired Telephone Number Details",
+    "Value": "TeamsTelephoneNumber.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your tenant's user configurations on behalf of the signed-in admin user. User configuration may include attributes related to user, such as telephone number, assigned policies, etc.",
     "AdminConsentDisplayName": "Read Teams user configurations",
     "Id": "5c469ce4-dab5-4afd-b9de-14f1ba4004a7",
