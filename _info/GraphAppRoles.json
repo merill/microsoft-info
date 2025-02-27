@@ -699,6 +699,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read delegation settings of you",
+    "DisplayName": "Read delegation settings",
+    "Id": "5aa33e77-b893-495e-bdc5-4bf6f27d42a0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallDelegation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write delegation settings of you",
+    "DisplayName": "Read and write delegation settings",
+    "Id": "8d06abce-e69b-4122-ba60-4f901bb1db2f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallDelegation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read emergency call event information for all users in your organization without a signed-in user.",
     "DisplayName": "Read all emergency call events",
     "Id": "f0a35f91-2aa6-4a99-9d5a-5b6bcb66204e",
@@ -2595,6 +2619,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to view and start IndustryData runs without a signed-in user.",
+    "DisplayName": "View and start runs",
+    "Id": "7e429772-5b5e-47c0-8fd6-7279294c8033",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IndustryData-Run.Start",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read source system definitions without a signed-in user.",
     "DisplayName": "View source system definitions",
     "Id": "bc167a60-39fe-4865-8b44-78400fc6ed03",
@@ -2787,12 +2823,108 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows an app to read license assignments for users and groups, without a signed-in user.",
+    "DisplayName": "Read all license assignments.",
+    "Id": "e2f98668-2877-4f38-a2f4-8202e0717aa1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LicenseAssignment.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows an app to manage license assignments for users and groups, without a signed-in user.",
     "DisplayName": "Manage all license assignments",
     "Id": "5facf0c1-8979-4e95-abcf-ff3d079771c0",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "LicenseAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all Lifecycle workflows custom task extensions without a signed-in user.",
+    "DisplayName": "Read all Lifecycle workflows custom task extensionss",
+    "Id": "2cb19e7d-9012-40bf-9a22-69fc776af8b0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-CustomExt.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, update, list, read and delete all Lifecycle workflows custom task extensions without a signed-in user.",
+    "DisplayName": "Read and write all Lifecycle workflows custom task extensions",
+    "Id": "3351c766-bacc-4d93-94fa-f2c8b1986ee7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-CustomExt.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all Lifecycle workflows reports without a signed-in user.",
+    "DisplayName": "Read all Lifecycle workflows reports",
+    "Id": "fe615156-48b5-4c83-b613-e6e31a43c446",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-Reports.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app run workflows on-demand without a signed-in user.",
+    "DisplayName": "Run workflows on-demand in Lifecycle workflows",
+    "Id": "3a87a643-13d2-47aa-8d6a-b0a8377cb03b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-Workflow.Activate",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to list and read all workflows and tasks without a signed-in user.",
+    "DisplayName": "Read all workflows in Lifecycle workflows",
+    "Id": "03b0ad3e-fc2b-4ef1-b0ff-252e865cb608",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-Workflow.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to list all workflows without a signed-in user.",
+    "DisplayName": "List all workflows in Lifecycle workflows",
+    "Id": "021ea6db-c06b-45c6-8c9c-c1cd9a37a483",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-Workflow.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, update, list, read and delete all workflows and tasks in lifecycle workflows without a signed-in user.",
+    "DisplayName": "Read and write all workflows in Lifecycle workflows",
+    "Id": "94c88098-1d9d-4c42-a356-4d5a95312554",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecycleWorkflows-Workflow.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -4995,6 +5127,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow the application to archive/reactivate site collections without a signed in user.",
+    "DisplayName": "Archive/reactivate Site Collections without a signed in user.",
+    "Id": "e3530185-4080-478c-a4ab-39322704df58",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.Archive.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to have full control of all site collections without a signed in user.",
     "DisplayName": "Have full control of all site collections",
     "Id": "a82116e5-55eb-4c41-a434-62fe8a61c773",
@@ -5133,6 +5277,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SynchronizationData-User.Upload",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to upload bulk user data to the identity synchronization service for apps that this application creates or owns, without a signed-in user.",
+    "DisplayName": "Upload user data to the identity sync service for apps that this application creates or owns",
+    "Id": "25c32ff3-849a-494b-b94f-20a8ac4e6774",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SynchronizationData-User.Upload.OwnedBy",
     "AdditionalProperties": {}
   },
   {
@@ -5697,6 +5853,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamsTab.ReadWriteSelfForUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's acquired telephone number details, without a signed-in user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "DisplayName": "Read Tenant-Acquired Telephone Number Details",
+    "Id": "39b17d18-680c-41f4-b9c2-5f30629e7cb6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsTelephoneNumber.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's acquired telephone number details, without a signed-in user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc.",
+    "DisplayName": "Read and Modify Tenant-Acquired Telephone Number Details",
+    "Id": "0a42382f-155c-4eb1-9bdc-21548ccaa387",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamsTelephoneNumber.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
