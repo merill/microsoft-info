@@ -1,12 +1,13 @@
- <#
+<#
         .SYNOPSIS
         Creates a list of Microsoft first party apps with app id and display name and exports to csv and json.
 
         .DESCRIPTION
         This scripts retrieves a list of apps in the following order
         1. Microsoft Graph (apps where appOwnerOrganizationId is Microsoft)
-        2. Microsoft Learn doc (https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in)
-        3. Custom list of apps (./customdata/MysteryApps.csv) - Community contributed list of Microsoft apps and their app ids
+        2. Microsoft Entra docs (from known-guids.json in the Entra docs repository)
+        3. Microsoft Learn doc (https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in)
+        4. Custom list of apps (./customdata/MysteryApps.csv) - Community contributed list of Microsoft apps and their app ids
 
         This script assumes the current session is connected to Microsoft Graph with the scope Application.Read.All
         .EXAMPLE
@@ -65,6 +66,42 @@ function GetAppsFromMicrosoftLearnDoc() {
     return $appList
 }
 
+function GetAppsFromEntraDocs() {
+    Write-Host "Retrieving apps from Entra documentation source"
+    $docsJsonUri = "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/.docutune/dictionaries/known-guids.json"
+
+    try {
+        # Use -AsHashtable to handle case-insensitive keys
+        $jsonContent = Invoke-WebRequest -Uri $docsJsonUri -ErrorAction Stop |
+                       Select-Object -ExpandProperty Content |
+                       ConvertFrom-Json -AsHashtable
+
+        $appList = @()
+
+        foreach ($key in $jsonContent.Keys) {
+            # The key is the display name and the value is the guid/appId
+            $appDisplayName = $key
+            $appId = $jsonContent[$key]
+
+            # Verify the value is a valid GUID
+            $guid = [System.Guid]::Empty
+            $itemInfo = [ordered]@{
+                AppId                  = $appId + ""
+                AppDisplayName         = $appDisplayName + ""
+                AppOwnerOrganizationId = ""
+                Source                 = "EntraDocs"
+            }
+            $appList += $itemInfo
+        }
+
+        return $appList
+    }
+    catch {
+        Write-Error "Failed to retrieve data from Entra documentation: $_"
+        return @()
+    }
+}
+
 function GetAppsFromMicrosoftGraph() {
     Write-Host "Retrieving apps from Microsoft Graph"
     $tenantIdList = @("f8cdef31-a31e-4b4a-93e4-5f571e91255a", "72f988bf-86f1-41af-91ab-2d7cd011db47", "cdc5aeea-15c5-4db6-b079-fcadd2505dc2")
@@ -94,6 +131,7 @@ $appList = @()
 
 # Sources at the top take priority, duplicates from sources that are lower are skipped.
 $appList += GetAppsFromMicrosoftGraph
+$appList += GetAppsFromEntraDocs
 $appList += GetAppsFromMicrosoftLearnDoc
 $appList += Import-Csv $CustomAppDataPath | ForEach-Object { $_.AppDisplayName = $_.AppDisplayName.trim() + " [Community Contributed]"; $_ }
 
@@ -115,6 +153,9 @@ New-Item -ItemType Directory -Force -Path $OutputPath | Out-Null
 
 $outputFilePathCsv = Join-Path $OutputPath "MicrosoftApps.csv"
 $outputFilePathJson = Join-Path $OutputPath "MicrosoftApps.json"
+
+# Debugging
+$appList | Export-Csv (Join-Path $OutputPath "MicrosoftApps.debug.csv")
 
 $uniqueAppList | Export-Csv $outputFilePathCsv
 $uniqueAppList | ConvertTo-Json | Out-File $outputFilePathJson

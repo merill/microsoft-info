@@ -35,6 +35,8 @@ This repository runs a daily automation to generate the latest list of Microsoft
 
 * **Microsoft Graph** → `$filter = appOwnerOrganizationId eq [MicrosoftTenant]`
   * Run a query against a demo Microsoft 365 tenant and get a list of all the apps that belong to Microsoft.
+* **Microsoft Entra Docs** → [Known Guids](https://github.com/MicrosoftDocs/entra-docs/blob/main/.docutune/dictionaries/known-guids.json)
+  * Get the list GUIDs from the known guids file in the Microsoft Entra docs repo.
 * **Microsoft Learn** → [Verify first-party Microsoft applications in sign-in reports](https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in)
   * Parse the markdown from the tables in [this Microsoft Learn doc](https://learn.microsoft.com/troubleshoot/azure/active-directory/verify-first-party-apps-sign-in)
 * **Community contributed app names** → [./customdata/OtherMicrosoftApps.csv](/customdata/OtherMicrosoftApps.csv)
