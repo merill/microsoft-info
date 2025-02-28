@@ -24514,5 +24514,11 @@
     "AppDisplayName": "Microsoft Purview Platform [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "81feaced-5ddd-41e7-8bef-3e20a2689bb7",
+    "AppDisplayName": "AMC PROD [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
