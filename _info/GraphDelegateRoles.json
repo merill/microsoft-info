@@ -2136,6 +2136,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to list a user's Viva Engage roles, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read a user's Viva Engage roles ",
+    "Id": "9f1da0fc-345c-4dfb-bab5-5215a073a417",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to list your Viva Engage roles, on your behalf.",
+    "UserConsentDisplayName": "Read your Viva Engage roles",
+    "Value": "EngagementRole.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to list all Viva Engage roles and role memberships on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all Viva Engage roles and role memberships",
+    "Id": "3cad91a5-8413-4c4a-acfe-dfeb83d1366d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to list all Viva Engage roles and role memberships on your behalf.",
+    "UserConsentDisplayName": "Read all Viva Engage roles and memberships",
+    "Value": "EngagementRole.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to assign Viva Engage role to a user, and remove a Viva Engage role from a user behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Modify Viva Engage role membership",
+    "Id": "4905982d-6459-4ccd-949c-949fefc0a8f2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to assign Viva Engage role to a user, and remove a Viva Engage role from a user on your behalf.",
+    "UserConsentDisplayName": "Modify Viva Engage role membership",
+    "Value": "EngagementRole.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read access packages and related entitlement management resources on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all entitlement management resources",
     "Id": "5449aa12-1393-4ea2-a7c7-d0e06c1a56b2",

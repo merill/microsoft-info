@@ -2019,6 +2019,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create Viva Engage conversations without a signed-in user.",
+    "DisplayName": "Read and write all Viva Engage conversations",
+    "Id": "e1d2136d-eaaf-427a-a7db-f97dbe847c27",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementConversation.Migration.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to list all Viva Engage roles and role memberships without a signed-in user.",
+    "DisplayName": "Read all Viva Engage roles and role memberships",
+    "Id": "30614864-4114-45ef-bdd9-0dd7894a1cc4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementRole.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to assign Viva Engage role to a user, and remove a Viva Engage role from a user without a signed-in user.",
+    "DisplayName": "Modify Viva Engage role membership",
+    "Id": "3ede5358-7366-4da8-a2f7-472bf9c7cc34",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementRole.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read access packages and related entitlement management resources without a signed-in user.",
     "DisplayName": "Read all entitlement management resources",
     "Id": "c74fd47d-ed3c-45c3-9a9e-b8676de685d2",
