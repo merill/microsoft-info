@@ -1812,6 +1812,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "1690c5aa-925a-4d0e-836b-722c795bd0d0",
+    "AppDisplayName": "Group Configuration Processor",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "aa580612-c342-4ace-9055-8edee43ccb89",
     "AppDisplayName": "Microsoft Teams Shifts",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -23666,12 +23672,6 @@
   {
     "AppId": "163b648b-025e-455b-9937-a7f39a65d171",
     "AppDisplayName": "SSO Extension Intune [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "1690c5aa-925a-4d0e-836b-722c795bd0d0",
-    "AppDisplayName": "Group Configuration Processor [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
