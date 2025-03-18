@@ -2298,6 +2298,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "e3a3c6d7-bd80-4be5-88da-c2226a5d9328",
+    "AppDisplayName": "Microsoft Defender For Cloud Billing",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1a14be2a-e903-4cec-99cf-b2e209259a0f",
     "AppDisplayName": "Azure Lab Services",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2784,6 +2790,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b6a1fec6-8029-456b-81ed-de7754615362",
+    "AppDisplayName": "TI-1P-APP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "99335b6b-7d9d-4216-8dee-883b26e0ccf7",
     "AppDisplayName": "Power Platform Dataflows Common Data Service Client",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3080,6 +3092,12 @@
   {
     "AppId": "bb8f18b0-9c38-48c9-a847-e1ef3af0602d",
     "AppDisplayName": "Microsoft.Azure.ActiveDirectoryIUX",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "ee45196f-bd15-4010-9a66-c8497a97a873",
+    "AppDisplayName": "Microsoft Defender For Cloud Discovery",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
