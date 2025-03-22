@@ -1179,6 +1179,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all Configuration Monitoring entities, without a signed-in user.",
+    "DisplayName": "Read all Configuration Monitoring entities",
+    "Id": "aca929ec-9830-44dc-bda1-85cf938aaa95",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ConfigurationMonitoring.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all Configuration Monitoring entities, without a signed-in user.",
+    "DisplayName": "Read and write all Configuration Monitoring entities",
+    "Id": "cfa85bfb-2ee8-4e13-8e7f-489e57a015a1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ConfigurationMonitoring.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read consent requests and approvals without a signed-in user.",
     "DisplayName": "Read all consent requests",
     "Id": "1260ad83-98fb-4785-abbb-d6cc1806fd41",
@@ -6345,6 +6369,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "User.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update external cloud user profiles without a signed in user.",
+    "DisplayName": "Read and write profiles of users that originate from an external cloud.",
+    "Id": "5652f862-b626-407b-a3e6-248aeb95763c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "User.ReadWrite.CrossCloud",
     "AdditionalProperties": {}
   },
   {
