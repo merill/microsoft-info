@@ -2610,6 +2610,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3a3b6b87-84e2-4ad2-aa37-d76c339371a4",
+    "AppDisplayName": "Storage Data Management RP Prod FPA",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "44a02aaa-7145-4925-9dcd-79e6e1b94eff",
     "AppDisplayName": "Microsoft Dynamics 365 Apps Integration",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

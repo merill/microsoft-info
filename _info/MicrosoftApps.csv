@@ -434,6 +434,7 @@
 "66a88757-258c-4c72-893c-3e8bed4d6899","Office 365 Search Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e3583ad2-c781-4224-9b91-ad15a8179ba0","Microsoft.ExtensibleRealUserMonitoring","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "589d5083-6f11-4d30-a62a-a4b316a14abf","Azure Key Vault Managed HSM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"3a3b6b87-84e2-4ad2-aa37-d76c339371a4","Storage Data Management RP Prod FPA","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "44a02aaa-7145-4925-9dcd-79e6e1b94eff","Microsoft Dynamics 365 Apps Integration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d2a0a418-0aac-4541-82b2-b3142c89da77","Microsoft Operations Management Suite","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6b91db1b-f05b-405a-a0b2-e3f60b28d645","M365 Admin Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
