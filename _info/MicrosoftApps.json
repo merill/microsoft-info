@@ -666,6 +666,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7d3471e1-ec8b-4655-92f3-bb331362b5ae",
+    "AppDisplayName": "Azure Storage Actions Resource Provider Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e81c7467-0fc3-4866-b814-c973488361cd",
     "AppDisplayName": "AzureBackup_Fabric_Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
