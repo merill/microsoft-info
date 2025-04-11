@@ -6567,6 +6567,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read workforce integrations without a signed-in user.",
+    "DisplayName": "Read workforce integrations",
+    "Id": "f10b94b9-37d1-4c88-8b7e-bf75a1152d39",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "WorkforceIntegration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to manage workforce integrations to synchronize data from Microsoft Teams Shifts, without a signed-in user.",
     "DisplayName": "Read and write workforce integrations",
     "Id": "202bf709-e8e6-478e-bcfd-5d63c50b68e3",
