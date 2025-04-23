@@ -3127,19 +3127,19 @@
   },
   {
     "AppId": "c4b110d7-6f1d-473d-aa9e-6e74b8b8bd4b",
-    "AppDisplayName": "Microsoft Assessment React",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "cc7b0696-1956-408b-876a-ad6bf2b9890b",
-    "AppDisplayName": "Reset Viral Users Redemption Status",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "62f85080-9912-4a16-b0be-aff63ee2eeea",
-    "AppDisplayName": "Zero Trust Assessment TBD",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -3151,13 +3151,13 @@
   },
   {
     "AppId": "68bc31c0-f891-4f4c-9309-c6104f7be41b",
-    "AppDisplayName": "Azure AD Assessment",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
   {
     "AppId": "be58d912-b9d5-41a0-8b56-779409e017b8",
-    "AppDisplayName": "Zero Trust Assessment - Dev",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
@@ -3175,7 +3175,7 @@
   },
   {
     "AppId": "df2798fc-2aed-4c3a-98ae-1776949480c4",
-    "AppDisplayName": "Zero Trust Assessment",
+    "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "Graph"
   },
