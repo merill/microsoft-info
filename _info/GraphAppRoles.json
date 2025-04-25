@@ -3951,6 +3951,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read and write your organization's M365 cross tenant access capabilities without a signed-in user.",
+    "DisplayName": "Read and write your organization's M365 cross tenant access capabilities",
+    "Id": "a6325ae7-2b73-4dbd-abed-fbeacfbf8696",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.ReadWrite.CrossTenantCapability",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read and write your organization's device configuration policies without a signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
     "DisplayName": "Read and write your organization's device configuration policies",
     "Id": "230fb2d5-aa21-49c1-bfa7-ae1be179d867",

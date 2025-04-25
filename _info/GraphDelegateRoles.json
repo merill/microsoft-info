@@ -4272,6 +4272,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and write your organization's M365 cross tenant access capabilities on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write your organization's M365 cross tenant access capabilities",
+    "Id": "9ef7463f-1d39-406f-89ea-3483a4645e1c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your organization's M365 cross tenant access capabilities on your behalf.",
+    "UserConsentDisplayName": "Read and write your organization's M365 cross tenant access capabilities",
+    "Value": "Policy.ReadWrite.CrossTenantCapability",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write your organization's device configuration policies on behalf of the signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
     "AdminConsentDisplayName": "Read and write your organization's device configuration policies",
     "Id": "40b534c3-9552-4550-901b-23879c90bcf9",
