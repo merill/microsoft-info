@@ -5295,6 +5295,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to modify Viva Engage storylines, read all storylines properties, update storyline properties, and delete storyline properties without a signed-in user.",
+    "DisplayName": "Read and write all Viva Engage storylines",
+    "Id": "6eff534b-699e-44d9-af61-a4182f0ec37e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Storyline.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read subject rights requests without a signed-in user.",
     "DisplayName": "Read all subject rights requests",
     "Id": "ee1460f0-368b-4153-870a-4e1ca7e72c42",

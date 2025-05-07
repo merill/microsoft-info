@@ -5796,6 +5796,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to modify the Viva Engage storyline and read all storyline properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all Viva Engage storylines",
+    "Id": "fd1d61cb-4e4b-4d15-a6d2-161348681d84",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create Viva Engage storyline items and read all storyline properties on your behalf.",
+    "UserConsentDisplayName": "Read and write all Viva Engage storylines",
+    "Value": "Storyline.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read subject rights requests on behalf of the signed-in user",
     "AdminConsentDisplayName": "Read subject rights requests",
     "Id": "9c3af74c-fd0f-4db4-b17a-71939e2a9d77",
@@ -7101,6 +7113,30 @@
     "UserConsentDescription": "Allows the app to report your app activity information to Microsoft Timeline.",
     "UserConsentDisplayName": "Write app activity to your timeline",
     "Value": "UserTimelineActivity.Write.CreatedByApp",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read a user's windows settings which are stored in cloud and their values on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read windows settings for all devices",
+    "Id": "77e07bab-1b34-40a5-bb6c-4b197b3f6027",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your windows settings which are stored in cloud and their values.",
+    "UserConsentDisplayName": "Read your windows settings for all devices",
+    "Value": "UserWindowsSettings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write a user's windows settings which are stored in cloud and their values on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write windows settings for all devices",
+    "Id": "dcb1026d-b7e1-4d31-9f61-6724d5140bf9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your windows settings which are stored in cloud and their values.",
+    "UserConsentDisplayName": "Read and write your windows settings for all devices",
+    "Value": "UserWindowsSettings.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
