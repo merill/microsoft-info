@@ -336,6 +336,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Read activity audit log from the audit store.",
+    "AdminConsentDisplayName": "Read activity audit log from the audit store.",
+    "Id": "16786f81-40d2-4116-bb26-d1a753bf0b20",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Read activity audit log from the audit store.",
+    "UserConsentDisplayName": "Read activity audit log from the audit store.",
+    "Value": "AuditActivity.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to upload bulk activity audit logs to the audit store.",
+    "AdminConsentDisplayName": "Upload activity audit logs to the audit store.",
+    "Id": "a78fd341-0672-4792-a8ae-a5925b2546eb",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to upload bulk activity audit logs to the audit store.",
+    "UserConsentDisplayName": "Upload activity audit logs to the audit store.",
+    "Value": "AuditActivity.Write",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and query your audit log activities, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read audit log data",
     "Id": "e4c9e354-4dc5-45b8-9e7c-e1393b0b1a20",
@@ -1293,6 +1317,54 @@
     "UserConsentDescription": "Allows the app to read, update, create, and delete contacts you have permissions to access, including your own and shared contacts.",
     "UserConsentDisplayName": "Read and write to your and shared contacts",
     "Value": "Contacts.ReadWrite.Shared",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to process and evaluate content for data security, governance and compliance outcomes at tenant scope.",
+    "AdminConsentDisplayName": "Process content for data security, governance and compliance",
+    "Id": "7e2467d1-f874-46bb-828e-24cb06b29d3f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to process and evaluate content for data security, governance and compliance outcomes at tenant scope.",
+    "UserConsentDisplayName": "Process content for data security, governance and compliance",
+    "Value": "Content.Process.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to process and evaluate content for data security, governance and compliance outcomes for a user.",
+    "AdminConsentDisplayName": "Process content for data security, governance and compliance",
+    "Id": "1d787a13-f750-4ad6-875a-fcbd2725596b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to process and evaluate content for data security, governance and compliance outcomes for a user.",
+    "UserConsentDisplayName": "Process content for data security, governance and compliance",
+    "Value": "Content.Process.User",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Read contents activity audit log from the audit store.",
+    "AdminConsentDisplayName": "Read contents activity audit log from the audit store.",
+    "Id": "62c55b2f-a2b1-4312-8385-be57afd901b4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Read contents activity audit log from the audit store.",
+    "UserConsentDisplayName": "Read contents activity audit log from the audit store.",
+    "Value": "ContentActivity.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to upload bulk contents activity audit logs to the audit store.",
+    "AdminConsentDisplayName": "Upload contents activity audit logs to the audit store.",
+    "Id": "948caae6-152a-48cd-a746-4844af30e8e9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to upload bulk contents activity audit logs to the audit store.",
+    "UserConsentDisplayName": "Upload contents activity audit logs to the audit store.",
+    "Value": "ContentActivity.Write",
     "AdditionalProperties": {}
   },
   {
@@ -4881,6 +4953,42 @@
     "UserConsentDescription": "Allows the app to read, update and perform action on programs and program controls that you have access to.",
     "UserConsentDisplayName": "Manage programs that you can access",
     "Value": "ProgramControl.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for all users across tenant.",
+    "AdminConsentDisplayName": "Compute Purview policies at tenant scope",
+    "Id": "98f5a27a-539a-48bc-a597-f78e9e1e76bf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for all users across tenant.",
+    "UserConsentDisplayName": "Compute Purview policies at tenant scope",
+    "Value": "ProtectionScopes.Compute.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for an individual user.",
+    "AdminConsentDisplayName": "Compute Purview policies for an individual user",
+    "Id": "4fc04d16-a9fc-4c5e-8da4-79b6c33638a4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for an individual user.",
+    "UserConsentDisplayName": "Compute Purview policies for an individual user",
+    "Value": "ProtectionScopes.Compute.User",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and query your provisioning log activities, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read provisioning log data",
+    "Id": "95aec97b-cf27-4a8d-a67d-42f60b5b38ef",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and query your provisioning log activities, on your behalf.",
+    "UserConsentDisplayName": "Read provisioning log data",
+    "Value": "ProvisioningLog.Read.All",
     "AdditionalProperties": {}
   },
   {

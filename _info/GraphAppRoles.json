@@ -279,6 +279,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Read activity audit log from the audit store.",
+    "DisplayName": "Read activity audit log from the audit store.",
+    "Id": "99bc85fb-e857-4220-9f8c-3a1c83148d2e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AuditActivity.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to upload bulk activity audit logs to the audit store.",
+    "DisplayName": "Upload activity audit logs to the audit store.",
+    "Id": "f6318678-2713-4bb6-b123-233e7336c1bd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AuditActivity.Write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read and query your audit log activities, without a signed-in user.",
     "DisplayName": "Read all audit log data",
     "Id": "b0afded3-3588-46d8-8b3d-9842eff778da",
@@ -1245,6 +1269,54 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Contacts.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to process and evaluate content for data security, governance and compliance outcomes at tenant scope.",
+    "DisplayName": "Process content for data security, governance and compliance",
+    "Id": "5ad511bf-571c-4ef6-8c3c-85b94b85df98",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Content.Process.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to process and evaluate content for data security, governance and compliance outcomes for a user.",
+    "DisplayName": "Process content for data security, governance and compliance",
+    "Id": "24ceb246-ad29-4680-90b4-3e91ffad15eb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Content.Process.User",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read contents activity audit log from the audit store.",
+    "DisplayName": "Read contents activity audit log from the audit store.",
+    "Id": "368425e7-6954-4f5a-9d92-90b75bd580c9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ContentActivity.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to upload bulk contents activity audit logs to the audit store.",
+    "DisplayName": "Upload content activity audit logs to the audit store.",
+    "Id": "2932e07a-3c29-44e4-bb36-6d0fc176387f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ContentActivity.Write",
     "AdditionalProperties": {}
   },
   {
@@ -4383,6 +4455,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for all users across tenant.",
+    "DisplayName": "Compute Purview policies at tenant scope",
+    "Id": "e5a76501-dbb0-492c-ab55-5d09e8837263",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProtectionScopes.Compute.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to identify Purview data protection, compliance and governance policy scopes defined for an individual user.",
+    "DisplayName": "Compute Purview policies for an individual user",
+    "Id": "fe696d63-5e1f-4515-8232-cccc316903c6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProtectionScopes.Compute.User",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and query your provisioning log activities, without a signed-in user.",
+    "DisplayName": "Read all provisioning log data",
+    "Id": "091937d3-3e38-47a1-8649-b2f99d3035f1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProvisioningLog.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read  certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, without a signed-in user.",
     "DisplayName": "Read all certificate based authentication configurations",
     "Id": "214fda0c-514a-4650-b037-b562b1a66124",
@@ -5049,6 +5157,42 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SecurityIncident.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the app to determine if there is any sensitivity label to be applied automatically to the content or recommended to the user for manual application, without a signed-in user.",
+    "DisplayName": "Evaluate sensitivity labels",
+    "Id": "57f0b71b-a759-45a0-9a0f-cc099fbd9a44",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SensitivityLabel.Evaluate",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to get sensitivity labels.",
+    "DisplayName": "Get labels application scope.",
+    "Id": "3b8e7aad-f6e3-4299-83f8-6fc6a5777f0b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SensitivityLabel.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to get sensitivity labels.",
+    "DisplayName": "Get labels tenant scope.",
+    "Id": "e46a01e9-b2cf-4d89-8424-bcdc6dd445ab",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SensitivityLabels.Read.All",
     "AdditionalProperties": {}
   },
   {
