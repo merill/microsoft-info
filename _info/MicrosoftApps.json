@@ -834,6 +834,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "618dd325-23f6-4b6f-8380-4df78026e39b",
+    "AppDisplayName": "Microsoft 365 Admin portal",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "db55028d-e5ba-420f-816a-d18c861aefdf",
     "AppDisplayName": "Microsoft Office Licensing Service vNext",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
