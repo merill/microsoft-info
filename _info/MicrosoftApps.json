@@ -720,6 +720,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "d0ef82bb-244a-4458-9eb4-24a9f093f2c4",
+    "AppDisplayName": "Defender for Cloud - Private Link Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "d6fdaa33-e821-4211-83d0-cf74736489e1",
     "AppDisplayName": "Microsoft Service Trust",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1328,6 +1334,12 @@
   {
     "AppId": "161a339d-b9f5-41c5-8856-6a6669acac64",
     "AppDisplayName": "Microsoft Azure Alerts Management",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "bceea168-88ac-4736-95dc-4ce488ffe324",
+    "AppDisplayName": "Microsoft Defender for Cloud",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
