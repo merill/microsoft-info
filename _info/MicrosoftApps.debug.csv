@@ -219,6 +219,7 @@
 "db040338-7cb4-44df-a22b-785bde7ce0e2","RPA - Machine Management Relay Service - Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "40775b29-2688-46b6-a3b5-b256bd04df9f","Microsoft Information Protection API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "dcad865d-9257-4521-ad4d-bae3e137b345","Microsoft SharePoint Online - SharePoint Home","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"abc63b55-0325-4305-9e1e-3463b182a6dc","TenantSearchProcessors","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8bbf8725-b3ca-4468-a217-7c8da873186e","DeploymentScheduler","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5dc48733-b5df-475c-a49b-fa307ef00853","Internet resources with Global Secure Access","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f8f7a2aa-e116-4ba6-8aea-ca162cfa310d","Microsoft Graph Connectors Core","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

@@ -1320,6 +1320,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "abc63b55-0325-4305-9e1e-3463b182a6dc",
+    "AppDisplayName": "TenantSearchProcessors",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "8bbf8725-b3ca-4468-a217-7c8da873186e",
     "AppDisplayName": "DeploymentScheduler",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
