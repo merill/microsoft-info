@@ -1242,6 +1242,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c61d67cf-295a-462c-972f-33af37008751",
+    "AppDisplayName": "Call Quality Dashboard",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e0ccf59d-5a20-4a87-a122-f42842cdb86a",
     "AppDisplayName": "Microsoft Defender for Cloud Scanner Resource Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -23670,24 +23676,6 @@
     "Source": "EntraDocs"
   },
   {
-    "AppId": "6326e366-9d6d-4c70-b22a-34c7ea72d73d",
-    "AppDisplayName": "Microsoft Exchange Message Tracking Service",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Learn"
-  },
-  {
-    "AppId": "4345a7b9-9a63-4910-a426-35363201d503",
-    "AppDisplayName": "O365 Suite UX",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Learn"
-  },
-  {
-    "AppId": "fe93bfe1-7947-460a-a5e0-7a5906b51360",
-    "AppDisplayName": "Viva Insights",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Learn"
-  },
-  {
     "AppId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "AppDisplayName": "Windows Notification Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24645,6 +24633,12 @@
     "AppId": "fd642066-7bfc-4b65-9463-6a08841c12f0",
     "AppDisplayName": "Microsoft Purview Platform [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "fe93bfe1-7947-460a-a5e0-7a5906b51360",
+    "AppDisplayName": "Exchange Online [Community Contributed]",
+    "AppOwnerOrganizationId": "",
     "Source": "GitHub"
   },
   {
