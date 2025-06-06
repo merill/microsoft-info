@@ -2208,6 +2208,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read Viva Engage Teams QA conversations, and to read their properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all Viva Engage Teams QA conversations",
+    "Id": "58c5819e-29bd-4400-ad52-82cd82a63fbd",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to list Viva Engage conversations, and to read their properties on your behalf.",
+    "UserConsentDisplayName": "Read all Viva Engage Teams QA conversations",
+    "Value": "EngagementMeetingConversation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to list a user's Viva Engage roles, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read a user's Viva Engage roles ",
     "Id": "9f1da0fc-345c-4dfb-bab5-5215a073a417",
@@ -5652,6 +5664,54 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the app to determine if there is any sensitivity label to be applied automatically to the content or recommended to the user for manual application, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Evaluate sensitivity labels",
+    "Id": "a4633e44-d355-4474-99df-8c2de6b0e39e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the app to determine if there is any sensitivity label to be applied automatically to the content or recommended to the user for manual application, on your behalf.",
+    "UserConsentDisplayName": "Evaluate sensitivity labels",
+    "Value": "SensitivityLabel.Evaluate",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to evaluate all sensitivity label.",
+    "AdminConsentDisplayName": "Evaluate labels tenant scope.",
+    "Id": "a42e3c42-b31e-4919-b699-696dca5dc9e7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Evaluate labels tenant scope, on your behalf.",
+    "UserConsentDisplayName": "Evaluate labels tenant scope",
+    "Value": "SensitivityLabel.Evaluate.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to get sensitivity labels.",
+    "AdminConsentDisplayName": "Get labels user scope.",
+    "Id": "1aeb73ce-68d7-49b7-913a-eedc80844551",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Get labels tenant scope, on your behalf.",
+    "UserConsentDisplayName": "Get labels user scope",
+    "Value": "SensitivityLabel.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to get sensitivity labels.",
+    "AdminConsentDisplayName": "Get labels app scope.",
+    "Id": "8b377c27-ea19-4863-a948-8a8588c8f2c3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Get labels on behalf of user.",
+    "UserConsentDisplayName": "Get labels on behalf of user",
+    "Value": "SensitivityLabels.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all Exchange service activity, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all Exchange service activity",
     "Id": "1fe7aa48-9373-4a47-8df3-168335e0f4c9",
@@ -7185,6 +7245,18 @@
     "UserConsentDescription": "Allows the app to read and write passkey authentication methods of all users you have access to in your organization. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read and write all users' passkey authentication methods",
     "Value": "UserAuthMethod-Passkey.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read cloud clipboard data on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read cloud clipboard items",
+    "Id": "61e8a09a-087f-4e36-8c8c-1c77c5228017",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read your cloud clipboard items.",
+    "UserConsentDisplayName": "Read cloud clipboard items",
+    "Value": "UserCloudClipboard.Read",
     "AdditionalProperties": {}
   },
   {

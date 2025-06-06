@@ -2127,6 +2127,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to list Viva Engage Teams QA conversations, and to read their properties without a signed-in user.",
+    "DisplayName": "Read all Viva Engage Teams QA conversations",
+    "Id": "d746beae-b46e-446e-924a-5b805a5c4467",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementMeetingConversation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to list all Viva Engage roles and role memberships without a signed-in user.",
     "DisplayName": "Read all Viva Engage roles and role memberships",
     "Id": "30614864-4114-45ef-bdd9-0dd7894a1cc4",
