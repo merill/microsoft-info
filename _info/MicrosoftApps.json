@@ -24652,5 +24652,11 @@
     "AppDisplayName": "AMC PROD [Community Contributed]",
     "AppOwnerOrganizationId": "",
     "Source": "GitHub"
+  },
+  {
+    "AppId": "3b511579-5e00-46e1-a89e-a6f0870e2f5a",
+    "AppDisplayName": "Windows 365 Portal [Community Contributed]",
+    "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
   }
 ]
