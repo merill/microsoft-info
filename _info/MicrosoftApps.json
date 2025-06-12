@@ -1062,6 +1062,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "914fed76-dc75-4540-bf23-57624291b0ec",
+    "AppDisplayName": "M365AdminSettingsService",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b8066b99-6e67-41be-abfa-75db1a2c8809",
     "AppDisplayName": "Microsoft Intune IW Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

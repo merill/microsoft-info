@@ -176,6 +176,7 @@
 "12743ff8-d3de-49d0-a4ce-6c91a4245ea0","Metrics Monitor API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6d057c82-a784-47ae-8d12-ca7b38cf06b4","AzureVirtualNetworkManager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3b2fa68d-a091-48c9-95be-88d572e08fb7","AzureBackupReporting","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"914fed76-dc75-4540-bf23-57624291b0ec","M365AdminSettingsService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b8066b99-6e67-41be-abfa-75db1a2c8809","Microsoft Intune IW Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "11c174dc-1945-4a9a-a36b-c79a0f246b9b","Azure Monitor System","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a4a365df-50f1-4397-bc59-1a1564b8bb9c","Microsoft Remote Desktop","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
