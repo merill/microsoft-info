@@ -4212,6 +4212,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the authentication method policies, on behalf of the signed-in user. ",
+    "AdminConsentDisplayName": "Read authentication method policies",
+    "Id": "a6ff13ac-1851-4993-8ca9-a671d70de2d5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the authentication method policies for your tenant, on your behalf.",
+    "UserConsentDisplayName": "Read your authentication method policies ",
+    "Value": "Policy.Read.AuthenticationMethod",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization's conditional access policies on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization's conditional access policies",
     "Id": "633e0fce-8c58-4cfb-9495-12bbd5a24f7c",

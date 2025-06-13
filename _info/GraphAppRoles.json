@@ -3891,6 +3891,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all authentication method policies for the tenant, without a signed-in user. ",
+    "DisplayName": "Read authentication method policies",
+    "Id": "8e3bc81b-d2f3-4b7b-838c-32c88218d2f0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.AuthenticationMethod",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your organization's conditional access policies, without a signed-in user.",
     "DisplayName": "Read your organization's conditional access policies",
     "Id": "37730810-e9ba-4e46-b07e-8ca78d182097",
