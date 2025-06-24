@@ -2475,6 +2475,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read a list of tenant-level or group-specific group settings objects, without a signed-in user.",
+    "DisplayName": "Read all group settings",
+    "Id": "f3c4f514-c65a-43f5-bfce-1735872258dd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "GroupSettings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete on the list of tenant-level or group-specific group settings objects, without a signed-in user.",
+    "DisplayName": "Read and write all group settings",
+    "Id": "546168c3-1183-4281-9491-fafb24dea37e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "GroupSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all scenario health monitoring alerts, without a signed-in user.",
     "DisplayName": "Read all scenario health monitoring alert",
     "Id": "5183ed5d-b7f8-4e9a-915e-dafb46b9cb62",
