@@ -882,6 +882,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "de247707-4e4a-47d6-89fd-3c632f870b34",
+    "AppDisplayName": "CloudLicensingSystem",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b4ca0290-4e73-4e31-ade0-c82ecfaabf6a",
     "AppDisplayName": "Azure DNS Managed Resolver",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
