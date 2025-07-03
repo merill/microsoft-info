@@ -5904,6 +5904,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your organization's sign-in identifiers, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read SignInIdentifiers",
+    "Id": "458e1edc-1e75-438c-8c7b-c32115c9d373",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's sign-in identifiers, on your behalf.",
+    "UserConsentDisplayName": "Read all sign-in identifiers",
+    "Value": "SignInIdentifier.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your organization's sign-in identifiers, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all sign-in identifiers",
+    "Id": "b4673c3c-7b5a-4012-9826-7c7e3c8db6af",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your organization's sign-in identifiers, on your behalf.",
+    "UserConsentDisplayName": "Read and write all sign-in identifiers",
+    "Value": "SignInIdentifier.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to have full control of all site collections on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Have full control of all site collections",
     "Id": "5a54b8b3-347c-476d-8f8e-42d5c7424d29",

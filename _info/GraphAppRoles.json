@@ -5403,6 +5403,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read your organization's sign-in identifiers, without a signed-in user.",
+    "DisplayName": "Read all sign-in identifiers",
+    "Id": "28e1fe78-598f-4df4-b55e-18bf34218925",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SignInIdentifier.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write your organization's sign-in identifiers, without a signed-in user.",
+    "DisplayName": "Read and write all sign-in identifiers",
+    "Id": "7fc588a2-ea2d-4d1f-bcf7-33c324b149b8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SignInIdentifier.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allow the application to archive/reactivate site collections without a signed in user.",
     "DisplayName": "Archive/reactivate Site Collections without a signed in user.",
     "Id": "e3530185-4080-478c-a4ab-39322704df58",

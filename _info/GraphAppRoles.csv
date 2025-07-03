@@ -449,6 +449,8 @@
 "19b94e34-907c-4f43-bde9-38b1909ed408","SharePointTenantSettings.ReadWrite.All","Read and change SharePoint and OneDrive tenant settings","Allows the application to read and change the tenant-level settings of SharePoint and OneDrive, without a signed-in user."
 "0c7d31ec-31ca-4f58-b6ec-9950b6b0de69","ShortNotes.Read.All","Read all users' short notes","Allows the app to read all the short notes without a signed-in user."
 "842c284c-763d-4a97-838d-79787d129bab","ShortNotes.ReadWrite.All","Read, create, edit, and delete all users' short notes","Allows the app to read, create, edit, and delete all the short notes without a signed-in user."
+"28e1fe78-598f-4df4-b55e-18bf34218925","SignInIdentifier.Read.All","Read all sign-in identifiers","Allows the app to read your organization's sign-in identifiers, without a signed-in user."
+"7fc588a2-ea2d-4d1f-bcf7-33c324b149b8","SignInIdentifier.ReadWrite.All","Read and write all sign-in identifiers","Allows the app to read and write your organization's sign-in identifiers, without a signed-in user."
 "e3530185-4080-478c-a4ab-39322704df58","Sites.Archive.All","Archive/reactivate Site Collections without a signed in user.","Allow the application to archive/reactivate site collections without a signed in user."
 "a82116e5-55eb-4c41-a434-62fe8a61c773","Sites.FullControl.All","Have full control of all site collections","Allows the app to have full control of all site collections without a signed in user."
 "0c0bf378-bf22-4481-8f81-9e89a9b4960a","Sites.Manage.All","Create, edit, and delete items and lists in all site collections","Allows the app to create or delete document libraries and lists in all site collections without a signed in user."

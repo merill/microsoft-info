@@ -491,6 +491,8 @@
 "aa07f155-3612-49b8-a147-6c590df35536","SharePointTenantSettings.ReadWrite.All","Read and change SharePoint and OneDrive tenant settings","Allows the application to read and change the tenant-level settings of SharePoint and OneDrive on behalf of the signed-in user."
 "50f66e47-eb56-45b7-aaa2-75057d9afe08","ShortNotes.Read","Read short notes of the signed-in user","Allows the app to read all the short notes a sign-in user has access to."
 "328438b7-4c01-4c07-a840-e625a749bb89","ShortNotes.ReadWrite","Read, create, edit, and delete short notes of the signed-in user","Allows the app to read, create, edit, and delete short notes of a signed-in user."
+"458e1edc-1e75-438c-8c7b-c32115c9d373","SignInIdentifier.Read.All","Read SignInIdentifiers","Allows the app to read your organization's sign-in identifiers, on behalf of the signed-in user."
+"b4673c3c-7b5a-4012-9826-7c7e3c8db6af","SignInIdentifier.ReadWrite.All","Read and write all sign-in identifiers","Allows the app to read and write your organization's sign-in identifiers, on behalf of the signed-in user."
 "5a54b8b3-347c-476d-8f8e-42d5c7424d29","Sites.FullControl.All","Have full control of all site collections","Allows the application to have full control of all site collections on behalf of the signed-in user."
 "65e50fdc-43b7-4915-933e-e8138f11f40a","Sites.Manage.All","Create, edit, and delete items and lists in all site collections","Allows the application to create or delete document libraries and lists in all site collections on behalf of the signed-in user."
 "205e70e5-aba6-4c52-a976-6d2d46c48043","Sites.Read.All","Read items in all site collections","Allows the application to read documents and list  items in all site collections on behalf of the signed-in user"
