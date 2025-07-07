@@ -213,6 +213,7 @@
 "e0ccf59d-5a20-4a87-a122-f42842cdb86a","Microsoft Defender for Cloud Scanner Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "58c746b0-a0b0-4647-a8f6-12dde5981638","Azure AD Identity Governance Insights","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6bccf540-eb86-4037-af03-7fa058c2db75","Geneva Alert RP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"fd225045-a727-45dc-8caa-77c8eb1b9521","Azure Help Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6f7d0213-62b1-43a8-b7f4-ff2bb8b7b452","Dual-write","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e935b4a5-8968-416d-8414-caed51c782a9","MicrosoftGuestConfiguration","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "bf26f092-3426-4a99-abfb-97dad74e661a","Azure AD Identity Governance","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
