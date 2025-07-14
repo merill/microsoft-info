@@ -5580,6 +5580,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all Security Copilot signed-in user's resources on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read all Security Copilot resources for the signed-in user",
+    "Id": "84499c31-ac2e-44d3-a0cf-a6c386d4dfe8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read Security Copilot resources owned by user on user's behalf.",
+    "UserConsentDisplayName": "Read user's Security Copilot resources",
+    "Value": "SecurityCopilotWorkspaces.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write Security Copilot resources owned by the signed-in user on their behalf.",
+    "AdminConsentDisplayName": "Read and write individually owned Security Copilot resources of the signed-in user",
+    "Id": "206291b0-2167-47a7-a640-6cdc1df710ba",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to write Security Copilot resources owned by user on user's behalf.",
+    "UserConsentDisplayName": "Write user's Security Copilot resources",
+    "Value": "SecurityCopilotWorkspaces.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization’s security events on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization’s security events",
     "Id": "64733abd-851e-478a-bffb-e47a14b18235",
@@ -5601,6 +5625,30 @@
     "UserConsentDescription": "Allows the app to read your organization’s security events on your behalf. Also allows you to update editable properties in security events.",
     "UserConsentDisplayName": "Read and update your organization’s security events",
     "Value": "SecurityEvents.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all the identity security available identity accounts",
+    "AdminConsentDisplayName": "Read identity security available identity accounts",
+    "Id": "3e9ed69a-a48e-473c-8b97-413016703a37",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all the identity security available identity accounts on your behalf.",
+    "UserConsentDisplayName": "Read identity security available identity accounts",
+    "Value": "SecurityIdentitiesAccount.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write identity security available actions on behalf of the signed-in identity.",
+    "AdminConsentDisplayName": "Read and perform identity security available actions",
+    "Id": "818229ce-20e4-47bd-92f4-bc94dbb37a56",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write identity security available actions on your behalf.",
+    "UserConsentDisplayName": "Read and perform identity security available actions",
+    "Value": "SecurityIdentitiesActions.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

@@ -75,6 +75,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows creating new agent applications and their associated service principals.",
+    "DisplayName": "Create agent applications.",
+    "Id": "2f479c7e-27df-4053-826b-57d8ce55be3e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentApplication.Create",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create linked agent identities without a signed-in user.",
+    "DisplayName": "Create agent identities linked to itself.",
+    "Id": "2c4c43c7-1903-4658-a911-b8f2bb31e32e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.Create",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read terms of use agreements, without a signed in user.",
     "DisplayName": "Read all terms of use agreements",
     "Id": "2f3e6f8c-093b-4c57-a58b-ba5ce494a169",
@@ -5109,6 +5133,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SecurityEvents.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all the identity security available identity accounts without a signed-in user.",
+    "DisplayName": "Read all identity security available identity accounts",
+    "Id": "c5bc96f5-b4a1-4cfc-8189-d5f0d772278f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesAccount.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write identity security available actions without a signed-in user.",
+    "DisplayName": "Read and perform all identity security available actions",
+    "Id": "af2bf46f-7bf1-4be3-8bad-e17e279e8462",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityIdentitiesActions.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
