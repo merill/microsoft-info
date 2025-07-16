@@ -2046,6 +2046,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c4bd54e4-c607-435b-8a5a-0d61edff7554",
+    "AppDisplayName": "Intune Mobile Application Management Client",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ce6ff14a-7fdc-4685-bbe0-f6afdfcfa8e0",
     "AppDisplayName": "Azure Linux VM Sign-In",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

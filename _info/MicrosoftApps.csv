@@ -340,6 +340,7 @@
 "48af08dc-f6d2-435f-b2a7-069abd99c086","Connectors","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9bdab391-7bbe-42e8-8132-e4491dc29cc0","Azure Backup NRP Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "d0597157-f0ae-4e23-b06c-9e65de434c4f","Microsoft Teams Task Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"c4bd54e4-c607-435b-8a5a-0d61edff7554","Intune Mobile Application Management Client","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ce6ff14a-7fdc-4685-bbe0-f6afdfcfa8e0","Azure Linux VM Sign-In","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a855a166-fd92-4c76-b60d-a791e0762432","Microsoft Teams VSTS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "660d4be7-2665-497f-9611-a42c2668dbce","Microsoft Fluid Framework Preview","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
