@@ -1128,6 +1128,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3cf468b4-12a0-43cd-aa3f-3f39210d14cf",
+    "AppDisplayName": "Quota Service Core - ARM Client",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
     "AppDisplayName": "Microsoft Teams",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
