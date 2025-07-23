@@ -2004,6 +2004,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read internal federation configuration for a domain.",
+    "AdminConsentDisplayName": "Read internal federation configuration for a domain.",
+    "Id": "33203a2a-a761-40f0-8a7c-a7e74a9f8ac6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read internal federation configuration for a domain.",
+    "UserConsentDisplayName": "Read internal federation configuration for a domain.",
+    "Value": "Domain-InternalFederation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update and delete internal federation configuration for a domain.",
+    "AdminConsentDisplayName": "Create, read, update and delete internal federation configuration for a domain.",
+    "Id": "857bd3ea-490e-4284-88a7-a7de1893b6ee",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update and delete internal federation configuration for a domain.",
+    "UserConsentDisplayName": "Create, read, update and delete internal federation configuration for a domain.",
+    "Value": "Domain-InternalFederation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all domain properties on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read domains.",
     "Id": "2f9ee017-59c1-4f1d-9472-bd5529a7b311",

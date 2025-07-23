@@ -1911,6 +1911,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read internal federation configuration for a domain.",
+    "DisplayName": "Read internal federation configuration for a domain.",
+    "Id": "c0e5a7b0-e8b7-40a7-b8e0-8249e6ea81d5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Domain-InternalFederation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update and delete internal federation configuration for a domain.",
+    "DisplayName": "Create, read, update and delete internal federation configuration for a domain.",
+    "Id": "64d40371-8d58-4270-bc8a-b4a66de36b9a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Domain-InternalFederation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all domain properties without a signed-in user.",
     "DisplayName": "Read domains",
     "Id": "dbb9058a-0e50-45d7-ae91-66909b5d4664",

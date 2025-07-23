@@ -166,6 +166,8 @@
 "c5366453-9fb0-48a5-a156-24f0c49a4b84","Directory.ReadWrite.All","Read and write directory data","Allows the app to read and write data in your organization's directory, such as users, and groups.  It does not allow the app to delete users or groups, or reset user passwords."
 "34d3bd24-f6a6-468c-b67c-0c365c1d6410","DirectoryRecommendations.Read.All","Read Azure AD recommendations","Allows the app to read Azure AD recommendations, on behalf of the signed-in user."
 "f37235e8-90a0-4189-93e2-e55b53867ccd","DirectoryRecommendations.ReadWrite.All","Read and update Azure AD recommendations","Allows the app to read and update Azure AD recommendations, on behalf of the signed-in user."
+"33203a2a-a761-40f0-8a7c-a7e74a9f8ac6","Domain-InternalFederation.Read.All","Read internal federation configuration for a domain.","Allows the app to read internal federation configuration for a domain."
+"857bd3ea-490e-4284-88a7-a7de1893b6ee","Domain-InternalFederation.ReadWrite.All","Create, read, update and delete internal federation configuration for a domain.","Allows the app to create, read, update and delete internal federation configuration for a domain."
 "2f9ee017-59c1-4f1d-9472-bd5529a7b311","Domain.Read.All","Read domains.","Allows the app to read all domain properties on behalf of the signed-in user."
 "0b5d694c-a244-4bde-86e6-eb5cd07730fe","Domain.ReadWrite.All","Read and write domains","Allows the app to read and write all domain properties on behalf of the signed-in user. Also allows the app to add, verify and remove domains."
 "ff91d191-45a0-43fd-b837-bd682c4a0b0f","EAS.AccessAsUser.All","Access mailboxes via Exchange ActiveSync","Allows the app to have the same access to mailboxes as the signed-in user via Exchange ActiveSync."

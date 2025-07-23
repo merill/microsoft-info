@@ -158,6 +158,8 @@
 "19dbc75e-c2e2-444c-a770-ec69d8559fc7","Directory.ReadWrite.All","Read and write directory data","Allows the app to read and write data in your organization's directory, such as users, and groups, without a signed-in user.  Does not allow user or group deletion."
 "ae73097b-cb2a-4447-b064-5d80f6093921","DirectoryRecommendations.Read.All","Read all Azure AD recommendations","Allows the app to read all Azure AD recommendations, without a signed-in user."
 "0e9eea12-4f01-45f6-9b8d-3ea4c8144158","DirectoryRecommendations.ReadWrite.All","Read and update all Azure AD recommendations","Allows the app to read and update all Azure AD recommendations, without a signed-in user."
+"c0e5a7b0-e8b7-40a7-b8e0-8249e6ea81d5","Domain-InternalFederation.Read.All","Read internal federation configuration for a domain.","Allows the app to read internal federation configuration for a domain."
+"64d40371-8d58-4270-bc8a-b4a66de36b9a","Domain-InternalFederation.ReadWrite.All","Create, read, update and delete internal federation configuration for a domain.","Allows the app to create, read, update and delete internal federation configuration for a domain."
 "dbb9058a-0e50-45d7-ae91-66909b5d4664","Domain.Read.All","Read domains","Allows the app to read all domain properties without a signed-in user."
 "7e05723c-0bb0-42da-be95-ae9f08a6e53c","Domain.ReadWrite.All","Read and write domains","Allows the app to read and write all domain properties without a signed in user.  Also allows the app to add,  verify and remove domains."
 "50180013-6191-4d1e-a373-e590ff4e66af","eDiscovery.Read.All","Read all eDiscovery objects","Allows the app to read eDiscovery objects such as cases, custodians, review sets and other related objects without a signed-in user."
