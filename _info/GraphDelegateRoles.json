@@ -786,8 +786,8 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read events in all calendars that you can access, including delegate and shared calendars. ",
-    "UserConsentDisplayName": "Read calendars you can access",
+    "UserConsentDescription": "Allows the app to read events in all calendars that you can access, including delegate and shared calendars. ",
+    "UserConsentDisplayName": "Read calendars you can access",
     "Value": "Calendars.Read.Shared",
     "AdditionalProperties": {}
   },
@@ -825,6 +825,18 @@
     "UserConsentDescription": "Allows the app to read, update, create and delete events in all calendars in your organization you have permissions to access. This includes delegate and shared calendars.",
     "UserConsentDisplayName": "Read and write to your and shared calendars",
     "Value": "Calendars.ReadWrite.Shared",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all AI Insights for calls, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all AI Insights for calls. ",
+    "Id": "e24bdaf9-83f8-468b-a144-c681ccb6caf4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read all AI Insights for calls, on your behalf.",
+    "UserConsentDisplayName": "Read all AI Insights for calls.",
+    "Value": "CallAiInsights.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -1014,7 +1026,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to create chats on your behalf. ",
+    "UserConsentDescription": "Allows the app to create chats on your behalf. ",
     "UserConsentDisplayName": "Create chats",
     "Value": "Chat.Create",
     "AdditionalProperties": {}
@@ -1404,49 +1416,49 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to list and query user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), associated with the current tenant on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the application to list and query user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), associated with the current tenant on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read shared cross-tenant user profile and export data",
     "Id": "cb1ba48f-d22b-4325-a07f-74135a62ee41",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to list and query shared user profile information associated with the current tenant on your behalf.  It also permits the application to export your external user data (e.g. customer content or system-generated logs), associated with the current tenant on your behalf.",
+    "UserConsentDescription": "Allows the application to list and query shared user profile information associated with the current tenant on your behalf.  It also permits the application to export your external user data (e.g. customer content or system-generated logs), associated with the current tenant on your behalf.",
     "UserConsentDisplayName": "Read shared cross-tenant user profile and export data",
     "Value": "CrossTenantUserProfileSharing.Read",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all shared cross-tenant user profiles and export their data",
     "Id": "759dcd16-3c90-463c-937e-abf89f991c18",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on your behalf.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on your behalf.",
+    "UserConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on your behalf.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on your behalf.",
     "UserConsentDisplayName": "Read any shared cross-tenant user profiles and export data",
     "Value": "CrossTenantUserProfileSharing.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to list and query user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), associated with the current tenant on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the application to list and query user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), associated with the current tenant on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read shared cross-tenant user profile and export or delete data",
     "Id": "eed0129d-dc60-4f30-8641-daf337a39ffd",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to list and query shared user profile information associated with the current tenant on your behalf.  It also permits the application to export and remove your external user data (e.g. customer content or system-generated logs), associated with the current tenant on your behalf.",
+    "UserConsentDescription": "Allows the application to list and query shared user profile information associated with the current tenant on your behalf.  It also permits the application to export and remove your external user data (e.g. customer content or system-generated logs), associated with the current tenant on your behalf.",
     "UserConsentDisplayName": "Read shared cross-tenant user profile and export or delete data",
     "Value": "CrossTenantUserProfileSharing.ReadWrite",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on behalf of the signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all shared cross-tenant user profiles and export or delete their data",
     "Id": "64dfa325-cbf8-48e3-938d-51224a0cac01",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on your behalf.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on your behalf.",
+    "UserConsentDescription": "Allows the application to list and query any shared user profile information associated with the current tenant on your behalf.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant on your behalf.",
     "UserConsentDisplayName": "Read any shared cross-tenant user profiles and export or delete data",
     "Value": "CrossTenantUserProfileSharing.ReadWrite.All",
     "AdditionalProperties": {}
@@ -2142,7 +2154,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to view and modify your assignments on your behalf including  grades.",
+    "UserConsentDescription": "Allows the app to view and modify your assignments on your behalf including  grades.",
     "UserConsentDisplayName": "View and modify your assignments and grades",
     "Value": "EduAssignments.ReadWrite",
     "AdditionalProperties": {}
@@ -2196,13 +2208,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read a limited subset of the properties from the structure of schools and classes in an organization's roster and a limited subset of properties about users to be read on behalf of the user. Includes name, status, education role, email address and photo.",
+    "AdminConsentDescription": "Allows the app to read a limited subset of the properties from the structure of schools and classes in an organization's roster and a limited subset of properties about users to be read on behalf of the user. Includes name, status, education role, email address and photo.",
     "AdminConsentDisplayName": "Read a limited subset of users' view of the roster",
     "Id": "5d186531-d1bf-4f07-8cea-7c42119e1bd9",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to view minimal  information about both schools and classes in your organization and education-related information about you and other users on your behalf.",
+    "UserConsentDescription": "Allows the app to view minimal  information about both schools and classes in your organization and education-related information about you and other users on your behalf.",
     "UserConsentDisplayName": "View a limited subset of your school, class and user information",
     "Value": "EduRoster.ReadBasic",
     "AdditionalProperties": {}
@@ -2580,6 +2592,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to manage selected file storage container type registrations on behalf of the signed in user. The user must be a SharePoint Embedded Admin or Global Admin.",
+    "AdminConsentDisplayName": "Access selected file storage container type registrations.",
+    "Id": "d1e4f63a-1569-475c-b9b2-bdc140405e38",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to manage selected file storage container type registrations on your behalf. You must be a SharePoint Embedded Admin or Global Admin.",
+    "UserConsentDisplayName": "Access selected file storage container type registrations.",
+    "Value": "FileStorageContainerTypeReg.Selected",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write financials data on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write financials data",
     "Id": "f534bf13-55d4-45a9-8f3c-c92fe64d6131",
@@ -2796,13 +2820,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and update identity risk event information for all users in your organization on behalf of the signed-in user. Update operations include confirming risk event detections. ",
+    "AdminConsentDescription": "Allows the app to read and update identity risk event information for all users in your organization on behalf of the signed-in user. Update operations include confirming risk event detections. ",
     "AdminConsentDisplayName": "Read and write risk event information",
     "Id": "9e4862a5-b68f-479e-848a-4e07e25c9916",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and update identity risk event information for all users in your organization on your behalf. Update operations include confirming risk event detections. ",
+    "UserConsentDescription": "Allows the app to read and update identity risk event information for all users in your organization on your behalf. Update operations include confirming risk event detections. ",
     "UserConsentDisplayName": "Read and write risk event information",
     "Value": "IdentityRiskEvent.ReadWrite.All",
     "AdditionalProperties": {}
@@ -2844,13 +2868,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and update identity risky user information for all users in your organization on behalf of the signed-in user. Update operations include dismissing risky users.",
+    "AdminConsentDescription": "Allows the app to read and update identity risky user information for all users in your organization on behalf of the signed-in user. Update operations include dismissing risky users.",
     "AdminConsentDisplayName": "Read and write risky user information",
     "Id": "e0a7cdbb-08b0-4697-8264-0069786e9674",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and update identity risky user information for all users in your organization on your behalf. Update operations include dismissing risky users.",
+    "UserConsentDescription": "Allows the app to read and update identity risky user information for all users in your organization on your behalf. Update operations include dismissing risky users.",
     "UserConsentDisplayName": "Read and write identity risky user information",
     "Value": "IdentityRiskyUser.ReadWrite.All",
     "AdditionalProperties": {}
@@ -3144,13 +3168,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to manage learning content in the organization's directory, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Manage learning content",
+    "AdminConsentDescription": "Allows the app to manage learning content in the organization's directory, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Manage learning content",
     "Id": "53cec1c4-a65f-4981-9dc1-ad75dbf1c077",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to manage learning content in the organization's directory, on your behalf.",
+    "UserConsentDescription": "Allows the app to manage learning content in the organization's directory, on your behalf.",
     "UserConsentDisplayName": "Manage learning content",
     "Value": "LearningContent.ReadWrite.All",
     "AdditionalProperties": {}
@@ -3162,19 +3186,19 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read data for the learning provider in the organization's directory, on your behalf.",
+    "UserConsentDescription": "Allows the app to read data for the learning provider in the organization's directory, on your behalf.",
     "UserConsentDisplayName": "Read learning provider",
     "Value": "LearningProvider.Read",
     "AdditionalProperties": {}
   },
   {
     "AdminConsentDescription": "Allows the app to create, update, read, and delete data for the learning provider in the organization's directory, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Manage learning provider",
+    "AdminConsentDisplayName": "Manage learning provider",
     "Id": "40c2eb57-abaf-49f5-9331-e90fd01f7130",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create, update, read, and delete data for the learning provider in the organization's directory, on your behalf.",
+    "UserConsentDescription": "Allows the app to create, update, read, and delete data for the learning provider in the organization's directory, on your behalf.",
     "UserConsentDisplayName": "Manage learning provider",
     "Value": "LearningProvider.ReadWrite",
     "AdditionalProperties": {}
@@ -3415,7 +3439,7 @@
     "Origin": null,
     "Type": "User",
     "UserConsentDescription": "Allows the app to read, update, create, and delete mail you have permission to access, including your own and shared mail. Does not allow the app to send mail on your behalf.",
-    "UserConsentDisplayName": "Read and write mail you can access",
+    "UserConsentDisplayName": "Read and write mail you can access",
     "Value": "Mail.ReadWrite.Shared",
     "AdditionalProperties": {}
   },
@@ -3822,8 +3846,8 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all recordings of online meetings, on your behalf. ",
-    "UserConsentDisplayName": "Read all recordings of online meetings. ",
+    "UserConsentDescription": "Allows the app to read all recordings of online meetings, on your behalf. ",
+    "UserConsentDisplayName": "Read all recordings of online meetings. ",
     "Value": "OnlineMeetingRecording.Read.All",
     "AdditionalProperties": {}
   },
@@ -3912,25 +3936,25 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed skus and tenant branding information.",
+    "AdminConsentDescription": "Allows the app to read the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed skus and tenant branding information.",
     "AdminConsentDisplayName": "Read organization information",
     "Id": "4908d5b9-3fb2-4b1e-9336-1888b7937185",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read the organization and related resources, on your behalf. Related resources include things like subscribed skus and tenant branding information.",
+    "UserConsentDescription": "Allows the app to read the organization and related resources, on your behalf. Related resources include things like subscribed skus and tenant branding information.",
     "UserConsentDisplayName": "Read organization information",
     "Value": "Organization.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed skus and tenant branding information.",
+    "AdminConsentDescription": "Allows the app to read and write the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed skus and tenant branding information.",
     "AdminConsentDisplayName": "Read and write organization information",
     "Id": "46ca0847-7e6b-426e-9775-ea810a948356",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write the organization and related resources, on your behalf. Related resources include things like subscribed skus and tenant branding information.",
+    "UserConsentDescription": "Allows the app to read and write the organization and related resources, on your behalf. Related resources include things like subscribed skus and tenant branding information.",
     "UserConsentDisplayName": "Read and write organization information",
     "Value": "Organization.ReadWrite.All",
     "AdditionalProperties": {}
@@ -3960,13 +3984,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read all organizational contacts on behalf of the signed-in user.  These contacts are managed by the organization and are different from a user's personal contacts.",
+    "AdminConsentDescription": "Allows the app to read all organizational contacts on behalf of the signed-in user.  These contacts are managed by the organization and are different from a user's personal contacts.",
     "AdminConsentDisplayName": "Read organizational contacts",
     "Id": "08432d1b-5911-483c-86df-7980af5cdee0",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all organizational contacts on your behalf.  These contacts are managed by the organization and are different from your personal contacts.",
+    "UserConsentDescription": "Allows the app to read all organizational contacts on your behalf.  These contacts are managed by the organization and are different from your personal contacts.",
     "UserConsentDisplayName": "Read organizational contacts",
     "Value": "OrgContact.Read.All",
     "AdditionalProperties": {}
@@ -4356,7 +4380,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the authentication method policies, on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the app to read and write the authentication method policies, on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read and write authentication method policies",
     "Id": "7e823077-d88e-468f-a337-e18f1f0e6c7c",
     "IsEnabled": true,
@@ -4608,61 +4632,61 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to create (register) printers on behalf of the signed-in user. ",
-    "AdminConsentDisplayName": "Register printers  ",
+    "AdminConsentDescription": "Allows the application to create (register) printers on behalf of the signed-in user. ",
+    "AdminConsentDisplayName": "Register printers  ",
     "Id": "90c30bed-6fd1-4279-bf39-714069619721",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to create (register) printers on your behalf. ",
-    "UserConsentDisplayName": "Register printers  ",
+    "UserConsentDescription": "Allows the application to create (register) printers on your behalf. ",
+    "UserConsentDisplayName": "Register printers  ",
     "Value": "Printer.Create",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to create (register), read, update, and delete (unregister) printers on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to create (register), read, update, and delete (unregister) printers on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Register, read, update, and unregister printers",
     "Id": "93dae4bd-43a1-4a23-9a1a-92957e1d9121",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to create (register), read, update, and delete (unregister) printers on your behalf.  ",
+    "UserConsentDescription": "Allows the application to create (register), read, update, and delete (unregister) printers on your behalf.  ",
     "UserConsentDisplayName": "Register, read, update, and unregister printers",
     "Value": "Printer.FullControl.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read printers on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read printers on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read printers",
     "Id": "3a736c8a-018e-460a-b60c-863b2683e8bf",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read printers on your behalf. ",
+    "UserConsentDescription": "Allows the application to read printers on your behalf. ",
     "UserConsentDisplayName": "Read printers",
     "Value": "Printer.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read and update printers on behalf of the signed-in user. Does not allow creating (registering) or deleting (unregistering) printers.",
+    "AdminConsentDescription": "Allows the application to read and update printers on behalf of the signed-in user. Does not allow creating (registering) or deleting (unregistering) printers.",
     "AdminConsentDisplayName": "Read and update printers",
     "Id": "89f66824-725f-4b8f-928e-e1c5258dc565",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read and update printers on your behalf. Does not allow creating (registering) or deleting (unregistering) printers.",
+    "UserConsentDescription": "Allows the application to read and update printers on your behalf. Does not allow creating (registering) or deleting (unregistering) printers.",
     "UserConsentDisplayName": "Read and update printers",
     "Value": "Printer.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read printer shares on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read printer shares on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read printer shares",
     "Id": "ed11134d-2f3f-440d-a2e1-411efada2502",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the application to read printer shares on your behalf. ",
+    "UserConsentDescription": "Allows the application to read printer shares on your behalf. ",
     "UserConsentDisplayName": "Read printer shares",
     "Value": "PrinterShare.Read.All",
     "AdditionalProperties": {}
@@ -4680,13 +4704,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read and update printer shares on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read and update printer shares on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read and write printer shares",
     "Id": "06ceea37-85e2-40d7-bec3-91337a46038f",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read and update printer shares on your behalf. ",
+    "UserConsentDescription": "Allows the application to read and update printer shares on your behalf. ",
     "UserConsentDisplayName": "Read and update printer shares",
     "Value": "PrinterShare.ReadWrite.All",
     "AdditionalProperties": {}
@@ -4716,13 +4740,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read the metadata and document content of print jobs on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read the metadata and document content of print jobs on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read print jobs",
     "Id": "afdd6933-a0d8-40f7-bd1a-b5d778e8624b",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read the metadata and document content of print jobs on your behalf. ",
+    "UserConsentDescription": "Allows the application to read the metadata and document content of print jobs on your behalf. ",
     "UserConsentDisplayName": "Read print jobs",
     "Value": "PrintJob.Read.All",
     "AdditionalProperties": {}
@@ -4740,13 +4764,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read the metadata of print jobs on behalf of the signed-in user. Does not allow access to print job document content.",
+    "AdminConsentDescription": "Allows the application to read the metadata of print jobs on behalf of the signed-in user. Does not allow access to print job document content.",
     "AdminConsentDisplayName": "Read basic information of print jobs",
     "Id": "04ce8d60-72ce-4867-85cf-6d82f36922f3",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read the metadata of print jobs on your behalf. Does not allow access to print job document content.",
+    "UserConsentDescription": "Allows the application to read the metadata of print jobs on your behalf. Does not allow access to print job document content.",
     "UserConsentDisplayName": "Read basic information of print jobs",
     "Value": "PrintJob.ReadBasic.All",
     "AdditionalProperties": {}
@@ -4764,13 +4788,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read and update the metadata and document content of print jobs on behalf of the signed-in user. ",
+    "AdminConsentDescription": "Allows the application to read and update the metadata and document content of print jobs on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read and write print jobs",
     "Id": "036b9544-e8c5-46ef-900a-0646cc42b271",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read and update the metadata and document content of print jobs on your behalf. ",
+    "UserConsentDescription": "Allows the application to read and update the metadata and document content of print jobs on your behalf. ",
     "UserConsentDisplayName": "Read and update print jobs",
     "Value": "PrintJob.ReadWrite.All",
     "AdditionalProperties": {}
@@ -4788,13 +4812,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to read and update the metadata of print jobs on behalf of the signed-in user. Does not allow access to print job document content.",
+    "AdminConsentDescription": "Allows the application to read and update the metadata of print jobs on behalf of the signed-in user. Does not allow access to print job document content.",
     "AdminConsentDisplayName": "Read and write basic information of print jobs",
     "Id": "3a0db2f6-0d2a-4c19-971b-49109b19ad3d",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the application to read and update the metadata of print jobs on your behalf. Does not allow access to print job document content.",
+    "UserConsentDescription": "Allows the application to read and update the metadata of print jobs on your behalf. Does not allow access to print job document content.",
     "UserConsentDisplayName": "Read and write basic information of print jobs",
     "Value": "PrintJob.ReadWriteBasic.All",
     "AdditionalProperties": {}
@@ -4890,7 +4914,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to request and manage time-based assignment and just-in-time elevation of user privileges to manage  your Azure resources (like your subscriptions, resource groups, storage, compute) on your behalf.",
+    "UserConsentDescription": "Allows the app to request and manage time-based assignment and just-in-time elevation of user privileges to manage  your Azure resources (like your subscriptions, resource groups, storage, compute) on your behalf.",
     "UserConsentDisplayName": "Read and write privileged access to Azure resources",
     "Value": "PrivilegedAccess.ReadWrite.AzureResources",
     "AdditionalProperties": {}
@@ -5101,13 +5125,13 @@
   },
   {
     "AdminConsentDescription": "Allows the application to read any data from Records Management, such as configuration, labels, and policies on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read Records Management configuration, labels, and policies",
+    "AdminConsentDisplayName": "Read Records Management configuration, labels, and policies",
     "Id": "07f995eb-fc67-4522-ad66-2b8ca8ea3efd",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
     "UserConsentDescription": "Allows the application to read any data from Records Management, such as configuration, labels and policies on your behalf.",
-    "UserConsentDisplayName": "Read Records Management configuration, labels, and policies",
+    "UserConsentDisplayName": "Read Records Management configuration, labels, and policies",
     "Value": "RecordsManagement.Read.All",
     "AdditionalProperties": {}
   },
@@ -5304,13 +5328,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the Cloud PC role-based access control (RBAC) settings, on behalf of the signed-in user.  This includes reading Cloud PC role definitions and role assignments.",
+    "AdminConsentDescription": "Allows the app to read the Cloud PC role-based access control (RBAC) settings, on behalf of the signed-in user.  This includes reading Cloud PC role definitions and role assignments.",
     "AdminConsentDisplayName": "Read Cloud PC RBAC settings",
     "Id": "9619b88a-8a25-48a7-9571-d23be0337a79",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read the Cloud PC role-based access control (RBAC) settings, on your behalf.  This includes reading Cloud PC role definitions and role assignments.",
+    "UserConsentDescription": "Allows the app to read the Cloud PC role-based access control (RBAC) settings, on your behalf.  This includes reading Cloud PC role definitions and role assignments.",
     "UserConsentDisplayName": "Read Cloud PC RBAC settings",
     "Value": "RoleManagement.Read.CloudPC",
     "AdditionalProperties": {}
@@ -6234,7 +6258,7 @@
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to create teams on your behalf. ",
+    "UserConsentDescription": "Allows the app to create teams on your behalf. ",
     "UserConsentDisplayName": "Create teams",
     "Value": "Team.Create",
     "AdditionalProperties": {}
@@ -6912,7 +6936,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read or modify data that the signed-in user has access to. This includes all sets, groups and terms in the term store.",
+    "AdminConsentDescription": "Allows the app to read or modify data that the signed-in user has access to. This includes all sets, groups and terms in the term store.",
     "AdminConsentDisplayName": "Read and write term store data",
     "Id": "6c37c71d-f50f-4bff-8fd3-8a41da390140",
     "IsEnabled": true,
@@ -6960,13 +6984,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), on behalf of the signed-in user.  It cannot update any threat indicators it does not own.",
+    "AdminConsentDescription": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), on behalf of the signed-in user.  It cannot update any threat indicators it does not own.",
     "AdminConsentDisplayName": "Manage threat indicators this app creates or owns",
     "Id": "91e7d36d-022a-490f-a748-f8e011357b42",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), on your behalf.  It cannot update any threat indicators that it is not an owner of.",
+    "UserConsentDescription": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), on your behalf.  It cannot update any threat indicators that it is not an owner of.",
     "UserConsentDisplayName": "Manage threat indicators this app creates or owns",
     "Value": "ThreatIndicators.ReadWrite.OwnedBy",
     "AdditionalProperties": {}
@@ -7452,25 +7476,49 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows an application to read virtual appointments for the signed-in user. Only an organizer or participant user can read their virtual appointments.  ",
+    "AdminConsentDescription": "This role can read Verified Id profiles in a tenant.",
+    "AdminConsentDisplayName": "Read Verified Id profiles",
+    "Id": "604b2056-41ed-4c56-aad5-1241d4ef7333",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "This role can read Verified Id profiles in a tenant.",
+    "UserConsentDisplayName": "Read Verified Id profiles",
+    "Value": "VerifiedId-Profile.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This role can read and write Verified Id profiles in a tenant.",
+    "AdminConsentDisplayName": "Read and write Verified Id profiles",
+    "Id": "e4a9cb5e-4767-48f8-9029-decf26a54456",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "This role can read and write Verified Id profiles in a tenant.",
+    "UserConsentDisplayName": "Read and write Verified Id profiles",
+    "Value": "VerifiedId-Profile.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows an application to read virtual appointments for the signed-in user. Only an organizer or participant user can read their virtual appointments.  ",
     "AdminConsentDisplayName": "Read a user's virtual appointments",
     "Id": "27470298-d3b8-4b9c-aad4-6334312a3eac",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read virtual appointments on your behalf.  ",
-    "UserConsentDisplayName": "Read your virtual appointments ",
+    "UserConsentDescription": "Allows the app to read virtual appointments on your behalf.  ",
+    "UserConsentDisplayName": "Read your virtual appointments ",
     "Value": "VirtualAppointment.Read",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows an application to read and write virtual appointments for the signed-in user. Only an organizer or participant user can read and write their virtual appointments. ",
-    "AdminConsentDisplayName": "Read and write a user's virtual appointments  ",
+    "AdminConsentDescription": "Allows an application to read and write virtual appointments for the signed-in user. Only an organizer or participant user can read and write their virtual appointments. ",
+    "AdminConsentDisplayName": "Read and write a user's virtual appointments  ",
     "Id": "2ccc2926-a528-4b17-b8bb-860eed29d64c",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write virtual appointments on your behalf.  ",
+    "UserConsentDescription": "Allows the app to read and write virtual appointments on your behalf.  ",
     "UserConsentDisplayName": "Read and write your virtual appointments",
     "Value": "VirtualAppointment.ReadWrite",
     "AdditionalProperties": {}

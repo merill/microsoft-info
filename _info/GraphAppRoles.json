@@ -231,7 +231,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create other applications, and fully manage those applications (read, update, update application secrets and delete), without a signed-in user.  It cannot update any apps that it is not an owner of.",
+    "Description": "Allows the app to create other applications, and fully manage those applications (read, update, update application secrets and delete), without a signed-in user.  It cannot update any apps that it is not an owner of.",
     "DisplayName": "Manage apps that this app creates or owns",
     "Id": "18a4783c-866b-4cc7-a460-3d5e5662c884",
     "IsEnabled": true,
@@ -747,6 +747,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all AI Insights for all calls, without a signed-in user.",
+    "DisplayName": "Read all AI Insights for calls.",
+    "Id": "792b782b-7822-4b92-8103-77e44f2f706c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallAiInsights.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read delegation settings of you",
     "DisplayName": "Read delegation settings",
     "Id": "5aa33e77-b893-495e-bdc5-4bf6f27d42a0",
@@ -855,7 +867,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your organization.",
+    "Description": "Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your organization.",
     "DisplayName": "Join group calls and meetings as an app",
     "Id": "f6b49018-60ab-4f81-83bd-22caeabfed2d",
     "IsEnabled": true,
@@ -867,7 +879,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your organization.",
+    "Description": "Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your organization.",
     "DisplayName": "Join group calls and meetings as a guest",
     "Id": "fd7ccf6b-3d28-418b-9701-cd10f5cd2fd4",
     "IsEnabled": true,
@@ -999,7 +1011,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create chats without a signed-in user. ",
+    "Description": "Allows the app to create chats without a signed-in user. ",
     "DisplayName": "Create chats",
     "Id": "d9c48af6-9ad9-47ad-82c3-63757137b9af",
     "IsEnabled": true,
@@ -1359,7 +1371,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to list and query any shared user profile information associated with the current tenant without a signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant without a signed-in user.",
+    "Description": "Allows the application to list and query any shared user profile information associated with the current tenant without a signed-in user.  It also permits the application to export external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant without a signed-in user.",
     "DisplayName": "Read all shared cross-tenant user profiles and export their data",
     "Id": "8b919d44-6192-4f3d-8a3b-f86f8069ae3c",
     "IsEnabled": true,
@@ -1371,7 +1383,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to list and query any shared user profile information associated with the current tenant without a signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant without a signed-in user.",
+    "Description": "Allows the application to list and query any shared user profile information associated with the current tenant without a signed-in user.  It also permits the application to export and remove external user data (e.g. customer content or system-generated logs), for any user associated with the current tenant without a signed-in user.",
     "DisplayName": "Read all shared cross-tenant user profiles and export or delete their data",
     "Id": "306785c5-c09b-4ba0-a4ee-023f3da165cb",
     "IsEnabled": true,
@@ -1947,7 +1959,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write all domain properties without a signed in user.  Also allows the app to add,  verify and remove domains.",
+    "Description": "Allows the app to read and write all domain properties without a signed in user.  Also allows the app to add,  verify and remove domains.",
     "DisplayName": "Read and write domains",
     "Id": "7e05723c-0bb0-42da-be95-ae9f08a6e53c",
     "IsEnabled": true,
@@ -2007,7 +2019,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all class assignments with grades for all users without a signed-in user.",
+    "Description": "Allows the app to read all class assignments with grades for all users without a signed-in user.",
     "DisplayName": "Read all class assignments with grades",
     "Id": "4c37e1b6-35a1-43bf-926a-6f30f2cdf585",
     "IsEnabled": true,
@@ -2019,7 +2031,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all class assignments without grades for all users without a signed-in user.",
+    "Description": "Allows the app to read all class assignments without grades for all users without a signed-in user.",
     "DisplayName": "Read all class assignments without grades",
     "Id": "6e0a958b-b7fc-4348-b7c4-a6ab9fd3dd0e",
     "IsEnabled": true,
@@ -2031,8 +2043,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create, read, update and delete all class assignments with grades for all users without a signed-in user.",
-    "DisplayName": "Create, read, update and delete all class assignments with grades",
+    "Description": "Allows the app to create, read, update and delete all class assignments with grades for all users without a signed-in user.",
+    "DisplayName": "Create, read, update and delete all class assignments with grades",
     "Id": "0d22204b-6cad-4dd0-8362-3e3f2ae699d9",
     "IsEnabled": true,
     "Origin": "Application",
@@ -2043,8 +2055,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create, read, update and delete all class assignments without grades for all users without a signed-in user.",
-    "DisplayName": "Create, read, update and delete all class assignments without grades",
+    "Description": "Allows the app to create, read, update and delete all class assignments without grades for all users without a signed-in user.",
+    "DisplayName": "Create, read, update and delete all class assignments without grades",
     "Id": "f431cc63-a2de-48c4-8054-a34bc093af84",
     "IsEnabled": true,
     "Origin": "Application",
@@ -2475,7 +2487,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read group properties and memberships, and read conversations for all groups, without a signed-in user.",
+    "Description": "Allows the app to read group properties and memberships, and read conversations for all groups, without a signed-in user.",
     "DisplayName": "Read all groups",
     "Id": "5b567255-7703-4780-807c-7be8301ae99b",
     "IsEnabled": true,
@@ -2631,7 +2643,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update identity risk detection information for your organization without a signed-in user. Update operations include confirming risk event detections. ",
+    "Description": "Allows the app to read and update identity risk detection information for your organization without a signed-in user. Update operations include confirming risk event detections. ",
     "DisplayName": "Read and write all risk detection information",
     "Id": "db06fb33-1953-4b7b-a2ac-f1e2c854f7ae",
     "IsEnabled": true,
@@ -2679,7 +2691,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update identity risky user information for your organization without a signed-in user.  Update operations include dismissing risky users.",
+    "Description": "Allows the app to read and update identity risky user information for your organization without a signed-in user.  Update operations include dismissing risky users.",
     "DisplayName": "Read and write all risky user information",
     "Id": "656f6061-f9fe-4807-9708-6a2e0934df76",
     "IsEnabled": true,
@@ -3003,8 +3015,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to manage all learning content in the organization's directory, without a signed-in user.",
-    "DisplayName": "Manage all learning content",
+    "Description": "Allows the app to manage all learning content in the organization's directory, without a signed-in user.",
+    "DisplayName": "Manage all learning content",
     "Id": "444d6fcb-b738-41e5-b103-ac4f2a2628a3",
     "IsEnabled": true,
     "Origin": "Application",
@@ -3627,7 +3639,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read the organization and related resources, without a signed-in user. Related resources include things like subscribed skus and tenant branding information.",
+    "Description": "Allows the app to read the organization and related resources, without a signed-in user. Related resources include things like subscribed skus and tenant branding information.",
     "DisplayName": "Read organization information",
     "Id": "498476ce-e0fe-48b0-b801-37ba7e2685c6",
     "IsEnabled": true,
@@ -3639,7 +3651,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write the organization and related resources, without a signed-in user. Related resources include things like subscribed skus and tenant branding information.",
+    "Description": "Allows the app to read and write the organization and related resources, without a signed-in user. Related resources include things like subscribed skus and tenant branding information.",
     "DisplayName": "Read and write organization information",
     "Id": "292d869f-3427-49a8-9dab-8c70152b74e9",
     "IsEnabled": true,
@@ -4059,8 +4071,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write all authentication method policies for the tenant, without a signed-in user. ",
-    "DisplayName": "Read and write all authentication method policies ",
+    "Description": "Allows the app to read and write all authentication method policies for the tenant, without a signed-in user. ",
+    "DisplayName": "Read and write all authentication method policies ",
     "Id": "29c18626-4985-4dcd-85c0-193eef327366",
     "IsEnabled": true,
     "Origin": "Application",
@@ -4251,7 +4263,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read printers without a signed-in user. ",
+    "Description": "Allows the application to read printers without a signed-in user. ",
     "DisplayName": "Read printers",
     "Id": "9709bb33-4549-49d4-8ed9-a8f65e45bb0f",
     "IsEnabled": true,
@@ -4287,7 +4299,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read the metadata and document content of print jobs without a signed-in user. ",
+    "Description": "Allows the application to read the metadata and document content of print jobs without a signed-in user. ",
     "DisplayName": "Read print jobs",
     "Id": "ac6f956c-edea-44e4-bd06-64b1b4b9aec9",
     "IsEnabled": true,
@@ -4299,7 +4311,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read the metadata of print jobs without a signed-in user. Does not allow access to print job document content.",
+    "Description": "Allows the application to read the metadata of print jobs without a signed-in user. Does not allow access to print job document content.",
     "DisplayName": "Read basic information for print jobs",
     "Id": "fbf67eee-e074-4ef7-b965-ab5ce1c1f689",
     "IsEnabled": true,
@@ -4323,7 +4335,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read and update the metadata of print jobs without a signed-in user. Does not allow access to print job document content.",
+    "Description": "Allows the application to read and update the metadata of print jobs without a signed-in user. Does not allow access to print job document content.",
     "DisplayName": "Read and write basic information for print jobs",
     "Id": "57878358-37f4-4d3a-8c20-4816e0d457b1",
     "IsEnabled": true,
@@ -4347,7 +4359,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read and update print task definitions without a signed-in user. ",
+    "Description": "Allows the application to read and update print task definitions without a signed-in user. ",
     "DisplayName": "Read, write and update print task definitions",
     "Id": "456b71a7-0ee0-4588-9842-c123fcc8f664",
     "IsEnabled": true,
@@ -4624,7 +4636,7 @@
       "Application"
     ],
     "Description": "Allows the application to read any data from Records Management, such as configuration, labels, and policies without the signed in user.",
-    "DisplayName": "Read Records Management configuration, labels and policies",
+    "DisplayName": "Read Records Management configuration, labels and policies",
     "Id": "ac3a2b8e-03a3-4da9-9ce0-cbe28bf1accd",
     "IsEnabled": true,
     "Origin": "Application",
@@ -5559,7 +5571,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allow the application to access a subset of site collections without a signed in user.  The specific site collections and the permissions granted will be configured in SharePoint Online.",
+    "Description": "Allow the application to access a subset of site collections without a signed in user.  The specific site collections and the permissions granted will be configured in SharePoint Online.",
     "DisplayName": "Access selected site collections",
     "Id": "883ea226-0bf2-4a8f-9f9d-92c9162a727d",
     "IsEnabled": true,
@@ -5607,8 +5619,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read subject rights requests without a signed-in user.",
-    "DisplayName": "Read all subject rights requests",
+    "Description": "Allows the app to read subject rights requests without a signed-in user.",
+    "DisplayName": "Read all subject rights requests",
     "Id": "ee1460f0-368b-4153-870a-4e1ca7e72c42",
     "IsEnabled": true,
     "Origin": "Application",
@@ -5619,8 +5631,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write subject rights requests without a signed in user.",
-    "DisplayName": "Read and write all subject rights requests",
+    "Description": "Allows the app to read and write subject rights requests without a signed in user.",
+    "DisplayName": "Read and write all subject rights requests",
     "Id": "8387eaa4-1a3c-41f5-b261-f888138e6041",
     "IsEnabled": true,
     "Origin": "Application",
@@ -5703,7 +5715,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create teams without a signed-in user. ",
+    "Description": "Allows the app to create teams without a signed-in user. ",
     "DisplayName": "Create teams",
     "Id": "23fc2474-f741-46ce-8465-674744c5c361",
     "IsEnabled": true,
@@ -6363,7 +6375,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read tags in Teams without a signed-in user.",
+    "Description": "Allows the app to read tags in Teams without a signed-in user.",
     "DisplayName": "Read tags in Teams",
     "Id": "b74fd6c4-4bde-488e-9695-eeb100e4907f",
     "IsEnabled": true,
@@ -6447,7 +6459,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), without a signed-in user.  It cannot update any threat indicators it does not own.",
+    "Description": "Allows the app to create threat indicators, and fully manage those threat indicators (read, update and delete), without a signed-in user.  It cannot update any threat indicators it does not own.",
     "DisplayName": "Manage threat indicators this app creates or owns",
     "Id": "21792b6c-c986-4ffc-85de-df9da54b52fa",
     "IsEnabled": true,
@@ -6813,6 +6825,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserTeamwork.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This role can read Verified Id profiles in a tenant.",
+    "DisplayName": "Read Verified Id profiles",
+    "Id": "e227c591-dd64-4a8a-a033-816167f7c938",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "VerifiedId-Profile.Read.All",
     "AdditionalProperties": {}
   },
   {
