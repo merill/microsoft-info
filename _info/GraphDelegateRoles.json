@@ -1284,6 +1284,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and update the on-premises sync behavior of contacts a user has permissions to, including their own and shared contacts.",
+    "AdminConsentDisplayName": "Read and update the on-premises sync behavior of contacts",
+    "Id": "1e4c6c41-0803-4f52-85ef-0a5d63ad8670",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to update the on-premises sync behavior of contacts you have permissions to access, including your own and shared contacts.",
+    "UserConsentDisplayName": "Read and update the on-premises sync behavior of your own and shared contacts",
+    "Value": "Contacts-OnPremisesSyncBehavior.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read user contacts.  ",
     "AdminConsentDisplayName": "Read user contacts ",
     "Id": "ff74d97f-43af-4b68-9f2a-b77ee6968c5d",
@@ -2244,6 +2256,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create Viva Engage conversations and read all conversation properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all Viva Engage conversations",
+    "Id": "ebbfd079-1634-4640-8618-68b19ebbed1d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create Viva Engage conversations and read all conversation properties on your behalf.",
+    "UserConsentDisplayName": "Read and write all Viva Engage communities",
+    "Value": "EngagementConversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read Viva Engage Teams QA conversations, and to read their properties on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all Viva Engage Teams QA conversations",
     "Id": "58c5819e-29bd-4400-ad52-82cd82a63fbd",
@@ -2661,6 +2685,18 @@
     "UserConsentDescription": "Allows the app to read and write group conversations that the signed-in user has access to.",
     "UserConsentDisplayName": "Read and write group conversations",
     "Value": "Group-Conversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update the on-premises sync behavior of groups on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and update the on-premises sync behavior of groups",
+    "Id": "37e00479-5776-4659-aecf-4841ec5d590a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to update the on-premises sync behavior of groups on your behalf.",
+    "UserConsentDisplayName": "Read and update the on-premises sync behavior of groups",
+    "Value": "Group-OnPremisesSyncBehavior.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

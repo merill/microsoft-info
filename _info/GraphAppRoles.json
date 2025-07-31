@@ -1287,6 +1287,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to update the on-premises sync behavior of all contacts in all mailboxes without a signed-in user.",
+    "DisplayName": "Read and update the on-premises sync behavior of contacts",
+    "Id": "c8948c23-e66b-42db-83fd-770b71ab78d2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Contacts-OnPremisesSyncBehavior.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all contacts in all mailboxes without a signed-in user.",
     "DisplayName": "Read contacts in all mailboxes",
     "Id": "089fe4d0-434a-44c5-8827-41ba8a0b17f5",
@@ -2187,6 +2199,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create Viva Engage conversations, read all conversation properties, update conversation properties, and delete conversations without a signed-in user.",
+    "DisplayName": "Read and write all Viva Engage conversations",
+    "Id": "bfbd4840-fba0-43a7-93a9-465b687e47d0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementConversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to list Viva Engage Teams QA conversations, and to read their properties without a signed-in user.",
     "DisplayName": "Read all Viva Engage Teams QA conversations",
     "Id": "d746beae-b46e-446e-924a-5b805a5c4467",
@@ -2469,6 +2493,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Group-Conversation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to update the on-premises sync behavior of all groups without a signed-in user.",
+    "DisplayName": "Read and update the on-premises sync behavior of groups",
+    "Id": "2d9bd318-b883-40be-9df7-63ec4fcdc424",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Group-OnPremisesSyncBehavior.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
