@@ -819,6 +819,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read call recordings for all calls without a signed-in user.",
+    "DisplayName": "Read all call recordings",
+    "Id": "ce8fb1f1-5e1f-44a0-b102-4ec28454d0dc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallRecordings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read call records for all calls and online meetings without a signed-in user.",
     "DisplayName": "Read all call records",
     "Id": "45bbb07e-7321-4fd7-a8f6-3ff27e6a81c8",
@@ -885,6 +897,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Calls.JoinGroupCallAsGuest.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read call transcripts for all calls without a signed-in user.",
+    "DisplayName": "Read all call transcripts",
+    "Id": "4cd61b6d-8692-40bf-9d90-7f38db5e5fce",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CallTranscripts.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -2469,6 +2493,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "FileStorageContainer.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to manage file storage container type registrations without a signed-in user.",
+    "DisplayName": "Access selected file storage container type registrations",
+    "Id": "2dcc6599-bd30-442b-8f11-90f88ad441dc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FileStorageContainerTypeReg.Selected",
     "AdditionalProperties": {}
   },
   {
@@ -4155,7 +4191,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write your organization's cross tenant access policies without a signed-in user.",
+    "Description": "Allows the app to read and write your organization's cross-tenant access policies and configuration for automatic user consent settings to suppress consent prompts for users of the other tenant on behalf of the signed-in user.",
     "DisplayName": "Read and write your organization's cross tenant access policies",
     "Id": "338163d7-f101-4c92-94ba-ca46fe52447c",
     "IsEnabled": true,

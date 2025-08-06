@@ -876,6 +876,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all recordings of calls, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all recordings of calls. ",
+    "Id": "63d31bd6-bcf5-40ca-8283-ba4130a66405",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all recordings of calls, on your behalf.",
+    "UserConsentDisplayName": "Read all recordings of calls.",
+    "Value": "CallRecordings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all transcripts of calls, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all transcripts of calls. ",
+    "Id": "fbace248-5d8e-441c-85ca-cc19221a69a2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all transcripts of calls, on your behalf.",
+    "UserConsentDisplayName": "Read all transcripts of calls.",
+    "Value": "CallTranscripts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows to read all Change Management items.",
     "AdminConsentDisplayName": "Read Change Management items",
     "Id": "4628dff5-c33e-4fde-b17a-b64e7acb1bed",
@@ -2613,6 +2637,30 @@
     "UserConsentDescription": "Allows the app to access a subset of Storage Containers on your behalf. The specific file storage containers and the permissions granted will be configured in Microsoft 365 by the developer of each container type.",
     "UserConsentDisplayName": "Access selected file storage containers",
     "Value": "FileStorageContainer.Selected",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to manage file storage container types on behalf of the signed in user. The user must be a SharePoint Embedded Admin or Global Admin.",
+    "AdminConsentDisplayName": "Manage file storage container types on behalf of the signed in user",
+    "Id": "8e6ec84c-5fcd-4cc7-ac8a-2296efc0ed9b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to access a subset of storage container types on your behalf. You must be a SharePoint Embedded Admin or Global Admin.",
+    "UserConsentDisplayName": "Manage file storage container types on your behalf",
+    "Value": "FileStorageContainerType.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to manage file storage container type registrations on behalf of the signed in user. The user must be a SharePoint Embedded Admin or Global Admin.",
+    "AdminConsentDisplayName": "Manage file storage container type registrations on behalf of the signed in user",
+    "Id": "c319a7df-930e-44c0-a43b-7e5e9c7f4f24",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to access a subset of storage container type registrations on your behalf. You must be a SharePoint Embedded Admin or Global Admin.",
+    "UserConsentDisplayName": "Manage file storage container type registrations on your behalf",
+    "Value": "FileStorageContainerTypeReg.Manage.All",
     "AdditionalProperties": {}
   },
   {
@@ -4464,7 +4512,7 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write your organization's cross tenant access policies on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read and write your organization's cross-tenant access policies and configuration for automatic user consent settings to suppress consent prompts for users of the other tenant on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write your organization's cross tenant access policies",
     "Id": "014b43d0-6ed4-4fc6-84dc-4b6f7bae7d85",
     "IsEnabled": true,
