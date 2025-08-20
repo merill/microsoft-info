@@ -3279,6 +3279,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create, read, update, and delete all email, including contents of non-draft emails in user mailboxes, without a signed-in user. Does not include permission to send mail.",
+    "DisplayName": "Read and write mail in all mailboxes, including modifying existing non-draft mails",
+    "Id": "e118f1da-5c1c-46cf-bff6-8858d786f46f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mail-Advanced.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read mail in all mailboxes without a signed-in user.",
     "DisplayName": "Read mail in all mailboxes",
     "Id": "810c84a8-4a9e-49e6-bf7d-12d183f40d01",

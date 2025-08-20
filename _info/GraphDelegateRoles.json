@@ -3456,6 +3456,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete email, including contents of non-draft emails in user mailboxes, on behalf of the signed-in user. Does not include permission to send mail.",
+    "AdminConsentDisplayName": "Read and write the user's mail, including modifying existing non-draft mails",
+    "Id": "f3af82f6-18e0-4a41-8dc8-a03c11854a8d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete email, including contents of non-draft emails in your mailboxes, on your behalf. Does not include permission to send mail.",
+    "UserConsentDisplayName": "Read and write your mail, including modifying existing non-draft mails",
+    "Value": "Mail-Advanced.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete mail including contents of non-draft emails for all mails a user has permission to access, on behalf of the signed-in user. This includes their own and shared mail. Does not include permission to send mail.",
+    "AdminConsentDisplayName": "Read and write all mail the user can access, including modifying existing non-draft mails",
+    "Id": "bebf0bb6-2ff3-4295-a17d-f3561da294fb",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete mail including contents of non-draft emails for all mails you have permission to access, on your behalf. This includes your own mail and shared mail. Does not include permission to send mail.",
+    "UserConsentDisplayName": "Read and write all mail you can access, including modifying existing non-draft mails",
+    "Value": "Mail-Advanced.ReadWrite.Shared",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the signed-in user's mailbox.",
     "AdminConsentDisplayName": "Read user mail ",
     "Id": "570282fd-fa5c-430d-a7fd-fc8dc98a9dca",
