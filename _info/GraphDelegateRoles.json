@@ -2280,6 +2280,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read Viva Engage conversations, and to read their properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all Viva Engage conversations",
+    "Id": "c55541d9-2cdd-4fad-8ead-0c08fae5b0c8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to list Viva Engage conversations, and to read their properties on your behalf.",
+    "UserConsentDisplayName": "Read all Viva Engage conversations",
+    "Value": "EngagementConversation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create Viva Engage conversations and read all conversation properties on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write all Viva Engage conversations",
     "Id": "ebbfd079-1634-4640-8618-68b19ebbed1d",
