@@ -648,6 +648,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7cb67f16-9174-4dfc-989a-0d02aed8d3c3",
+    "AppDisplayName": "MDA LCNC Power Platform Security Webhooks",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f5c26e74-f226-4ae8-85f0-b4af0080ac9e",
     "AppDisplayName": "Application Insights API",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
