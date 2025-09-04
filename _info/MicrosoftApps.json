@@ -1494,6 +1494,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7598ef18-a171-4c40-b5b2-9b6df5d67a21",
+    "AppDisplayName": "Defender for Cloud Apps - Power Platform Solution Deployer",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "47ee738b-3f1a-4fc7-ab11-37e4822b007e",
     "AppDisplayName": "Azure AD Application Proxy",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
