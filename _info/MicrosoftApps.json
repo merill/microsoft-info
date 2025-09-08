@@ -23730,6 +23730,12 @@
     "Source": "EntraDocs"
   },
   {
+    "AppId": "6a02c803-dafd-4136-b4c3-5a6f318b4714",
+    "AppDisplayName": "Azure Cloud Services for Government",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
     "AppId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "AppDisplayName": "Windows Notification Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
