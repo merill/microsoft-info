@@ -1,4 +1,5 @@
 "AppId","AppDisplayName","AppOwnerOrganizationId","Source"
+"73c2949e-da2d-457a-9607-fcc665198967","Azure Purview","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba","Sway","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9e4a5442-a5c9-4f6f-b03f-5b9fcaaf24b1","OfficeServicesManager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3cf6df92-2745-4f6f-bbcf-19b59bcdb62a","Office 365 Client Admin","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

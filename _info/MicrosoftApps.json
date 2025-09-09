@@ -1,5 +1,11 @@
 [
   {
+    "AppId": "73c2949e-da2d-457a-9607-fcc665198967",
+    "AppDisplayName": "Azure Purview",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba",
     "AppDisplayName": "Sway",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24122,12 +24128,6 @@
   {
     "AppId": "707aa1ac-be0a-478d-9ce7-0d2765a5c1d6",
     "AppDisplayName": "Funnel and Engagement Data Service [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "73c2949e-da2d-457a-9607-fcc665198967",
-    "AppDisplayName": "Azure Purview [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
