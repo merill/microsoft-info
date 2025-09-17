@@ -241,6 +241,7 @@
 "797f4846-ba00-4fd7-ba43-dac1f8f63013","Azure Resource Manager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b503eb83-1222-4dcc-b116-b98ed5216e05","Azure Notification Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "40c49ff3-c6ae-436d-b28e-b8e268841980","Microsoft Azure Network Copilot","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"81ca2f57-06b8-4597-9eee-ad8f700c5106","MicrosoftEntraIDReputationManagementServices","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8d3a7d3c-c034-4f19-a2ef-8412952a9671","Microsoft Office Licensing Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "65c8bd9e-caac-4816-be98-0692f41191bc","People Profile Event Proxy","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a47591ab-e23e-4ffa-9e1b-809b9067e726","Microsoft Teams User Profile Search Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

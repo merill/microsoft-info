@@ -1452,6 +1452,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "81ca2f57-06b8-4597-9eee-ad8f700c5106",
+    "AppDisplayName": "MicrosoftEntraIDReputationManagementServices",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "8d3a7d3c-c034-4f19-a2ef-8412952a9671",
     "AppDisplayName": "Microsoft Office Licensing Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

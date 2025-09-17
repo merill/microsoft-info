@@ -252,6 +252,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and update all apps in your organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and update all apps",
+    "Id": "0586a906-4d89-4de8-b3c8-1aacdcc0c679",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update all apps in your organization, on your behalf.",
+    "UserConsentDisplayName": "Read and update all apps",
+    "Value": "Application.ReadUpdate.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create, read, update and delete applications and service principals on behalf of the signed-in user. Does not allow management of consent grants.",
     "AdminConsentDisplayName": "Read and write all applications",
     "Id": "bdfbf15f-ee85-4955-8675-146e8e5296b5",

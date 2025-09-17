@@ -219,6 +219,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read and update all apps in your organization, without a signed-in user.",
+    "DisplayName": "Read and update all apps",
+    "Id": "fc023787-fd04-4e44-9bc7-d454f00c0f0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Application.ReadUpdate.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create, read, update and delete applications and service principals without a signed-in user.  Does not allow management of consent grants.",
     "DisplayName": "Read and write all applications",
     "Id": "1bfefb4e-e0b5-418b-a88f-73c46d2cc8e9",
@@ -4725,6 +4737,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "QnA.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to get direct access to real-time enriched data in a meeting, without a signed-in user.",
+    "DisplayName": "Access real-time enriched data in a meeting as an app",
+    "Id": "abafe00f-ea87-4c63-b8a8-0e7bb0a88144",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RealTimeActivityFeed.Read.All",
     "AdditionalProperties": {}
   },
   {
