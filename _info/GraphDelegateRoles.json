@@ -6084,6 +6084,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read, write and manage your tenant's SharePoint Cross-Tenant migration settings and tasks, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read, write and manage SharePoint Cross-Tenant migration settings and tasks",
+    "Id": "c608c170-08b5-466b-a8fe-0b4074b01613",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, write and manage your tenant's SharePoint Cross-Tenant migration settings and tasks, on your behalf.",
+    "UserConsentDisplayName": "Read, write and manage SharePoint Cross-Tenant migration settings and tasks",
+    "Value": "SharePointCrossTenantMigration.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your tenant's SharePoint Cross-Tenant migration settings and tasks, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read SharePoint Cross-Tenant migration settings and tasks",
+    "Id": "00dcb678-f9af-4e73-acb1-4f1657364629",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's SharePoint Cross-Tenant migration settings and tasks, on your behalf.",
+    "UserConsentDisplayName": "Read SharePoint Cross-Tenant migration settings and tasks",
+    "Value": "SharePointCrossTenantMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to read the tenant-level settings in SharePoint and OneDrive on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read SharePoint and OneDrive tenant settings",
     "Id": "2ef70e10-5bfd-4ede-a5f6-67720500b258",

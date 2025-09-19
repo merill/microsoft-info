@@ -5559,6 +5559,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read, write and manage your tenant's SharePoint Cross-Tenant migration settings and tasks, without a signed-in user.",
+    "DisplayName": "Read, write and manage SharePoint Cross-Tenant migration settings and tasks",
+    "Id": "a0521574-fcd8-4742-b29c-f796df57ea70",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointCrossTenantMigration.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's SharePoint Cross-Tenant migration settings and tasks, without a signed-in user.",
+    "DisplayName": "Read SharePoint Cross-Tenant migration settings and tasks",
+    "Id": "f5fa52a5-b9ab-4dc3-885e-9e5b4a67068e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointCrossTenantMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
     "DisplayName": "Read SharePoint and OneDrive tenant settings",
     "Id": "83d4163d-a2d8-4d3b-9695-4ae3ca98f888",
