@@ -141,7 +141,7 @@
 "ebe0c285-db95-403f-a1a3-a793bd6d7767","Office MRO Device Manager Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "18af356b-c4fd-4f52-9899-d09d21397ab7","Office365DirectorySynchronizationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4e445925-163e-42ca-b801-9073bfa46d17","SharePoint Home Notifier","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"92876b03-76a3-4da8-ad6a-0511ffdf8647","ComplianceWorkbenchApp","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"92876b03-76a3-4da8-ad6a-0511ffdf8647","M365PurvieweDiscoveryInfra","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "618dd325-23f6-4b6f-8380-4df78026e39b","Microsoft 365 Admin portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "db55028d-e5ba-420f-816a-d18c861aefdf","Microsoft Office Licensing Service vNext","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b5a60e17-278b-4c92-a4e2-b9262e66bb28","Azure MFA StrongAuthenticationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
