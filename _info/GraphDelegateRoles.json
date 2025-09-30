@@ -5256,6 +5256,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to get direct access to real-time enriched data in a meeting, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Access real-time enriched data in a meeting",
+    "Id": "db5d5bae-0c9e-444e-9390-8a5fea98c253",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to get direct access to real-time enriched data in a meeting, on your behalf.",
+    "UserConsentDisplayName": "Access real-time enriched data in a meeting",
+    "Value": "RealTimeActivityFeed.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to read any data from Records Management, such as configuration, labels, and policies on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read Records Management configuration, labels, and policies",
     "Id": "07f995eb-fc67-4522-ad66-2b8ca8ea3efd",
@@ -5829,6 +5841,30 @@
     "UserConsentDescription": "Allows the app to read and write identity security available actions on your behalf.",
     "UserConsentDisplayName": "Read and perform identity security available actions",
     "Value": "SecurityIdentitiesActions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the sensors window auditing configuration of the signed in user",
+    "AdminConsentDisplayName": "Read sensors window auditing configuration",
+    "Id": "8ff90903-1ecb-4f3a-b8b2-42120374ecd6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the sensors window auditing configuration on your behalf",
+    "UserConsentDisplayName": "Read sensors window auditing configuration",
+    "Value": "SecurityIdentitiesAutoConfig.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write the sensors window auditing configuration of the signed in user",
+    "AdminConsentDisplayName": "Read and write sensors window auditing configuration",
+    "Id": "b810fdb4-8733-43bd-9b37-fddb7215c69f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write the sensors window auditing configuration on your behalf",
+    "UserConsentDisplayName": "Read and write window auditing configuration",
+    "Value": "SecurityIdentitiesAutoConfig.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -7317,6 +7353,18 @@
     "UserConsentDescription": "Allows the app to read and write secondary mail addresses for all users, on your behalf.",
     "UserConsentDisplayName": "Read and write secondary mail addresses for users",
     "Value": "User-Mail.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update the on-premises sync behavior of users on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and update the on-premises sync behavior of users",
+    "Id": "7ff9afdd-0cdb-439d-a61c-fea3e9339e89",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to update the on-premises sync behavior of users on your behalf.",
+    "UserConsentDisplayName": "Read and update the on-premises sync behavior of users",
+    "Value": "User-OnPremisesSyncBehavior.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
