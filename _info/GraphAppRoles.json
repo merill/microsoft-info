@@ -6939,6 +6939,102 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read email methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' email methods",
+    "Id": "a1e58be0-1095-422b-b067-73434bd7d40f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Email.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write email methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' email methods",
+    "Id": "e8ecb853-1435-4a49-95ba-ec5b31b11672",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Email.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read external authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' external authentication methods",
+    "Id": "d2c4289f-9f95-40da-ad43-eeb1506f0db7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-External.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write external authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' external authentication methods",
+    "Id": "c7a22c2e-5b01-4129-8159-6c8be2c78f16",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-External.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read HardwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' HardwareOATH authentication methods",
+    "Id": "7b544555-7811-49ff-8223-a56be870e33a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-HardwareOATH.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write HardwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' HardwareOATH authentication methods",
+    "Id": "7e9ebcc1-90aa-4471-8051-e68d6b4e9c89",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-HardwareOATH.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Microsoft authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' Microsoft authentication methods",
+    "Id": "a9c5f16e-e5ca-4e33-89ad-903fcfc01c23",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-MicrosoftAuthApp.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write Microsoft Authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' Microsoft Authentication methods",
+    "Id": "c833c349-a1ab-4b6d-94a2-fa9a8674420c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-MicrosoftAuthApp.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read passkey authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' passkey authentication methods",
     "Id": "72e00c1d-3e3d-43bb-a0b9-c435611bb1d2",
@@ -6957,6 +7053,174 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-Passkey.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read password authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' password authentication methods",
+    "Id": "8d2c17ff-b93d-40d5-9def-d843680509cb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Password.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write password authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' password authentication methods",
+    "Id": "f6d38dfd-ec08-4995-8f07-23e929df0936",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Password.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read phone authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' phone authentication methods",
+    "Id": "f529a223-ea70-43ec-b268-5012de2fbaa2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Phone.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write phone methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' phone methods",
+    "Id": "6e85d483-7092-4375-babe-0a94a8213a58",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-Phone.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read platform credentials methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' platform credentials methods",
+    "Id": "07c0b1e4-15bd-442f-834b-30f8291388d1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-PlatformCred.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write platform credentials methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' platform credentials methods",
+    "Id": "1a87acf4-a9ca-4576-a974-452ea265d5f6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-PlatformCred.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read QR authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' QR methods",
+    "Id": "9a45bc50-cddd-4ebe-bd9c-4f2eacf646ae",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-QR.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write QR authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' QR methods",
+    "Id": "4869299f-18c3-40c8-98f2-222657e67db1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-QR.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read SoftwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' SoftwareOATH methods",
+    "Id": "a6b423df-a0c8-411d-a809-a4a5985d2939",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-SoftwareOATH.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write SoftwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' SoftwareOATH methods",
+    "Id": "787442d4-3c6e-4e99-aa95-8ccca20a48ff",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-SoftwareOATH.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Temporary Access Pass authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' Temporary Access Pass methods",
+    "Id": "bf82209c-b22b-4747-ac88-a68be99032cf",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-TAP.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write Temporary Access Pass authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' Temporary Access Pass methods",
+    "Id": "627169a8-8c15-451c-861a-5b80e383de5c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-TAP.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Windows Hello authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read all users' Windows Hello methods",
+    "Id": "9b8dd4c7-8cca-4ef5-a34a-9c2c75fcc934",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-WindowsHello.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and write Windows Hello authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "DisplayName": "Read and write all users' Windows Hello authentication methods",
+    "Id": "f14eee8a-713e-45aa-8223-2ab74632db1a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserAuthMethod-WindowsHello.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
