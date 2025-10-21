@@ -1428,6 +1428,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "e8c77dc2-69b3-43f4-bc51-3213c9d915b4",
+    "AppDisplayName": "IDNA MCP Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "00000003-0000-0ff1-ce00-000000000000",
     "AppDisplayName": "Office 365 SharePoint Online",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
