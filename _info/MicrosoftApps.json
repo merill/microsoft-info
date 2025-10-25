@@ -1429,7 +1429,7 @@
   },
   {
     "AppId": "e8c77dc2-69b3-43f4-bc51-3213c9d915b4",
-    "AppDisplayName": "IDNA MCP Service",
+    "AppDisplayName": "Microsoft MCP Server for Enterprise",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3128,6 +3128,12 @@
   {
     "AppId": "8c59ead7-d703-4a27-9e55-c96a0054c8d2",
     "AppDisplayName": "My Profile",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "35e5e31d-b3e8-442b-9a8d-2f81f46938cf",
+    "AppDisplayName": "Entra App Platform System Application",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
