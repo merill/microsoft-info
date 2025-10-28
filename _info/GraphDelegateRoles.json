@@ -1428,6 +1428,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to delete Microsoft 365 Copilot conversations on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Delete Microsoft 365 Copilot conversations",
+    "Id": "ed510a02-ac32-45f9-93e6-04864f7f7e47",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to delete Microsoft 365 Copilot conversations on your behalf.",
+    "UserConsentDisplayName": "Delete Microsoft 365 Copilot conversations",
+    "Value": "CopilotConversation.Delete",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read organization-wide copilot limited mode setting on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read organization-wide copilot limited mode setting",
     "Id": "aeb2982d-632d-4155-b533-18756ab6fdd8",
