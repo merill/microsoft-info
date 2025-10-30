@@ -2952,6 +2952,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read risky agents information in your organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read risky agents information",
+    "Id": "3215c57f-3faa-4295-95c2-6f14a5bc6124",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read risky agents information in your organization, on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read risky agents information",
+    "Value": "IdentityRiskyAgent.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update identity risky agents information for all agents in your organization on behalf of the signed-in user. Update operations include dismissing risky agents.",
+    "AdminConsentDisplayName": "Read and write risky agents information",
+    "Id": "d343bdeb-db6a-4e06-97da-9dafc2d61c60",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update identity risky agents information for all agents in your organization on your behalf. Update operations include dismissing risky agents.",
+    "UserConsentDisplayName": "Read and write risky agents information",
+    "Value": "IdentityRiskyAgent.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all identity risky service principal information for your organization, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all identity risky service principal information",
     "Id": "ea5c4ab0-5a73-4f35-8272-5d5337884e5d",

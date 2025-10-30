@@ -1614,6 +1614,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "aebc6443-996d-45c2-90f0-388ff96faa56",
+    "AppDisplayName": "Visual Studio Code",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "15689b28-1333-4213-bb64-38407dde8a5e",
     "AppDisplayName": "Microsoft Azure",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1676,6 +1682,12 @@
   {
     "AppId": "8fca0a66-c008-4564-a876-ab3ae0fd5cff",
     "AppDisplayName": "Microsoft.SMIT",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "62e61498-0c88-438b-a45c-2da0517bebe6",
+    "AppDisplayName": "VS with MSAL",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2180,6 +2192,12 @@
   {
     "AppId": "997dc448-eeab-4c93-8811-6b2c80196a16",
     "AppDisplayName": "CCM TAGS",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "04f0c124-f2bc-4f59-8241-bf6df9866bbd",
+    "AppDisplayName": "Visual Studio",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },

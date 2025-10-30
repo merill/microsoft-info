@@ -2751,6 +2751,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the risky agents information in your organization without a signed-in user.",
+    "DisplayName": "Read all risky agents information",
+    "Id": "4aadfb66-d49a-414a-a883-d8c240b6fa33",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityRiskyAgent.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update risky agents information in your organization without a signed-in user.",
+    "DisplayName": "Read and write risky agents information",
+    "Id": "dca4e4fd-a7cf-4e6f-86d1-d1ec094d766e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityRiskyAgent.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all risky service principal information for your organization, without a signed-in user.",
     "DisplayName": "Read all identity risky service principal information",
     "Id": "607c7344-0eed-41e5-823a-9695ebe1b7b0",
