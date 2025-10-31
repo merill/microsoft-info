@@ -438,6 +438,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3570e63c-5acf-4f3f-9f15-a49faa5120d3",
+    "AppDisplayName": "Power Apps Service Customer Management Plane Backend",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ab3be6b7-f5df-413d-ac2d-abf1e3fd9c0b",
     "AppDisplayName": "Microsoft Teams Graph Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -710,6 +716,12 @@
   {
     "AppId": "1b730954-1685-4b74-9bfd-dac224a7b894",
     "AppDisplayName": "Azure Active Directory PowerShell",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "b6fb6bd6-f0fb-4a60-beb1-4e50afd0eaa9",
+    "AppDisplayName": "Power Apps Service Data Plane Backend",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
