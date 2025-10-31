@@ -3312,12 +3312,6 @@
     "Source": "Graph"
   },
   {
-    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
-    "AppDisplayName": "Microsoft Graph Command Line Tools",
-    "AppOwnerOrganizationId": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2",
-    "Source": "Graph"
-  },
-  {
     "AppId": "00000000-0000-0000-0000-000000000000",
     "AppDisplayName": "Designated empty GUID",
     "AppOwnerOrganizationId": "",
@@ -21038,6 +21032,12 @@
   {
     "AppId": "47629505-c2b6-4a80-adb1-9b3a3d233b7b",
     "AppDisplayName": "Microsoft Exchange Web Services",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+    "AppDisplayName": "Microsoft Graph Command Line Tools",
     "AppOwnerOrganizationId": "",
     "Source": "EntraDocs"
   },
