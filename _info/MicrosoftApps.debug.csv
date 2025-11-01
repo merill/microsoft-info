@@ -551,6 +551,7 @@
 "de8bc8b5-d9f9-48b1-a8ad-b748da725064","Graph Explorer","72f988bf-86f1-41af-91ab-2d7cd011db47","Graph"
 "0ec2d138-5a70-4a33-b2c7-7d296c996ace","","72f988bf-86f1-41af-91ab-2d7cd011db47","Graph"
 "df2798fc-2aed-4c3a-98ae-1776949480c4","","72f988bf-86f1-41af-91ab-2d7cd011db47","Graph"
+"14d82eec-204b-4c2f-b7e8-296a70dab67e","Microsoft Graph Command Line Tools","cdc5aeea-15c5-4db6-b079-fcadd2505dc2","Graph"
 "00000000-0000-0000-0000-000000000000","Designated empty GUID","","EntraDocs"
 "11111111-1111-1111-1111-111111111111","Blazor Visual Studio project template default client Id","","EntraDocs"
 "22222222-2222-2222-2222-222222222222","Azure SDK single org default tenant ID","","EntraDocs"
