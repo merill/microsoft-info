@@ -1830,6 +1830,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "51b6191a-b045-44cf-8277-ee37c9fb5a06",
+    "AppDisplayName": "Compute Image Registry",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f7069a8d-9edc-4300-b365-ae53c9627fc4",
     "AppDisplayName": "Microsoft.MileIQ.Dashboard",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
