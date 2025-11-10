@@ -3150,6 +3150,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+    "AppDisplayName": "Microsoft_AAD_RegisteredApps",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "637fcc9f-4a9b-4aaa-8713-a2a3cfda1505",
     "AppDisplayName": "Dynamics CRM Online Administration",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
