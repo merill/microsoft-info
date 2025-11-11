@@ -72,6 +72,78 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read agent card manifests in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read agent card manifests in Agent Registry",
+    "Id": "ada96a26-9579-4c29-a578-c3482a765716",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read agent card manifests on your behalf.",
+    "UserConsentDisplayName": "Read agent card manifests in Agent Registry",
+    "Value": "AgentCardManifest.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write agent card manifests in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write agent card manifests in Agent Registry",
+    "Id": "80151b1a-1c31-4846-ae0d-c79939ee13d1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write agent card manifests on your behalf.",
+    "UserConsentDisplayName": "Read and write agent card manifests in Agent Registry",
+    "Value": "AgentCardManifest.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read global collection and its membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read global collection in Agent Registry",
+    "Id": "b14924c8-87f1-438a-81f2-dc370ba2f45d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read global collection and its membership on your behalf.",
+    "UserConsentDisplayName": "Read global collection in Agent Registry",
+    "Value": "AgentCollection.Read.Global",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read quarantined collection and its membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read quarantined collection in Agent Registry",
+    "Id": "43acfda3-daf3-4aa4-955d-b051d0024e82",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read quarantined collection and its membership on your behalf.",
+    "UserConsentDisplayName": "Read quarantined collection in Agent Registry",
+    "Value": "AgentCollection.Read.Quarantined",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update global collection and manage its membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write global collection in Agent Registry",
+    "Id": "c001dd65-8a6b-4349-ab0c-4e8a410d28d2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update global collection and manage its membership on your behalf.",
+    "UserConsentDisplayName": "Read and write global collection in Agent Registry",
+    "Value": "AgentCollection.ReadWrite.Global",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update quarantined collection and manage its membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write quarantined collection in Agent Registry",
+    "Id": "ae331cc9-9f51-484b-a90b-124f2e4a6398",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update quarantined collection and manage its membership on your behalf.",
+    "UserConsentDisplayName": "Read and write quarantined collection in Agent Registry",
+    "Value": "AgentCollection.ReadWrite.Quarantined",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read terms of use agreements on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all terms of use agreements",
     "Id": "af2819c9-df71-4dd3-ade7-4d7c9dc653b7",
@@ -3636,6 +3708,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read user's UserConfiguration objects, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Read user's UserConfiguration objects",
+    "Id": "dce2e6fc-0f4b-40da-94e2-14b4477f3d92",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your UserConfiguration objects.",
+    "UserConsentDisplayName": "Read your UserConfiguration objects",
+    "Value": "MailboxConfigItem.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update and delete user's UserConfiguration objects, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Read and write user's UserConfiguration objects",
+    "Id": "7d461784-7715-4b09-9f90-91a6d8722652",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update and delete your UserConfiguration objects.",
+    "UserConsentDisplayName": "Read and write your UserConfiguration objects",
+    "Value": "MailboxConfigItem.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the user's mailbox folders, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read a user's mailbox folders",
     "Id": "52dc2051-4958-4636-8f2a-281d39c6981c",
@@ -6252,6 +6348,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the application to create site collections on behalf of the signed in user. Upon creation the application will be granted Sites.Selected(delegated) + FullControl to the newly created site.",
+    "AdminConsentDisplayName": "Create Site Collections, on behalf of the signed-in user",
+    "Id": "0e2e68e1-3f32-4e10-9281-f749e097fcbe",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to create site collections on behalf of the signed in user. Upon creation the application will be granted Sites.Selected(delegated) + FullControl to the newly created site.",
+    "UserConsentDisplayName": "Create Site Collections, on behalf of the signed-in user",
+    "Value": "Sites.Create.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to have full control of all site collections on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Have full control of all site collections",
     "Id": "5a54b8b3-347c-476d-8f8e-42d5c7424d29",
@@ -7644,6 +7752,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and write the signed-in user's email authentication methods. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "AdminConsentDisplayName": "Read and write the signed-in user's email authentication methods",
+    "Id": "696aa421-62dc-4c99-be16-015b23444089",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your email authentication methods. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "UserConsentDisplayName": "Read and write your email authentication methods",
+    "Value": "UserAuthMethod-Email.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write email methods of all users in your organization that the signed-in user has access to. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "AdminConsentDisplayName": "Read and write all users' email methods.",
     "Id": "074f680f-c89e-45be-880e-5d0642860a1c",
@@ -7677,6 +7797,18 @@
     "UserConsentDescription": "Allows the app to read external authentication methods of all users you have access to in your organization. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read all users' external authentication methods",
     "Value": "UserAuthMethod-External.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write the signed-in user's external authentication methods. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "AdminConsentDisplayName": "Read and write the signed-in user's external authentication methods",
+    "Id": "28c2e8f9-828a-4691-a090-f2f0b7fc07b3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your external authentication methods. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "UserConsentDisplayName": "Read and write your external authentication methods",
+    "Value": "UserAuthMethod-External.ReadWrite",
     "AdditionalProperties": {}
   },
   {

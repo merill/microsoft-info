@@ -87,6 +87,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all agent card manifests in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read all agent card manifests in Agent Registry",
+    "Id": "3ee18438-e6e5-4858-8f1c-d7b723b45213",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCardManifest.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write to all agent card manifests in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write all agent card manifests in Agent Registry",
+    "Id": "228b1a03-f7ca-4348-b50d-e8a547ab61af",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCardManifest.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write agent card manifests that name it as manager in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write managed-by agent card manifests in Agent Registry",
+    "Id": "77f6034c-52f5-4526-9fa1-d55a67e72cc4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCardManifest.ReadWrite.ManagedBy",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create linked agent identities without a signed-in user.",
     "DisplayName": "Create agent identities linked to itself.",
     "Id": "2c4c43c7-1903-4658-a911-b8f2bb31e32e",
@@ -3399,6 +3435,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all users' UserConfiguration objects.",
+    "DisplayName": "Read all users' UserConfiguration objects",
+    "Id": "27d9d776-f4d2-426d-80ad-5f22f2b01b0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MailboxConfigItem.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update and delete all users' UserConfiguration objects.",
+    "DisplayName": "Read and write all users' UserConfiguration objects",
+    "Id": "aa6d92d4-b25a-4640-aefe-3e3231e5e736",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MailboxConfigItem.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all the users' mailbox folders, without signed-in user.",
     "DisplayName": "Read all the users' mailbox folders",
     "Id": "99280d24-a782-4793-93cc-0888549957f6",
@@ -5709,6 +5769,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Sites.Archive.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the application to create site collections without a signed in user. Upon creation the application will be granted Sites.Selected(application) + FullControl to the newly created site.",
+    "DisplayName": "Create Site Collections without a signed in user.",
+    "Id": "80819dd8-2b3b-4551-a1ad-2700fc44f533",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.Create.All",
     "AdditionalProperties": {}
   },
   {
