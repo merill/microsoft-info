@@ -75,12 +75,36 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows creating new agent applications and their associated service principals.",
-    "DisplayName": "Create agent applications.",
-    "Id": "2f479c7e-27df-4053-826b-57d8ce55be3e",
+    "Description": "Allows the app to read all agent cards and their skills in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read all agent cards in Agent Registry",
+    "Id": "aec9e0a0-6f46-4150-a9f7-05e9e3e87399",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AgentApplication.Create",
+    "Value": "AgentCard.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete all agent cards and manage their skills in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write all agent cards in Agent Registry",
+    "Id": "ef566853-42d6-45a5-bed9-5ccb82c98b4f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCard.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update agent cards that designate the calling app as their manager and manage their skills in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write managed-by agent cards in Agent Registry",
+    "Id": "9c4a07db-e0c1-4fb0-8e85-dfd8ae3b8201",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCard.ReadWrite.ManagedBy",
     "AdditionalProperties": {}
   },
   {
@@ -123,12 +147,72 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create linked agent identities without a signed-in user.",
-    "DisplayName": "Create agent identities linked to itself.",
-    "Id": "2c4c43c7-1903-4658-a911-b8f2bb31e32e",
+    "Description": "Allows the app to read all collections and their membership in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read all collections in Agent Registry",
+    "Id": "e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AgentIdentity.Create",
+    "Value": "AgentCollection.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete all collections and manage their membership in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write all collections in Agent Registry",
+    "Id": "feb31d7d-a227-4487-898c-e014840d07b3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCollection.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete collections that designate the calling app as their manager and manage their membership in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write managed-by collections in Agent Registry",
+    "Id": "2e0fb698-9996-479f-926b-ce63f4397829",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCollection.ReadWrite.ManagedBy",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all agent instances and their related collections in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read all agent instances in Agent Registry",
+    "Id": "799a4732-85b8-4c67-b048-75f0e88a232b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete all agent instances in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write all agent instances in Agent Registry",
+    "Id": "07abdd95-78dc-4353-bd32-09f880ea43d0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete agent instances that designate the calling app as their manager in your organization's Agent Registry without a signed-in user.",
+    "DisplayName": "Read and write managed-by agent instances in Agent Registry",
+    "Id": "782ab1bf-24f1-4c27-8bbc-2006d42792a6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.ReadWrite.ManagedBy",
     "AdditionalProperties": {}
   },
   {

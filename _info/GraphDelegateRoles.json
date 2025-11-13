@@ -72,6 +72,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read agent cards and their skills in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read agent cards in Agent Registry",
+    "Id": "73ea6732-992c-4292-98f7-9feff18d3ade",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read agent cards and their skills on your behalf.",
+    "UserConsentDisplayName": "Read agent cards in Agent Registry",
+    "Value": "AgentCard.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete agent cards and manage their skills in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write agent cards in Agent Registry",
+    "Id": "b0f726a8-0fa2-4ce2-937b-fd17a446261f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete agent cards and manage their skills on your behalf.",
+    "UserConsentDisplayName": "Read and write agent cards in Agent Registry",
+    "Value": "AgentCard.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read agent card manifests in your organization's Agent Registry on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read agent card manifests in Agent Registry",
     "Id": "ada96a26-9579-4c29-a578-c3482a765716",
@@ -93,6 +117,18 @@
     "UserConsentDescription": "Allows the app to read and write agent card manifests on your behalf.",
     "UserConsentDisplayName": "Read and write agent card manifests in Agent Registry",
     "Value": "AgentCardManifest.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read collections and their membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read collections in Agent Registry",
+    "Id": "fa50be38-fdff-469c-96dc-ef5fce3c64bf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read collections and their membership on your behalf.",
+    "UserConsentDisplayName": "Read collections in Agent Registry",
+    "Value": "AgentCollection.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -120,6 +156,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete collections and manage their membership in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write collections in Agent Registry",
+    "Id": "6d8a7002-a05e-4b95-a768-0e6f0badc6c8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete collections and manage their membership on your behalf.",
+    "UserConsentDisplayName": "Read and write collections in Agent Registry",
+    "Value": "AgentCollection.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and update global collection and manage its membership in your organization's Agent Registry on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write global collection in Agent Registry",
     "Id": "c001dd65-8a6b-4349-ab0c-4e8a410d28d2",
@@ -141,6 +189,30 @@
     "UserConsentDescription": "Allows the app to read and update quarantined collection and manage its membership on your behalf.",
     "UserConsentDisplayName": "Read and write quarantined collection in Agent Registry",
     "Value": "AgentCollection.ReadWrite.Quarantined",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read agent instances and their related collections in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read agent instances in Agent Registry",
+    "Id": "4c3c738a-2df0-4877-bf4a-f796950ff34c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read agent instances and their related collections on your behalf.",
+    "UserConsentDisplayName": "Read agent instances in Agent Registry",
+    "Value": "AgentInstance.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete agent instances in your organization's Agent Registry on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write agent instances in Agent Registry",
+    "Id": "fc79e324-da24-497a-b5ec-e7de08320375",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete agent instances on your behalf.",
+    "UserConsentDisplayName": "Read and write agent instances in Agent Registry",
+    "Value": "AgentInstance.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
