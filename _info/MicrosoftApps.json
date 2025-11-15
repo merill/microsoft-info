@@ -1632,12 +1632,6 @@
     "Source": "Graph"
   },
   {
-    "AppId": "aebc6443-996d-45c2-90f0-388ff96faa56",
-    "AppDisplayName": "Visual Studio Code",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "Graph"
-  },
-  {
     "AppId": "15689b28-1333-4213-bb64-38407dde8a5e",
     "AppDisplayName": "Microsoft Azure",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3206,6 +3200,12 @@
   {
     "AppId": "75513c96-801d-4559-830a-6754de13dd19",
     "AppDisplayName": "M365 Label Analytics",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "aebc6443-996d-45c2-90f0-388ff96faa56",
+    "AppDisplayName": "Visual Studio Code",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
