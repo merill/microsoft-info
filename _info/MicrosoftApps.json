@@ -3174,6 +3174,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3b80cd3f-61ca-49b0-8d0f-7b6760e08705",
+    "AppDisplayName": "ZTNA Policy Service Graph Client ",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "35e5e31d-b3e8-442b-9a8d-2f81f46938cf",
     "AppDisplayName": "Entra App Platform System Application",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24002,12 +24008,6 @@
   {
     "AppId": "38df11dd-582e-4207-be6f-b214675f44a1",
     "AppDisplayName": "SEAL All credentials [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "3b80cd3f-61ca-49b0-8d0f-7b6760e08705",
-    "AppDisplayName": "ZTNA Policy Service Graph Client [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
