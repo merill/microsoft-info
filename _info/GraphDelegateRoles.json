@@ -1584,6 +1584,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the user to read the packages information",
+    "AdminConsentDisplayName": "Read all packages information",
+    "Id": "a2dcfcb9-cbe8-4d42-812d-952e55cf7f3f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read packages information.",
+    "UserConsentDisplayName": "Read all packages information",
+    "Value": "CopilotPackages.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the user to read and update the packages information",
+    "AdminConsentDisplayName": "Read and update all packages information",
+    "Id": "e9c5fd18-ac15-43dd-9f5c-6f9611dd5604",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update packages information.",
+    "UserConsentDisplayName": "Read and update all packages information",
+    "Value": "CopilotPackages.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read organization-wide copilot limited mode setting on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read organization-wide copilot limited mode setting",
     "Id": "aeb2982d-632d-4155-b533-18756ab6fdd8",
@@ -2589,6 +2613,18 @@
     "UserConsentDescription": "Allows the app full access to your mailboxes on your behalf.",
     "UserConsentDisplayName": "Access your mailboxes",
     "Value": "EWS.AccessAsUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to search the email message trace on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Search the email message trace",
+    "Id": "b2e7d27e-14e7-41ad-bb15-a88ceb9c3e90",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to search the email message trace on your behalf.",
+    "UserConsentDisplayName": "Search the email message trace",
+    "Value": "ExchangeMessageTrace.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -3825,6 +3861,18 @@
     "UserConsentDescription": "Allows the app to read and write your mailbox folders, on your behalf",
     "UserConsentDisplayName": "Read and write your mailbox folders",
     "Value": "MailboxFolder.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to export the user's mailbox items, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Export a user's mailbox items",
+    "Id": "58d3e7fa-3ce9-4a0c-9baa-0971f64709d9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to export your mailbox items, on your behalf",
+    "UserConsentDisplayName": "Export your mailbox items",
+    "Value": "MailboxItem.Export",
     "AdditionalProperties": {}
   },
   {
