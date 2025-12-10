@@ -78,7 +78,7 @@
     "Description": "Allows the app to read all agent cards and their skills in your organization's Agent Registry without a signed-in user.",
     "DisplayName": "Read all agent cards in Agent Registry",
     "Id": "aec9e0a0-6f46-4150-a9f7-05e9e3e87399",
-    "IsEnabled": true,
+    "IsEnabled": false,
     "Origin": "Application",
     "Value": "AgentCard.Read.All",
     "AdditionalProperties": {}
@@ -90,7 +90,7 @@
     "Description": "Allows the app to create, read, update, and delete all agent cards and manage their skills in your organization's Agent Registry without a signed-in user.",
     "DisplayName": "Read and write all agent cards in Agent Registry",
     "Id": "ef566853-42d6-45a5-bed9-5ccb82c98b4f",
-    "IsEnabled": true,
+    "IsEnabled": false,
     "Origin": "Application",
     "Value": "AgentCard.ReadWrite.All",
     "AdditionalProperties": {}
@@ -177,6 +177,246 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "AgentCollection.ReadWrite.ManagedBy",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create agent identities, even if the app is not the parent agent identity blueprint.",
+    "DisplayName": "Create agent identities without an agent blueprint parent",
+    "Id": "ad25cc1d-84d8-47df-a08e-b34c2e800819",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.Create.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create linked agent identities without a signed-in user.",
+    "DisplayName": "Create agent identities linked to itself.",
+    "Id": "4c390976-b2b7-42e0-9187-c6be3bead001",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.CreateAsManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to delete and restore agent identities without a signed-in user.",
+    "DisplayName": "Delete and restore agent identities",
+    "Id": "5b016f9b-18eb-41d4-869a-66931914d1c8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.DeleteRestore.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to enable or disable agent identities without a signed-in user.",
+    "DisplayName": "Enable or disable agent identities",
+    "Id": "69ee0943-4fa4-4ec8-8e52-d12e4ea661a3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.EnableDisable.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all agent identities without a signed-in user.",
+    "DisplayName": "Read all agent identities",
+    "Id": "b2b8f011-2898-4234-9092-5059f6c1ebfa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app read, update, and delete agent identities without a signed-in user.",
+    "DisplayName": "Read and write all agent identities",
+    "Id": "dcf7150a-88d4-4fe6-9be1-c2744c455397",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentity.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows updating agent identity blueprint credentials without a signed-in user.",
+    "DisplayName": "Update agent identity blueprint credentials",
+    "Id": "0510736e-bdfb-4b37-9a1f-89b4a074763a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.AddRemoveCreds.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows creating new agent identity blueprints without a signed-in user.",
+    "DisplayName": "Create agent identity blueprints.",
+    "Id": "ea4b2453-ad2d-4d94-9155-10d5d9493ce9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.Create",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows deleting or restoring agent identity blueprints without a signed-in user.",
+    "DisplayName": "Delete and restore agent identity blueprints.",
+    "Id": "3f80b699-6405-4e36-a4df-4f19950ff91e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.DeleteRestore.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all agent identity blueprints without a signed-in user.",
+    "DisplayName": "Read all agent identity blueprints",
+    "Id": "7547a7d1-36fa-4479-9c31-559a600eaa4f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, update, and delete agent identity blueprints without a signed-in user.",
+    "DisplayName": "Read and write all agent identity blueprints.",
+    "Id": "7fddd33b-d884-4ec0-8696-72cff90ff825",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows updating agent identity blueprint authorization and authentication properties without a signed-in user.",
+    "DisplayName": "Update agent identity blueprint authorization and authentication properties",
+    "Id": "19202363-278e-49c2-bf00-391e2ba00881",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.UpdateAuthProperties.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows updating agent identity blueprint branding without a signed-in user.",
+    "DisplayName": "Update agent identity blueprint branding",
+    "Id": "76232daa-a1e4-4544-b664-495a006513bf",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprint.UpdateBranding.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows creating new agent identity blueprint principals without a signed-in user.",
+    "DisplayName": "Create agent identity blueprint service principals.",
+    "Id": "8959696d-d07e-4916-9b1e-3ba9ce459161",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprintPrincipal.Create",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows deleting or restoring agent identity blueprints without a signed-in user.",
+    "DisplayName": "Delete and restore agent identity blueprints.",
+    "Id": "f86a2dd8-9298-4675-bd78-f5a3572da2d7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprintPrincipal.DeleteRestore.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows enabling or disabling agent identity blueprint principals without a signed-in user.",
+    "DisplayName": "Enable or disable agent identity blueprint principals.",
+    "Id": "a0bdd23d-8b19-4682-b428-574d96527c6f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprintPrincipal.EnableDisable.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows reading agent identity blueprint principals without a signed-in user.",
+    "DisplayName": "Read agent identity blueprint principals.",
+    "Id": "9361dea9-4524-493d-941d-f1b65aaf6c7c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprintPrincipal.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, update, and delete agent identity blueprint principals without a signed-in user.",
+    "DisplayName": "Read and write all agent identity blueprint principals.",
+    "Id": "3bc933bc-8b4d-4cb6-ac49-b73774299250",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdentityBlueprintPrincipal.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update agent ID user profiles and read basic company properties without a signed in user.",
+    "DisplayName": "Read and write all agent ID users' full profiles",
+    "Id": "b782c9ad-6f2b-4894-a21b-72bf22417f0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdUser.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update ID agent user profiles and read basic company properties without a signed in user.",
+    "DisplayName": "Read and write all agent ID users' full profiles",
+    "Id": "4aa6e624-eee0-40ab-bdd8-f9639038a614",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentIdUser.ReadWrite.IdentityParentedBy",
     "AdditionalProperties": {}
   },
   {
