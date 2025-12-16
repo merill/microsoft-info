@@ -5943,6 +5943,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all Sentiment Survey, without a signed-in user. ",
+    "DisplayName": "Export all Sentiment Survey",
+    "Id": "84fa35c1-f997-4c1c-894c-bb52108cfbbf",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SentimentSurvey.Export.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all Exchange service activity, without a signed-in user.",
     "DisplayName": "Read all Exchange service activity",
     "Id": "2b655018-450a-4845-81e7-d603b1ebffdb",

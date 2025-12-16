@@ -539,6 +539,7 @@
 "a42e3c42-b31e-4919-b699-696dca5dc9e7","SensitivityLabel.Evaluate.All","Evaluate labels tenant scope.","Allows the app to evaluate all sensitivity label."
 "1aeb73ce-68d7-49b7-913a-eedc80844551","SensitivityLabel.Read","Get labels user scope.","Allows the app to get sensitivity labels."
 "8b377c27-ea19-4863-a948-8a8588c8f2c3","SensitivityLabels.Read.All","Get labels app scope.","Allows the app to get sensitivity labels."
+"df9fd94d-51ff-443d-8f31-ae4dc1b5b8d8","SentimentSurvey.Export.All","Export all Sentiment Survey","Allows the app to export all Sentiment Survey, on behalf of the signed-in user."
 "1fe7aa48-9373-4a47-8df3-168335e0f4c9","ServiceActivity-Exchange.Read.All","Read all Exchange service activity","Allows the app to read all Exchange service activity, on behalf of the signed-in user."
 "d74c75b1-d5a9-479d-902d-92f8f99182c1","ServiceActivity-Microsoft365Web.Read.All","Read all Microsoft 365 Web service activity","Allows the app to read all Microsoft 365 Web service activity, on behalf of the signed-in user."
 "347e3c16-30f3-4ac7-9b52-fc3c053de9c9","ServiceActivity-OneDrive.Read.All","Read all One Drive service activity","Allows the app to read all One Drive service activity, on behalf of the signed-in user."

@@ -6480,6 +6480,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to export all Sentiment Survey, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Export all Sentiment Survey",
+    "Id": "df9fd94d-51ff-443d-8f31-ae4dc1b5b8d8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to export all Sentiment Survey, on your behalf.",
+    "UserConsentDisplayName": "Export all Sentiment Survey",
+    "Value": "SentimentSurvey.Export.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all Exchange service activity, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all Exchange service activity",
     "Id": "1fe7aa48-9373-4a47-8df3-168335e0f4c9",
