@@ -522,6 +522,7 @@
 "00000009-0000-0000-c000-000000000000","Power BI Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0e282aa8-2770-4b6c-8cf8-fac26e9ebe1f","Sherlock","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "c5393580-f805-4401-95e8-94b7a6ef2fc2","Office 365 Management APIs","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"189cf920-d3d8-4133-9145-23adcc6824fa","IpLicensingService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f6b60513-f290-450e-a2f3-9930de61c5e7","Microsoft Azure Log Search Alerts","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7ae5462d-d9d1-42f6-93ca-198d7b0ca997","Microsoft O365 Scuba","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "18ed3507-a475-4ccb-b669-d66bc9f2a36e","Microsoft_AAD_RegisteredApps","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

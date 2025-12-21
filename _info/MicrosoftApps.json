@@ -3138,6 +3138,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "189cf920-d3d8-4133-9145-23adcc6824fa",
+    "AppDisplayName": "IpLicensingService",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "f6b60513-f290-450e-a2f3-9930de61c5e7",
     "AppDisplayName": "Microsoft Azure Log Search Alerts",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -23876,12 +23882,6 @@
   {
     "AppId": "1762e607-063e-431a-a25a-f0f782acb73b",
     "AppDisplayName": "Virtual Connector Provider [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "189cf920-d3d8-4133-9145-23adcc6824fa",
-    "AppDisplayName": "IpLicensingService [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
