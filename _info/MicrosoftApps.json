@@ -162,6 +162,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "91ad134d-5284-4adc-a896-d7fd24e9fa15",
+    "AppDisplayName": "Microsoft Alchemy Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "038187f5-ca69-4382-8c0b-8d87708d099f",
     "AppDisplayName": "MSAI Substrate Meeting Intelligence ",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24321,12 +24327,6 @@
     "AppId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
     "AppDisplayName": "Microsoft Teams Copilot Bot [Community Contributed]",
     "AppOwnerOrganizationId": "",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "91ad134d-5284-4adc-a896-d7fd24e9fa15",
-    "AppDisplayName": "Microsoft Alchemy Service [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
   {
