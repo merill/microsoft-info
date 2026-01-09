@@ -558,6 +558,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "84a0e9dd-6e58-4aad-82af-ebe485acd09d",
+    "AppDisplayName": "Hubble Media Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "707be275-6b9d-4ee7-88f9-c0c2bd646e0f",
     "AppDisplayName": "Dynamic Alerts",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
