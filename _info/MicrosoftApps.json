@@ -684,6 +684,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "87251ad4-d513-4246-8138-b40d418b9005",
+    "AppDisplayName": "CommComplianceApp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2ca80e7c-4ad1-444f-88f5-58f92b71b7b0",
     "AppDisplayName": "Euclid",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
