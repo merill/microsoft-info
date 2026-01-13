@@ -2382,6 +2382,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "85eced78-2127-4b24-9418-95f0bbe3d145",
+    "AppDisplayName": "Safelinks",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2a486b53-dbd2-49c0-a2bc-278bdfc30833",
     "AppDisplayName": "Cortana at Work Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3032,6 +3038,12 @@
   {
     "AppId": "e95d8bee-4725-4f59-910d-94d415da51b9",
     "AppDisplayName": "Skype for Business Name Dictionary Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "cedebc57-38a2-4f0a-8472-dfcbba5b04c6",
+    "AppDisplayName": "M365 Compliance Drive",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -24578,12 +24590,6 @@
   {
     "AppId": "cc46c2aa-d508-409b-aeb7-df7cd1e07aaa",
     "AppDisplayName": "MAPG [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "cedebc57-38a2-4f0a-8472-dfcbba5b04c6",
-    "AppDisplayName": "M365 Compliance Drive [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
