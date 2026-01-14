@@ -119,6 +119,7 @@
 "ef5d5c69-a5df-46bb-acaf-426f161a21a2","Managed Service Identity","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7d3471e1-ec8b-4655-92f3-bb331362b5ae","Azure Storage Actions Resource Provider Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e81c7467-0fc3-4866-b814-c973488361cd","AzureBackup_Fabric_Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"56841561-dc28-442b-94a8-f8e4fd8b6fa4","CapacityPolicyAssignmentApp","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "eacba838-453c-4d3e-8c6a-eb815d3469a3","Microsoft Flow CDS Integration Service TIP1","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "58ef1dbd-684c-47d6-8ffc-61ea7a197b95","AzNS EventHub Action","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "1b730954-1685-4b74-9bfd-dac224a7b894","Azure Active Directory PowerShell","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

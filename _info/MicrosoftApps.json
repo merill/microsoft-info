@@ -720,6 +720,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "56841561-dc28-442b-94a8-f8e4fd8b6fa4",
+    "AppDisplayName": "CapacityPolicyAssignmentApp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "eacba838-453c-4d3e-8c6a-eb815d3469a3",
     "AppDisplayName": "Microsoft Flow CDS Integration Service TIP1",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
