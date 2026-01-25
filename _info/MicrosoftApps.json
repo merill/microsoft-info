@@ -1212,6 +1212,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "8d605dfc-1a04-4da6-9be2-8426724af3f3",
+    "AppDisplayName": "Power Platform Authorization Service PROD",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "7e468355-e4db-46a9-8289-8d414c89c43c",
     "AppDisplayName": "Federated Profile Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
