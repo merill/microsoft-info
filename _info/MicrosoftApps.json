@@ -510,6 +510,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "86b4b4b4-db10-481c-876b-07447e7f204f",
+    "AppDisplayName": "Groups Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "207a6836-d031-4764-a9d8-c1193f455f21",
     "AppDisplayName": "Conference Auto Attendant",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1784,6 +1790,12 @@
   {
     "AppId": "87749df4-7ccf-48f8-aa87-704bad0e0e16",
     "AppDisplayName": "Microsoft Teams - Device Admin Agent",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "e03a13ee-9730-4cae-8525-47559c8cf18a",
+    "AppDisplayName": "Office Online Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -23376,12 +23388,6 @@
     "Source": "EntraDocs"
   },
   {
-    "AppId": "e03a13ee-9730-4cae-8525-47559c8cf18a",
-    "AppDisplayName": "Office Online Service",
-    "AppOwnerOrganizationId": "",
-    "Source": "EntraDocs"
-  },
-  {
     "AppId": "9199bf20-a13f-4107-85dc-02114787ef48",
     "AppDisplayName": "Outlook Web App Office 365",
     "AppOwnerOrganizationId": "",
@@ -23390,12 +23396,6 @@
   {
     "AppId": "0fbd6821-7888-443f-821c-36471d94fda1",
     "AppDisplayName": "M365 Auditing Public Protected Web API app",
-    "AppOwnerOrganizationId": "",
-    "Source": "EntraDocs"
-  },
-  {
-    "AppId": "86b4b4b4-db10-481c-876b-07447e7f204f",
-    "AppDisplayName": "Speedway (Groups Service)",
     "AppOwnerOrganizationId": "",
     "Source": "EntraDocs"
   },
