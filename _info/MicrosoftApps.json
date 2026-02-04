@@ -936,6 +936,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "9ec59623-ce40-4dc8-a635-ed0275b5d58a",
+    "AppDisplayName": "Purview Ecosystem",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "de247707-4e4a-47d6-89fd-3c632f870b34",
     "AppDisplayName": "CloudLicensingSystem",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1674,6 +1680,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "886b3ae5-8ee1-4bb4-a312-b35341a95909",
+    "AppDisplayName": "Syntex Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "61f9e166-f678-4342-bfd3-b49781ce7a0a",
     "AppDisplayName": "Teams Policy Notification Processor Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1724,6 +1736,12 @@
   {
     "AppId": "b97b6bd4-a49f-4a0c-af18-af507d1da76c",
     "AppDisplayName": "Office Shredding Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "fd642066-7bfc-4b65-9463-6a08841c12f0",
+    "AppDisplayName": "Microsoft Purview Platform",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -1970,6 +1988,12 @@
   {
     "AppId": "0000000b-0000-0000-c000-000000000000",
     "AppDisplayName": "Microsoft Seller Dashboard",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "12ff570a-8284-47ed-adb3-fcc72b594c36",
+    "AppDisplayName": "Consumption Billing",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -23904,12 +23928,6 @@
     "Source": "GitHub"
   },
   {
-    "AppId": "12ff570a-8284-47ed-adb3-fcc72b594c36",
-    "AppDisplayName": "Consumption Billing [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
     "AppId": "1303f293-64bd-48ba-89b0-6bf538bc67f3",
     "AppDisplayName": "Microsoft Teams IP Policy Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24426,12 +24444,6 @@
     "Source": "GitHub"
   },
   {
-    "AppId": "9ec59623-ce40-4dc8-a635-ed0275b5d58a",
-    "AppDisplayName": "Purview Ecosystem [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
     "AppId": "a12e8ccb-0fcd-46f8-b6a1-b9df7a9d7231",
     "AppDisplayName": "Azure Arc Data Services Billing [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24776,12 +24788,6 @@
   {
     "AppId": "f7a2a81e-ab33-4560-a3dd-6ddca3c5ec6d",
     "AppDisplayName": "Membership View Service [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "fd642066-7bfc-4b65-9463-6a08841c12f0",
-    "AppDisplayName": "Microsoft Purview Platform [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
