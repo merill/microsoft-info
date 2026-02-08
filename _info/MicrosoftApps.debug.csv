@@ -152,6 +152,7 @@
 "618dd325-23f6-4b6f-8380-4df78026e39b","Microsoft 365 Admin portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "db55028d-e5ba-420f-816a-d18c861aefdf","Microsoft Office Licensing Service vNext","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b5a60e17-278b-4c92-a4e2-b9262e66bb28","Azure MFA StrongAuthenticationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"bd11ca0f-4fd6-4bb7-a259-4a36693b6e13","MCAPI AAD Bridge Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5b3b270a-b9ad-46e7-9bbb-a866897c4dc7","Azure Portal RP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e97edbaf-39b2-4546-ba61-0a24e1bef890","Teams EHR Connector","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e29b5c86-b9ab-4a86-9a20-d10842007599","SharePoint Framework Azure AD Helper","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

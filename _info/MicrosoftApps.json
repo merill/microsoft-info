@@ -918,6 +918,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "bd11ca0f-4fd6-4bb7-a259-4a36693b6e13",
+    "AppDisplayName": "MCAPI AAD Bridge Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "5b3b270a-b9ad-46e7-9bbb-a866897c4dc7",
     "AppDisplayName": "Azure Portal RP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
