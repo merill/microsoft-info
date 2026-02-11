@@ -23904,6 +23904,1296 @@
     "Source": "EntraDocs"
   },
   {
+    "AppId": "f1346770-5b25-470b-88bd-d5744ab7952c",
+    "AppDisplayName": "Intune Provisioning Client",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7078946d-fc1c-43b7-8dee-dd6e6b00d783",
+    "AppDisplayName": "Configuration Manager Server App (CmgServerApp)",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cf114f48-88db-4829-ac45-0c186e86dbf6",
+    "AppDisplayName": "Configuration Manager Client App (CmgClientApp)",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1dee7b72-b80d-4e56-933d-8b6b04f9a3e2",
+    "AppDisplayName": "Remote Assistance Service",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "854b36b3-a388-4ac8-a4ec-677c2b5e4356",
+    "AppDisplayName": "Purview/sit-defn-malta-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b2b21198-48f9-4d13-b2a5-03969bff0fb8",
+    "AppDisplayName": "Purview/sit-defn-malta-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f753a286-f5cc-47e6-a592-4be25fd02591",
+    "AppDisplayName": "Purview/sit-defn-medicare-beneficiary-Identifier-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e905ad4d-5a74-406d-bf36-b1efca798af4",
+    "AppDisplayName": "Purview/sit-defn-mexico-unique-population-registry-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "c5f54253-ef7e-44f6-a578-440ed67e946d",
+    "AppDisplayName": "Purview/sit-defn-netherlands-citizens-service-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "6247fbea-ab80-4be5-8233-308b7c031401",
+    "AppDisplayName": "Purview/sit-defn-netherlands-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "61786727-bafd-45f6-94d9-888d815e228e",
+    "AppDisplayName": "Purview/sit-defn-netherlands-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "01f42a64-eba7-4892-a67b-398237e4ade2",
+    "AppDisplayName": "Purview/sit-defn-netherlands-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cb353f78-2b72-4c3c-8827-92ebe4f69fdf",
+    "AppDisplayName": "Purview/sit-defn-aba-routing",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "eefbb00e-8282-433c-8620-8f1da3bffdb2",
+    "AppDisplayName": "Purview/sit-defn-argentina-national-identity-numbers",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "98da3da1-9199-4571-b7c4-b6522980b507",
+    "AppDisplayName": "Purview/sit-defn-argentina-unique-tax-identification-key",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "74a54de9-2a30-4aa0-a8aa-3d9327fc07c7",
+    "AppDisplayName": "Purview/sit-defn-australia-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "76e83b3b-01ee-4530-aced-e667a6609f49",
+    "AppDisplayName": "Purview/sit-defn-australia-business-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b1fba4f7-7b3e-4bb9-8f9a-9366df604dbb",
+    "AppDisplayName": "Purview/sit-defn-australia-company-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1cbbc8f5-9216-4392-9eb5-5ac2298d1356",
+    "AppDisplayName": "Purview/sit-defn-australia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "104a99a0-3d3b-4542-a40d-ab0b9e1efe63",
+    "AppDisplayName": "Purview/sit-defn-australia-medical-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "29869db6-602d-4853-ab93-3484f905df50",
+    "AppDisplayName": "Purview/sit-defn-australia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e29bc95f-ff70-4a37-aa01-04d17360a4c5",
+    "AppDisplayName": "Purview/sit-defn-australia-tax-file-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "682f18ce-44eb-482b-8198-2bcb96a0761e",
+    "AppDisplayName": "Purview/sit-defn-austria-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "5ec06c3b-007e-4820-8343-7ff73b889735",
+    "AppDisplayName": "Purview/sit-defn-austria-identity-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1c96ae4e-303b-447d-86c7-77113ac266bf",
+    "AppDisplayName": "Purview/sit-defn-austria-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "6896a906-86c9-4d19-a2da-6e43ccd19b7b",
+    "AppDisplayName": "Purview/sit-defn-austria-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4fd58d22-af28-4451-b18a-6f722430a56d",
+    "AppDisplayName": "Purview/sit-defn-austria-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b6a3eda2-c56c-4b69-a5f7-dca34db00f48",
+    "AppDisplayName": "Purview/sit-defn-austria-value-added-tax",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "0f587d92-eb28-44a9-bd1c-90f2892b47aa",
+    "AppDisplayName": "Purview/azure-document-db-auth-key",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ce1a126d-186f-4700-8c0c-486157b953fd",
+    "AppDisplayName": "Purview/azure-sql-connection-string",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "0b34bec3-d5d6-4974-b7b0-dcdb5c90c29d",
+    "AppDisplayName": "Purview/azure-iot-connection-string",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "75f4cc8a-a68e-49e5-89ce-fa8f03d286a5",
+    "AppDisplayName": "Purview/azure-publish-setting-password",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "095a7e6c-efd8-46d5-af7b-5298d53a49fc",
+    "AppDisplayName": "Purview/sit-defn-azure-redis-cache-connection-string",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4d235014-e564-47f4-a6fb-6ebb4a826834",
+    "AppDisplayName": "Purview/sit-defn-azure-sas",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b9a6578f-a83f-4fcd-bf44-2130bae49a6f",
+    "AppDisplayName": "Purview/sit-defn-azure-service-bus-connection-string",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7ff41bd0-5419-4523-91d6-383b3a37f084",
+    "AppDisplayName": "Purview/sit-defn-azure-storage-account-key-generic",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "c7bc98e8-551a-4c35-a92d-d2c8cda714a7",
+    "AppDisplayName": "Purview/sit-defn-azure-storage-account-key",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f70163aa-03a8-4f4a-8a30-d38e3f38fde4",
+    "AppDisplayName": "Purview/sit-defn-azure-subscription-management-certificate",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d89fd329-9324-433c-b687-2c37bd5166f3",
+    "AppDisplayName": "Purview/sit-defn-belgium-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "fb969c9e-0fd1-4b18-8091-a2123c5e6a54",
+    "AppDisplayName": "Purview/sit-defn-belgium-national-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d7b1315b-21ca-4774-a32a-596010ff78fd",
+    "AppDisplayName": "Purview/sit-defn-belgium-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "85b5b3c3-f2de-4ae8-ac46-fd3cb38bf9ed",
+    "AppDisplayName": "Purview/sit-defn-belgium-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "78e09124-f2c3-4656-b32a-c1a132cd2711",
+    "AppDisplayName": "Purview/sit-defn-brazil-cpf-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9b58b5cd-5e90-4df6-b34f-1ebcc88ceae4",
+    "AppDisplayName": "Purview/sit-defn-brazil-legal-entity-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "486de900-db70-41b3-a886-abdf25af119c",
+    "AppDisplayName": "Purview/sit-defn-brazil-national-identification-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "66d39258-94c2-43b2-804b-aa312258e54b",
+    "AppDisplayName": "Purview/sit-defn-bulgaria-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f7172b82-c588-4216-845e-4e54e397f29a",
+    "AppDisplayName": "Purview/sit-defn-bulgaria-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "100d58b1-0a35-4fb1-aa89-e4a86fb53fcc",
+    "AppDisplayName": "Purview/sit-defn-bulgaria-uniform-civil-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "552e814c-cb50-4d94-bbaa-bb1d1ffb34de",
+    "AppDisplayName": "Purview/sit-defn-canada-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "37186abb-8e48-4800-ad3c-e3d1610b3db0",
+    "AppDisplayName": "Purview/sit-defn-canada-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "59c0bf39-7fab-482c-af25-00faa4384c94",
+    "AppDisplayName": "Purview/sit-defn-canada-health-service-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "14d0db8b-498a-43ed-9fca-f6097ae687eb",
+    "AppDisplayName": "Purview/sit-defn-canada-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "722e12ac-c89a-4ec8-a1b7-fea3469f89db",
+    "AppDisplayName": "Purview/sit-defn-canada-personal-health-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a2f29c85-ecb8-4514-a610-364790c0773e",
+    "AppDisplayName": "Purview/sit-defn-canada-social-insurance-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4e979794-49a0-407e-a0b9-2c536937b925",
+    "AppDisplayName": "Purview/sit-defn-chile-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "c92daa86-2d16-4871-901f-816b3f554fc1",
+    "AppDisplayName": "Purview/sit-defn-china-resident-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "50842eb7-edc8-4019-85dd-5a5c1f2bb085",
+    "AppDisplayName": "Purview/sit-defn-credit-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "005b3ef1-47dd-4e68-bb02-c6db484d00f2",
+    "AppDisplayName": "Purview/sit-defn-croatia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ff12f884-c20a-4189-b185-34c8e7258d47",
+    "AppDisplayName": "Purview/sit-defn-croatia-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7d7a729d-32d8-4204-8d01-d5e6a6c25581",
+    "AppDisplayName": "Purview/sit-defn-croatia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "31983b6d-db95-4eb2-a630-b44bd091968d",
+    "AppDisplayName": "Purview/sit-defn-croatia-personal-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "356fa104-f9ac-4aff-a0e4-2e6e65ea06c4",
+    "AppDisplayName": "Purview/sit-defn-cyprus-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3ba8afe5-7a6c-4929-8247-0001b6878438",
+    "AppDisplayName": "Purview/sit-defn-cyprus-identity-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9193e2e8-7f8c-43c1-a274-ac40d651936f",
+    "AppDisplayName": "Purview/sit-defn-cyprus-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "40e64bd9-55f3-4a09-9bd6-1db18dced9dd",
+    "AppDisplayName": "Purview/sit-defn-cyprus-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "86b40d3b-d8ea-4c36-aab0-ef9416a6769c",
+    "AppDisplayName": "Purview/sit-defn-czech-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7bcd8ce8-5e92-4bbe-bc92-fa669f0369fa",
+    "AppDisplayName": "Purview/sit-defn-czech-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "60c0725a-4eb6-455b-9dda-05d8a7396497",
+    "AppDisplayName": "Purview/sit-defn-czech-personal-identity-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "98a95812-6203-451a-a220-d39870ebef0e",
+    "AppDisplayName": "Purview/sit-defn-denmark-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "25e8c47e-e6fe-4884-a211-74898f8c0196",
+    "AppDisplayName": "Purview/sit-defn-denmark-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "6c4f2fef-56e1-4c00-8093-88d7a01cf460",
+    "AppDisplayName": "Purview/sit-defn-denmark-personal-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9a5445ad-406e-43eb-8bd7-cac17ab6d0e4",
+    "AppDisplayName": "Purview/sit-defn-drug-enforcement-agency-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "bc99c8a0-95ea-410e-9b7c-05e51b02e469",
+    "AppDisplayName": "Purview/sit-defn-ecuador-unique-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "51da8171-da70-4cc1-9d65-055a59ca4f83",
+    "AppDisplayName": "Purview/sit-defn-estonia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "61f7073a-509e-425b-a754-bc01bb5d5b8c",
+    "AppDisplayName": "Purview/sit-defn-estonia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "bfb26de6-dad5-4d48-ab72-4789cdd0654c",
+    "AppDisplayName": "Purview/sit-defn-estonia-personal-identification-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "0e9b3178-9678-47dd-a509-37222ca96b42",
+    "AppDisplayName": "Purview/sit-defn-eu-debit-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "bb3b27a3-79bd-4ac4-81a7-f9fca3c7d1a7",
+    "AppDisplayName": "Purview/sit-defn-finland-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "60f75aed-81bf-4625-89b0-0846b9248ee7",
+    "AppDisplayName": "Purview/sit-defn-finland-european-health-insurance-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "338fd995-4cb5-4f87-ad35-79bd1dd926c1",
+    "AppDisplayName": "Purview/sit-defn-finland-national-id",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d1685ac3-1d3a-40f8-8198-32ef5669c7a5",
+    "AppDisplayName": "Purview/sit-defn-finland-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "18e55a36-a01b-4b0f-943d-dc10282a1824",
+    "AppDisplayName": "Purview/sit-defn-france-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9bc2069e-76df-4ff9-ac02-2f519469e236",
+    "AppDisplayName": "Purview/sit-defn-france-health-insurance-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f741ac74-1bc0-4665-b69b-f0c7f927c0c4",
+    "AppDisplayName": "Purview/sit-defn-france-national-id-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3008b884-8c8c-4cd8-a289-99f34fc7ff5d",
+    "AppDisplayName": "Purview/sit-defn-france-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "71f62b97-efe0-4aa1-aa49-e14de253619d",
+    "AppDisplayName": "Purview/sit-defn-france-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ed59e77e-171d-442c-9ec1-88e2ebcb5b0a",
+    "AppDisplayName": "Purview/sit-defn-france-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "949121e6-ad9f-4379-8731-710342baea78",
+    "AppDisplayName": "Purview/sit-defn-france-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "91da9335-1edb-45b7-a95f-5fe41a16c63c",
+    "AppDisplayName": "Purview/sit-defn-germany-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e577372f-c42e-47a0-9d85-bebed1c237d4",
+    "AppDisplayName": "Purview/sit-defn-germany-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "2e3da144-d42b-47ed-b123-fbf78604e52c",
+    "AppDisplayName": "Purview/sit-defn-germany-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "43316a89-9880-40cf-b980-04bc7eefcec5",
+    "AppDisplayName": "Purview/sit-defn-germany-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "db177eb2-8811-4842-bffc-128c14aa219f",
+    "AppDisplayName": "Purview/sit-defn-germany-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7a2200b5-aacf-4e3c-ab36-136d3e68b7da",
+    "AppDisplayName": "Purview/sit-defn-greece-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "82568215-1da1-46d3-874a-d2294d81b5ac",
+    "AppDisplayName": "Purview/sit-defn-greece-national-id-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7e65eb47-cdf9-4f52-8f90-2a27d5ee67e3",
+    "AppDisplayName": "Purview/sit-defn-greece-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e39b03f4-50ea-41ae-af7a-a4b9539596ad",
+    "AppDisplayName": "Purview/sit-defn-greece-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "15a54a5a-53d4-4080-ad43-a2a4fe1d3bf7",
+    "AppDisplayName": "Purview/sit-defn-greece-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e63c28a7-ad29-4c17-a41a-3d2a0b70fd9c",
+    "AppDisplayName": "Purview/sit-defn-hong-kong-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9d31c46b-6e6b-444c-aeb1-6dd7e604bb24",
+    "AppDisplayName": "Purview/sit-defn-hungary-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "5b483910-9aa7-4c99-9917-f4001464bda7",
+    "AppDisplayName": "Purview/sit-defn-hungary-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7b5cc218-7046-47d9-80c9-f325b50896ca",
+    "AppDisplayName": "Purview/sit-defn-hungary-personal-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "0de78315-9537-47f5-95ab-b3e77eba3993",
+    "AppDisplayName": "Purview/sit-defn-hungary-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ede42eb4-59d9-49eb-9603-d7853fbda91d",
+    "AppDisplayName": "Purview/sit-defn-hungary-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "976349a0-683b-477a-90f8-ff0a220d5592",
+    "AppDisplayName": "Purview/sit-defn-hungary-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "680788a3-53b6-455a-b891-c38cd76dc917",
+    "AppDisplayName": "Purview/sit-defn-india-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9f5a721c-2fd2-446a-a27e-0c02fbe4630c",
+    "AppDisplayName": "Purview/sit-defn-india-gst-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "2602bfee-9bb0-47a5-a7a6-2bf3053e2804",
+    "AppDisplayName": "Purview/sit-defn-india-permanent-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1ca46b29-76f5-4f46-9383-cfa15e91048f",
+    "AppDisplayName": "Purview/sit-defn-india-unique-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "646d643f-5228-4408-acc8-f2e81a6df897",
+    "AppDisplayName": "Purview/sit-defn-india-voter-id-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "67d902ee-c3ce-44a2-81ac-e9746e7d60a1",
+    "AppDisplayName": "Purview/sit-defn-indonesia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "da68fdb0-f383-4981-8c86-82689d3b7d55",
+    "AppDisplayName": "Purview/sit-defn-indonesia-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d0001c83-e72f-4360-98d3-f5a41dc5a380",
+    "AppDisplayName": "Purview/sit-defn-indonesia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e7dc4711-11b7-4cb0-b88b-2c394a771f0e",
+    "AppDisplayName": "Purview/sit-defn-international-banking-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3356946c-6bb7-449b-b253-6ffa419c0ce7",
+    "AppDisplayName": "Purview/sit-defn-international-classification-of-diseases-icd-10-cm",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "fa3f9c74-ee07-4c52-b5f2-085d6b2c0ec4",
+    "AppDisplayName": "Purview/sit-defn-international-classification-of-diseases-icd-9-cm",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a7dd5e5f-e7f9-4626-a2c6-86a8cb6830d2",
+    "AppDisplayName": "Purview/sit-defn-ip-address-v4",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3f691089-7413-4926-ab3b-3c5ea8a1c17e",
+    "AppDisplayName": "Purview/sit-defn-ip-address-v6",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e01bccd9-eb4d-414f-ace1-e9b6a4c4a2ca",
+    "AppDisplayName": "Purview/sit-defn-ireland-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a2130f27-9ee2-4103-84f9-a6b1ee7d0cbf",
+    "AppDisplayName": "Purview/sit-defn-ireland-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1cdb674d-c19a-4fcf-9f4b-7f56cc87345a",
+    "AppDisplayName": "Purview/sit-defn-ireland-personal-public-service-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "7d08b2ff-a0b9-437f-957c-aeddbf9b2b25",
+    "AppDisplayName": "Purview/sit-defn-israel-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e05881f5-1db1-418c-89aa-a3ac5c5277ee",
+    "AppDisplayName": "Purview/sit-defn-israel-national-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "97d6244f-9157-41bd-8e0c-9d669a5c4d71",
+    "AppDisplayName": "Purview/sit-defn-italy-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4cd79172-8da9-4ff5-9188-98b1e7e2eca6",
+    "AppDisplayName": "Purview/sit-defn-italy-fiscal-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "39811019-4750-445f-b26d-4c0e6c431544",
+    "AppDisplayName": "Purview/sit-defn-italy-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "26a8cc07-2283-4a2a-ab1d-4ab643c4c67f",
+    "AppDisplayName": "Purview/sit-defn-italy-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d354f95b-96ee-4b80-80bc-4377312b55bc",
+    "AppDisplayName": "Purview/sit-defn-japan-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "c6011143-d087-451c-8313-7f6d4aed2270",
+    "AppDisplayName": "Purview/sit-defn-japan-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "9e0eaf79-ff20-4ffb-b3e4-e7368d5db6ff",
+    "AppDisplayName": "Purview/sit-defn-japan-my-number-corporate",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "98da8e66-7299-4ebd-9f82-c871ab37d3ef",
+    "AppDisplayName": "Purview/sit-defn-japan-my-number-personal",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "75177310-1a09-4613-bf6d-833aae3743f8",
+    "AppDisplayName": "Purview/sit-defn-japan-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ac36fef2-a289-4e2c-bb48-b02366e89fc0",
+    "AppDisplayName": "Purview/sit-defn-japan-residence-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "01c1209b-6389-4faf-a5f8-3f7e13899652",
+    "AppDisplayName": "Purview/sit-defn-japan-resident-registration-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "c840e719-0896-45bb-84fd-1ed5c95e45ff",
+    "AppDisplayName": "Purview/sit-defn-japan-social-insurance-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ec996de0-30f2-46b1-b192-4d2ff8805fa7",
+    "AppDisplayName": "Purview/sit-defn-latvia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "23ae25ec-cc28-421b-b77a-3054eadf1ede",
+    "AppDisplayName": "Purview/sit-defn-latvia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "03fcf763-27c2-49ed-9422-2641c6c895c9",
+    "AppDisplayName": "Purview/sit-defn-latvia-personal-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "86f7628b-e0f4-4dc3-9fbc-e4300e4c7d78",
+    "AppDisplayName": "Purview/sit-defn-lithuania-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ec830c63-65f4-45d0-9d8c-910dc8334b20",
+    "AppDisplayName": "Purview/sit-defn-malta-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4f320d9b-4972-41ae-b337-88d499bb1ade",
+    "AppDisplayName": "Purview/sit-defn-netherlands-value-added-tax-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1a97fc2b-dd2f-48f1-bc4e-2ddf25813956",
+    "AppDisplayName": "Purview/sit-defn-new-zealand-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1924b377-d287-49c9-a737-cfe7a8a2615a",
+    "AppDisplayName": "Purview/sit-defn-new-zealand-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "dd0fe2bc-7bcf-455f-bac1-83b1e3eb25fd",
+    "AppDisplayName": "Purview/sit-defn-new-zealand-inland-revenue-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "2b71c1c8-d14e-4430-82dc-fd1ed6bf05c7",
+    "AppDisplayName": "Purview/sit-defn-new-zealand-ministry-of-health-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "20f3c48d-4ac1-4cd2-86bd-34ecc1826e9d",
+    "AppDisplayName": "Purview/sit-defn-new-zealand-social-welfare-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d4c8a798-e9f2-4bd3-9652-500d24080fc3",
+    "AppDisplayName": "Purview/sit-defn-norway-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3257da62-3d98-44ca-a923-6f8b0cd94b7f",
+    "AppDisplayName": "Purview/sit-defn-philippines-national-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "6fa57f91-314a-4561-8248-7ab921957448",
+    "AppDisplayName": "Purview/sit-defn-philippines-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "019b39dd-8c25-4765-91a3-d9c6baf3c3b3",
+    "AppDisplayName": "Purview/sit-defn-philippines-unified-multi-purpose-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "24d51f99-ee9e-4060-a077-cae58cab1ee4",
+    "AppDisplayName": "Purview/sit-defn-poland-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "25e64989-ed5d-40ca-a939-6c14183bb7bf",
+    "AppDisplayName": "Purview/sit-defn-poland-identity-card",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e3aaf206-4297-412f-9e06-ba8487e22456",
+    "AppDisplayName": "Purview/sit-defn-poland-national-id",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "03937fb5-d2b6-4487-b61f-0f8bff7c3517",
+    "AppDisplayName": "Purview/sit-defn-poland-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "fc87b421-f437-4f8b-b739-29a735ead0d9",
+    "AppDisplayName": "Purview/sit-defn-poland-regon-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1ff28b4d-40f2-49e9-b677-9606a88e2bca",
+    "AppDisplayName": "Purview/sit-defn-poland-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "91a7ece2-add4-4986-9a15-c84544d81ecd",
+    "AppDisplayName": "Purview/sit-defn-portugal-citizen-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "977f1e5a-2c33-4bcc-b516-95bb275cff23",
+    "AppDisplayName": "Purview/sit-defn-portugal-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "080a52fd-a7bc-431e-b54d-51f08f59db11",
+    "AppDisplayName": "Purview/sit-defn-portugal-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "65372402-3131-4f1e-9983-4439841d1f15",
+    "AppDisplayName": "Purview/sit-defn-portugal-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "52b1b60e-a4be-4b5a-a67b-6f9bbb7811da",
+    "AppDisplayName": "Purview/sit-defn-qatari-id-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b5511ace-2fd8-4ae4-b6fc-c7c6e4689e3c",
+    "AppDisplayName": "Purview/sit-defn-romania-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "5d31b90c-7fe2-4a76-a14b-767b8fd19d6c",
+    "AppDisplayName": "Purview/sit-defn-romania-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "eb5fa399-fe28-4c67-8188-d63a616ed89c",
+    "AppDisplayName": "Purview/sit-defn-romania-personal-numeric-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "76ec2f5d-cedb-48e1-8070-1998794af445",
+    "AppDisplayName": "Purview/sit-defn-russia-passport-number-domestic",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ac5f4878-75e4-4b82-af2d-02e13ea9f411",
+    "AppDisplayName": "Purview/sit-defn-russia-passport-number-international",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "8c5a0ba8-404a-41a3-8871-746aa21ee6c0",
+    "AppDisplayName": "Purview/sit-defn-saudi-arabia-national-id",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "beaa54d7-ec6a-4160-a37b-f3916b68934b",
+    "AppDisplayName": "Purview/sit-defn-singapore-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cead390a-dd83-4856-9751-fb6dc98c34da",
+    "AppDisplayName": "Purview/sit-defn-singapore-national-registration-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4081ae73-c4ec-405d-932c-8b36ae35b20c",
+    "AppDisplayName": "Purview/sit-defn-singapore-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "14240c22-b6de-4ce5-a90b-137f74252513",
+    "AppDisplayName": "Purview/sit-defn-slovakia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "238e1f08-d80e-4793-af33-9b57918335b7",
+    "AppDisplayName": "Purview/sit-defn-slovakia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "951c26b7-3b35-4f73-924b-15dd599cb9ab",
+    "AppDisplayName": "Purview/sit-defn-slovakia-personal-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d5bc089a-f2ee-433d-a6b1-5c253051d6f2",
+    "AppDisplayName": "Purview/sit-defn-slovenia-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "235b7976-7bbe-4df5-bb40-08678e749d1a",
+    "AppDisplayName": "Purview/sit-defn-slovenia-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e47b071e-c352-4d70-8241-8c215ad65505",
+    "AppDisplayName": "Purview/sit-defn-slovenia-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "68948b27-803d-41e4-adf1-13e05eb541bb",
+    "AppDisplayName": "Purview/sit-defn-slovenia-unique-master-citizen-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e2adf7cb-8ea6-4048-a2ed-d89eb65f2780",
+    "AppDisplayName": "Purview/sit-defn-south-africa-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3da0b024-4c08-406b-9f9e-de96accd0209",
+    "AppDisplayName": "Purview/sit-defn-south-korea-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cb725748-0f69-4282-8a03-e9b222a10a18",
+    "AppDisplayName": "Purview/sit-defn-south-korea-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "5b802e18-ba80-44c4-bc83-bf2ad36ae36a",
+    "AppDisplayName": "Purview/sit-defn-south-korea-resident-registration-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "8e6251b9-47b4-40e8-a42b-0f80876be192",
+    "AppDisplayName": "Purview/sit-defn-spain-dni",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d5a82922-b501-4f40-8868-341321146aa2",
+    "AppDisplayName": "Purview/sit-defn-spain-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "d17a57de-9fa5-4e9f-85d3-85c26d89686e",
+    "AppDisplayName": "Purview/sit-defn-spain-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "5df987c0-8eae-4bce-ace7-b316347f3070",
+    "AppDisplayName": "Purview/sit-defn-spain-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "10f0d113-b0e1-47dc-872a-a4f45b9376a3",
+    "AppDisplayName": "Purview/sit-defn-spain-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e76b6205-d3cb-46f2-bd63-c90153f2f97d",
+    "AppDisplayName": "Purview/sit-defn-sql-server-connection-string",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "70088720-90dd-47f5-805e-5525f3567391",
+    "AppDisplayName": "Purview/sit-defn-sweden-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f69aaf40-79be-4fac-8f05-fd1910d272c8",
+    "AppDisplayName": "Purview/sit-defn-sweden-national-id",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ba4e7456-55a9-4d89-9140-c33673553526",
+    "AppDisplayName": "Purview/sit-defn-sweden-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "139acba0-a5bc-4fbb-876d-f7a493ae8a40",
+    "AppDisplayName": "Purview/sit-defn-sweden-tax-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cb2ab58c-9cb8-4c81-baf8-a4e106791df4",
+    "AppDisplayName": "Purview/sit-defn-swift-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "277cfa4b-6eaa-4a1b-9492-099dec849971",
+    "AppDisplayName": "Purview/sit-defn-switzerland-ssn-ahv-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4c7bfc34-8dd1-421d-8fb7-6c6182c2af03",
+    "AppDisplayName": "Purview/sit-defn-taiwan-national-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e7251cb4-4c2c-41df-963e-924eb3dae04a",
+    "AppDisplayName": "Purview/sit-defn-taiwan-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "48269fec-05ea-46ea-b326-f5623a58c6e9",
+    "AppDisplayName": "Purview/sit-defn-taiwan-resident-certificate-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "44ca9e86-ead7-4c5d-884a-e2eaa401515e",
+    "AppDisplayName": "Purview/sit-defn-thai-population-identification-code",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "fb621f20-3876-4cfc-acec-8c8e73ca32c7",
+    "AppDisplayName": "Purview/sit-defn-turkey-national-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "853a8051-ad90-417c-9345-c73ac0adc1c3",
+    "AppDisplayName": "Purview/sit-defn-uae-identity-card-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "111b5e63-6f4e-47c6-99bc-dd95625a5acf",
+    "AppDisplayName": "Purview/sit-defn-uae-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "f93de4be-d94c-40df-a8be-461738047551",
+    "AppDisplayName": "Purview/sit-defn-uk-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a3eea206-dc0c-4f06-9e22-aa1be3059963",
+    "AppDisplayName": "Purview/sit-defn-uk-electoral-roll-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "3192014e-2a16-44e9-aa69-4b20375c9a78",
+    "AppDisplayName": "Purview/sit-defn-uk-national-health-service-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "16c07343-c26f-49d2-a987-3daf717e94cc",
+    "AppDisplayName": "Purview/sit-defn-uk-national-insurance-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "ad4a8116-0db8-439a-b545-6d967642f0ec",
+    "AppDisplayName": "Purview/sit-defn-uk-unique-taxpayer-reference-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1817a540-221f-4459-9202-3bd78b81d803",
+    "AppDisplayName": "Purview/sit-defn-ukraine-passport-domestic",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "cfbe032d-22e0-4f28-ab68-d66e9641f1e2",
+    "AppDisplayName": "Purview/sit-defn-ukraine-passport-international",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a2ce32a8-f935-4bb6-8e96-2a5157672e2c",
+    "AppDisplayName": "Purview/sit-defn-us-bank-account-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "dfeb356f-61cd-459e-bf0f-7c6d28b458c6",
+    "AppDisplayName": "Purview/sit-defn-us-drivers-license-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "e55e2a32-f92d-4985-a35d-a0b269eb687b",
+    "AppDisplayName": "Purview/sit-defn-us-individual-taxpayer-identification-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "a44669fe-0d48-453d-a9b1-2cc83f2cba77",
+    "AppDisplayName": "Purview/sit-defn-us-social-security-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "178ec42a-18b4-47cc-85c7-d62c92fd67f8",
+    "AppDisplayName": "Purview/sit-defn-us-uk-passport-number",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "1daa4ad5-e2dd-4ca4-a788-54722c09efb2",
+    "AppDisplayName": "Purview/sit-defn-ireland-drivers-license-number - IP address",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b",
+    "AppDisplayName": "Block Win32 API calls from Office macros",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "19f7f505-34aa-44a4-9dcc-6a768854d2ea",
+    "AppDisplayName": "Customer Key app ID",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
     "AppId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "AppDisplayName": "Windows Notification Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
