@@ -2028,6 +2028,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "6d81daa3-fdfe-4d42-a619-5b89358c3838",
+    "AppDisplayName": "Defender for Cloud Apps - Microsoft Copilot Collector",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "93625bc8-bfe2-437a-97e0-3d0060024faa",
     "AppDisplayName": "Microsoft password reset service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2822,6 +2828,12 @@
   {
     "AppId": "589d5083-6f11-4d30-a62a-a4b316a14abf",
     "AppDisplayName": "Azure Key Vault Managed HSM",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "02d2a314-8dbb-47d3-8a77-1677403097de",
+    "AppDisplayName": "Microsoft SaaS Hub Resource Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
