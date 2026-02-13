@@ -2220,6 +2220,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ff846ae4-7ec9-42f4-8576-eb14198ad5e1",
+    "AppDisplayName": "Microsoft Edge management service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "9d06afd9-66c9-49a6-b385-ea7509332b0b",
     "AppDisplayName": "O365SBRM Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
