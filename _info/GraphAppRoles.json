@@ -7047,6 +7047,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all group chat or channel targeted messages in Microsoft Teams.",
+    "DisplayName": "Read all targeted messages of group chat or channel",
+    "Id": "b0cfd829-be18-4b31-bb0e-ec1df8197ba3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamworkTargetedMessage.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all term store data, without a signed-in user. This includes all sets, groups and terms in the term store.",
     "DisplayName": "Read all term store data",
     "Id": "ea047cc2-df29-4f3e-83a3-205de61501ca",

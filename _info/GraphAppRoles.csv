@@ -586,6 +586,7 @@
 "79c02f5b-bd4f-4713-bc2c-a8a4a66e127b","TeamworkDevice.ReadWrite.All","Read and write Teams devices","Allow the app to read and write the management data for Teams devices, without a signed-in user."
 "b74fd6c4-4bde-488e-9695-eeb100e4907f","TeamworkTag.Read.All","Read tags in Teams","Allows the app to read tags in Teams without a signed-in user."
 "a3371ca5-911d-46d6-901c-42c8c7a937d8","TeamworkTag.ReadWrite.All","Read and write tags in Teams","Allows the app to read and write tags in Teams without a signed-in user."
+"b0cfd829-be18-4b31-bb0e-ec1df8197ba3","TeamworkTargetedMessage.Read.All","Read all targeted messages of group chat or channel","Allows the app to read all group chat or channel targeted messages in Microsoft Teams."
 "ea047cc2-df29-4f3e-83a3-205de61501ca","TermStore.Read.All","Read all term store data","Allows the app to read all term store data, without a signed-in user. This includes all sets, groups and terms in the term store."
 "f12eb8d6-28e3-46e6-b2c0-b7e4dc69fc95","TermStore.ReadWrite.All","Read and write all term store data","Allows the app to read, edit or write all term store data, without a signed-in user. This includes all sets, groups and terms in the term store."
 "f8f035bb-2cce-47fb-8bf5-7baf3ecbee48","ThreatAssessment.Read.All","Read threat assessment requests","Allows an app to read your organization's threat assessment requests, without a signed-in user."
