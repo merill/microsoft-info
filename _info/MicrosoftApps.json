@@ -1452,6 +1452,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a7d8f84e-510b-46d6-8f59-77e581db63bc",
+    "AppDisplayName": "Azure Static Web Apps",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "161a339d-b9f5-41c5-8856-6a6669acac64",
     "AppDisplayName": "Microsoft Azure Alerts Management",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
