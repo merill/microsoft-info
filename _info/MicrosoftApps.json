@@ -25206,6 +25206,30 @@
     "Source": "EntraDocs"
   },
   {
+    "AppId": "43d7b169-1d9e-4d32-8cd8-06c5974ed90c",
+    "AppDisplayName": "Threat Intelligence Briefing Agent resource",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "b5304409-74ae-42bf-a3e3-d62da4845129",
+    "AppDisplayName": "app governance in Microsoft Defender for Cloud",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "56edfb3f-b612-4e4c-acb9-4bbd141bd535",
+    "AppDisplayName": "Microsoft Defender XDR streaming API video",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "4a918a14-4069-4108-9b7d-76486212d75d",
+    "AppDisplayName": "Windows Defender Security Intelligence Enterprise app",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
     "AppId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "AppDisplayName": "Windows Notification Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -26127,6 +26151,24 @@
     "AppId": "3b511579-5e00-46e1-a89e-a6f0870e2f5a",
     "AppDisplayName": "Windows 365 Portal [Community Contributed]",
     "AppOwnerOrganizationId": "",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "cff01865-8c3b-4d43-bed5-ba1f312cb78d",
+    "AppDisplayName": "aadapp-rc-prod [Community Contributed]",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "2f5fdc21-34c4-4039-881e-b87bf199b3fc",
+    "AppDisplayName": "Microsoft Clarity [Community Contributed]",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "GitHub"
+  },
+  {
+    "AppId": "9f3045c1-69f9-4e4a-a741-8ee758ba2820",
+    "AppDisplayName": "Microsoft Store for Web [Community Contributed]",
+    "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "Source": "GitHub"
   }
 ]
