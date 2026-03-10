@@ -2796,6 +2796,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read Preview jobs and snapshots",
+    "Id": "a6ea9dd7-4dd9-4484-a80a-ac9ad981dcf1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on your behalf.",
+    "UserConsentDisplayName": "Read Preview jobs and snapshots",
+    "Value": "EntraBackup.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to  list the all the snapshots, create a preview job and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create a preview job, read preview job and snapshots",
+    "Id": "cef123a8-c18c-4eba-852e-d90cfbf67c91",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to  list the all the snapshots, create a preview job and enumerate the changes of a specific preview job, on your behalf.",
+    "UserConsentDisplayName": "Create a preview job, read preview job and snapshots",
+    "Value": "EntraBackup.ReadWrite.Preview",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to  list the all the snapshots, create a recovery job and enumerate the changes of a specific recovery job, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create preview and recovery job, read recovery job and snapshots",
+    "Id": "8269c6ff-41d7-4172-a783-b2ce38322e42",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to  list the all the snapshots, create a recovery job and enumerate the changes of a specific recovery job, on your behalf.",
+    "UserConsentDisplayName": "Create preview and recovery job, read recovery job and snapshots",
+    "Value": "EntraBackup.ReadWrite.Recovery",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization's authentication event listeners on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization's authentication event listeners",
     "Id": "f7dd3bed-5eec-48da-bc73-1c0ef50bc9a1",
@@ -3065,7 +3101,7 @@
     "Id": "085ca537-6565-41c2-aca7-db852babc212",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "Admin",
+    "Type": "User",
     "UserConsentDescription": "Allows the app to access a subset of Storage Containers on your behalf. The specific file storage containers and the permissions granted will be configured in Microsoft 365 by the developer of each container type.",
     "UserConsentDisplayName": "Access selected file storage containers",
     "Value": "FileStorageContainer.Selected",
@@ -4896,6 +4932,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your organization's B2BManagement policies on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read your organization's B2BManagement policies",
+    "Id": "4b293250-121d-4cb4-acc7-5280438c18a6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's B2BManagement policies on your behalf.",
+    "UserConsentDisplayName": "Read your organization's B2BManagement policies",
+    "Value": "Policy.Read.B2BManagementPolicy",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization's conditional access policies on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read your organization's conditional access policies",
     "Id": "633e0fce-8c58-4cfb-9495-12bbd5a24f7c",
@@ -5001,6 +5049,18 @@
     "UserConsentDescription": "Allows the app to read and write your organization's authorization policy on your behalf. For example, authorization policies can control some of the permissions that the out-of-the-box user role has by default.",
     "UserConsentDisplayName": "Read and write your organization's authorization policy",
     "Value": "Policy.ReadWrite.Authorization",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your organization's B2BManagement policies on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write your organization's B2BManagement policies",
+    "Id": "723c4a0c-85b0-4a02-bb2a-c9eb07959de9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your organization's B2BManagement policies on your behalf.",
+    "UserConsentDisplayName": "Read and write your organization's B2BManagement policies",
+    "Value": "Policy.ReadWrite.B2BManagementPolicy",
     "AdditionalProperties": {}
   },
   {
@@ -7593,6 +7653,18 @@
     "UserConsentDescription": "Allows the app to read and write tags in Teams, on your behalf.",
     "UserConsentDisplayName": "Read and write tags in Teams",
     "Value": "TeamworkTag.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the user to update group chat or channel targeted messages in Microsoft Teams.",
+    "AdminConsentDisplayName": "Update targeted messages belonging to the user",
+    "Id": "162354de-2885-4e5a-94fb-2f03019a65a8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Update targeted messages of group chat or channel on your behalf",
+    "UserConsentDisplayName": "Update targeted messages belonging to the user",
+    "Value": "TeamworkTargetedMessage.ReadWrite",
     "AdditionalProperties": {}
   },
   {

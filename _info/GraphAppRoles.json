@@ -2703,6 +2703,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
+    "DisplayName": "Read Preview jobs and snapshots",
+    "Id": "56eda3c5-3834-4815-bd41-6f8fa1295247",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EntraBackup.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your organization's authentication event listeners without a signed-in user.",
     "DisplayName": "Read all authentication event listeners",
     "Id": "b7f6385c-6ce6-4639-a480-e23c42ed9784",
@@ -4551,6 +4563,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all your organization's B2BManagement policies without a signed in user.",
+    "DisplayName": "Read your organization's B2BManagement policies",
+    "Id": "227900ff-df89-40f8-90e2-8157cf6995d5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.B2BManagementPolicy",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your organization's conditional access policies, without a signed-in user.",
     "DisplayName": "Read your organization's conditional access policies",
     "Id": "37730810-e9ba-4e46-b07e-8ca78d182097",
@@ -4653,6 +4677,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Policy.ReadWrite.Authorization",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all your organization's B2BManagement policies without a signed in user.",
+    "DisplayName": "Read and write your organization's B2BManagement policies",
+    "Id": "886bd2d9-5b8b-4b49-adea-ca75fb50d9ef",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.ReadWrite.B2BManagementPolicy",
     "AdditionalProperties": {}
   },
   {
