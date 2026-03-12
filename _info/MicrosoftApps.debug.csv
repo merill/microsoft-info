@@ -361,6 +361,7 @@
 "167e2ded-f32d-49f5-8a10-308b921bc7ee","OCaaS Worker Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "75efb5bc-18a1-4e7b-8a66-2ad2503d79c6","Microsoft Teams Retail Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "331cc017-5973-4173-b270-f0042fddfd75","Power Apps API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"688413c8-5319-43e1-9a0e-42f49da53686","Verified ID STS Controller","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ec245c98-4a90-40c2-955a-88b727d97151","Azure AD Identity Governance - Directory Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "48af08dc-f6d2-435f-b2a7-069abd99c086","Connectors","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9bdab391-7bbe-42e8-8132-e4491dc29cc0","Azure Backup NRP Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

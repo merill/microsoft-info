@@ -2172,6 +2172,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "688413c8-5319-43e1-9a0e-42f49da53686",
+    "AppDisplayName": "Verified ID STS Controller",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ec245c98-4a90-40c2-955a-88b727d97151",
     "AppDisplayName": "Azure AD Identity Governance - Directory Management",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
