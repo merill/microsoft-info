@@ -6,6 +6,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2eba9957-8c82-4bfd-8025-e4a4a97a9110",
+    "AppDisplayName": "GSA-Purview",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba",
     "AppDisplayName": "Sway",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
