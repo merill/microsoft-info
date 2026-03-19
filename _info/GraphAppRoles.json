@@ -1767,6 +1767,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read available properties on contracts, without a signed-in user.",
+    "DisplayName": "Read contracts",
+    "Id": "f9af4646-98b0-4e9d-a53e-40d4f6452fc4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Contracts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read packages information without a signed-in user.",
     "DisplayName": "Read all packages information",
     "Id": "72f0655d-6228-4ddc-8e1b-164973b9213b",
@@ -4971,6 +4983,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read Privileged Access (PIM) custom extensions for your organization, without a signed-in user.",
+    "DisplayName": "Read Privileged Access (PIM) custom extensions",
+    "Id": "e7ebe2d9-6e26-487a-8286-191d623a6904",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrivilegedAccess-CustomExt.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write Privileged Access (PIM) custom extensions for your organization, without a signed-in user.",
+    "DisplayName": "Read and write Privileged Access (PIM) custom extensions",
+    "Id": "124325f3-0c46-4c57-a050-d6d1a82510f6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrivilegedAccess-CustomExt.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read time-based assignment and just-in-time elevation (including scheduled elevation) of Azure AD built-in and custom administrative roles in your organization, without a signed-in user.",
     "DisplayName": "Read privileged access to Azure AD roles",
     "Id": "4cdc2547-9148-4295-8d11-be0db1391d6b",
@@ -7089,6 +7125,78 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "TeamworkTargetedMessage.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to list and read all Tenant Governance invitations without a signed-in user.",
+    "DisplayName": "Read Tenant Governance invitations",
+    "Id": "3f4f98e9-6faf-4e5f-814b-ed2ed8a4ec9e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-Invitation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to list and read all Tenant Governance policy templates without a signed-in user.",
+    "DisplayName": "Read Tenant Governance policy templates",
+    "Id": "eb9465d8-e7c0-4301-8e51-927f34ee3134",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-PolicyTemplate.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to list and read related tenants information without a signed-in user.",
+    "DisplayName": "Read related tenants",
+    "Id": "7ced9a83-8e7c-46df-b3e0-6b45a6ecedcd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-RelatedTenant.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to list and read all Tenant Governance relationships without a signed-in user.",
+    "DisplayName": "Read Tenant Governance relationships",
+    "Id": "41c250d0-8793-44e1-a130-5fdbd5bccd0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-Relationship.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to list and read all Tenant Governance requests without a signed-in user.",
+    "DisplayName": "Read Tenant Governance requests",
+    "Id": "294294d5-2b81-4cf1-837c-28fc22bc3290",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-Request.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read Tenant Governance settings without a signed-in user.",
+    "DisplayName": "Read Tenant Governance settings",
+    "Id": "e2d1cac5-0317-4ae3-aca9-59737eb75317",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantGovernance-Setting.Read.All",
     "AdditionalProperties": {}
   },
   {
