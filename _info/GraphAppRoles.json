@@ -2655,6 +2655,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to export Viva Engage data for compliance, GDPR, and admin scenarios without a signed-in user.",
+    "DisplayName": "Export Viva Engage data",
+    "Id": "eda8c187-a7d5-42cb-b2e1-c9142f63899f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EngagementExport.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to list Viva Engage Teams QA conversations, and to read their properties without a signed-in user.",
     "DisplayName": "Read all Viva Engage Teams QA conversations",
     "Id": "d746beae-b46e-446e-924a-5b805a5c4467",
@@ -4509,6 +4521,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Place.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to manage organization places (conference rooms and room lists) for calendar events and other applications, on behalf of the signed-in user.",
+    "DisplayName": "Read and write organization places",
+    "Id": "f1f5e9aa-ad18-4b97-883e-6aa7e95b7a5f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Place.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -7095,6 +7119,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all users' sections (folders) for organizing chats and channels in Teams, without a signed-in user.",
+    "DisplayName": "Read all users' sections",
+    "Id": "e9e1b87a-726e-4628-8fab-d1fc58d4d9ad",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamworkSection.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all users' sections (folders) for organizing chats and channels in Teams, without a signed-in user.",
+    "DisplayName": "Read and write all users' sections",
+    "Id": "fd99f9da-42d6-4d00-8a41-4161bea42309",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamworkSection.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read tags in Teams without a signed-in user.",
     "DisplayName": "Read tags in Teams",
     "Id": "b74fd6c4-4bde-488e-9695-eeb100e4907f",
@@ -7977,6 +8025,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "VirtualEventRegistration-Anon.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all Windows update deployment settings for the organization without a signed-in user.",
+    "DisplayName": "Read all Windows update deployment settings",
+    "Id": "50a8bf5f-b06a-4ac7-881f-3ca0c4be7550",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "WindowsUpdates.Read.All",
     "AdditionalProperties": {}
   },
   {

@@ -7668,6 +7668,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the signed-in user's sections (folders) for organizing chats and channels in Teams.",
+    "AdminConsentDisplayName": "Read your sections",
+    "Id": "87a3258d-8c34-49e2-ab91-9b8bdbd79177",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read your sections (folders) for organizing chats and channels in Teams.",
+    "UserConsentDisplayName": "Read your sections",
+    "Value": "TeamworkSection.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write the signed-in user's sections (folders) for organizing chats and channels in Teams.",
+    "AdminConsentDisplayName": "Read and write your sections",
+    "Id": "70dbe5e8-39b9-40f3-8c65-3ec7b00ad804",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and write your sections (folders) for organizing chats and channels in Teams.",
+    "UserConsentDisplayName": "Read and write your sections",
+    "Value": "TeamworkSection.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read tags in Teams, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read tags in Teams",
     "Id": "57587d0b-8399-45be-b207-8050cec54575",
@@ -9057,6 +9081,18 @@
     "UserConsentDescription": "Allows the app to read and write virtual events for you",
     "UserConsentDisplayName": "Read and write your virtual events",
     "Value": "VirtualEvent.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all Windows update deployment settings for the organization on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all Windows update deployment settings",
+    "Id": "e09fef2d-bf5e-4439-affa-7c48d23bb1c2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all Windows update deployment settings for the organization on your behalf.",
+    "UserConsentDisplayName": "Read all Windows update deployment settings",
+    "Value": "WindowsUpdates.Read.All",
     "AdditionalProperties": {}
   },
   {
