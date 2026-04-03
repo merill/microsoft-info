@@ -486,6 +486,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "59534ab2-0027-4a45-b9ec-61d1b6b871c9",
+    "AppDisplayName": "Power Platform Connector Management Service - PROD",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "844cca35-0656-46ce-b636-13f48b0eecbd",
     "AppDisplayName": "Microsoft Stream Mobile Native",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2804,6 +2810,12 @@
   {
     "AppId": "394866fc-eedb-4f01-8536-3ff84b16be2a",
     "AppDisplayName": "Microsoft People Cards Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "8ad61c39-5b6e-447c-b26a-a64eee436502",
+    "AppDisplayName": "M365AdminAgent",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
