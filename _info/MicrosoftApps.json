@@ -600,6 +600,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "87e86b91-9ae3-4679-b68a-471fe50be746",
+    "AppDisplayName": "Microsoft Managed Policy Manager",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "7c99d979-3b9c-4342-97dd-3239678fb300",
     "AppDisplayName": "Data Classification Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -21704,12 +21710,6 @@
   {
     "AppId": "c09dc6d6-3bff-482b-8e40-68b3ad65f3fa",
     "AppDisplayName": "ProductsLifecycleApp",
-    "AppOwnerOrganizationId": "",
-    "Source": "EntraDocs"
-  },
-  {
-    "AppId": "87e86b91-9ae3-4679-b68a-471fe50be746",
-    "AppDisplayName": "Microsoft Managed Policy Manager",
     "AppOwnerOrganizationId": "",
     "Source": "EntraDocs"
   },
