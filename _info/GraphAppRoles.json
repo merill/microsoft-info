@@ -3951,6 +3951,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read available properties on remoteTenantGroups, without a signed-in user.",
+    "DisplayName": "Read RemoteTenantGroups information",
+    "Id": "22d2957f-3c5b-4db8-bc3e-d0bd8748a406",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MS-RemoteTenantGroups.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all multi-tenant organization details and tenants, without a signed-in user.",
     "DisplayName": "Read all multi-tenant organization details and tenants",
     "Id": "4f994bc0-31bb-44bb-b480-7a7c1be8c02e",

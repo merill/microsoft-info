@@ -4224,6 +4224,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read available properties of remoteTenantGroups, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read RemoteTenantGroups information",
+    "Id": "649c63bc-ce3c-4f7b-93c6-70ef1fe4ae7d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read available properties on remoteTenantGroups, on your behalf.",
+    "UserConsentDisplayName": "Read RemoteTenantGroups information",
+    "Value": "MS-RemoteTenantGroups.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read multi-tenant organization details and tenants on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read multi-tenant organization details and tenants",
     "Id": "526aa72a-5878-49fe-bf4e-357973af9b06",
