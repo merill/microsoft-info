@@ -1920,6 +1920,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c09dc6d6-3bff-482b-8e40-68b3ad65f3fa",
+    "AppDisplayName": "ProductsLifecycleApp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "51b6191a-b045-44cf-8277-ee37c9fb5a06",
     "AppDisplayName": "Compute Image Registry",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -21704,12 +21710,6 @@
   {
     "AppId": "98785600-1bb7-4fb9-b9fa-19afe2c8a360",
     "AppDisplayName": "Azure Security Insights",
-    "AppOwnerOrganizationId": "",
-    "Source": "EntraDocs"
-  },
-  {
-    "AppId": "c09dc6d6-3bff-482b-8e40-68b3ad65f3fa",
-    "AppDisplayName": "ProductsLifecycleApp",
     "AppOwnerOrganizationId": "",
     "Source": "EntraDocs"
   },
