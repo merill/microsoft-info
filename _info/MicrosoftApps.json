@@ -3295,7 +3295,7 @@
   },
   {
     "AppId": "7ae5462d-d9d1-42f6-93ca-198d7b0ca997",
-    "AppDisplayName": "Microsoft O365 Scuba",
+    "AppDisplayName": "Microsoft Security Data Connectors",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
