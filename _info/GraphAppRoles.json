@@ -459,30 +459,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read agent registration information without a signed-in user.",
-    "DisplayName": "Read all agent registrations",
-    "Id": "d3acceb6-4673-47c0-aeac-582f2c7cf72c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AgentRegistration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write agent registration information without a signed-in user.",
-    "DisplayName": "Read and write all agent registrations",
-    "Id": "39fb8c64-7bd3-4107-8515-14d6e55ddda4",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AgentRegistration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read terms of use agreements, without a signed in user.",
     "DisplayName": "Read all terms of use agreements",
     "Id": "2f3e6f8c-093b-4c57-a58b-ba5ce494a169",
@@ -1827,30 +1803,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read Copilot policy settings for the organization, without a signed-in user.",
-    "DisplayName": "Read Copilot policy settings",
-    "Id": "556d5e2e-1081-4452-8147-26c3a1b06f58",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CopilotPolicySettings.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write Copilot policy settings for the organization, without a signed-in user.",
-    "DisplayName": "Read and write Copilot policy settings",
-    "Id": "cc147c17-b8e8-4d3f-9f94-aa9e279a079a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CopilotPolicySettings.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the application to obtain basic tenant information about another target tenant within the Azure AD ecosystem without a signed-in user.",
     "DisplayName": "Read cross-tenant basic information",
     "Id": "cac88765-0581-4025-9725-5ebc13f729ee",
@@ -3039,18 +2991,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write groups' disableNesting property without a signed-in user.",
-    "DisplayName": "Read and write groups' disableNesting property",
-    "Id": "2d53948b-d2c5-4008-9c4e-6361bf192555",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Group-NestingSupport.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to update the on-premises sync behavior of all groups without a signed-in user.",
     "DisplayName": "Read and update the on-premises sync behavior of groups",
     "Id": "2d9bd318-b883-40be-9df7-63ec4fcdc424",
@@ -3999,24 +3939,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read mail tips for all users in the organization without a signed-in user. Mail tips include automatic replies, mailbox status, custom tips, and delivery information.",
-    "DisplayName": "Read mail tips for all users",
-    "Id": "a2c9652d-4d7f-4e4e-9d75-ac32fdc6f413",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailTips.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read the memberships of hidden groups and administrative units without a signed-in user.",
     "DisplayName": "Read all hidden memberships",
     "Id": "658aa5d8-239f-45c4-aa12-864f4fc7e490",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Member.Read.Hidden",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read available properties on remoteTenantGroups, without a signed-in user.",
+    "DisplayName": "Read RemoteTenantGroups information",
+    "Id": "22d2957f-3c5b-4db8-bc3e-d0bd8748a406",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MS-RemoteTenantGroups.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -5187,36 +5127,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, without a signed-in user.",
-    "DisplayName": "Read assignment schedules for app permission grants and app role assignments",
-    "Id": "3a728f2e-df1d-4294-9899-86f601fae70a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PrivilegedAssignmentSchedule.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read, create, and delete time-based assignment schedules for access to Azure AD groups, without a signed-in user.",
     "DisplayName": "Read, create, and delete assignment schedules for access to Azure AD groups",
     "Id": "41202f2c-f7ab-45be-b001-85c9728b9d69",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, create, and delete time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, without a signed-in user.",
-    "DisplayName": "Read, create, and delete assignment schedules for app permission grants and app role assignments",
-    "Id": "81adad77-a25a-489d-ac43-321115620139",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PrivilegedAssignmentSchedule.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -5247,36 +5163,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, without a signed-in user.",
-    "DisplayName": "Read eligibility schedules for app permission grants and app role assignments",
-    "Id": "d2ab45a0-ed46-4f7f-806a-0f1146144d5a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PrivilegedEligibilitySchedule.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read, create, and delete time-based eligibility schedules for access to Azure AD groups, without a signed-in user.",
     "DisplayName": "Read, create, and delete eligibility schedules for access to Azure AD groups",
     "Id": "618b6020-bca8-4de6-99f6-ef445fa4d857",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, create, and delete time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, without a signed-in user.",
-    "DisplayName": "Read, create, and delete eligibility schedules for app permission grants and app role assignments",
-    "Id": "7f4c39f1-1aa7-44b7-ab05-38df2609c37a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PrivilegedEligibilitySchedule.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -5775,18 +5667,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read policies in Privileged Identity Management for App Roles, without a signed-in user.",
-    "DisplayName": "Read all policies in PIM for App Roles",
-    "Id": "3d201a4e-90f1-420d-bd4f-3beec28a46b9",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RoleManagementPolicy.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read, update, and delete policies in Privileged Identity Management for Groups, without a signed-in user.",
     "DisplayName": "Read, update, and delete all policies in PIM for Groups",
     "Id": "b38dcc4d-a239-4ed6-aa84-6c65b284f97c",
@@ -5805,18 +5685,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "RoleManagementPolicy.ReadWrite.Directory",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to manage policies in Privileged Identity Management for App Roles, without a signed-in user.",
-    "DisplayName": "Manage all policies in PIM for App Roles",
-    "Id": "ec563bdb-80dc-47c0-81d3-bff47cc6ac06",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RoleManagementPolicy.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -6057,30 +5925,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SecurityIdentitiesHealth.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read all the identity security sensor migration information without a signed-in user.",
-    "DisplayName": "Read all identity security sensor migration",
-    "Id": "b018cc1c-c680-4e91-bb6e-462ee243fdb5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SecurityIdentitiesMigration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write identity security sensor migration without a signed-in user.",
-    "DisplayName": "Read and write all identity security sensor migration",
-    "Id": "afd28a5a-707f-4edf-85c2-c446291e63da",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SecurityIdentitiesMigration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

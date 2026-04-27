@@ -432,30 +432,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the user to read all agent registration information",
-    "AdminConsentDisplayName": "Read all agent registrations",
-    "Id": "ef96ce0b-b2ea-4ae4-a783-108212d8ecee",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read agent registration information.",
-    "UserConsentDisplayName": "Read all agent registrations",
-    "Value": "AgentRegistration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the user to read and write all agent registration information",
-    "AdminConsentDisplayName": "Read and write all agent registrations",
-    "Id": "20f263bf-7d50-4e66-912c-16b4b4194fd4",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write agent registration information.",
-    "UserConsentDisplayName": "Read and write all agent registrations",
-    "Value": "AgentRegistration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read terms of use agreements on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all terms of use agreements",
     "Id": "af2819c9-df71-4dd3-ade7-4d7c9dc653b7",
@@ -1860,30 +1836,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read Copilot policy settings for the organization, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read Copilot policy settings",
-    "Id": "b7281c63-cd4d-40c3-b721-73aa8ee7c3a8",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read Copilot policy settings for your organization on your behalf.",
-    "UserConsentDisplayName": "Read Copilot policy settings",
-    "Value": "CopilotPolicySettings.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write Copilot policy settings for the organization, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write Copilot policy settings",
-    "Id": "e2edbde8-4448-4e49-8ebb-d53ba72df0f3",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write Copilot policy settings for your organization on your behalf.",
-    "UserConsentDisplayName": "Read and write Copilot policy settings",
-    "Value": "CopilotPolicySettings.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read organization-wide copilot limited mode setting on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read organization-wide copilot limited mode setting",
     "Id": "aeb2982d-632d-4155-b533-18756ab6fdd8",
@@ -3264,18 +3216,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write groups' disableNesting property on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write groups' disableNesting property",
-    "Id": "afc507db-8793-4d2f-999d-6e34cff02b7c",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write the disableNesting property on your behalf.",
-    "UserConsentDisplayName": "Read and write groups' disableNesting property",
-    "Value": "Group-NestingSupport.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read and update the on-premises sync behavior of groups on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and update the on-premises sync behavior of groups",
     "Id": "37e00479-5776-4659-aecf-4841ec5d590a",
@@ -4248,18 +4188,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read mail tips on behalf of the signed-in user for mailboxes they have access to. Mail tips include automatic replies, mailbox status, custom tips, and delivery information.",
-    "AdminConsentDisplayName": "Read mail tips for mailboxes you can access",
-    "Id": "4776cae1-54bd-4dfd-823c-e5861ed49a98",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read mail tips on your behalf for mailboxes you have access to, including your own mailbox.",
-    "UserConsentDisplayName": "Read mail tips for mailboxes you can access",
-    "Value": "MailTips.ReadBasic.Shared",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read all managed tenant information on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all managed tenant information",
     "Id": "dc34164e-6c4a-41a0-be89-3ae2fbad7cd3",
@@ -4293,6 +4221,18 @@
     "UserConsentDescription": "Allows the app to read the memberships of hidden groups or administrative units on your behalf, for those hidden groups or adminstrative units that you have access to.",
     "UserConsentDisplayName": "Read your hidden memberships",
     "Value": "Member.Read.Hidden",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read available properties of remoteTenantGroups, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read RemoteTenantGroups information",
+    "Id": "649c63bc-ce3c-4f7b-93c6-70ef1fe4ae7d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read available properties on remoteTenantGroups, on your behalf.",
+    "UserConsentDisplayName": "Read RemoteTenantGroups information",
+    "Value": "MS-RemoteTenantGroups.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -5700,18 +5640,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read assignment schedules for app permission grants and app role assignments",
-    "Id": "d5767d44-e1c1-4fc7-8fb1-7daa58df022a",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on your behalf.",
-    "UserConsentDisplayName": "Read assignment schedules for app permission grants and app role assignments",
-    "Value": "PrivilegedAssignmentSchedule.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read, create, and delete time-based assignment schedules for access to Azure AD groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read, create, and delete assignment schedules for access to Azure AD groups",
     "Id": "06dbc45d-6708-4ef0-a797-f797ee68bf4b",
@@ -5721,18 +5649,6 @@
     "UserConsentDescription": "Allows the app to read, create, and delete time-based assignment schedules for access to Azure AD groups, on your behalf.",
     "UserConsentDisplayName": "Read, create, and delete assignment schedules for access to Azure AD groups",
     "Value": "PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read, create, and delete time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read, create, and delete assignment schedules for app permission grants and app role assignments",
-    "Id": "e07122a7-d275-4a27-a2f5-eb62349edae0",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read, create, and delete time-based assignment schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on your behalf.",
-    "UserConsentDisplayName": "Read, create, and delete assignment schedules for app permission grants and app role assignments",
-    "Value": "PrivilegedAssignmentSchedule.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -5760,18 +5676,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read eligibility schedules for app permission grants and app role assignments",
-    "Id": "9b9eb231-5483-4f3c-89e9-9d5048dafe9d",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on your behalf.",
-    "UserConsentDisplayName": "Read eligibility schedules for app permission grants and app role assignments",
-    "Value": "PrivilegedEligibilitySchedule.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read, create, and delete time-based eligibility schedules for access to Azure AD groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read, create, and delete eligibility schedules for access to Azure AD groups",
     "Id": "ba974594-d163-484e-ba39-c330d5897667",
@@ -5781,18 +5685,6 @@
     "UserConsentDescription": "Allows the app to read, create, and delete time-based eligibility schedules for access to Azure AD groups, on your behalf.",
     "UserConsentDisplayName": "Read, create, and delete eligibility schedules for access to Azure AD groups",
     "Value": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read, create, and delete time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read, create, and delete eligibility schedules for app permission grants and app role assignments",
-    "Id": "f7ff1cb0-e255-4bb3-b24a-6708c60c5418",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read, create, and delete time-based eligibility schedules for permission grants for application permissions to any API (including Microsoft Graph) and application assignments for any app, on your behalf.",
-    "UserConsentDisplayName": "Read, create, and delete eligibility schedules for app permission grants and app role assignments",
-    "Value": "PrivilegedEligibilitySchedule.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -6300,18 +6192,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read policies in Privileged Identity Management for App Roles, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all policies in PIM for App Roles",
-    "Id": "8b3ffd3b-178e-4aae-be39-ba87585eddb2",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read policies in Privileged Identity Management for App Roles, on your behalf.",
-    "UserConsentDisplayName": "Read all policies in PIM for App Roles",
-    "Value": "RoleManagementPolicy.Read.EntraAppRole",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read, update, and delete policies in Privileged Identity Management for Groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read, update, and delete all policies in PIM for Groups",
     "Id": "0da165c7-3f15-4236-b733-c0b0f6abe41d",
@@ -6333,18 +6213,6 @@
     "UserConsentDescription": "Allows the app to read, update, and delete policies for privileged role-based access control (RBAC) assignments of your company's directory, on your behalf.",
     "UserConsentDisplayName": "Read, update, and delete all policies for privileged role assignments of your company's directory",
     "Value": "RoleManagementPolicy.ReadWrite.Directory",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to manage policies in Privileged Identity Management for App Roles, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Manage all policies in PIM for App Roles",
-    "Id": "652ec839-e4ac-4eb5-b545-ecc90eeceb2d",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to manage policies in Privileged Identity Management for App Roles, on your behalf.",
-    "UserConsentDisplayName": "Manage all policies in PIM for App Roles",
-    "Value": "RoleManagementPolicy.ReadWrite.EntraAppRole",
     "AdditionalProperties": {}
   },
   {
@@ -6597,30 +6465,6 @@
     "UserConsentDescription": "Allows the app to read and write identity security health issues on your behalf.",
     "UserConsentDisplayName": "Read and write identity security health issues",
     "Value": "SecurityIdentitiesHealth.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read all the identity security sensor migration information of signed user",
-    "AdminConsentDisplayName": "Read identity security sensor migration",
-    "Id": "63595162-fcc0-4127-8b1e-bfe90b23a10e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all the identity security sensor migration information on your behalf.",
-    "UserConsentDisplayName": "Read identity security sensor migration",
-    "Value": "SecurityIdentitiesMigration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and write identity security sensor migration on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write identity security sensor migration",
-    "Id": "741a6ef0-37e6-4b0a-9178-133d94fbc46e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write identity security sensor migration on your behalf.",
-    "UserConsentDisplayName": "Read and write identity security sensor migration",
-    "Value": "SecurityIdentitiesMigration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
