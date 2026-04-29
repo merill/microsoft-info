@@ -876,6 +876,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "89e7f920-bdc3-4e71-99e5-30d84827b610",
+    "AppDisplayName": "Dunloe Dataplane Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "58ea322b-940c-4d98-affb-345ec4cccb92",
     "AppDisplayName": "M365 Pillar Diagnostics Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

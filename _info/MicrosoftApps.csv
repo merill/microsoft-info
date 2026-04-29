@@ -145,6 +145,7 @@
 "d62121f3-e023-4972-b6b0-794190c0fd98","Office 365 Mover","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "273404b8-7ebc-4360-9f90-b40417f77b53","Microsoft Exact Data Match Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0f6edad5-48f2-4585-a609-d252b1c52770","AIGraphClient","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"89e7f920-bdc3-4e71-99e5-30d84827b610","Dunloe Dataplane Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "58ea322b-940c-4d98-affb-345ec4cccb92","M365 Pillar Diagnostics Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7bf610f7-ecaf-43a2-9dbc-33b14314d6fe","Microsoft.SecurityDevOps Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ca0a114d-6fbc-46b3-90fa-2ec954794ddb","Microsoft Device Management Checkin","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
