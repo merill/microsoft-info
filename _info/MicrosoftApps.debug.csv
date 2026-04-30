@@ -386,6 +386,7 @@
 "e807d0e2-91da-40d6-8cee-e33c91a0b051","PROD Microsoft Defender For Cloud Athena","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "80dbdb39-4f33-4799-8b6f-711b5e3e61b6","Billing RP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0fa37baf-7afc-4baf-ab2d-d5bb891d53ef","Microsoft Teams ATP Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"c89c853c-c6cc-4c84-bfd9-fcd7e1c50793","IPSPipelinesProd","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "959678cf-d004-4c22-82a6-d2ce549a58b8","Microsoft_Azure_Support","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "fc75330b-179d-49af-87dd-3b1acf6827fa","AzureAutomation","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "997dc448-eeab-4c93-8811-6b2c80196a16","CCM TAGS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
