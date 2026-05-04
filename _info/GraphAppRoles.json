@@ -243,7 +243,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app read, update, and delete agent identities without a signed-in user.",
+    "Description": "Allows the app to read, update, and delete agent identities without a signed-in user.",
     "DisplayName": "Read and write all agent identities",
     "Id": "dcf7150a-88d4-4fe6-9be1-c2744c455397",
     "IsEnabled": true,
@@ -303,7 +303,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read, update, and delete agent identity blueprints without a signed-in user.",
+    "Description": "Allows the app to read, update, create, and delete agent identity blueprints without a signed-in user.",
     "DisplayName": "Read and write all agent identity blueprints.",
     "Id": "7fddd33b-d884-4ec0-8696-72cff90ff825",
     "IsEnabled": true,
@@ -340,7 +340,7 @@
       "Application"
     ],
     "Description": "Allows creating new agent identity blueprint principals without a signed-in user.",
-    "DisplayName": "Create agent identity blueprint service principals.",
+    "DisplayName": "Create agent identity blueprint principals.",
     "Id": "8959696d-d07e-4916-9b1e-3ba9ce459161",
     "IsEnabled": true,
     "Origin": "Application",
@@ -351,8 +351,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows deleting or restoring agent identity blueprints without a signed-in user.",
-    "DisplayName": "Delete and restore agent identity blueprints.",
+    "Description": "Allows deleting or restoring agent identity blueprint principals without a signed-in user.",
+    "DisplayName": "Delete and restore agent identity blueprint principals.",
     "Id": "f86a2dd8-9298-4675-bd78-f5a3572da2d7",
     "IsEnabled": true,
     "Origin": "Application",
@@ -387,7 +387,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read, update, and delete agent identity blueprint principals without a signed-in user.",
+    "Description": "Allows the app to read, update, create, and delete agent identity blueprint principals without a signed-in user.",
     "DisplayName": "Read and write all agent identity blueprint principals.",
     "Id": "3bc933bc-8b4d-4cb6-ac49-b73774299250",
     "IsEnabled": true,
