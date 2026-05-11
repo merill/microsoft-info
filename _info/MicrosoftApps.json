@@ -2604,6 +2604,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "30e5659d-7a97-4c66-8863-497f329ac280",
+    "AppDisplayName": "DataAssessments",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "4bfd5d66-9285-44a1-bb14-14953e8cdf5e",
     "AppDisplayName": "Audit GraphAPI Application",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

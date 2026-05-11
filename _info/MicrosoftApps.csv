@@ -433,6 +433,7 @@
 "98c8388a-4e86-424f-a176-d1288462816f","Recommended","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "fd14a986-6fe4-409a-883e-cdec1009cd54","Intune Grouping and Targeting Client Prod","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9c60a40b-b5c5-4d01-8588-776209c80db3","Search Federation Connector - Dataverse","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"30e5659d-7a97-4c66-8863-497f329ac280","DataAssessments","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4bfd5d66-9285-44a1-bb14-14953e8cdf5e","Audit GraphAPI Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b4bddae8-ab25-483e-8670-df09b9f1d0ea","Signup","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cdccd920-384b-4a25-897d-75161a4b74c1","Skype Teams Firehose","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
