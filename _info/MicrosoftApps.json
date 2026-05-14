@@ -792,6 +792,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "7fe3d988-4f3b-4f33-83bd-1fb921a35ed2",
+    "AppDisplayName": "PurviewRoleAssignmentMigrator",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a1b76039-a76c-499f-a2dd-846b4cc32627",
     "AppDisplayName": "Azure Key Vault Managed HSM Key Governance Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
