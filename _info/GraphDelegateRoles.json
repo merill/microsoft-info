@@ -3888,6 +3888,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read identity lifecycle policies for external guests on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read identity lifecycle policies for external guests",
+    "Id": "1bbb7916-b98a-449f-8ee4-c68bfcba5724",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read identity lifecycle policies for external guests on your behalf.",
+    "UserConsentDisplayName": "Read identity lifecycle policies for external guests",
+    "Value": "LifecyclePolicies-Guests.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, update, and delete identity lifecycle policies for external guests on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write identity lifecycle policies for external guests",
+    "Id": "d9ec82ed-63db-4905-b1b3-859b74d2bbf5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, update, and delete identity lifecycle policies for external guests on your behalf.",
+    "UserConsentDisplayName": "Read and write identity lifecycle policies for external guests",
+    "Value": "LifecyclePolicies-Guests.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all Lifecycle workflows custom task extensions on behalf of a signed-in user.",
     "AdminConsentDisplayName": "Read all Lifecycle workflows custom task extensions",
     "Id": "2973a298-1d69-4f87-8d30-7025f0ec19d7",
