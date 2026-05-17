@@ -144,6 +144,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ab7c82de-7946-4454-ac28-70249d17c95e",
+    "AppDisplayName": "Work IQ Copilot MCP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c066d759-24ae-40e7-a56f-027002b5d3e4",
     "AppDisplayName": "M365DataAtRestEncryption",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -696,6 +702,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "292cff14-c0e8-4116-9e3b-99934ae05766",
+    "AppDisplayName": "Work IQ SharePoint MCP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "7cb67f16-9174-4dfc-989a-0d02aed8d3c3",
     "AppDisplayName": "MDA LCNC Power Platform Security Webhooks",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -818,6 +830,12 @@
   {
     "AppId": "8e0e8db5-b713-4e91-98e6-470fed0aa4c2",
     "AppDisplayName": "Microsoft Azure Signup Portal",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "910333d2-47e9-43ca-981f-6df2f4531ef4",
+    "AppDisplayName": "Work IQ Calendar MCP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -1106,6 +1124,12 @@
   {
     "AppId": "5a807f24-c9de-44ee-a3a7-329e88a00ffc",
     "AppDisplayName": "Messaging Bot API Application",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "147dc821-b413-44c0-8009-1a3098378012",
+    "AppDisplayName": "Work IQ User MCP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -1668,6 +1692,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "c2d0c2b6-8013-4346-9f8b-b81d3b754a29",
+    "AppDisplayName": "Work IQ Word MCP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
     "AppDisplayName": "Microsoft Teams Chat Aggregator",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1748,6 +1778,12 @@
   {
     "AppId": "3603eff4-9141-41d5-ba8f-02fb3a439cd6",
     "AppDisplayName": "Diagnostic Services Data Access",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "b0b2a2bb-6361-4549-a00c-a018417eb8e2",
+    "AppDisplayName": "Work IQ OneDrive MCP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2244,6 +2280,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "ce5029ee-c1d3-45c0-bdcc-efb5a4245687",
+    "AppDisplayName": "Work IQ Teams MCP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "ce6ff14a-7fdc-4685-bbe0-f6afdfcfa8e0",
     "AppDisplayName": "Azure Linux VM Sign-In",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2402,6 +2444,12 @@
   {
     "AppId": "0eb4bf93-cb63-4fe1-9d7d-70632ccf3082",
     "AppDisplayName": "Microsoft Teams Intelligent Workspaces Interactions Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "ea9ffc3e-8a23-4a7d-836d-234d7c7565c1",
+    "AppDisplayName": "Agent Tools",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3012,6 +3060,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2dbeefeb-6462-48a4-abe6-1c4989699319",
+    "AppDisplayName": "Microsoft 365 Admin Center MCP",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "8e14e873-35ba-4720-b787-0bed94370b17",
     "AppDisplayName": "Microsoft Teams Targeting Application",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3122,6 +3176,12 @@
   {
     "AppId": "080765e3-9336-4461-b934-310acccb907d",
     "AppDisplayName": "Defender for Storage Advanced Threat Protection Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "16b1878d-62c7-4009-aa25-68989d63bbad",
+    "AppDisplayName": "Work IQ Mail MCP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3507,6 +3567,12 @@
     "AppId": "df2798fc-2aed-4c3a-98ae-1776949480c4",
     "AppDisplayName": "",
     "AppOwnerOrganizationId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "ba081686-5d24-4bc6-a0d6-d034ecffed87",
+    "AppDisplayName": "Work IQ CLI",
+    "AppOwnerOrganizationId": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2",
     "Source": "Graph"
   },
   {
