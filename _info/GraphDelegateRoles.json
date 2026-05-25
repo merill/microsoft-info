@@ -3408,6 +3408,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read identity notification settings, email templates, and prerequisites on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read identity notification settings and templates",
+    "Id": "59cd3e28-aa9c-4f72-a734-1b592eb06853",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read identity notification settings and email templates that you have access to.",
+    "UserConsentDisplayName": "Read identity notification settings and templates",
+    "Value": "IdentityNotifications.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write identity notification settings, customize email templates, and send test emails on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write identity notification settings and templates",
+    "Id": "c9c9fdea-4ecc-4d82-a2ea-3feff3489275",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write identity notification settings and customize email templates that you have access to.",
+    "UserConsentDisplayName": "Read and write identity notification settings and templates",
+    "Value": "IdentityNotifications.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your organization’s identity (authentication) providers’ properties on behalf of the user.",
     "AdminConsentDisplayName": "Read identity providers",
     "Id": "43781733-b5a7-4d1b-98f4-e8edff23e1a9",

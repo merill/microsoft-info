@@ -3195,6 +3195,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read identity notification settings, email templates, and prerequisites without a signed-in user.",
+    "DisplayName": "Read all identity notification settings and templates",
+    "Id": "52ced3dd-dbb6-41a0-9ce5-61a056be97b8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityNotifications.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write identity notification settings, customize email templates, and send test emails without a signed-in user.",
+    "DisplayName": "Read and write all identity notification settings and templates",
+    "Id": "d9fe7b9f-cb27-4289-9cb4-54debd9d3c25",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityNotifications.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read your organization’s identity (authentication) providers’ properties without a signed in user.",
     "DisplayName": "Read identity providers",
     "Id": "e321f0bb-e7f7-481e-bb28-e3b0b32d4bd0",
