@@ -2874,6 +2874,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3471ca03-f150-4759-88e6-0bfc97daf723",
+    "AppDisplayName": "OneCert-AzureDns-Prod",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2e49aa60-1bd3-43b6-8ab6-03ada3d9f08b",
     "AppDisplayName": "Dynamics Data Integration",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
