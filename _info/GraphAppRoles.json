@@ -3063,18 +3063,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all Cross-Tenant Identity Synchronization properties on Groups, without a signed-in user.",
-    "DisplayName": "Read all Group Cross-Tenant Identity Synchronization properties",
-    "Id": "35b96aac-d839-4362-abd4-7381f2b27ccd",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Group-XTenantIdentitySync.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to create groups without a signed-in user.",
     "DisplayName": "Create groups",
     "Id": "bf7b1a76-6e77-406b-b258-bf5c7720e98f",
@@ -7683,18 +7671,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create users, without a signed-in user.",
-    "DisplayName": "Create users",
-    "Id": "4240f680-4f73-4082-a766-aa916a2dc9b3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.Create",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to delete and restore all users, without a signed-in user.",
     "DisplayName": "Delete and restore all users",
     "Id": "eccc023d-eccf-4e7b-9683-8813ab36cecc",
@@ -7773,18 +7749,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "User.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and update users, without a signed-in user.",
-    "DisplayName": "Read and update users",
-    "Id": "5639c449-cfd9-4088-bc48-3e16da108bf8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.ReadUpdate.All",
     "AdditionalProperties": {}
   },
   {

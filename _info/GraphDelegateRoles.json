@@ -3288,18 +3288,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read all Cross-Tenant Identity Synchronization properties on Groups, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all Group Cross-Tenant Identity Synchronization properties",
-    "Id": "f7c0661b-4247-48ac-a371-05ff047614c6",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all Cross-Tenant Identity Synchronization properties on Groups, on behalf of the signed-in user.",
-    "UserConsentDisplayName": "Read all Group Cross-Tenant Identity Synchronization properties",
-    "Value": "Group-XTenantIdentitySync.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.  Also allows the app to read calendar, conversations, files, and other group content for all groups the signed-in user can access.",
     "AdminConsentDisplayName": "Read all groups",
     "Id": "5f8c59db-677d-491f-a6b8-5f174b11ec1d",
@@ -8388,18 +8376,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Create users",
-    "Id": "d8ce6a2a-46ff-438e-96bc-020f23870a55",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create users, on your behalf.",
-    "UserConsentDisplayName": "Create users",
-    "Value": "User.Create",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to delete and restore all users, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Delete and restore users",
     "Id": "4bb440cd-2cf2-4f90-8004-aa2acd2537c5",
@@ -8493,18 +8469,6 @@
     "UserConsentDescription": "Allows the app to read a basic set of profile properties of other users in your organization on your behalf. Includes display name, first and last name, email address and photo.",
     "UserConsentDisplayName": "Read all users' basic profiles",
     "Value": "User.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and update users, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and update users",
-    "Id": "f8b099f1-a6ce-4e00-8fff-5f783ff4faeb",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and update users, on your behalf.",
-    "UserConsentDisplayName": "Read and update users",
-    "Value": "User.ReadUpdate.All",
     "AdditionalProperties": {}
   },
   {
