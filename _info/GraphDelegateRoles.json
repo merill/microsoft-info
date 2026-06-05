@@ -192,6 +192,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows client to create agent identities, even if client is not the parent agent identity blueprint.",
+    "AdminConsentDisplayName": "Create agent identities without an agent blueprint parent",
+    "Id": "e75eeac6-d759-4ba3-ae5c-773a27efafba",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows client to create agent identities, even if client is not the parent agent identity blueprint.",
+    "UserConsentDisplayName": "Create agent identities without an agent blueprint parent",
+    "Value": "AgentIdentity.Create.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the client to delete and restore agent identities.",
     "AdminConsentDisplayName": "Delete and restore agent identities",
     "Id": "c8ee41e5-35e7-4fe9-8ecb-93493adcac5b",
@@ -384,26 +396,26 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the full set of profile properties, reports, and managers of agent ID users in your organization, and read basic company properties, on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the app to create agent users, read and write the full set of profile properties, reports, and managers of agent ID users, delete and restore agent users in your organization, and read basic company properties, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write all agent ID users' full profiles",
     "Id": "ad57fb88-4658-4fd6-ab7d-e43184b08e4e",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write the full set of profile properties, reports, and managers of agent ID users in your organization, and read basic company properties, on your behalf.",
+    "UserConsentDescription": "Allows the app to create agent users, read and write the full set of profile properties, reports, and managers of agent ID users, delete and restore agent users in your organization, and read basic company properties, on your behalf.",
     "UserConsentDisplayName": "Read and write all agent ID users' full profiles",
     "Value": "AgentIdUser.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write the full set of profile properties, reports, and managers of agent ID users in your organization, and read basic company properties, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read and write all agent ID users' full profiles",
+    "AdminConsentDescription": "Allows the app to create agent users, read and write the full set of profile properties, reports, and managers of agent ID users in your organization, delete and restore agent users under an agent blueprint, and read basic company properties, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write full profiles of agent ID users under an agent blueprint",
     "Id": "52a417d9-0b3c-4466-9a3b-66960de73d74",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write the full set of profile properties, reports, and managers of agent ID users in your organization, and read basic company properties, on your behalf.",
-    "UserConsentDisplayName": "Read and write all agent ID users' full profiles",
+    "UserConsentDescription": "Allows the app to create agent users, read and write the full set of profile properties, reports, and managers of agent ID users in your organization, delete and restore agent users under an agent blueprint, and read basic company properties, on your behalf.",
+    "UserConsentDisplayName": "Read and write full profiles of agent ID users under an agent blueprint",
     "Value": "AgentIdUser.ReadWrite.IdentityParentedBy",
     "AdditionalProperties": {}
   },

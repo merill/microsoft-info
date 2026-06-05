@@ -399,7 +399,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update agent ID user profiles and read basic company properties without a signed in user.",
+    "Description": "Allows the app to create agent users, read and update agent ID user profiles and read basic company properties, delete and restore agent users without a signed in user.",
     "DisplayName": "Read and write all agent ID users' full profiles",
     "Id": "b782c9ad-6f2b-4894-a21b-72bf22417f0a",
     "IsEnabled": true,
@@ -411,8 +411,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and update ID agent user profiles and read basic company properties without a signed in user.",
-    "DisplayName": "Read and write all agent ID users' full profiles",
+    "Description": "Allows the app to create agent users, read and update agent ID user profiles, delete and restore agent users under an agent blueprint, and read basic company properties without a signed-in user.",
+    "DisplayName": "Read and write full profiles of agent ID users under an agent blueprint",
     "Id": "4aa6e624-eee0-40ab-bdd8-f9639038a614",
     "IsEnabled": true,
     "Origin": "Application",
