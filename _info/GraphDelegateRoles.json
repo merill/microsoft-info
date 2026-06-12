@@ -6504,6 +6504,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create security alerts, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create security alerts",
+    "Id": "7417b8c6-a088-4c4c-99c7-bca9ab3eb9ba",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create security alerts that you have access to.",
+    "UserConsentDisplayName": "Create security alerts",
+    "Value": "SecurityAlert.Create.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all security alerts, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all security alerts",
     "Id": "bc257fb8-46b4-4b15-8713-01e91bfbe4ea",

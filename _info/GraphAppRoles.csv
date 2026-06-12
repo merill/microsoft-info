@@ -495,6 +495,7 @@
 "0e778b85-fefa-466d-9eec-750569d92122","SearchConfiguration.ReadWrite.All","Read and write your organization's search configuration","Allows the app to read and write search configurations, without a signed-in user."
 "5e0edab9-c148-49d0-b423-ac253e121825","SecurityActions.Read.All","Read your organization's security actions","Allows the app to read security actions, without a signed-in user."
 "f2bf083f-0179-402a-bedb-b2784de8a49b","SecurityActions.ReadWrite.All","Read and update your organization's security actions","Allows the app to read or update security actions, without a signed-in user."
+"06870c4c-7370-4a2a-ad10-239a337af816","SecurityAlert.Create.All","Create security alerts","Allows the app to create security alerts, without a signed-in user."
 "472e4a4d-bb4a-4026-98d1-0b0d74cb74a5","SecurityAlert.Read.All","Read all security alerts","Allows the app to read all security alerts, without a signed-in user."
 "ed4fca05-be46-441f-9803-1873825f8fdb","SecurityAlert.ReadWrite.All","Read and write to all security alerts","Allows the app to read and write to all security alerts, without a signed-in user."
 "b48f7ac2-044d-4281-b02f-75db744d6f5f","SecurityAnalyzedMessage.Read.All","Read metadata and detection details for all emails in your organization","Read email metadata and security detection details, without a signed-in user.  "

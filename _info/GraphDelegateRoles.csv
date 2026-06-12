@@ -541,6 +541,7 @@
 "b1a7d408-cab0-47d2-a2a5-a74a3733600d","SearchConfiguration.ReadWrite.All","Read and write your organization's search configuration","Allows the app to read and write search configuration, on behalf of the signed-in user."
 "1638cddf-07a4-4de2-8645-69c96cacad73","SecurityActions.Read.All","Read your organization's security actions","Allows the app to read security actions, on behalf of the signed-in user."
 "dc38509c-b87d-4da0-bd92-6bec988bac4a","SecurityActions.ReadWrite.All","Read and update your organization's security actions","Allows the app to read or update security actions, on behalf of the signed-in user."
+"7417b8c6-a088-4c4c-99c7-bca9ab3eb9ba","SecurityAlert.Create.All","Create security alerts","Allows the app to create security alerts, on behalf of the signed-in user."
 "bc257fb8-46b4-4b15-8713-01e91bfbe4ea","SecurityAlert.Read.All","Read all security alerts","Allows the app to read all security alerts, on behalf of the signed-in user."
 "471f2a7f-2a42-4d45-a2bf-594d0838070d","SecurityAlert.ReadWrite.All","Read and write to all security alerts","Allows the app to read and write to all security alerts, on behalf of the signed-in user."
 "53e6783e-b127-4a35-ab3a-6a52d80a9077","SecurityAnalyzedMessage.Read.All","Read metadata and detection details for emails in your organization","Read email metadata and security detection details on behalf of the signed in user."

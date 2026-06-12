@@ -5955,6 +5955,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create security alerts, without a signed-in user.",
+    "DisplayName": "Create security alerts",
+    "Id": "06870c4c-7370-4a2a-ad10-239a337af816",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityAlert.Create.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all security alerts, without a signed-in user.",
     "DisplayName": "Read all security alerts",
     "Id": "472e4a4d-bb4a-4026-98d1-0b0d74cb74a5",
