@@ -1308,6 +1308,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all cases, relations, tasks, attachments and activities, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all cases, relations, tasks, attachments and activities",
+    "Id": "7bdc421c-99cd-4b67-a749-aa8e92775f7e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all cases, relations, tasks, attachments and activities that you have access to.",
+    "UserConsentDisplayName": "Read all cases, relations, tasks, attachments and activities",
+    "Value": "CaseManagement.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write to all cases, relations, tasks, attachments and activities, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write to all cases, relations, tasks, attachments and activities",
+    "Id": "363a0763-d7eb-40bc-9457-6be55acd81e2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write to all cases, relations, tasks, attachments and activities that you have access to.",
+    "UserConsentDisplayName": "Read and write to all cases, relations, tasks, attachments and activities",
+    "Value": "CaseManagement.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows to read all Change Management items.",
     "AdminConsentDisplayName": "Read Change Management items",
     "Id": "4628dff5-c33e-4fde-b17a-b64e7acb1bed",
@@ -4296,6 +4320,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read, write, and delete the user's mailbox items, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write your mailbox items",
+    "Id": "ec1ade38-5268-4bc8-87fa-b230e42f7a88",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, write, and delete your mailbox items, on your behalf.",
+    "UserConsentDisplayName": "Read and write your mailbox items",
+    "Value": "MailboxItem.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to the read user's mailbox settings. Does not include permission to send mail.",
     "AdminConsentDisplayName": "Read user mailbox settings",
     "Id": "87f447af-9fa4-4c32-9dfa-4a57a73d18ce",
@@ -7161,6 +7197,18 @@
     "UserConsentDescription": "Allows the app to create Viva Engage storyline items and read all storyline properties on your behalf.",
     "UserConsentDisplayName": "Read and write all Viva Engage storylines",
     "Value": "Storyline.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all the subject name registration properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write a subject name registration.",
+    "Id": "fb0d7592-1943-4141-a7bc-b7ae45b84ecf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and write all subject name registration properties on your behalf.",
+    "UserConsentDisplayName": "Read and write a subject name registration.",
+    "Value": "SubjectNameRegistration.ReadWrite",
     "AdditionalProperties": {}
   },
   {

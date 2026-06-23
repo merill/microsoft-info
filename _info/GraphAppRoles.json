@@ -1119,6 +1119,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read work hours and locations settings, recurrences, and occurrences for all users in the organization, without a signed-in user.",
+    "DisplayName": "Read all users' work hours and locations",
+    "Id": "470229df-a15a-4b08-9d95-8c534862b362",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calendars.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read events of all calendars, except for properties such as body, attachments, and extensions, without a signed-in user.",
     "DisplayName": "Read basic details of calendars in all mailboxes ",
     "Id": "8ba4a692-bc31-4128-9094-475872af8a53",
@@ -1137,6 +1149,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Calendars.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, create, update, and delete work hours and locations settings, recurrences, and occurrences for all users in the organization, without a signed-in user.",
+    "DisplayName": "Read and write all users' work hours and locations",
+    "Id": "d91697b0-a708-4c11-a712-8fb2dc081aa2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calendars.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -1299,12 +1323,48 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to report synthetic media detections for participants in calls, without a signed-in user.",
+    "DisplayName": "Report synthetic media detections in calls",
+    "Id": "050b0d28-840a-4ff6-bdf9-cc6221acbc1f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calls.ReportSyntheticMedia.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read call transcripts for all calls without a signed-in user.",
     "DisplayName": "Read all call transcripts",
     "Id": "4cd61b6d-8692-40bf-9d90-7f38db5e5fce",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "CallTranscripts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all cases, relations, tasks, attachments and activities, without a signed-in user.",
+    "DisplayName": "Read all cases, relations, tasks, attachments and activities",
+    "Id": "b328f35f-712c-40d6-b6b4-95449d77b352",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CaseManagement.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write to all cases, relations, tasks, attachments and activities, without a signed-in user.",
+    "DisplayName": "Read and write to all cases, relations, tasks, attachments and activities",
+    "Id": "57ac77a0-bb98-4ba8-bf9a-7af06dcdcc1f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CaseManagement.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -4005,6 +4065,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "MailboxItem.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, write, and delete all users' mailbox items, without a signed-in user.",
+    "DisplayName": "Read and write all users' mailbox items",
+    "Id": "1583d471-fede-4e7c-b062-57e9d60cfb49",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MailboxItem.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
