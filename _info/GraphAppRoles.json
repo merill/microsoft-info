@@ -148,7 +148,7 @@
       "Application"
     ],
     "Description": "Allows the app to read all collections and their membership in your organization's Agent Registry without a signed-in user.",
-    "DisplayName": "Read all collections in Agent Registry, except quarantined and global",
+    "DisplayName": "Read all collections in Agent Registry",
     "Id": "e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c",
     "IsEnabled": true,
     "Origin": "Application",
@@ -160,7 +160,7 @@
       "Application"
     ],
     "Description": "Allows the app to create, read, update, and delete all collections and manage their membership in your organization's Agent Registry without a signed-in user.",
-    "DisplayName": "Read and write all collections in Agent Registry, except quarantined and global",
+    "DisplayName": "Read and write all collections in Agent Registry",
     "Id": "feb31d7d-a227-4487-898c-e014840d07b3",
     "IsEnabled": true,
     "Origin": "Application",
@@ -183,7 +183,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to create agent identities without a signed-in user, even if the client is not the parent agent identity blueprint.",
+    "Description": "Allows the app to create agent identities, even if the app is not the parent agent identity blueprint.",
     "DisplayName": "Create agent identities without an agent blueprint parent",
     "Id": "ad25cc1d-84d8-47df-a08e-b34c2e800819",
     "IsEnabled": true,
@@ -195,8 +195,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create agent identities as the parent agent identity blueprint and fully manage them, including reading, updating, and deleting, without a signed-in user.",
-    "DisplayName": "Create and manage agent identities as the parent agent identity blueprint",
+    "Description": "Allows the app to create linked agent identities without a signed-in user.",
+    "DisplayName": "Create agent identities linked to itself.",
     "Id": "4c390976-b2b7-42e0-9187-c6be3bead001",
     "IsEnabled": true,
     "Origin": "Application",
@@ -207,7 +207,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to delete and restore agent identities without a signed-in user.",
+    "Description": "Allows the app to delete and restore agent identities without a signed-in user.",
     "DisplayName": "Delete and restore agent identities",
     "Id": "5b016f9b-18eb-41d4-869a-66931914d1c8",
     "IsEnabled": true,
@@ -219,7 +219,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to enable or disable agent identities without a signed-in user.",
+    "Description": "Allows the app to enable or disable agent identities without a signed-in user.",
     "DisplayName": "Enable or disable agent identities",
     "Id": "69ee0943-4fa4-4ec8-8e52-d12e4ea661a3",
     "IsEnabled": true,
@@ -243,7 +243,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to read, update, create, and delete agent identities without a signed-in user.",
+    "Description": "Allows the app to read, update, and delete agent identities without a signed-in user.",
     "DisplayName": "Read and write all agent identities",
     "Id": "dcf7150a-88d4-4fe6-9be1-c2744c455397",
     "IsEnabled": true,
@@ -291,7 +291,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to read all agent identity blueprints without a signed-in user.",
+    "Description": "Allows the app to read all agent identity blueprints without a signed-in user.",
     "DisplayName": "Read all agent identity blueprints",
     "Id": "7547a7d1-36fa-4479-9c31-559a600eaa4f",
     "IsEnabled": true,
@@ -303,7 +303,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the client to read, update, create, and delete agent identity blueprints without a signed-in user.",
+    "Description": "Allows the app to read, update, create, and delete agent identity blueprints without a signed-in user.",
     "DisplayName": "Read and write all agent identity blueprints.",
     "Id": "7fddd33b-d884-4ec0-8696-72cff90ff825",
     "IsEnabled": true,
@@ -3147,18 +3147,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to list groups, and to read their basic properties and manage the MIP label for all label enabled groups without a signed-in user.",
-    "DisplayName": "Manage the Microsoft Information Protection (MIP) label for M365 and security groups.",
-    "Id": "60f8cea0-2476-45c9-ab18-70e79e60ad14",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Group.ManageProtection.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read group properties and memberships, and read conversations for all groups, without a signed-in user.",
     "DisplayName": "Read all groups",
     "Id": "5b567255-7703-4780-807c-7be8301ae99b",
@@ -4815,18 +4803,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read your organization's cross tenant access policies without a signed-in user.",
-    "DisplayName": "Read your organization's cross tenant access policies",
-    "Id": "8fc84b9a-5c21-479b-ba9d-02d252d062aa",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Policy.Read.CrossTenantAccess",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the application to read your organization's device configuration policies without a signed-in user.  For example, device registration policy can limit initial provisioning controls using quota restrictions, additional authentication and authorization checks.",
     "DisplayName": "Read your organization's device configuration policies",
     "Id": "bdba4817-6ba1-4a7c-8a01-be9bc7c242dd",
@@ -5577,18 +5553,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "RecordsManagement.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read available properties on remoteTenantGroups, without a signed-in user.",
-    "DisplayName": "Read RemoteTenantGroups information",
-    "Id": "faa08cc0-0dcd-4ea9-9f9c-8b16f842b36e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RemoteTenantGroups.Read.All",
     "AdditionalProperties": {}
   },
   {
