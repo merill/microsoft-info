@@ -5208,6 +5208,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to read the organization's recovery policy on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read your organization's recovery policy",
+    "Id": "61faa1e9-0931-4f9a-94ba-bc2e3505c685",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read the organization's recovery policy on your behalf.",
+    "UserConsentDisplayName": "Read your organization's recovery policy",
+    "Value": "Policy.Read.Recovery",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write your organization's directory access review default policy on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write your organization's directory access review default policy",
     "Id": "4f5bc9c8-ea54-4772-973a-9ca119cb0409",
@@ -5409,6 +5421,18 @@
     "UserConsentDescription": "Allows the app to manage policies related to consent and permission grants for applications, on behalf of the signed-in user.",
     "UserConsentDisplayName": "Manage consent and permission grant policies",
     "Value": "Policy.ReadWrite.PermissionGrant",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update the organization's recovery policy on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write your organization's recovery policy",
+    "Id": "1e7a2f4c-e602-4b1b-9547-304dd65c4cc2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and update the organization's recovery policy on your behalf.",
+    "UserConsentDisplayName": "Read and write your organization's recovery policy",
+    "Value": "Policy.ReadWrite.Recovery",
     "AdditionalProperties": {}
   },
   {
@@ -7980,6 +8004,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Create custom emoji on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create custom emoji",
+    "Id": "72464cd4-58fd-4116-8a9e-b74757574757",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Create custom emoji on your behalf.",
+    "UserConsentDisplayName": "Create custom emoji",
+    "Value": "TeamworkCustomEmoji.Create",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Read custom emoji on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read custom emoji",
+    "Id": "89b231b1-414e-4dd4-bb87-d59906da4e05",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Read custom emoji on your behalf.",
+    "UserConsentDisplayName": "Read custom emoji",
+    "Value": "TeamworkCustomEmoji.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow the app to read the management data for Teams devices on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read Teams devices",
     "Id": "b659488b-9d28-4208-b2be-1c6652b3c970",
@@ -9141,6 +9189,30 @@
     "UserConsentDescription": "Allows the app to read and write QR authentication methods of all users you have access to in your organization. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read and write all users' QR methods",
     "Value": "UserAuthMethod-QR.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the keys associated with the user representing a resource account.",
+    "AdminConsentDisplayName": "Read the keys associated with the user representing a resource account.",
+    "Id": "c86e40fc-66fd-4d68-802e-b90e3038f5e8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the user to read the keys associated with the user representing a resource account.",
+    "UserConsentDisplayName": "Read the keys associated with the user representing a resource account.",
+    "Value": "UserAuthMethod-ResourceKey.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and delete the keys associated with the user representing a resource account.",
+    "AdminConsentDisplayName": "Read and delete the keys associated with the user representing a resource account.",
+    "Id": "e71dec0d-02b4-429d-a49a-030950d45faa",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the user to read and delete the keys associated with the user representing a resource account.",
+    "UserConsentDisplayName": "Read and delete the keys associated with the user representing a resource account.",
+    "Value": "UserAuthMethod-ResourceKey.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
