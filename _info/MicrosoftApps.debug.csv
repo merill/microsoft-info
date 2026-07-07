@@ -41,7 +41,7 @@
 "992136bc-5b57-425f-8d95-ac65975722cd","Microsoft Defender Hunting","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "475226c6-020e-4fb2-8a90-7a972cbfc1d4","PowerApps Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "a303894e-f1d8-4a37-bf10-67aa654a0596","Compute Usage Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
-"dc457883-bafe-4f8b-a333-29685e7eaa9e","PPE-DataResidencyService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"dc457883-bafe-4f8b-a333-29685e7eaa9e","DataResidencyServiceApp","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9","Device Registration Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "30e31aeb-977f-4f4f-a483-b61e8377b302","Microsoft Teams ADL","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "9c8b80bc-6887-42d0-b1af-d0c40f9bf1fa","Azure SQL Managed Instance to Azure AD Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
