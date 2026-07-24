@@ -402,6 +402,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "de926fbf-e23b-41f9-ae15-c943a9cfa630",
+    "AppDisplayName": "Microsoft Azure Authorization Private Link Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "257601fd-462f-4a21-b623-7f719f0f90f4",
     "AppDisplayName": "Centralized Deployment",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -698,6 +704,12 @@
   {
     "AppId": "21a8a852-89f4-4947-a374-b26b2db3d365",
     "AppDisplayName": "IC3 Long Running Operations Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "4eaceb75-fe6c-4953-b873-0fd565ecd334",
+    "AppDisplayName": "Request Approvals Write Platform",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2070,6 +2082,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "1dcb1bc7-c721-498e-b2fa-bcddcea44171",
+    "AppDisplayName": "Microsoft Azure Authorization Resource Provider",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2634dd23-5e5a-431c-81ca-11710d9079f4",
     "AppDisplayName": "Microsoft Stream Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2546,6 +2564,12 @@
   {
     "AppId": "e8bdeda8-b4a3-4eed-b307-5e2456238a77",
     "AppDisplayName": "Office365 Shell SS-Server",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "2d215f00-80d1-4f4b-a6c8-28080dfafc81",
+    "AppDisplayName": "Microsoft Authorization System Policy",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -25650,12 +25674,6 @@
     "Source": "GitHub"
   },
   {
-    "AppId": "1dcb1bc7-c721-498e-b2fa-bcddcea44171",
-    "AppDisplayName": "Microsoft Azure Authorization Resource Provider [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
     "AppId": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
     "AppDisplayName": "MarketplaceAPI ISV [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -26367,12 +26385,6 @@
     "AppId": "de50c81f-5f80-4771-b66b-cebd28ccdfc1",
     "AppDisplayName": "Device Management Client [Community Contributed]",
     "AppOwnerOrganizationId": "",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "de926fbf-e23b-41f9-ae15-c943a9cfa630",
-    "AppDisplayName": "Microsoft Azure Authorization Private Link Provider [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
   {
