@@ -660,13 +660,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create, read, update and delete applications and service principals on behalf of the signed-in user. Does not allow management of consent grants.",
-    "AdminConsentDisplayName": "Read and write all applications",
+    "AdminConsentDescription": "Allows the app to create, read, update and delete applications and service principals on behalf of the signed-in user. Allows management of app role assignments, except those exposed by Microsoft Graph. Does not allow management of delegated permission grants.",
+    "AdminConsentDisplayName": "Read and write applications",
     "Id": "bdfbf15f-ee85-4955-8675-146e8e5296b5",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create, read, update and delete applications and service principals on your behalf. Does not allow management of consent grants.",
+    "UserConsentDescription": "Allows the app to create, read, update and delete applications and service principals on your behalf. Allows management of app role assignments, except those exposed by Microsoft Graph. Does not allow management of delegated permission grants.",
     "UserConsentDisplayName": "Read and write applications",
     "Value": "Application.ReadWrite.All",
     "AdditionalProperties": {}
@@ -8748,13 +8748,13 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": " Allows the app to read and write authentication methods of all users in your organization that the signed-in user has access to.                       Authentication methods include things like a user’s phone numbers and Authenticator app settings. This                      does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
-    "AdminConsentDisplayName": "Read and write all users' authentication methods.",
+    "AdminConsentDescription": " Allows the app to read and write authentication methods of all users in your organization that the signed-in user has access to.                       Authentication methods include things like a user's phone numbers and Authenticator app settings. This                      does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "AdminConsentDisplayName": "Read and write all users' authentication methods",
     "Id": "b7887744-6746-4312-813d-72daeaee7e2d",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write authentication methods of all users you have access to in your organization.                       Authentication methods include things like a user’s phone numbers and Authenticator app settings. This does not allow                      the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
+    "UserConsentDescription": "Allows the app to read and write authentication methods of all users you have access to in your organization.                       Authentication methods include things like a user's phone numbers and Authenticator app settings. This does not allow                      the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read and write all users' authentication methods",
     "Value": "UserAuthenticationMethod.ReadWrite.All",
     "AdditionalProperties": {}

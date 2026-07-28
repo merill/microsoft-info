@@ -615,7 +615,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create, read, update and delete applications and service principals without a signed-in user.  Does not allow management of consent grants.",
+    "Description": "Allows the app to create, read, update and delete applications and service principals without a signed-in user. Allows management of app role assignments, except those exposed by Microsoft Graph. Does not allow management of delegated permission grants.",
     "DisplayName": "Read and write all applications",
     "Id": "1bfefb4e-e0b5-418b-a88f-73c46d2cc8e9",
     "IsEnabled": true,
@@ -7995,7 +7995,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read and write authentication methods of all users in your organization, without a signed-in user.                       Authentication methods include things like a user’s phone numbers and Authenticator app settings. This                      does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods",
+    "Description": "Allows the application to read and write authentication methods of all users in your organization, without a signed-in user.                       Authentication methods include things like a user's phone numbers and Authenticator app settings. This                      does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods",
     "DisplayName": "Read and write all users' authentication methods ",
     "Id": "50483e42-d915-4231-9639-7fdb7fd190e5",
     "IsEnabled": true,
