@@ -5472,6 +5472,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read preauthorization grants for service principals on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all preauthorization grants",
+    "Id": "9c98cbde-410c-4719-9058-166504f17863",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read preauthorization grants for service principals on your behalf.",
+    "UserConsentDisplayName": "Read all preauthorization grants",
+    "Value": "PreAuthorizationGrant.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read presence information on behalf of the signed-in user. Presence information includes activity, availability, status note, calendar out-of-office message, timezone and location.",
     "AdminConsentDisplayName": "Read user's presence information",
     "Id": "76bc735e-aecd-4a1d-8b4c-2b915deabb79",
