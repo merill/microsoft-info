@@ -5067,18 +5067,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read and update the organization's recovery policy without a signed-in user.",
-    "DisplayName": "Read and write your organization's recovery policy",
-    "Id": "795fc94d-3deb-4632-b1eb-e6d1a5f44918",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Policy.ReadWrite.Recovery",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read and write your organization's security defaults policy, without a signed-in user.",
     "DisplayName": "Read and write your organization's security defaults policy",
     "Id": "1c6e93a6-28e2-4cbb-9f64-1a46a821124d",
@@ -5097,18 +5085,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Policy.ReadWrite.TrustFramework",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read preauthorization grants for service principals without a signed-in user.",
-    "DisplayName": "Read all preauthorization grants",
-    "Id": "66ae8ecc-328f-47f6-97ca-4d9e952df081",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PreAuthorizationGrant.Read.All",
     "AdditionalProperties": {}
   },
   {
