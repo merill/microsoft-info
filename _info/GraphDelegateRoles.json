@@ -4308,14 +4308,14 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to backup, restore, and modify mailbox items on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Allows the app to perform backup and restore of mailbox items",
+    "AdminConsentDescription": "Allows the app to export and import the user's mailbox items, on behalf of the the signed-in user.",
+    "AdminConsentDisplayName": "Export and import a user's mailbox items",
     "Id": "df96e8a0-f4e1-4ecf-8d83-a429f822cbd6",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to backup, restore, and modify your mailbox items on your behalf.",
-    "UserConsentDisplayName": "Allows the app to perform backup and restore of mailbox items",
+    "UserConsentDescription": "Allows the app to export and import your mailbox items, on your behalf",
+    "UserConsentDisplayName": "Export and import your mailbox items",
     "Value": "MailboxItem.ImportExport",
     "AdditionalProperties": {}
   },
