@@ -358,7 +358,7 @@
 "52dc2051-4958-4636-8f2a-281d39c6981c","MailboxFolder.Read","Read a user's mailbox folders","Allows the app to read the user's mailbox folders, on behalf of the signed-in user."
 "077fde41-7e0b-4c5b-bcd1-e9d743a30c80","MailboxFolder.ReadWrite","Read and write a user's mailbox folders","Allows the app to read and write the user's mailbox folders, on behalf of the signed-in user."
 "58d3e7fa-3ce9-4a0c-9baa-0971f64709d9","MailboxItem.Export","Export a user's mailbox items","Allows the app to export the user's mailbox items, on behalf of the the signed-in user."
-"df96e8a0-f4e1-4ecf-8d83-a429f822cbd6","MailboxItem.ImportExport","Export and import a user's mailbox items","Allows the app to export and import the user's mailbox items, on behalf of the the signed-in user."
+"df96e8a0-f4e1-4ecf-8d83-a429f822cbd6","MailboxItem.ImportExport","Allows the app to perform backup and restore of mailbox items","Allows the app to backup, restore, and modify mailbox items on behalf of the signed-in user."
 "82305458-296d-4edd-8b0b-74dd74c34526","MailboxItem.Read","Read a user's mailbox items","Allows the app to read the user's mailbox items, on behalf of the signed-in user."
 "ec1ade38-5268-4bc8-87fa-b230e42f7a88","MailboxItem.ReadWrite","Read and write your mailbox items","Allows the app to read, write, and delete the user's mailbox items, on behalf of the signed-in user."
 "87f447af-9fa4-4c32-9dfa-4a57a73d18ce","MailboxSettings.Read","Read user mailbox settings","Allows the app to the read user's mailbox settings. Does not include permission to send mail."

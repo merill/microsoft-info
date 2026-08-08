@@ -337,7 +337,7 @@
 "99280d24-a782-4793-93cc-0888549957f6","MailboxFolder.Read.All","Read all the users' mailbox folders","Allows the app to read all the users' mailbox folders, without signed-in user."
 "fef87b92-8391-4589-9da7-eb93dab7dc8a","MailboxFolder.ReadWrite.All","Read and write all the users' mailbox folders","Allows the app to read and write all the users' mailbox folders, without signed-in user."
 "937550e9-33a3-494b-88ae-d9cd394b1fbb","MailboxItem.Export.All","Export all the users' mailbox items","Allows the app to export all the users' mailbox items, without signed-in user."
-"76577085-e73d-4f1d-b26a-85fb33892327","MailboxItem.ImportExport.All","Export and import all the users' mailbox items","Allows the app to export and import all the users' mailbox items, without signed-in user."
+"76577085-e73d-4f1d-b26a-85fb33892327","MailboxItem.ImportExport.All","Allows the app to perform backup and restore for all mailbox items","Allows the app to backup, restore, and modify all mailbox items without a signed-in user."
 "7d9f353d-a7bd-4fbb-822a-26d5dd39a3ce","MailboxItem.Read.All","Read all the users' mailbox items","Allows the app to read all the users' mailbox items, without signed-in user."
 "1583d471-fede-4e7c-b062-57e9d60cfb49","MailboxItem.ReadWrite.All","Read and write all users' mailbox items","Allows the app to read, write, and delete all users' mailbox items, without a signed-in user."
 "40f97065-369a-49f4-947c-6a255697ae91","MailboxSettings.Read","Read all user mailbox settings","Allows the app to read user's mailbox settings without a signed-in user. Does not include permission to send mail."
