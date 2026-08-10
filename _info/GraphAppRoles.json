@@ -4059,8 +4059,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to backup, restore, and modify all mailbox items without a signed-in user.",
-    "DisplayName": "Allows the app to perform backup and restore for all mailbox items",
+    "Description": "Allows the app to export and import all the users' mailbox items, without signed-in user.",
+    "DisplayName": "Export and import all the users' mailbox items",
     "Id": "76577085-e73d-4f1d-b26a-85fb33892327",
     "IsEnabled": true,
     "Origin": "Application",
