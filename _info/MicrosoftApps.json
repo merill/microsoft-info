@@ -1452,6 +1452,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "409eb69a-5e20-4e1e-a8bf-c23300057950",
+    "AppDisplayName": "Azure Container Apps Arc - Data Plane",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "6bccf540-eb86-4037-af03-7fa058c2db75",
     "AppDisplayName": "Geneva Alert RP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1776,6 +1782,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "2c7dd73f-7a21-485b-b97d-a2508fa152c3",
+    "AppDisplayName": "Azure ContainerApps Sessions",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "4580fd1d-e5a3-4f56-9ad1-aab0e3bf8f76",
     "AppDisplayName": "Call Recorder",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2088,6 +2100,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "55ebbb62-3b9c-49fd-9b87-9595226dd4ac",
+    "AppDisplayName": "Microsoft Azure Legion ",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "2634dd23-5e5a-431c-81ca-11710d9079f4",
     "AppDisplayName": "Microsoft Stream Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2376,6 +2394,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "1459b1f6-7a5b-4300-93a2-44b4a651759f",
+    "AppDisplayName": "Azure Container Apps Arc - Control Plane",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "64f79cb9-9c82-4199-b85b-77e35b7dcbcb",
     "AppDisplayName": "Microsoft Teams Bots",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2640,6 +2664,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "6104ad52-755e-428b-9fb5-5fdf4d2c4d53",
+    "AppDisplayName": "Azure ContainerApps Auth",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "55441455-2f54-42b5-bc99-93e21cd4ae28",
     "AppDisplayName": "Office Enterprise Protection Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2876,6 +2906,12 @@
   {
     "AppId": "9e133cac-5238-4d1e-aaa0-d8ff4ca23f4e",
     "AppDisplayName": "Conferencing Virtual Assistant",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "59f0a04a-b322-4310-adc9-39ac41e9631e",
+    "AppDisplayName": "Azure SRE Agent",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
