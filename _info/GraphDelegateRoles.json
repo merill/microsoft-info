@@ -192,6 +192,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the communication configuration of agent blueprints on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read agent communication configuration",
+    "Id": "57ff8075-2fb3-4879-8693-5d51ee8d5e9e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the communication configuration of agent blueprints on your behalf.",
+    "UserConsentDisplayName": "Read agent communication configuration",
+    "Value": "AgentCommunicationConfiguration.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update the communication configuration of agent blueprints on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write agent communication configuration",
+    "Id": "15e0db35-0641-4175-b014-c2cb39286338",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update the communication configuration of agent blueprints on your behalf.",
+    "UserConsentDisplayName": "Read and write agent communication configuration",
+    "Value": "AgentCommunicationConfiguration.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the client to create agent identities on behalf of the signed-in user, even if the client is not the parent agent identity blueprint.",
     "AdminConsentDisplayName": "Create agent identities without an agent blueprint parent",
     "Id": "e75eeac6-d759-4ba3-ae5c-773a27efafba",
@@ -2352,6 +2376,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read properties of Microsoft Intune-managed deployment plans and their ring configurations.",
+    "AdminConsentDisplayName": "Read Microsoft Intune Deployment Plans",
+    "Id": "700bfe0b-b3bd-4fa4-bec2-6849edd7fb7b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read properties of Microsoft Intune-managed deployment plans and their ring configurations.",
+    "UserConsentDisplayName": "Read Microsoft Intune Deployment Plans",
+    "Value": "DeviceManagementDeploymentPlans.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write properties of Microsoft Intune-managed deployment plans and their ring configurations.",
+    "AdminConsentDisplayName": "Read and write Microsoft Intune Deployment Plans",
+    "Id": "9d95843d-67b9-48b2-8e20-e42372db8549",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write properties of Microsoft Intune-managed deployment plans and their ring configurations.",
+    "UserConsentDisplayName": "Read and write Microsoft Intune Deployment Plans",
+    "Value": "DeviceManagementDeploymentPlans.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to perform remote high impact actions such as wiping the device or resetting the passcode on devices managed by Microsoft Intune.",
     "AdminConsentDisplayName": "Perform user-impacting remote actions on Microsoft Intune devices",
     "Id": "3404d2bf-2b13-457e-a330-c24615765193",
@@ -3969,6 +4017,30 @@
     "UserConsentDescription": "Allows the app to manage all license assignments, on your behalf.",
     "UserConsentDisplayName": "Manage all license assignments",
     "Value": "LicenseAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read identity lifecycle policies for agent identities that the signed-in user has access to in the organization.",
+    "AdminConsentDisplayName": "Read identity lifecycle policies for agent identities",
+    "Id": "65857db0-62ac-4279-aa73-c2b5dab186f5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read identity lifecycle policies for agent identities that you have access to.",
+    "UserConsentDisplayName": "Read identity lifecycle policies for agent identities",
+    "Value": "LifecyclePolicies-AgentId.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, create, update and delete identity lifecycle policies for agent identities that the signed-in user has access to in the organization.",
+    "AdminConsentDisplayName": "Read and write identity lifecycle policies for agent identities",
+    "Id": "f2292ca5-46fc-4195-9b4d-16491bf9bf7f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, create, update and delete identity lifecycle policies for agent identities that you have access to.",
+    "UserConsentDisplayName": "Read and write identity lifecycle policies for agent identities",
+    "Value": "LifecyclePolicies-AgentId.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -6093,6 +6165,42 @@
     "UserConsentDescription": "Allows the application to read  and write certificate-based authentication configuration such as all public key infrastructures (PKI) and certificate authorities (CA) configured for the organization, on your behalf.",
     "UserConsentDisplayName": "Read and write certificate based authentication configurations",
     "Value": "PublicKeyInfrastructure.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to create, read, update and delete pull-print printers and manage member printers on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create, read, update and delete pull-print printers and manage member printers",
+    "Id": "ef6b83cd-f762-47ff-97d7-6f6f2d0486ea",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to create, read, update and delete pull-print printers and manage member printers on your behalf.",
+    "UserConsentDisplayName": "Create, read, update and delete pull-print printers and manage member printers",
+    "Value": "PullPrintPrinter.FullControl.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read pull-print printers on behalf of the signed-in user. ",
+    "AdminConsentDisplayName": "Read pull-print printers",
+    "Id": "deac7994-79bc-44c9-8828-01c1a9a96618",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read pull-print printers on your behalf. ",
+    "UserConsentDisplayName": "Read pull-print printers",
+    "Value": "PullPrintPrinter.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update pull-print printers on behalf of the signed-in user. Does not allow creating or deleting  pull-print printers or managing member printers.",
+    "AdminConsentDisplayName": "Read and update pull-print printers",
+    "Id": "c628c397-5d7f-4c93-ae0f-4680282fd6d5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and update pull-print printers on your behalf. Does not allow creating or deleting pull-print printers or managing member printers.",
+    "UserConsentDisplayName": "Read and update pull-print printers",
+    "Value": "PullPrintPrinter.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

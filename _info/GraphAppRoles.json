@@ -183,6 +183,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the communication configuration of agent blueprints without a signed-in user.",
+    "DisplayName": "Read all agent communication configurations",
+    "Id": "eccf3f2d-f81a-4718-95d7-ef4a0c42ac43",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCommunicationConfiguration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update the communication configuration of agent blueprints without a signed-in user.",
+    "DisplayName": "Read and write all agent communication configurations",
+    "Id": "9c72696d-c77b-4d8d-b59e-dfca4792c9ec",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentCommunicationConfiguration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the client to create agent identities without a signed-in user, even if the client is not the parent agent identity blueprint.",
     "DisplayName": "Create agent identities without an agent blueprint parent",
     "Id": "ad25cc1d-84d8-47df-a08e-b34c2e800819",
@@ -2283,6 +2307,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read properties of Microsoft Intune-managed deployment plans and their ring configurations, without a signed-in user.",
+    "DisplayName": "Read Microsoft Intune Deployment Plans",
+    "Id": "c5825671-0390-4bf2-b99b-80496fd4b673",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementDeploymentPlans.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write properties of Microsoft Intune-managed deployment plans and their ring configurations, without a signed-in user.",
+    "DisplayName": "Read and write Microsoft Intune Deployment Plans",
+    "Id": "68356fd1-028d-4ce3-b724-241dec11127a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DeviceManagementDeploymentPlans.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to perform remote high impact actions such as wiping the device or resetting the passcode on devices managed by Microsoft Intune, without a signed-in user.",
     "DisplayName": "Perform user-impacting remote actions on Microsoft Intune devices",
     "Id": "5b07b0dd-2377-4e44-a38d-703f09a0dc3c",
@@ -3789,6 +3837,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "LicenseAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read identity lifecycle policies for agent identities in the organization, without a signed-in user.",
+    "DisplayName": "Read identity lifecycle policies for agent identities",
+    "Id": "6343d63f-034f-45b5-832d-9f9d7632e182",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecyclePolicies-AgentId.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, create, update and delete identity lifecycle policies for agent identities in the organization, without a signed-in user.",
+    "DisplayName": "Read and write identity lifecycle policies for agent identities",
+    "Id": "00d1c504-8dc7-461b-8a0b-dc15c8f1bd5a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "LifecyclePolicies-AgentId.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -5565,6 +5637,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "PublicKeyInfrastructure.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read pull-print printers without a signed-in user. ",
+    "DisplayName": "Read pull-print printers",
+    "Id": "f369d3b8-fe98-4772-85e1-b23e7cf41982",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PullPrintPrinter.Read.All",
     "AdditionalProperties": {}
   },
   {
