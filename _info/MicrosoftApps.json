@@ -84,6 +84,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "59eca866-2f46-40b8-96ff-63f663121ef9",
+    "AppDisplayName": "Agent 365",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "1c0ae35a-e2ec-4592-8e08-c40884656fa5",
     "AppDisplayName": "Skype Team Substrate connector",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
