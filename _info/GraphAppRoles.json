@@ -8091,18 +8091,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to delete authentication methods of all users in your organization, without a signed-in user. Authentication methods include things like a user's phone numbers and Authenticator app settings. This does not allow the app to read, create, or modify authentication methods.",
-    "DisplayName": "Delete all users' authentication methods",
-    "Id": "712f5e0d-bc8d-4ae5-8242-cfb9a4921ed3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthenticationMethod.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read authentication methods of all users in your organization, without a signed-in user. Authentication methods include things like a user’s phone numbers and Authenticator app settings. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' authentication methods",
     "Id": "38d9df27-64da-44fd-b7c5-a6fbac20248f",
@@ -8121,18 +8109,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthenticationMethod.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete email methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify email methods.",
-    "DisplayName": "Delete all users' email methods",
-    "Id": "f0e9adfd-ed6b-45f5-b969-324a75286a39",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-Email.Delete.All",
     "AdditionalProperties": {}
   },
   {
@@ -8163,18 +8139,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete external authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify external authentication methods.",
-    "DisplayName": "Delete all users' external authentication methods",
-    "Id": "7fa6d39e-1e4e-44be-bf9c-e8260b12e1f5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-External.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read external authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' external authentication methods",
     "Id": "d2c4289f-9f95-40da-ad43-eeb1506f0db7",
@@ -8193,18 +8157,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-External.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete HardwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify HardwareOATH authentication methods.",
-    "DisplayName": "Delete all users' HardwareOATH authentication methods",
-    "Id": "9d8eb432-7ea3-491a-9ed7-e6361b308f08",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-HardwareOATH.Delete.All",
     "AdditionalProperties": {}
   },
   {
@@ -8235,18 +8187,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete Microsoft Authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify Microsoft Authentication methods.",
-    "DisplayName": "Delete all users' Microsoft Authentication methods",
-    "Id": "ae494ca6-9612-417a-972a-ef52efaf2de3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-MicrosoftAuthApp.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read Microsoft authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' Microsoft authentication methods",
     "Id": "a9c5f16e-e5ca-4e33-89ad-903fcfc01c23",
@@ -8265,18 +8205,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-MicrosoftAuthApp.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete passkey authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify passkey authentication methods.",
-    "DisplayName": "Delete all users' passkey authentication methods",
-    "Id": "9563fbd0-03a7-466e-8042-63d668b7d1a3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-Passkey.Delete.All",
     "AdditionalProperties": {}
   },
   {
@@ -8331,18 +8259,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete phone methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify phone methods.",
-    "DisplayName": "Delete all users' phone methods",
-    "Id": "59f17651-8b6c-494e-a269-4ac582fbbca0",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-Phone.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read phone authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' phone authentication methods",
     "Id": "f529a223-ea70-43ec-b268-5012de2fbaa2",
@@ -8361,18 +8277,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-Phone.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete platform credentials methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify platform credentials methods.",
-    "DisplayName": "Delete all users' platform credentials methods",
-    "Id": "bd760918-651f-4e67-b66f-8f614384dec2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-PlatformCred.Delete.All",
     "AdditionalProperties": {}
   },
   {
@@ -8403,18 +8307,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete QR authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify QR authentication methods.",
-    "DisplayName": "Delete all users' QR authentication methods",
-    "Id": "e1c34213-26ac-400b-9548-a749f1b1a4e0",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-QR.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read QR authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' QR methods",
     "Id": "9a45bc50-cddd-4ebe-bd9c-4f2eacf646ae",
@@ -8433,18 +8325,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-QR.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete resource key authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify resource key authentication methods.",
-    "DisplayName": "Delete all users' resource key authentication methods",
-    "Id": "a71aecaf-82f1-47c5-ad0a-5e63503b928f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-ResourceKey.Delete.All",
     "AdditionalProperties": {}
   },
   {
@@ -8475,18 +8355,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete SoftwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify SoftwareOATH authentication methods.",
-    "DisplayName": "Delete all users' SoftwareOATH authentication methods",
-    "Id": "e5676e10-1a16-452b-ad10-71f54b755852",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-SoftwareOATH.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read SoftwareOATH authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' SoftwareOATH methods",
     "Id": "a6b423df-a0c8-411d-a809-a4a5985d2939",
@@ -8511,18 +8379,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to delete Temporary Access Pass authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify Temporary Access Pass authentication methods.",
-    "DisplayName": "Delete all users' Temporary Access Pass authentication methods",
-    "Id": "4f872e9d-d232-4ecd-ab9c-337cbdb184e5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-TAP.Delete.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read Temporary Access Pass authentication methods of all users in your organization, without a signed-in user. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "DisplayName": "Read all users' Temporary Access Pass methods",
     "Id": "bf82209c-b22b-4747-ac88-a68be99032cf",
@@ -8541,18 +8397,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-TAP.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to delete Windows Hello authentication methods of all users in your organization, without a signed-in user. This does not allow the app to read, create, or modify Windows Hello authentication methods.",
-    "DisplayName": "Delete all users' Windows Hello authentication methods",
-    "Id": "f3197110-aa7f-4acd-a0fd-71981ad68d42",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserAuthMethod-WindowsHello.Delete.All",
     "AdditionalProperties": {}
   },
   {
