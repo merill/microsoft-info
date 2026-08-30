@@ -3516,54 +3516,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read own identity diagnostics information, including symptoms, runs, statuses, and results for the signed-in user",
-    "AdminConsentDisplayName": "Read your identity diagnostics",
-    "Id": "3839e465-e636-4c8e-b959-340182fb0567",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read identity diagnostics information, including symptoms, runs, and results for the signed-in user.",
-    "UserConsentDisplayName": "Read your identity diagnostics",
-    "Value": "IdentityDiagnostic.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read all identity diagnostics information, including symptoms, runs, statuses, and results for all users in the organization, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all identity diagnostics",
-    "Id": "9181fb3f-4b8e-45ef-98ae-41774b813b80",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all identity diagnostics information for users in your organization on your behalf.",
-    "UserConsentDisplayName": "Read all identity diagnostics",
-    "Value": "IdentityDiagnostic.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to start identity diagnostic processes for the signed-in user.",
-    "AdminConsentDisplayName": "Start identity diagnostics",
-    "Id": "1ad58246-a11b-4ea3-9b75-8b6c315cbe21",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to start identity diagnostic processes for the signed-in user.",
-    "UserConsentDisplayName": "Start identity diagnostics",
-    "Value": "IdentityDiagnostic.StartDiagnosis",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to start identity diagnostic processes for all users in the organization, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Start identity diagnostics for all users",
-    "Id": "51470ff5-62b6-4aef-9a3a-d8c8a1e66d09",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to start identity diagnostic processes for users in your organization on your behalf.",
-    "UserConsentDisplayName": "Start identity diagnostics for all users",
-    "Value": "IdentityDiagnostic.StartDiagnosis.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the app to read identity notification settings, email templates, and prerequisites on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read identity notification settings and templates",
     "Id": "59cd3e28-aa9c-4f72-a734-1b592eb06853",
