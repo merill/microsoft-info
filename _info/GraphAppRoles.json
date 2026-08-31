@@ -3327,6 +3327,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all identity diagnostics information, including symptoms, runs, statuses, and results for all users in the organization, without a signed-in user.",
+    "DisplayName": "Read all identity diagnostics",
+    "Id": "bb1e8ab4-fe40-4b26-82ec-65dfaf4d367b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityDiagnostic.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to start identity diagnostic processes for all users in the organization, without a signed-in user.",
+    "DisplayName": "Start identity diagnostics for all users",
+    "Id": "2607bb8b-0a9b-4f53-9d2f-6f81b99ac145",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityDiagnostic.StartDiagnosis.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read identity notification settings, email templates, and prerequisites without a signed-in user.",
     "DisplayName": "Read all identity notification settings and templates",
     "Id": "52ced3dd-dbb6-41a0-9ce5-61a056be97b8",
