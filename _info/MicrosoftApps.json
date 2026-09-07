@@ -1644,6 +1644,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "4bf1d72f-eee1-495f-b12c-2e60a0cc3a5a",
+    "AppDisplayName": "Microsoft Defender for Databases",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "65c8bd9e-caac-4816-be98-0692f41191bc",
     "AppDisplayName": "People Profile Event Proxy",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
