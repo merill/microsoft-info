@@ -4248,6 +4248,54 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read lockbox requests on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read lockbox requests",
+    "Id": "a368a3ce-713b-46d9-9c93-bb559acf38ca",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read lockbox requests that you can access.",
+    "UserConsentDisplayName": "Read lockbox requests",
+    "Value": "LockboxRequest.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and manage lockbox requests on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read and manage lockbox requests",
+    "Id": "524d6259-f823-43c4-964a-97e3b8ddb56c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and manage lockbox requests that you can access, including approving or denying access requests.",
+    "UserConsentDisplayName": "Read and manage lockbox requests",
+    "Value": "LockboxRequest.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read lockbox configuration settings on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read lockbox settings",
+    "Id": "2ea429a7-d1fa-4f96-b451-e91ecc5e5fe2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read lockbox configuration settings for your organization.",
+    "UserConsentDisplayName": "Read lockbox settings",
+    "Value": "LockboxSettings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and modify lockbox configuration settings on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read and write lockbox settings",
+    "Id": "bdc52289-9ed7-4339-83ab-772ae618713c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and modify lockbox configuration settings for your organization.",
+    "UserConsentDisplayName": "Read and write lockbox settings",
+    "Value": "LockboxSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create, read, update, and delete email, including contents of non-draft emails in user mailboxes, on behalf of the signed-in user. Does not include permission to send mail.",
     "AdminConsentDisplayName": "Read and write the user's mail, including modifying existing non-draft mails",
     "Id": "f3af82f6-18e0-4a41-8dc8-a03c11854a8d",
