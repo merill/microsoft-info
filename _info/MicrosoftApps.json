@@ -906,6 +906,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "9bc4cc98-c5f0-4916-b2ef-b55848ef0f48",
+    "AppDisplayName": "ptm-prod",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "a150d169-7d37-47dd-9b20-156207b7b02f",
     "AppDisplayName": "MIP Exchange Solutions",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1818,6 +1824,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "1387301c-59b7-4204-84b8-1b7559500626",
+    "AppDisplayName": "ptm-cp-prod",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "886b3ae5-8ee1-4bb4-a312-b35341a95909",
     "AppDisplayName": "Syntex Resource Provider",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2042,6 +2054,12 @@
   {
     "AppId": "c09dc6d6-3bff-482b-8e40-68b3ad65f3fa",
     "AppDisplayName": "ProductsLifecycleApp",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "f77c2a8f-8a0a-4776-8e0a-bcb2549610ca",
+    "AppDisplayName": "RPSaaS Meta RP",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
