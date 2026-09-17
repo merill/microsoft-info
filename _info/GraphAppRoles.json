@@ -1371,6 +1371,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create, read, update, and delete case management configuration, such as SLA policies, without a signed-in user.",
+    "DisplayName": "Manage case management configuration",
+    "Id": "010650d3-1605-49e9-b242-230afecb9dc5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CaseManagement.ConfigManage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all cases, relations, tasks, attachments and activities, without a signed-in user.",
     "DisplayName": "Read all cases, relations, tasks, attachments and activities",
     "Id": "b328f35f-712c-40d6-b6b4-95449d77b352",
@@ -3171,6 +3183,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to create, read and update all groups’ preferred data location property, without a signed-in user.",
+    "DisplayName": "Read and write all groups’ preferred data location property",
+    "Id": "603ce4e3-fb05-4b63-91ba-729bb1dca667",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Group-PreferredDataLocation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all Cross-Tenant Identity Synchronization properties on Groups, without a signed-in user.",
     "DisplayName": "Read all Group Cross-Tenant Identity Synchronization properties",
     "Id": "35b96aac-d839-4362-abd4-7381f2b27ccd",
@@ -3219,6 +3243,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all group basic properties. All of these operations can be performed by the app without a signed-in user.",
+    "DisplayName": "Read all groups’ basic property",
+    "Id": "07d67222-3a10-4d3b-9ddc-b8aa43198a00",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Group.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create groups, read all group properties and memberships, update group properties and memberships, and delete groups. Also allows the app to read and write conversations. All of these operations can be performed by the app without a signed-in user.",
     "DisplayName": "Read and write all groups",
     "Id": "62a82d76-70ea-41e2-9197-370581804d09",
@@ -3237,6 +3273,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "GroupMember.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all basic group memberships in the organization, without signed-in user.",
+    "DisplayName": "Read all group memberships",
+    "Id": "8222c640-cae5-4860-8d11-b32cfad95e03",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "GroupMember.ReadBasic.All",
     "AdditionalProperties": {}
   },
   {
@@ -3705,6 +3753,78 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "IndustryData.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read ABAC policies in the organization's policy catalog, without a signed-in user.",
+    "DisplayName": "Read all ABAC policies.",
+    "Id": "66905074-ba83-4bb3-b5a1-1bb769025947",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectABACPolicy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write ABAC policies in the organization's policy catalog, without a signed-in user.",
+    "DisplayName": "Read and write all ABAC policies.",
+    "Id": "4bfc1735-3a0c-4602-a159-9cfa07213339",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectABACPolicy.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read ABAC attribute assignments for users, without a signed-in user.",
+    "DisplayName": "Read all information protection attribute assignments.",
+    "Id": "64e5621c-1c93-43aa-ac76-c58f9fd136c7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectAttributeAssignment.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write ABAC attribute assignments for users, without a signed-in user.",
+    "DisplayName": "Read and write all information protection attribute assignments.",
+    "Id": "bc81c4f9-5b1f-4107-b330-4665a9cebecf",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectAttributeAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read information protection attribute definitions in the organization's attribute catalog, without a signed-in user.",
+    "DisplayName": "Read all information protection attribute definitions.",
+    "Id": "1a8b595b-d654-4a0c-9b37-caf656a24853",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectAttributeDefinition.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write information protection attribute definitions in the organization's attribute catalog, without a signed-in user.",
+    "DisplayName": "Read and write all information protection attribute definitions.",
+    "Id": "7ec4dbde-910f-4bbb-9717-d1cde4470763",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InfoProtectAttributeDefinition.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

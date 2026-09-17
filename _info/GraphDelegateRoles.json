@@ -1332,6 +1332,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete case management configuration, such as SLA policies, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Manage case management configuration",
+    "Id": "ee412db8-63b1-4e10-86fa-41c4a4b59eb5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete case management configuration, such as SLA policies, that you have access to.",
+    "UserConsentDisplayName": "Manage case management configuration",
+    "Value": "CaseManagement.ConfigManage.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all cases, relations, tasks, attachments and activities, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all cases, relations, tasks, attachments and activities",
     "Id": "7bdc421c-99cd-4b67-a749-aa8e92775f7e",
@@ -3372,6 +3384,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create, read and update groups’ preferred data location property that you have access to in the organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all groups’ preferred data location property that user can access",
+    "Id": "7ba6c25f-c181-4bfd-80b1-3ac184ac5629",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read and update groups’ preferred data location property that you have access to in the organization, on your behalf.",
+    "UserConsentDisplayName": "Read and write all groups’ preferred data location property that user can access",
+    "Value": "Group-PreferredDataLocation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all Cross-Tenant Identity Synchronization properties on Groups, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all Group Cross-Tenant Identity Synchronization properties",
     "Id": "f7c0661b-4247-48ac-a371-05ff047614c6",
@@ -3408,6 +3432,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all group basic properties on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all groups’ basic property",
+    "Id": "ba1917bc-a64b-4c71-b66d-229d4a520e66",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all group basic properties on your behalf.",
+    "UserConsentDisplayName": "Read all groups’ basic property",
+    "Value": "Group.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create groups and read all group properties and memberships on behalf of the signed-in user.  Additionally allows group owners to manage their groups and allows group members to update group content.",
     "AdminConsentDisplayName": "Read and write all groups",
     "Id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
@@ -3429,6 +3465,18 @@
     "UserConsentDescription": "Allows the app to list groups, read basic group properties and read membership of all your groups.",
     "UserConsentDisplayName": "Read group memberships",
     "Value": "GroupMember.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read basic group memberships that you have access to in the organization, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read group memberships",
+    "Id": "28539367-358c-4ed9-b7f0-793eccb8fd34",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read basic group memberships that you have access to in the organization, on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read group memberships",
+    "Value": "GroupMember.ReadBasic.All",
     "AdditionalProperties": {}
   },
   {
@@ -3933,6 +3981,78 @@
     "UserConsentDescription": "Allows the app to read Industry Data basic service and resource information on your behalf.",
     "UserConsentDisplayName": "Read basic Industry Data service and resource definitions",
     "Value": "IndustryData.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read ABAC policies in the organization's policy catalog, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read ABAC policies.",
+    "Id": "2a75d691-aeca-481b-9112-0df294395d74",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read ABAC policies in the organization's policy catalog, on your behalf.",
+    "UserConsentDisplayName": "Read ABAC policies.",
+    "Value": "InfoProtectABACPolicy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write ABAC policies in the organization's policy catalog, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write ABAC policies.",
+    "Id": "30a06a6d-4a75-400f-84a1-13717e5ba7a3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write ABAC policies in the organization's policy catalog, on your behalf.",
+    "UserConsentDisplayName": "Read and write ABAC policies.",
+    "Value": "InfoProtectABACPolicy.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read ABAC attribute assignments for users, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read information protection attribute assignments.",
+    "Id": "53216fbf-d31e-415b-9c4c-486a30f2aa8f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read ABAC attribute assignments for users, on your behalf.",
+    "UserConsentDisplayName": "Read information protection attribute assignments.",
+    "Value": "InfoProtectAttributeAssignment.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write ABAC attribute assignments for users, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write information protection attribute assignments.",
+    "Id": "82fc7b0a-cdf4-4e5e-98ee-646f5bdd8861",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write ABAC attribute assignments for users, on your behalf.",
+    "UserConsentDisplayName": "Read and write information protection attribute assignments.",
+    "Value": "InfoProtectAttributeAssignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read information protection attribute definitions in the organization's attribute catalog, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read information protection attribute definitions.",
+    "Id": "3f3ad769-005a-4976-869a-71dd9210c3e6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read information protection attribute definitions in the organization's attribute catalog, on your behalf.",
+    "UserConsentDisplayName": "Read information protection attribute definitions.",
+    "Value": "InfoProtectAttributeDefinition.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write information protection attribute definitions in the organization's attribute catalog, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write information protection attribute definitions.",
+    "Id": "09b3ecc2-f2c3-43ea-8131-c6503ed50dd3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write information protection attribute definitions in the organization's attribute catalog, on your behalf.",
+    "UserConsentDisplayName": "Read and write information protection attribute definitions.",
+    "Value": "InfoProtectAttributeDefinition.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
