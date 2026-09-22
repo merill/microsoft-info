@@ -603,6 +603,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all trusted certificate authority configurations which can be used to restrict application certificates based on their issuing authority, without a signed-in user.",
+    "DisplayName": "Read all trusted certificate authority configurations for applications",
+    "Id": "f0d7f93b-6fce-4221-a197-ace5848da396",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AppCertTrustConfiguration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update and delete all trusted certificate authority configurations which can be used to restrict application certificates based on their issuing authority, without a signed-in user.",
+    "DisplayName": "Read and write all trusted certificate authority configurations for applications",
+    "Id": "e508b0bc-7b1a-4b59-8646-d12066f4a72f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AppCertTrustConfiguration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read and write the remote desktop security configuration for all apps in your organization, without a signed-in user.",
     "DisplayName": "Read and write the remote desktop security configuration for all apps",
     "Id": "3be0012a-cc4e-426b-895b-f9c836bf6381",
@@ -1941,6 +1965,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "CopilotPolicySettings.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's all cross tenant content migration job details without a signed-in user.",
+    "DisplayName": "Read all cross tenant content migration job details",
+    "Id": "0ef71a66-690d-439b-96ef-41705a240606",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CrossTenantContentMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write your tenant's all cross tenant content migration job details without a signed-in user.",
+    "DisplayName": "Read and write all cross tenant content migration job details",
+    "Id": "c5a29fd1-4629-4f52-8316-4d639ffa95d0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CrossTenantContentMigration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -7899,8 +7947,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to run hunting queries, without a signed-in user.",
-    "DisplayName": "Run hunting queries",
+    "Description": "Allows the app to run hunting queries and read shared saved hunting queries, without a signed-in user.",
+    "DisplayName": "Run hunting queries and read shared saved hunting queries",
     "Id": "dd98c7f5-2d42-42d3-a0e4-633161547251",
     "IsEnabled": true,
     "Origin": "Application",
@@ -8865,6 +8913,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "WindowsUpdates.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all workbooks without a signed-in user.",
+    "DisplayName": "Read all workbooks",
+    "Id": "d6559210-2a3e-46f8-90b3-e69ef5507772",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Workbooks.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all workbooks without a signed-in user.",
+    "DisplayName": "Read and write all workbooks",
+    "Id": "164a9e2c-8434-444a-a250-b8c70dded2af",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Workbooks.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

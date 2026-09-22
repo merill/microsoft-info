@@ -8640,14 +8640,14 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to run hunting queries, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Run hunting queries",
+    "AdminConsentDescription": "Allows the app to run hunting queries and read saved hunting queries, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Run hunting queries and read saved hunting queries",
     "Id": "b152eca8-ea73-4a48-8c98-1a6742673d99",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to run hunting queries that you can execute.",
-    "UserConsentDisplayName": "Run hunting queries",
+    "UserConsentDescription": "Allows the app to run hunting queries that you can execute and read saved hunting queries that you can access.",
+    "UserConsentDisplayName": "Run hunting queries and read saved hunting queries",
     "Value": "ThreatHunting.Read.All",
     "AdditionalProperties": {}
   },
@@ -9873,6 +9873,30 @@
     "UserConsentDescription": "Allows the app to read and write all Windows update deployment settings for the organization on your behalf.",
     "UserConsentDisplayName": "Read and write all Windows update deployment settings",
     "Value": "WindowsUpdates.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all workbooks on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all workbooks",
+    "Id": "e37141d2-4e2c-459d-8e5b-5214ae4af482",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all workbooks on your behalf.",
+    "UserConsentDisplayName": "Read all workbooks",
+    "Value": "Workbooks.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all workbooks on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all workbooks",
+    "Id": "5cf5c2d4-f542-4e67-b524-51ab19ef7584",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all workbooks on your behalf.",
+    "UserConsentDisplayName": "Read and write all workbooks",
+    "Value": "Workbooks.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
