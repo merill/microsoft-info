@@ -114,6 +114,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "f738ef14-47dc-4564-b53b-45069484ccc7",
+    "AppDisplayName": "Marketplace Api",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "3e050dd7-7815-46a0-8263-b73168a42c10",
     "AppDisplayName": "Teams Approvals",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -164,6 +170,12 @@
   {
     "AppId": "c066d759-24ae-40e7-a56f-027002b5d3e4",
     "AppDisplayName": "M365DataAtRestEncryption",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "4200f961-ba28-4b7b-84f5-090d974ca00c",
+    "AppDisplayName": "Azure Billing Benefits application Prod",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -480,6 +492,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b54eec68-9e1d-444e-832d-46e3e43ed899",
+    "AppDisplayName": "Universal DevCenter",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "3570e63c-5acf-4f3f-9f15-a49faa5120d3",
     "AppDisplayName": "Power Apps Service Customer Management Plane Backend",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -626,6 +644,12 @@
   {
     "AppId": "dbcbd02a-d7c4-42fb-8c27-b07e5118b848",
     "AppDisplayName": "Azure Graph",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "a80a6f8b-55ed-4040-941e-b47c0acb4d4e",
+    "AppDisplayName": "Azure Billing Benefits application",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -1364,6 +1388,12 @@
   {
     "AppId": "2ddfbe71-ed12-4123-b99b-d5fc8a062a79",
     "AppDisplayName": "Microsoft Teams Admin Portal Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "5b712e99-51a3-41ce-86ff-046e0081c5c0",
+    "AppDisplayName": "Marketplace SaaS v2",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -2958,6 +2988,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "3e36f539-fc2c-479c-90fb-3cfa21da3a4b",
+    "AppDisplayName": "Power Platform Environment Discovery Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "59f0a04a-b322-4310-adc9-39ac41e9631e",
     "AppDisplayName": "Azure SRE Agent",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3206,6 +3242,12 @@
   {
     "AppId": "fc03f97a-9db0-4627-a216-ec98ce54e018",
     "AppDisplayName": "Azure AD Notification",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
+    "AppDisplayName": "MarketplaceAPI ISV",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -3470,6 +3512,12 @@
   {
     "AppId": "7f15f9d9-cad0-44f1-bbba-d36650e07765",
     "AppDisplayName": "Azure Synapse Link for Dataverse",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
+    "AppId": "3829f069-1c33-45dd-84ab-2465f4282677",
+    "AppDisplayName": "Azure Signup Api",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "Graph"
   },
@@ -25794,12 +25842,6 @@
     "Source": "GitHub"
   },
   {
-    "AppId": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
-    "AppDisplayName": "MarketplaceAPI ISV [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
     "AppId": "22d27567-b3f0-4dc2-9ec2-46ed368ba538",
     "AppDisplayName": "Reading Assignments [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -25958,12 +26000,6 @@
   {
     "AppId": "5b534afd-fdc0-4b38-a77f-af25442e3149",
     "AppDisplayName": "Microsoft Support Diagnostics [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "5b712e99-51a3-41ce-86ff-046e0081c5c0",
-    "AppDisplayName": "Marketplace SaaS v2 [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
@@ -26570,12 +26606,6 @@
   {
     "AppId": "f6e5c0c2-4746-4152-b162-91309d5556df",
     "AppDisplayName": "IC3 Modern Effective Config [Community Contributed]",
-    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "Source": "GitHub"
-  },
-  {
-    "AppId": "f738ef14-47dc-4564-b53b-45069484ccc7",
-    "AppDisplayName": "Marketplace Api [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "Source": "GitHub"
   },
