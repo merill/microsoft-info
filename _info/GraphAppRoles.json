@@ -7959,6 +7959,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to run hunting queries and to read and write hunting functions, without a signed-in user.",
+    "DisplayName": "Run hunting queries and manage all hunting functions",
+    "Id": "6e251752-0d87-4158-b87b-b60e768fa657",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ThreatHunting.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all the indicators for your organization, without a signed-in user.",
     "DisplayName": "Read all threat indicators",
     "Id": "197ee4e9-b993-4066-898f-d6aecc55125b",

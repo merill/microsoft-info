@@ -8652,6 +8652,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to run hunting queries and to read and write hunting functions, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Run hunting queries and manage hunting functions",
+    "Id": "a2e55068-32fd-4091-a37c-120338337abd",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to run hunting queries and to read and write hunting functions on your behalf.",
+    "UserConsentDisplayName": "Run hunting queries and manage hunting functions",
+    "Value": "ThreatHunting.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all the indicators for your organization, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all threat indicators",
     "Id": "9cc427b4-2004-41c5-aa22-757b755e9796",
