@@ -1911,42 +1911,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read the Content Hub catalog of published security content packages and the content items they ship, without a signed-in user. Does not grant access to what the organization has installed.",
-    "DisplayName": "Read the Content Hub catalog",
-    "Id": "73fac914-e726-4af5-9a46-62f65f7b0a8b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ContentHub-Catalog.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read which Content Hub security content packages and package-scoped content items the organization has installed and at what versions, without a signed-in user. Does not grant access to the published catalog or the ability to install, update, or remove installed content.",
-    "DisplayName": "Read Content Hub installed packages",
-    "Id": "cc44d51e-040e-4631-a93a-1982ea54b428",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ContentHub-Installed.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read which Content Hub security content packages and content items the organization has installed, and to create, update, and delete installed packages and package-scoped content items in the organization, without a signed-in user.",
-    "DisplayName": "Read and write Content Hub installed packages",
-    "Id": "0c6404f6-8e7a-413b-adc0-e9b750d959c8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ContentHub-Installed.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read available properties on contracts, without a signed-in user.",
     "DisplayName": "Read contracts",
     "Id": "f9af4646-98b0-4e9d-a53e-40d4f6452fc4",
@@ -2121,66 +2085,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "CustomDetection.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read tenant-defined custom object instances without a signed-in user.",
-    "DisplayName": "Read all custom objects",
-    "Id": "7eb97e53-a7bc-4492-9113-1cd84a1ef8d8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomObject.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and retire tenant-defined custom objects without a signed-in user.",
-    "DisplayName": "Read and write all custom objects",
-    "Id": "2ebdaf81-319a-4058-9cb1-7c2c20cda877",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomObject.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read tenant-defined custom object definitions without a signed-in user.",
-    "DisplayName": "Read all custom object definitions",
-    "Id": "3bb529ad-d59a-499c-abe2-736f636068a5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomObjectDefinition.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the ID and display name of tenant-defined custom object definitions without a signed-in user.",
-    "DisplayName": "Read basic information about custom object definitions",
-    "Id": "4d482dd7-21ae-4e2d-97f9-58cd926f5c5e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomObjectDefinition.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, create, update, and retire tenant-defined custom object definitions without a signed-in user.",
-    "DisplayName": "Manage all custom object definitions",
-    "Id": "19f10513-d519-42cf-b01a-b3b662f46b8f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomObjectDefinition.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -7161,54 +7065,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SynchronizationData-User.Upload.OwnedBy",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read synchronization job metadata and object connection linkage information across all service principal provisioning jobs in the organization, without a signed-in user.",
-    "DisplayName": "Read synchronization metadata for all provisioning jobs",
-    "Id": "9c668bfa-7e4d-4ea4-9f0b-ba2d67cac55c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SynchronizationMetadata.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read synchronization job metadata and object connection linkage information only for provisioning jobs associated with (owned by) its service principals.",
-    "DisplayName": "Read synchronization metadata for owned provisioning jobs",
-    "Id": "7090aa1b-99c0-444b-b40b-528bd2f35087",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SynchronizationMetadata.Read.OwnedBy",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, delete object connections, and manage synchronization job metadata and linkage information across all service principal provisioning jobs in the organization, without a signed-in user.",
-    "DisplayName": "Read and manage synchronization metadata for all provisioning jobs",
-    "Id": "71a8afcf-c9ac-4704-a49c-a2520ddfc6d8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SynchronizationMetadata.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, delete object connections, and manage synchronization job metadata and linkage information only for provisioning jobs associated with (owned by) its service principals.",
-    "DisplayName": "Read and manage synchronization metadata for owned provisioning jobs",
-    "Id": "dc64b9ee-d7b6-4de6-97d3-189051d1c773",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SynchronizationMetadata.ReadWrite.OwnedBy",
     "AdditionalProperties": {}
   },
   {
