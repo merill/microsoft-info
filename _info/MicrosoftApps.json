@@ -1230,6 +1230,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "9324e81a-10cf-4694-a355-4dae0905638c",
+    "AppDisplayName": "SQL ADX Proxy",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c161e42e-d4df-4a3d-9b42-e7a3c31f59d4",
     "AppDisplayName": "Microsoft Intune API",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

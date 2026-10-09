@@ -648,6 +648,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read trusted federated identity credential issuers",
+    "Id": "a0a49d03-4d83-4a3c-912c-4a387fd11405",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, on your behalf.",
+    "UserConsentDisplayName": "Read trusted federated identity credential issuers",
+    "Value": "AppFederatedCredentialIssuers.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all trusted federated identity credential issuers",
+    "Id": "6be98e9e-e745-4a58-87b1-8455579b1844",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, on your behalf.",
+    "UserConsentDisplayName": "Read and write trusted federated identity credential issuers",
+    "Value": "AppFederatedCredentialIssuers.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write other apps' remote desktop security configuration, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write the remote desktop security configuration for apps",
     "Id": "ffa91d43-2ad8-45cc-b592-09caddeb24bb",
@@ -1944,6 +1968,66 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read which users and security groups each Copilot spending policy applies to, on behalf of the signed-in user. This exposes the identifiers of the security groups and the users that are targeted by each policy.",
+    "AdminConsentDisplayName": "Read Copilot spending policy assignments",
+    "Id": "fa5c8c5b-5aef-4d37-a426-02fdbb9c4a74",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read which users and security groups each Copilot spending policy applies to, on your behalf. This includes the identifiers of the security groups and the users that each policy targets.",
+    "UserConsentDisplayName": "Read Copilot spending policy assignments",
+    "Value": "CopilotCostManagement-Assignment.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and change which users and security groups each Copilot spending policy applies to, on behalf of the signed-in user. Adding or removing an assignment immediately changes which users are subject to that policy's spending limits, and may grant or remove their ability to consume Copilot credits. This also exposes the identifiers of the security groups targeted by each policy.",
+    "AdminConsentDisplayName": "Read and write Copilot spending policy assignments",
+    "Id": "95db0135-a8b4-4ca5-8121-8f693ff53402",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and change which users and security groups each Copilot spending policy applies to, on your behalf. Adding or removing an assignment immediately changes which users are subject to that policy's spending limits, and may grant or remove their ability to consume Copilot credits.",
+    "UserConsentDisplayName": "Read and write Copilot spending policy assignments",
+    "Value": "CopilotCostManagement-Assignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read Copilot spending policies and their configuration on behalf of the signed-in user, including budget limits and alert thresholds. This also exposes the identities of the users who created and last modified each policy and of the users who receive its alert notifications.",
+    "AdminConsentDisplayName": "Read Copilot spending policies",
+    "Id": "7fe904eb-5276-4ddc-ab01-67e4d708b664",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's Copilot spending policies and their configuration on your behalf, including budget limits, alert thresholds, who created and last changed each policy, and who receives its alerts.",
+    "UserConsentDisplayName": "Read Copilot spending policies",
+    "Value": "CopilotCostManagement-Policy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, create, update, and delete Copilot spending policies on behalf of the signed-in user. It can set the initial audience, read and change alert recipients, and select a billing method. New or changed policies may take effect immediately and restrict user spending. The app can also see who created and last modified each policy.",
+    "AdminConsentDisplayName": "Read and write Copilot spending policies",
+    "Id": "f6a3c1c2-c894-40f2-94e9-0eb3bca89847",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, create, update, and delete your organization's Copilot spending policies on your behalf, including changing who receives a policy's spending alerts. Creating a policy also sets who it applies to, may take effect immediately and begin restricting how much users can spend, and may include selecting the billing method that funds it.",
+    "UserConsentDisplayName": "Read and write Copilot spending policies",
+    "Value": "CopilotCostManagement-Policy.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read identity-attributed Copilot cost management data for the organization on behalf of the signed-in user, including any named user's Copilot credit balance, per-user consumption rankings, and usage aggregated by security group. This exposes individual users' Copilot consumption and the identifiers of the security groups used to scope Copilot spending.",
+    "AdminConsentDisplayName": "Read Copilot cost data for all users and groups",
+    "Id": "d3f39420-6eec-4e63-98ba-b2866ef3ba99",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read Copilot cost data attributed to individual users and security groups in your organization, on your behalf. This includes any named user's Copilot credit balance, per-user consumption rankings, and usage totalled by security group.",
+    "UserConsentDisplayName": "Read Copilot cost data for all users and groups",
+    "Value": "CopilotCostManagement-UserData.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the user to read the packages information",
     "AdminConsentDisplayName": "Read all packages information",
     "Id": "a2dcfcb9-cbe8-4d42-812d-952e55cf7f3f",
@@ -2013,6 +2097,30 @@
     "UserConsentDescription": "Allows the app to read and write organization-wide copilot limited mode setting on your behalf.",
     "UserConsentDisplayName": "Read and write organization-wide copilot limited mode setting",
     "Value": "CopilotSettings-LimitedMode.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all cross tenant content migration job details",
+    "Id": "b85f44c8-673a-4b31-a0c1-3070d0ae487e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read all cross tenant content migration job details",
+    "Value": "CrossTenantContentMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all cross tenant content migration job details",
+    "Id": "0569b6eb-c9e3-4dc6-a998-6df963be6689",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read and write all cross tenant content migration job details",
+    "Value": "CrossTenantContentMigration.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -3048,14 +3156,14 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read Preview jobs and snapshots",
+    "AdminConsentDescription": "Allows the app to read the Entra Backup configuration, list snapshots and jobs, and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read Entra Backup configuration, preview jobs, and snapshots",
     "Id": "a6ea9dd7-4dd9-4484-a80a-ac9ad981dcf1",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on your behalf.",
-    "UserConsentDisplayName": "Read Preview jobs and snapshots",
+    "UserConsentDescription": "Allows the app to read the Entra Backup configuration, list snapshots and jobs, and enumerate the changes of a specific preview job, on your behalf.",
+    "UserConsentDisplayName": "Read Entra Backup configuration, preview jobs, and snapshots",
     "Value": "EntraBackup.Read.All",
     "AdditionalProperties": {}
   },

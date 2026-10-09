@@ -627,6 +627,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, without a signed-in user.",
+    "DisplayName": "Read trusted federated identity credential issuers",
+    "Id": "231187a1-75b7-4554-a255-682d4d4971e8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AppFederatedCredentialIssuers.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete the trusted federated credential issuers that can be used to restrict which identity providers must be used when configuring federated identity credentials, without a signed-in user",
+    "DisplayName": "Read and write all trusted federated identity credential issuers",
+    "Id": "aa595073-8ce6-409a-8b9e-258e9faab0f3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AppFederatedCredentialIssuers.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read and write the remote desktop security configuration for all apps in your organization, without a signed-in user.",
     "DisplayName": "Read and write the remote desktop security configuration for all apps",
     "Id": "3be0012a-cc4e-426b-895b-f9c836bf6381",
@@ -3039,8 +3063,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to list the all the snapshots, jobs and enumerate the changes of a specific preview job, on behalf of the signed-in user.",
-    "DisplayName": "Read Preview jobs and snapshots",
+    "Description": "Allows the app to read the Entra Backup configuration, list snapshots and jobs, and enumerate the changes of a specific preview job.",
+    "DisplayName": "Read Entra Backup configuration, preview jobs, and snapshots",
     "Id": "56eda3c5-3834-4815-bd41-6f8fa1295247",
     "IsEnabled": true,
     "Origin": "Application",
