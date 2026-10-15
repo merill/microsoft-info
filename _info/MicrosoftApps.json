@@ -2748,6 +2748,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a1c42e17-82a8-41a5-906d-3eaca8b54607",
+    "AppDisplayName": "Azure SRE Agent Id Application",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "6104ad52-755e-428b-9fb5-5fdf4d2c4d53",
     "AppDisplayName": "Azure ContainerApps Auth",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
