@@ -60,6 +60,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read basic administrative unit properties on behalf of the signed-in user. Does not include membership information.",
+    "AdminConsentDisplayName": "Read basic administrative unit properties",
+    "Id": "3dcaa6c1-6af2-4d09-8c96-f8f16012d52d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read basic administrative unit properties on your behalf. Does not include membership information.",
+    "UserConsentDisplayName": "Read basic administrative unit properties",
+    "Value": "AdministrativeUnit.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create, read, update, and delete administrative units and manage administrative unit membership on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write administrative units",
     "Id": "7b8a2d34-6b3f-4542-a343-54651608ad81",
@@ -69,6 +81,30 @@
     "UserConsentDescription": "Allows the app to create, read, update, and delete administrative units and manage administrative unit membership on your behalf.",
     "UserConsentDisplayName": "Read and write administrative units",
     "Value": "AdministrativeUnit.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update basic administrative unit properties on behalf of the signed-in user. Does not include membership management.",
+    "AdminConsentDisplayName": "Read and update basic administrative unit properties",
+    "Id": "b1c7bc90-edab-4b18-9a7d-441e74635223",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update basic administrative unit properties on your behalf. Does not include membership management.",
+    "UserConsentDisplayName": "Read and update basic administrative unit properties",
+    "Value": "AdministrativeUnit.ReadWriteBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and manage administrative unit membership on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and manage administrative unit members",
+    "Id": "14f19140-a110-48da-b3ba-63c2862bb7da",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and manage administrative unit membership on your behalf.",
+    "UserConsentDisplayName": "Read and manage administrative unit members",
+    "Value": "AdministrativeUnitMember.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -1992,6 +2028,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read credit requests submitted in the organization, on behalf of the signed-in user. This exposes request details and the identities associated with each request.",
+    "AdminConsentDisplayName": "Read Copilot credit requests",
+    "Id": "0696c9ff-8589-4687-8015-58a87d0ae29f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read credit requests submitted in your organization, on your behalf. This includes request details and the identities associated with each request.",
+    "UserConsentDisplayName": "Read Copilot credit requests",
+    "Value": "CopilotCostManagement-CreditReq.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read, approve, and reject credit requests in the organization, on behalf of the signed-in user. Approving a request records the decision but does not itself assign credits.",
+    "AdminConsentDisplayName": "Read and decide Copilot credit requests",
+    "Id": "29dc273e-f551-4fe3-a672-05bea406787f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read, approve, and reject credit requests in your organization, on your behalf. Approving a request records the decision but does not itself assign credits.",
+    "UserConsentDisplayName": "Read and decide Copilot credit requests",
+    "Value": "CopilotCostManagement-CreditReq.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read Copilot spending policies and their configuration on behalf of the signed-in user, including budget limits and alert thresholds. This also exposes the identities of the users who created and last modified each policy and of the users who receive its alert notifications.",
     "AdminConsentDisplayName": "Read Copilot spending policies",
     "Id": "7fe904eb-5276-4ddc-ab01-67e4d708b664",
@@ -2025,6 +2085,18 @@
     "UserConsentDescription": "Allows the app to read Copilot cost data attributed to individual users and security groups in your organization, on your behalf. This includes any named user's Copilot credit balance, per-user consumption rankings, and usage totalled by security group.",
     "UserConsentDisplayName": "Read Copilot cost data for all users and groups",
     "Value": "CopilotCostManagement-UserData.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read all organizational Copilot cost management data on behalf of the signed-in user, including any user's credit balance, per-user rankings and itemized usage, usage by security group, spending policies, their configuration and assignments, and the identities of policy creators, modifiers, and alert recipients. This is the broadest Copilot cost management read permission.",
+    "AdminConsentDisplayName": "Read all Copilot cost management data",
+    "Id": "c0fcd4f8-e2a8-4162-892c-652d9bb651fd",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all of your organization's Copilot cost management data on your behalf. This includes data attributed to individual people: any named user's Copilot credit balance, per-user consumption rankings, itemized usage events, and usage totalled by security group, along with Copilot spending policies, who they apply to, and who receives their alerts.",
+    "UserConsentDisplayName": "Read all Copilot cost management data",
+    "Value": "CopilotCostManagement.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -2121,6 +2193,30 @@
     "UserConsentDescription": "Allows the app to read and write your tenant's all cross tenant content migration job details on behalf of the signed-in user.",
     "UserConsentDisplayName": "Read and write all cross tenant content migration job details",
     "Value": "CrossTenantContentMigration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read your tenant's all cross tenant identity mapping job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all cross tenant identity mapping job details",
+    "Id": "07bfcf5a-655d-440d-86ed-712989e08b7e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your tenant's all cross tenant identity mapping job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read all cross tenant identity mapping job details",
+    "Value": "CrossTenantIdentityMapping.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write your tenant's all cross tenant identity mapping job details on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all cross tenant identity mapping job details",
+    "Id": "1bc3f48a-9ebf-4bc3-beec-ec63bf290087",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write your tenant's all cross tenant identity mapping job details on behalf of the signed-in user.",
+    "UserConsentDisplayName": "Read and write all cross tenant identity mapping job details",
+    "Value": "CrossTenantIdentityMapping.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -5712,6 +5808,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your organization's security defaults policy on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read your organization's security defaults policy",
+    "Id": "8a5e5c26-825e-4065-a444-aa167b44de4b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's security defaults policy on your behalf.",
+    "UserConsentDisplayName": "Read your organization's security defaults policy",
+    "Value": "Policy.Read.SecurityDefaults",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write your organization's directory access review default policy on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write your organization's directory access review default policy",
     "Id": "4f5bc9c8-ea54-4772-973a-9ca119cb0409",
@@ -6717,6 +6825,30 @@
     "UserConsentDescription": "Allows the app to read and update admin report settings, such as whether to display concealed information in reports, on your behalf.",
     "UserConsentDisplayName": "Read and write admin report settings",
     "Value": "ReportSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read connected security content source-control repositories and their deployment status, and to discover candidate repositories accessible with a supplied provider credential, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read security content repositories",
+    "Id": "a9750a17-f46d-45ed-b6b6-42d988745301",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's connected security content repositories, and discover candidate repositories with a supplied credential, on your behalf.",
+    "UserConsentDisplayName": "Read security content repositories",
+    "Value": "Repository.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and manage connected security content source-control repositories, including connecting and disconnecting repositories, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write security content repositories",
+    "Id": "f0125870-9fec-449f-8cad-2418f0af0b16",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and manage your organization's connected security content repositories on your behalf.",
+    "UserConsentDisplayName": "Read and write security content repositories",
+    "Value": "Repository.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -9933,6 +10065,18 @@
     "UserConsentDescription": "Allows the app to read and write Windows Hello authentication methods of all users you have access to in your organization. This does not allow the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods.",
     "UserConsentDisplayName": "Read and write all users' Windows Hello methods",
     "Value": "UserAuthMethod-WindowsHello.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to update certificate user IDs for all users, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Update certificateUserIds for all users",
+    "Id": "01d92422-30dd-4401-a504-aa0a84c463bc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to update certificate user IDs for all users, on your behalf.",
+    "UserConsentDisplayName": "Update certificateUserIds for all users",
+    "Value": "UserCertificateIds.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

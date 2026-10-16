@@ -63,12 +63,48 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read basic administrative unit properties without a signed-in user. Does not include membership information.",
+    "DisplayName": "Read basic properties of all administrative units",
+    "Id": "d2ac92ed-5cdc-4342-8f63-eba03efc5d86",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AdministrativeUnit.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to create, read, update, and delete administrative units and manage administrative unit membership without a signed-in user.",
     "DisplayName": "Read and write all administrative units",
     "Id": "5eb59dd3-1da2-4329-8733-9dabdc435916",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "AdministrativeUnit.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and update basic administrative unit properties without a signed-in user. Does not include membership management.",
+    "DisplayName": "Read and update basic properties of all administrative units",
+    "Id": "bfe74bc6-06ed-4349-9ba5-6596149bf69a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AdministrativeUnit.ReadWriteBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and manage administrative unit membership without a signed-in user.",
+    "DisplayName": "Read and manage all administrative unit members",
+    "Id": "9205f977-63a7-4c23-9d0c-8051235b0e4c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AdministrativeUnitMember.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -2049,6 +2085,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "CrossTenantContentMigration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your tenant's cross tenant identity mapping job details as itself, without a signed-in user. Used by authorized services that integrate with cross tenant identity mapping.",
+    "DisplayName": "Read all cross tenant identity mapping job details",
+    "Id": "cb05e9e0-87aa-465c-858a-0c85916c8499",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CrossTenantIdentityMapping.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write your tenant's cross tenant identity mapping job details as itself, without a signed-in user. Used by authorized services that integrate with cross tenant identity mapping.",
+    "DisplayName": "Read and write all cross tenant identity mapping job details",
+    "Id": "2a3968e7-2e35-4996-92e6-8a44a0e7d56c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CrossTenantIdentityMapping.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -5253,6 +5313,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Policy.Read.Recovery",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read your organization's security defaults policy without a signed-in user.",
+    "DisplayName": "Read your organization's security defaults policy",
+    "Id": "e914ccfc-8916-403b-a250-9b8844e9381c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.SecurityDefaults",
     "AdditionalProperties": {}
   },
   {
@@ -8949,6 +9021,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "UserAuthMethod-WindowsHello.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to update certificate user IDs for all users, without a signed-in user.",
+    "DisplayName": "Update certificateUserIds for all users",
+    "Id": "10d0f892-6ef8-4cd8-9f4c-614345762e90",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserCertificateIds.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
