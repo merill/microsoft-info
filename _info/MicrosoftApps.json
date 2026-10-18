@@ -3150,6 +3150,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "427ebe87-64e9-467b-9c5d-fc88b087e227",
+    "AppDisplayName": "Benefit Experiences",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "e3583ad2-c781-4224-9b91-ad15a8179ba0",
     "AppDisplayName": "Microsoft.ExtensibleRealUserMonitoring",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
