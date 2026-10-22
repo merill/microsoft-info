@@ -1476,6 +1476,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "af574c75-b014-4e96-b98b-8b51aeb20dad",
+    "AppDisplayName": "UebaFPAProd",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "c606301c-f764-4e6b-aa45-7caaaea93c9a",
     "AppDisplayName": "Office Store",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
