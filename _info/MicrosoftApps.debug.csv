@@ -387,6 +387,7 @@
 "7b7531ad-5926-4f2d-8a1d-38495ad33e17","Azure Advanced Threat Protection","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cf6c77f8-914f-4078-baef-e39a5181158b","Microsoft Teams Settings Store","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "184909ca-69f1-4368-a6a7-c558ee6eb0bd","Marketplace Caps API","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"a0765532-5bd5-4891-8a81-49ddbd0242e2","AzureFirewallDLPPurview","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "aad3e70f-aa64-4fde-82aa-c9d97a4501dc","RPA - Machine Management Relay Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ab158d9a-0b5c-4cc3-bb2b-f6646581e4e4","CAP Neptune Prod CM Prod ","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000002-0000-0000-c000-000000000000","Windows Azure Active Directory","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

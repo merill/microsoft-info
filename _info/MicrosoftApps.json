@@ -2328,6 +2328,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "a0765532-5bd5-4891-8a81-49ddbd0242e2",
+    "AppDisplayName": "AzureFirewallDLPPurview",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "aad3e70f-aa64-4fde-82aa-c9d97a4501dc",
     "AppDisplayName": "RPA - Machine Management Relay Service",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
