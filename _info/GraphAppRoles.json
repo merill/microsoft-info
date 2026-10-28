@@ -3555,18 +3555,6 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to enable hard deletion protection settings on users, applications, groups, and service principals without a signed-in user. Requires Global Administrator or Backup Administrator role.",
-    "DisplayName": "Enable hard deletion protection settings",
-    "Id": "87f25f46-ce1e-47ed-935c-9d70b296f060",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "HardDeletionSetting.ReadWrite.Enable",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to read all scenario health monitoring alerts, without a signed-in user.",
     "DisplayName": "Read all scenario health monitoring alert",
     "Id": "5183ed5d-b7f8-4e9a-915e-dafb46b9cb62",
@@ -6141,90 +6129,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "ReportSettings.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read all resource policy assignments, without a signed-in user.",
-    "DisplayName": "Read all resource policy assignments",
-    "Id": "6ea4f0cd-532a-415b-b82f-9b9d84ca5cfd",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyAssignment.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write all resource policy assignments, without a signed-in user.",
-    "DisplayName": "Read and write all resource policy assignments",
-    "Id": "4ebf7277-a0b3-4fb6-866e-9ade27c776c7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyAssignment.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the tenant-wide resource policy configuration, including the configured privileged-read app ID, without a signed-in user.",
-    "DisplayName": "Read tenant resource policy configuration",
-    "Id": "f5d5d13d-82db-4ee7-b7c9-4b9bc48299dc",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyConfiguration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write the tenant-wide resource policy configuration, including setting the privileged-read app ID used by all fetch() calls during policy evaluation, without a signed-in user.",
-    "DisplayName": "Read and write tenant resource policy configuration",
-    "Id": "f415468b-cf6a-4567-867d-a965e4d31e87",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyConfiguration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read all resource policy definitions, without a signed-in user.",
-    "DisplayName": "Read all resource policy definitions",
-    "Id": "1de97903-f478-4d01-9cc2-b70fb1236a80",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyDefinition.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write all resource policy definitions, without a signed-in user.",
-    "DisplayName": "Read and write all resource policy definitions",
-    "Id": "365dc158-5200-4b0e-9c5d-be9a2068cb4c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyDefinition.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to evaluate resource policies, without a signed-in user.",
-    "DisplayName": "Evaluate resource policies",
-    "Id": "6642843d-a7e1-4fb6-9d68-9f7e75455c2b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ResourcePolicyEvaluation.Read.All",
     "AdditionalProperties": {}
   },
   {
