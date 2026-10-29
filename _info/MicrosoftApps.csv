@@ -57,6 +57,7 @@
 "62fd1447-0ef3-4ab7-a956-7dd05232ecc1","Office Scripts Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "50d8616b-fd4f-4fac-a1c9-a6a9440d7fe0","OMSAuthorizationServicePROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3340b944-b12e-47d0-b46b-35f08ec1d8ee","SPAuthEvent","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"361b0294-195a-49f2-9218-65defd6a988f","IntuneAuthZService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "00000006-0000-0ff1-ce00-000000000000","Microsoft Office 365 Portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "7dcff627-a295-4553-9229-b1f3513f82a8","Power Platform Data Analytics","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cfbd4387-1a16-4945-83c0-ec10e46cd4da","Azure Security for IoT","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

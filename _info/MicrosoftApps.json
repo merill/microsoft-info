@@ -348,6 +348,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "361b0294-195a-49f2-9218-65defd6a988f",
+    "AppDisplayName": "IntuneAuthZService",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "00000006-0000-0ff1-ce00-000000000000",
     "AppDisplayName": "Microsoft Office 365 Portal",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
