@@ -1038,6 +1038,12 @@
     "Source": "Graph"
   },
   {
+    "AppId": "b3fa0115-39b3-4bec-8cc6-8c4fcd33e69d",
+    "AppDisplayName": "ZTNA Policy Service",
+    "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "Source": "Graph"
+  },
+  {
     "AppId": "b5a60e17-278b-4c92-a4e2-b9262e66bb28",
     "AppDisplayName": "Azure MFA StrongAuthenticationService",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -24050,12 +24056,6 @@
   {
     "AppId": "c836cbdb-7a5b-44cc-a54f-564b4b486fc6",
     "AppDisplayName": "US Gov Portal App Id",
-    "AppOwnerOrganizationId": "",
-    "Source": "EntraDocs"
-  },
-  {
-    "AppId": "b3fa0115-39b3-4bec-8cc6-8c4fcd33e69d",
-    "AppDisplayName": "Global Secure Access Policy Service Resource Id",
     "AppOwnerOrganizationId": "",
     "Source": "EntraDocs"
   },

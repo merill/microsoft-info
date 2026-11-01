@@ -172,6 +172,7 @@
 "92876b03-76a3-4da8-ad6a-0511ffdf8647","M365PurvieweDiscoveryInfra","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "618dd325-23f6-4b6f-8380-4df78026e39b","Microsoft 365 Admin portal","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "db55028d-e5ba-420f-816a-d18c861aefdf","Microsoft Office Licensing Service vNext","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"b3fa0115-39b3-4bec-8cc6-8c4fcd33e69d","ZTNA Policy Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "b5a60e17-278b-4c92-a4e2-b9262e66bb28","Azure MFA StrongAuthenticationService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "bd11ca0f-4fd6-4bb7-a259-4a36693b6e13","MCAPI AAD Bridge Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "5b3b270a-b9ad-46e7-9bbb-a866897c4dc7","Azure Portal RP","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
