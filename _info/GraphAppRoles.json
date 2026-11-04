@@ -6363,6 +6363,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read unified role definitions, multi-scope role assignments, and their resource scopes, without a signed-in user.",
+    "DisplayName": "Read unified role definitions and multi-scope role assignments",
+    "Id": "edca3046-3375-4d07-81a2-18dffcff6bc7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleManagement-Authorization.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete unified role definitions; create, read, and delete multi-scope role assignments; and create, read, update, and delete their resource scopes, without a signed-in user.",
+    "DisplayName": "Manage unified roles and multi-scope role assignments",
+    "Id": "7c4d6288-8d2f-40e0-82ce-efa72265e9fb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RoleManagement-Authorization.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read role-based access control (RBAC) settings for all RBAC providers without a signed-in user. This includes reading role definitions and role assignments.",
     "DisplayName": "Read role management data for all RBAC providers",
     "Id": "c7fbd983-d9aa-4fa7-84b8-17382c103bc4",

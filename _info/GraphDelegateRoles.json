@@ -3240,14 +3240,14 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to manage self-service entitlement management resources on behalf of the signed-in user.  This includes operations such as requesting access and approving access of others.",
-    "AdminConsentDisplayName": "Read and write entitlement management resources related to self-service operations",
+    "AdminConsentDescription": "Allows the app to manage self-service entitlement management resources on behalf of the signed-in user. This includes operations such as requesting access and approving access of others.",
+    "AdminConsentDisplayName": "Read and write your entitlement management access",
     "Id": "e9fdcbbb-8807-410f-b9ec-8d5468c7c2ac",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to create and manage self-service entitlement management resources that you have access to.  This includes operations such as requesting access and approving access for others.",
-    "UserConsentDisplayName": "Read and write self-service entitlement management resources",
+    "UserConsentDescription": "Allows the app to request, view, and cancel your access package assignments and view available access packages on your behalf.",
+    "UserConsentDisplayName": "Read and write your entitlement management access",
     "Value": "EntitlementMgmt-SubjectAccess.ReadWrite",
     "AdditionalProperties": {}
   },
@@ -5664,6 +5664,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read Agentic Security resources, create sessions and request cancellation on behalf of the signed-in user, subject to the user's access.",
+    "AdminConsentDisplayName": "Read and manage Agentic Security sessions you can access",
+    "Id": "71c43817-a289-4216-ad88-2455ed77701b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read Agentic Security resources, create sessions and request cancellation for those resources.",
+    "UserConsentDisplayName": "Read and manage Agentic Security sessions you can access",
+    "Value": "Perception.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read Agentic Security playbook definitions, sessions, agent runs, inputs, outputs and messages on behalf of the signed-in user, subject to the user's access.",
+    "AdminConsentDisplayName": "Read Agentic Security resources you can access",
+    "Id": "51c03e79-bb86-4250-a33f-16ea4a002076",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read Agentic Security playbook definitions, sessions, agent runs, inputs, outputs and messages that you can access.",
+    "UserConsentDisplayName": "Read Agentic Security resources you can access",
+    "Value": "Perception.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read your company's places (conference rooms and room lists) for calendar events and other applications, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read all company places",
     "Id": "cb8f45a0-5c2e-4ea1-b803-84b870a7d7ec",
@@ -7077,6 +7101,30 @@
     "UserConsentDescription": "Allows the app to delete the eligible role-based access control (RBAC) assignments for your company's directory, on your behalf.",
     "UserConsentDisplayName": "Delete all eligible role assignments for your company's directory",
     "Value": "RoleEligibilitySchedule.Remove.Directory",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read unified role definitions, multi-scope role assignments, and their resource scopes, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read unified role definitions and multi-scope role assignments",
+    "Id": "ffa1c477-c836-4612-a223-49d76538b939",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read unified role definitions, multi-scope role assignments, and their resource scopes, on your behalf.",
+    "UserConsentDisplayName": "Read unified role definitions and multi-scope role assignments",
+    "Value": "RoleManagement-Authorization.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update, and delete unified role definitions; create, read, and delete multi-scope role assignments; and create, read, update, and delete their resource scopes, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Manage unified roles and multi-scope role assignments",
+    "Id": "3bce3dea-b39c-4580-a038-6e1d30d042cb",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update, and delete unified role definitions; create, read, and delete multi-scope role assignments; and create, read, update, and delete their resource scopes, on your behalf.",
+    "UserConsentDisplayName": "Manage unified roles and multi-scope role assignments",
+    "Value": "RoleManagement-Authorization.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
