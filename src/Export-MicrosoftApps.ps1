@@ -85,8 +85,12 @@ function GetAppsFromEntraDocs() {
 
             # Verify the value is a valid GUID
             $guid = [System.Guid]::Empty
+            if ($appId -isnot [string] -or -not [System.Guid]::TryParse($appId, [ref]$guid)) {
+                Write-Warning "Skipping Entra documentation entry '$appDisplayName': value is not a valid GUID."
+                continue
+            }
             $itemInfo = [ordered]@{
-                AppId                  = $appId + ""
+                AppId                  = $guid.ToString('D')
                 AppDisplayName         = $appDisplayName + ""
                 AppOwnerOrganizationId = ""
                 Source                 = "EntraDocs"
