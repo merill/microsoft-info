@@ -25878,6 +25878,24 @@
     "Source": "EntraDocs"
   },
   {
+    "AppId": "2a04943b-b6a7-4f65-8786-2bb6131b59f6",
+    "AppDisplayName": "Azure Communication Services Clients",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "fdcc1f02-fc51-4226-8753-f668596af7f7",
+    "AppDisplayName": "Work IQ",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
+    "AppId": "09041fae-0b25-ec11-b6e6-000d3a4f0858",
+    "AppDisplayName": "AI Services community forum",
+    "AppOwnerOrganizationId": "",
+    "Source": "EntraDocs"
+  },
+  {
     "AppId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "AppDisplayName": "Windows Notification Service [Community Contributed]",
     "AppOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
