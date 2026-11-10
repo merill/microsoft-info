@@ -972,6 +972,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read all security automation rules and runs, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all security automation rules and runs",
+    "Id": "bca94595-72ec-4c72-9d5b-dd0161da49bb",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read all security automation rules and runs that you have access to.",
+    "UserConsentDisplayName": "Read all security automation rules and runs",
+    "Value": "AutomationRules.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write all security automation rules, and read their runs, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write all security automation rules",
+    "Id": "8319ce7f-47f7-4c79-b118-9690338f9356",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and write all security automation rules, and read their runs, that you have access to.",
+    "UserConsentDisplayName": "Read and write all security automation rules",
+    "Value": "AutomationRules.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the backup configuration, and list of Microsoft 365 service resources to be backed-up, on behalf of the signed in user.",
     "AdminConsentDisplayName": "Read backup configuration policies",
     "Id": "444ed4b6-0554-4dc6-8e9c-3f9a34ee3ff6",
@@ -2073,6 +2097,18 @@
     "UserConsentDescription": "Allows the app to read, create, update, and delete your organization's Copilot spending policies on your behalf, including changing who receives a policy's spending alerts. Creating a policy also sets who it applies to, may take effect immediately and begin restricting how much users can spend, and may include selecting the billing method that funds it.",
     "UserConsentDisplayName": "Read and write Copilot spending policies",
     "Value": "CopilotCostManagement-Policy.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the organization's aggregate Copilot cost data on behalf of the signed-in user, including its credit balance and usage and spending reports. It can also check Copilot cost export job status and download completed exports, which may contain full report details. This permission is separate from Reports.Read.All for Microsoft 365 Copilot usage reporting.",
+    "AdminConsentDisplayName": "Read Copilot cost reports and export results",
+    "Id": "db3b53cd-01a9-45db-8f48-b97de4e9e8ff",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's aggregate Copilot cost data on your behalf, including its Copilot credit balance and aggregate usage and spending reports, and to check and download the results of Copilot cost export jobs.",
+    "UserConsentDisplayName": "Read Copilot cost reports and export results",
+    "Value": "CopilotCostManagement-Reports.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -4320,6 +4356,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read the attribute values the signed-in user can apply to a document.",
+    "AdminConsentDisplayName": "Read your information protection attribute assignments.",
+    "Id": "249ac77a-2c50-4a29-a441-5f5ea69e8dae",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read the attribute values you can apply to a document.",
+    "UserConsentDisplayName": "Read your information protection attribute assignments.",
+    "Value": "InfoProtectAttributeAssignment.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read ABAC attribute assignments for users, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read information protection attribute assignments.",
     "Id": "53216fbf-d31e-415b-9c4c-486a30f2aa8f",
@@ -5001,6 +5049,18 @@
     "UserConsentDescription": "Allows the app to read and write all managed tenant information on your behalf.",
     "UserConsentDisplayName": "Read and write all managed tenant information",
     "Value": "ManagedTenants.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to connect to and call the Microsoft Graph Model Context Protocol (MCP) server on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Access the Microsoft Graph MCP server",
+    "Id": "e0cdafaf-ffab-413a-9fe4-c85afbe0fa56",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to connect to the Microsoft Graph MCP server on your behalf.",
+    "UserConsentDisplayName": "Access the Microsoft Graph MCP server",
+    "Value": "MCP.Server.Access",
     "AdditionalProperties": {}
   },
   {

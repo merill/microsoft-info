@@ -951,6 +951,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read all security automation rules and runs, without a signed-in user.",
+    "DisplayName": "Read all security automation rules and runs",
+    "Id": "d80433ba-c09b-4b88-a6bf-1082396453c1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AutomationRules.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write all security automation rules, and read their runs, without a signed-in user.",
+    "DisplayName": "Read and write all security automation rules",
+    "Id": "7204d4f0-1c22-42ce-adf2-a9f29db01c68",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AutomationRules.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read all backup configurations, and lists of Microsoft 365 service resources to be backed-up, without a signed-in user.",
     "DisplayName": "Read all backup configuration policies",
     "Id": "5fbb5982-3230-4882-93c0-2167523ce0c2",
@@ -1791,6 +1815,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows an approved app to claim and unclaim supported product licenses for users in the tenant, without a signed-in user.",
+    "DisplayName": "Claim and unclaim cloud licenses",
+    "Id": "4c0843c0-d623-4e87-b4c1-93777f7be9e8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CloudLicensing.ClaimLicenses.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read the properties of Cloud PCs, without a signed-in user.",
     "DisplayName": "Read Cloud PCs",
     "Id": "a9e09520-8ed4-4cde-838e-4fdea192c227",
@@ -2013,6 +2049,78 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Contracts.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read which users and security groups each Copilot spending policy applies to, without a signed-in user. This exposes the identifiers of the security groups and the users that are targeted by each policy.",
+    "DisplayName": "Read Copilot spending policy assignments",
+    "Id": "8e41e0e4-d03a-475a-8ece-129d8cde33f2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement-Assignment.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and change which users and security groups each Copilot spending policy applies to, without a signed-in user. Adding or removing an assignment immediately changes which users are subject to that policy's spending limits, and may grant or remove their ability to consume Copilot credits. This also exposes the identifiers of the security groups targeted by each policy.",
+    "DisplayName": "Read and write Copilot spending policy assignments",
+    "Id": "e8d341e1-ddd7-422e-83ee-b3cd34f21d0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement-Assignment.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Copilot spending policies and their configuration without a signed-in user, including budget limits and alert thresholds. This also exposes the identities of the users who created and last modified each policy and of the users who receive its alert notifications.",
+    "DisplayName": "Read Copilot spending policies",
+    "Id": "7f06c49d-bf28-43b5-bad0-0805f51d0bf7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement-Policy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, create, update, and delete Copilot spending policies without a signed-in user. It can set the initial audience, read and change alert recipients, and select a billing method. New or changed policies may take effect immediately and restrict user spending. The app can also see who created and last modified each policy.",
+    "DisplayName": "Read and write Copilot spending policies",
+    "Id": "14b35599-28a4-4a40-bc65-7cdca3d4e141",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement-Policy.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the organization's aggregate Copilot cost data without a signed-in user, including its credit balance and usage and spending reports. It can also check Copilot cost export job status and download completed exports, which may contain full report details. This permission is separate from Reports.Read.All for Microsoft 365 Copilot usage reporting.",
+    "DisplayName": "Read Copilot cost reports and export results",
+    "Id": "ec42fb68-397f-40ab-baa1-c8d0b745a680",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement-Reports.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all organizational Copilot cost management data without a signed-in user, including any user's credit balance, per-user rankings and itemized usage, usage by security group, spending policies, their configuration and assignments, and the identities of policy creators, modifiers, and alert recipients. This is the broadest Copilot cost management read permission.",
+    "DisplayName": "Read all Copilot cost management data",
+    "Id": "f033faa1-6d51-46ba-824a-ad86f514eed1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotCostManagement.Read.All",
     "AdditionalProperties": {}
   },
   {
