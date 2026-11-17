@@ -972,25 +972,25 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read all security automation rules and runs, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read all security automation rules and runs",
+    "AdminConsentDescription": "Allows the app to read all security automation rules, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read all security automation rules",
     "Id": "bca94595-72ec-4c72-9d5b-dd0161da49bb",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all security automation rules and runs that you have access to.",
-    "UserConsentDisplayName": "Read all security automation rules and runs",
+    "UserConsentDescription": "Allows the app to read all security automation rules that you have access to.",
+    "UserConsentDisplayName": "Read all security automation rules",
     "Value": "AutomationRules.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write all security automation rules, and read their runs, on behalf of the signed-in user.",
+    "AdminConsentDescription": "Allows the app to read and write all security automation rules, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write all security automation rules",
     "Id": "8319ce7f-47f7-4c79-b118-9690338f9356",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read and write all security automation rules, and read their runs, that you have access to.",
+    "UserConsentDescription": "Allows the app to read and write all security automation rules that you have access to.",
     "UserConsentDisplayName": "Read and write all security automation rules",
     "Value": "AutomationRules.ReadWrite.All",
     "AdditionalProperties": {}
@@ -2112,25 +2112,25 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read identity-attributed Copilot cost management data for the organization on behalf of the signed-in user, including any named user's Copilot credit balance, per-user consumption rankings, and usage aggregated by security group. This exposes individual users' Copilot consumption and the identifiers of the security groups used to scope Copilot spending.",
+    "AdminConsentDescription": "Allows the app to read organizational Copilot cost data on behalf of the signed-in user: any named user's credit balance, per-user consumption rankings, usage by security group, and raw per-user consumption by service or activity session. This exposes users' consumption, group identifiers, native session identifiers when available, and first and last activity timestamps.",
     "AdminConsentDisplayName": "Read Copilot cost data for all users and groups",
     "Id": "d3f39420-6eec-4e63-98ba-b2866ef3ba99",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read Copilot cost data attributed to individual users and security groups in your organization, on your behalf. This includes any named user's Copilot credit balance, per-user consumption rankings, and usage totalled by security group.",
+    "UserConsentDescription": "Allows the app to read Copilot cost data attributed to individual users and security groups in your organization, on your behalf. This includes any named user's credit balance, consumption rankings, usage totalled by security group, and raw usage grouped by service or activity session, including session identifiers when available and first and last activity timestamps.",
     "UserConsentDisplayName": "Read Copilot cost data for all users and groups",
     "Value": "CopilotCostManagement-UserData.Read.All",
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read all organizational Copilot cost management data on behalf of the signed-in user, including any user's credit balance, per-user rankings and itemized usage, usage by security group, spending policies, their configuration and assignments, and the identities of policy creators, modifiers, and alert recipients. This is the broadest Copilot cost management read permission.",
+    "AdminConsentDescription": "Allows the app to read all Copilot cost data on behalf of the signed-in user: any user's credit balance, rankings, raw usage by service or activity session, native session identifiers when available, first and last activity timestamps, security-group usage, spending policies, configuration, assignments, and creator, modifier and alert-recipient identities. This is the broadest read permission.",
     "AdminConsentDisplayName": "Read all Copilot cost management data",
     "Id": "c0fcd4f8-e2a8-4162-892c-652d9bb651fd",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read all of your organization's Copilot cost management data on your behalf. This includes data attributed to individual people: any named user's Copilot credit balance, per-user consumption rankings, itemized usage events, and usage totalled by security group, along with Copilot spending policies, who they apply to, and who receives their alerts.",
+    "UserConsentDescription": "Allows the app to read all your organization's Copilot cost data on your behalf: any user's credit balance, consumption rankings, raw usage by service or activity session, session identifiers when available, first and last activity timestamps, security-group usage, spending policies, who they apply to, and who receives their alerts.",
     "UserConsentDisplayName": "Read all Copilot cost management data",
     "Value": "CopilotCostManagement.Read.All",
     "AdditionalProperties": {}
@@ -2997,6 +2997,18 @@
     "UserConsentDescription": "Allows the app to read and write all domain properties on your behalf. Also allows the app to add, verify and remove domains.",
     "UserConsentDisplayName": "Read and write domains",
     "Value": "Domain.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read dynamic permission detections and their remediation history in catalogs the signed-in user is authorized to access, on behalf of the signed-in user. Does not allow configuration changes, remediation execution, or access to orchestration sessions, requests, or assignments.",
+    "AdminConsentDisplayName": "Read dynamic permission detections and remediation history",
+    "Id": "babc7103-1786-4c22-8fba-491217f0f810",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read dynamic permission detections and their remediation history in catalogs you are authorized to access. Does not allow configuration changes, remediation execution, or access to orchestration sessions, requests, or assignments.",
+    "UserConsentDisplayName": "Read dynamic permission detections and remediation history",
+    "Value": "DynamicPermissions.Read.DetectionAndRemediation",
     "AdditionalProperties": {}
   },
   {
@@ -9204,14 +9216,14 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to run hunting queries and read saved hunting queries, on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Run hunting queries and read saved hunting queries",
+    "AdminConsentDescription": "Allows the app to run hunting queries and read hunting schema tables, saved hunting queries, and built-in and saved hunting functions, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Run hunting queries and read schemas, saved queries, and functions",
     "Id": "b152eca8-ea73-4a48-8c98-1a6742673d99",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to run hunting queries that you can execute and read saved hunting queries that you can access.",
-    "UserConsentDisplayName": "Run hunting queries and read saved hunting queries",
+    "UserConsentDescription": "Allows the app to run hunting queries and read hunting schema tables, saved hunting queries, and built-in and saved hunting functions that you can access.",
+    "UserConsentDisplayName": "Run hunting queries and read schemas, saved queries, and functions",
     "Value": "ThreatHunting.Read.All",
     "AdditionalProperties": {}
   },
