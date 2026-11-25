@@ -951,8 +951,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all security automation rules and runs, without a signed-in user.",
-    "DisplayName": "Read all security automation rules and runs",
+    "Description": "Allows the app to read all security automation rules, without a signed-in user.",
+    "DisplayName": "Read all security automation rules",
     "Id": "d80433ba-c09b-4b88-a6bf-1082396453c1",
     "IsEnabled": true,
     "Origin": "Application",
@@ -963,7 +963,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and write all security automation rules, and read their runs, without a signed-in user.",
+    "Description": "Allows the app to read and write all security automation rules, without a signed-in user.",
     "DisplayName": "Read and write all security automation rules",
     "Id": "7204d4f0-1c22-42ce-adf2-a9f29db01c68",
     "IsEnabled": true,
@@ -2091,7 +2091,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read, create, update, and delete Copilot spending policies without a signed-in user. It can set the initial audience, read and change alert recipients, and select a billing method. New or changed policies may take effect immediately and restrict user spending. The app can also see who created and last modified each policy.",
+    "Description": "Allows the app to read, create, and update Copilot spending policies without a signed-in user. It can manage alert settings and recipients, set the initial audience, and select a billing method. New or changed policies may take effect immediately and restrict user spending. The app can also see who created and last modified each policy. Deleting a policy requires a signed-in administrator.",
     "DisplayName": "Read and write Copilot spending policies",
     "Id": "14b35599-28a4-4a40-bc65-7cdca3d4e141",
     "IsEnabled": true,
@@ -2115,7 +2115,7 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read all organizational Copilot cost management data without a signed-in user, including any user's credit balance, per-user rankings and itemized usage, usage by security group, spending policies, their configuration and assignments, and the identities of policy creators, modifiers, and alert recipients. This is the broadest Copilot cost management read permission.",
+    "Description": "Allows the app to read the organization's Copilot credit balance and usage by service and funding class without a signed-in user, plus per-user rankings, security-group usage and raw per-user usage by service or activity session, with native session identifiers when available and first and last activity timestamps. Excludes individual user balances, spending policies and assignments.",
     "DisplayName": "Read all Copilot cost management data",
     "Id": "f033faa1-6d51-46ba-824a-ad86f514eed1",
     "IsEnabled": true,
@@ -2913,6 +2913,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Domain.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read dynamic permission detections and their remediation history across all catalogs in the organization, without a signed-in user. Does not allow configuration changes, remediation execution, or access to orchestration sessions, requests, or assignments.",
+    "DisplayName": "Read all dynamic permission detections and remediation history",
+    "Id": "3d67268e-b577-45f4-8feb-347a5ca24a37",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DynamicPermissions.Read.DetectionAndRemediation",
     "AdditionalProperties": {}
   },
   {
@@ -8415,8 +8427,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to run hunting queries and read shared saved hunting queries, without a signed-in user.",
-    "DisplayName": "Run hunting queries and read shared saved hunting queries",
+    "Description": "Allows the app to run hunting queries and read hunting schema tables, shared saved hunting queries, and built-in and shared saved hunting functions, without a signed-in user.",
+    "DisplayName": "Run hunting queries and read schemas, shared queries, and functions",
     "Id": "dd98c7f5-2d42-42d3-a0e4-633161547251",
     "IsEnabled": true,
     "Origin": "Application",
@@ -8427,8 +8439,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to run hunting queries and to read and write hunting functions, without a signed-in user.",
-    "DisplayName": "Run hunting queries and manage all hunting functions",
+    "Description": "Allows the app to run hunting queries and to read and write shared hunting functions, without a signed-in user.",
+    "DisplayName": "Run hunting queries and manage shared hunting functions",
     "Id": "6e251752-0d87-4158-b87b-b60e768fa657",
     "IsEnabled": true,
     "Origin": "Application",
